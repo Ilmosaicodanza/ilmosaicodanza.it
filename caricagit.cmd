@@ -2,6 +2,9 @@
 @chcp 65001
 echo.
 color 70
+
+pushd "%CD%"
+
 git add .
 
 SET /P MSG=messaggio del commit?
