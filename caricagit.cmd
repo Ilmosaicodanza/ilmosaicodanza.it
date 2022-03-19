@@ -3,7 +3,7 @@
 echo.
 color 70
 
-pushd "%CD%"
+pushd "%~dp0"
 
 git add .
 
