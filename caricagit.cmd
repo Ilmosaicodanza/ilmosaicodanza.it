@@ -5,7 +5,7 @@ color 70
 
 pushd "%~dp0"
 
-git add .
+git add . || GOTO :ERRORE
 SET /P MSG=messaggio del commit?
 git commit -m "%MSG%"
 rem git push -u origin main || GOTO :ERRORE
@@ -22,3 +22,4 @@ ECHO.
 pause
 
 popd
+EXIT 1
