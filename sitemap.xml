@@ -2,22 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.ilmosaicodanza.it/tags/baile-flamenco/</loc>
-    <lastmod>2022-05-04T17:56:47+02:00</lastmod>
+    <loc>https://www.ilmosaicodanza.it/category/i-nostri-insegnanti/</loc>
+    <lastmod>2022-05-08T13:59:07+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/category/articoli-informativi-su-danza-e-movimento/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/corsi/</loc>
-    <lastmod>2022-05-04T17:56:47+02:00</lastmod>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/tags/corsi-di-ballo/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/tags/corsi-di-danza/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/danza/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/tags/lezioni/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/tags/regolamento/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/regolamento-di-iscrizione/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/tags/</loc>
+    <lastmod>2022-05-08T13:57:12+02:00</lastmod>
+  </url><url>
+    <loc>https://www.ilmosaicodanza.it/tags/baile-flamenco/</loc>
     <lastmod>2022-05-04T17:56:47+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/flamenco/</loc>
     <lastmod>2022-05-04T17:56:47+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/baile-sabina/</loc>
-    <lastmod>2022-05-04T17:56:47+02:00</lastmod>
-  </url><url>
-    <loc>https://www.ilmosaicodanza.it/tags/lezioni/</loc>
     <lastmod>2022-05-04T17:56:47+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/loreto/</loc>
@@ -36,9 +57,6 @@
     <lastmod>2022-05-04T17:56:47+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/sevillanas/</loc>
-    <lastmod>2022-05-04T17:56:47+02:00</lastmod>
-  </url><url>
-    <loc>https://www.ilmosaicodanza.it/tags/</loc>
     <lastmod>2022-05-04T17:56:47+02:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/danza-classica/</loc>
@@ -215,9 +233,6 @@
     <loc>https://www.ilmosaicodanza.it/tags/workout/</loc>
     <lastmod>2022-04-13T18:46:57+01:00</lastmod>
   </url><url>
-    <loc>https://www.ilmosaicodanza.it/tags/corsi-di-danza/</loc>
-    <lastmod>2022-04-13T07:37:57+01:00</lastmod>
-  </url><url>
     <loc>https://www.ilmosaicodanza.it/nuovi-corsi-lindy-hop-milano/</loc>
     <lastmod>2022-04-13T07:37:57+01:00</lastmod>
   </url><url>
@@ -296,9 +311,6 @@
     <loc>https://www.ilmosaicodanza.it/tags/tammurriata/</loc>
     <lastmod>2022-02-26T00:21:07+01:00</lastmod>
   </url><url>
-    <loc>https://www.ilmosaicodanza.it/category/i-nostri-insegnanti/</loc>
-    <lastmod>2022-02-25T11:50:04+01:00</lastmod>
-  </url><url>
     <loc>https://www.ilmosaicodanza.it/category/stages-di-musica/</loc>
     <lastmod>2022-02-25T11:50:04+01:00</lastmod>
   </url><url>
@@ -319,9 +331,6 @@
   </url><url>
     <loc>https://www.ilmosaicodanza.it/category/flamenco/</loc>
     <lastmod>2022-02-23T20:41:39+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ilmosaicodanza.it/tags/corsi-di-ballo/</loc>
-    <lastmod>2022-02-22T18:46:16+01:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/corsi-in-zona-porta-romana/</loc>
     <lastmod>2022-02-22T18:46:16+01:00</lastmod>
@@ -409,15 +418,6 @@
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/tango-argentino/</loc>
     <lastmod>2020-12-20T13:56:12+01:00</lastmod>
-  </url><url>
-    <loc>https://www.ilmosaicodanza.it/category/articoli-informativi-su-danza-e-movimento/</loc>
-    <lastmod>2020-09-08T19:18:29+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ilmosaicodanza.it/tags/regolamento/</loc>
-    <lastmod>2020-09-08T19:18:29+00:00</lastmod>
-  </url><url>
-    <loc>https://www.ilmosaicodanza.it/regolamento-di-iscrizione/</loc>
-    <lastmod>2020-09-08T19:18:29+00:00</lastmod>
   </url><url>
     <loc>https://www.ilmosaicodanza.it/tags/danza-per-bambini/</loc>
     <lastmod>2020-09-04T22:26:58+00:00</lastmod>
