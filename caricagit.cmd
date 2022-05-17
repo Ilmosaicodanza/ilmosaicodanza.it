@@ -6,6 +6,7 @@ color 70
 pushd "%~dp0"
 
 git add . || GOTO :ERRORE
+figlet commit
 SET /P MSG=messaggio del commit?
 git commit -m "%MSG%"
 rem git push -u origin main || GOTO :ERRORE
