@@ -41,7 +41,6 @@
   gtag('config', 'G-EBVZR5F3Y8');
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBVZR5F3Y8"></script>
-      
   <link rel="stylesheet" href="/style.main.min.css" integrity="" media="screen">
 </head>
 <body>
@@ -109,6 +108,7 @@
           </a>
         </div>
         <div class="motto orange i">La migliore scuola di danza a Milano</div>
+        <div class="particle" id="tsparticles"></div>
     </div>
     </div>
     
@@ -249,6 +249,8 @@ title="Invia ai tuoi amici via email">
     <h1 class="f3 f2-ns fw4 lh-solid tc center">
       <span class="i">Orari Corsi 2021-2022</span>
     </h1>
+  <p>ORARI AGGIORNATI IL 17 MAGGIO 2022</p>
+  <p>SONO VALIDI FINO AL 30 GIUGNO 2022</p>
   </section>
   <section class="oraricorsi">
     
@@ -3459,6 +3461,55 @@ title="Invia ai tuoi amici via email">
       Contattaci</a>
     </div>
 </nav>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.1/tsparticles.min.js"
+    integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
+    crossorigin="anonymous"
+  ></script>
+
+<script>
+
+tsParticles.load("tsparticles", {
+  particles: {
+    color: { 
+      value: "#ffffff"
+    },
+    lineLinked: {
+      color: "#ffffff",
+      distance: 150,
+      enable: true,
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      bounce: true,
+      direction: "none",
+      enable: true,
+      outMode: "out",
+      random: false,
+      speed: 2,
+      straight: false
+    },
+    number: { 
+      density: { enable: false },
+      value: 32
+    },
+    opacity: {
+      animation: { enable: false },
+      random: false,
+      value: 0.5
+    },
+    shape: {
+      type: "circle"
+    },
+    size: {
+      anim: { enable: true },
+      random: true,
+      value: 5
+    }
+  }
+});
+</script>
       </div>
     </body>
 </html>
