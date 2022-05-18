@@ -13,7 +13,7 @@
       <pubDate>Wed, 18 May 2022 22:30:36 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/category/corsi-di-danza/</guid>
-      <description>questo è il body di /content/category/corsi-di-danza/_index.md Utilizza il template  </description>
+      <description>questo è il body di /content/category/corsi-di-danza/_index.md Utilizza layouts\taxonomy\list-corsidanza.html (per il titolo e la griglia) Utilizza il template summary.html (i riquadri della griglia)  </description>
     </item>
     
     <item>
