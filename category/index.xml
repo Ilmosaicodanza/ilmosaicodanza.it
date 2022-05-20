@@ -8,6 +8,15 @@
     <language>it</language>
     <lastBuildDate>Mon, 21 Feb 2022 19:27:00 +0100</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/category/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sagra permanente</title>
+      <link>https://www.ilmosaicodanza.it/category/sagra-permanente/</link>
+      <pubDate>Fri, 20 May 2022 09:45:05 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/category/sagra-permanente/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>I nostri corsi di danza</title>
       <link>https://www.ilmosaicodanza.it/category/corsi-di-danza/</link>
       <pubDate>Wed, 18 May 2022 22:30:36 +0200</pubDate>
@@ -104,24 +113,6 @@
       
       <guid>https://www.ilmosaicodanza.it/category/lyrical-arab-dance/</guid>
       <description>questo è il body di /content/category/lyrical-arab-dance/_index.md</description>
-    </item>
-    
-    <item>
-      <title>Orari Corsi 2021-2022</title>
-      <link>https://www.ilmosaicodanza.it/category/orari-corsi-2021-2022/</link>
-      <pubDate>Mon, 21 Feb 2022 19:27:00 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/category/orari-corsi-2021-2022/</guid>
-      <description>questo è il body di /content/category/orari-corsi-2021-2022/_index.md</description>
-    </item>
-    
-    <item>
-      <title>Sagra permanente</title>
-      <link>https://www.ilmosaicodanza.it/category/sagra-permanente/</link>
-      <pubDate>Wed, 12 Aug 2015 19:11:56 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/category/sagra-permanente/</guid>
-      <description></description>
     </item>
     
   </channel>
