@@ -3745,76 +3745,27 @@ title="Invia ai tuoi amici via email">
 </nav>
 
 <script>
-  var E = document.getElementById("tsparticles");
-  if( $(E.offsetWidth > 0 && elem.offsetHeight > 0) ) {
-  $.getScript('/js/tsparticles.min.js', function()
-{
-tsParticles.load("tsparticles", {
-  "autoPlay": true,
-  fpsLimit: 120,
-  "interactivity": {
-    "events": {
-      "onClick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "onHover": {
-        "enable": true,
-        "mode": "connect",
-        "parallax": {
-          "force": 60
+  function getScript(source, callback) {
+    var script = document.createElement('script');
+    var prior = document.getElementsByTagName('script')[0];
+    script.async = 1;
+
+    script.onload = script.onreadystatechange = function( _, isAbort ) {
+        if(isAbort || !script.readyState || /loaded|complete/.test(script.readyState) ) {
+            script.onload = script.onreadystatechange = null;
+            script = undefined;
+
+            if(!isAbort && callback) setTimeout(callback, 0);
         }
-      },
-    },
-  },
-  particles: {
-    color: { 
-      value: "#EBEF9B"
-      
-    },
-    
-    
-    
-    
-    
-    
-    
-    lineLinked: {
-      color: "#ffffff",
-      distance: 150,
-      enable: true,
-      opacity: 0.4,
-      width: 1.0
-    },
-    move: {
-      bounce: false,
-      direction: "none",
-      enable: true,
-      outMode: "out",
-      random: false,
-      speed: 2,
-      straight: false
-    },
-    number: { 
-      density: { enable: false },
-      value: 32
-    },
-    opacity: {
-      animation: { enable: false },
-      random: false,
-      value: 0.5
-    },
-    shape: {
-      type: "circle"
-    },
-    size: {
-      anim: { enable: true },
-      random: true,
-      value: 5
-    }
-  }
-})
-})
+    };
+
+    script.src = source;
+    prior.parentNode.insertBefore(script, prior);
+}
+  var E = document.getElementById("tsparticles");
+  if( E.offsetWidth > 0 && E.offsetHeight > 0) {
+  getScript("/js/particle1.js");
+
 } 
 </script>
       </div>
