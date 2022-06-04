@@ -33,9 +33,9 @@ tsParticles.load("tsparticles", {
     //  "opacity": 0.4
     //},
     lineLinked: {
-      color: "#ffffff",
-      distance: 150,
-      enable: true,
+      color: "#ffff00",
+      distance: 180,
+      enable: false,
       opacity: 0.4,
       width: 1.0
     },
@@ -50,20 +50,20 @@ tsParticles.load("tsparticles", {
     },
     number: { 
       density: { enable: false },
-      value: 32
+      value: 48
     },
     opacity: {
-      animation: { enable: false },
-      random: false,
+      animation: { enable: true },
+      random: true,
       value: 0.5
     },
     shape: {
-      type: "circle"
+      type: "triangle"
     },
     size: {
       anim: { enable: true },
       random: true,
-      value: 5
+      value: 8
     }
   }
 })

@@ -33,9 +33,9 @@ tsParticles.load("tsparticles", {
     //  "opacity": 0.4
     //},
     lineLinked: {
-      color: "#ffffff",
-      distance: 150,
-      enable: true,
+      color: "#ffff00",
+      distance: 80,
+      enable: false,
       opacity: 0.4,
       width: 1.0
     },
