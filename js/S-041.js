@@ -1,16 +1,10 @@
-// particle quadrate bianche
+// particle originali con spread on click
 
 getScript('/js/tsparticles.min.js', function()
 {
 tsParticles.load("tsparticles", {
   "autoPlay": true,
-  "pauseOnOutsideViewport": true,
-  "fpsLimit": 120,
-  "prefer-riduced-motion": true,
-  motion: {
-    reduce: true,
-
-  },
+  fpsLimit: 120,
   "interactivity": {
     "events": {
       "onClick": {
@@ -28,7 +22,7 @@ tsParticles.load("tsparticles", {
   },
   particles: {
     color: { 
-      value: ["#ffffff","#fd5949","#ff6300","#ffb700","#ff725c"],
+      value: "#EBEF9B"
       //value: "random"
     },
     //"links": {
@@ -39,12 +33,10 @@ tsParticles.load("tsparticles", {
     //  "opacity": 0.4
     //},
     lineLinked: {
-      //color: "#ffffff",
-      //color: ["#fd5949","#ff6300","#ffb700","#ff725c"],
-      color: ["#d62828","#f77f00","#fcbf49","#eae2b7"],
-      distance: 190,
-      enable: true,
-      opacity: 0.2,
+      color: "#ffff00",
+      distance: 180,
+      enable: false,
+      opacity: 0.4,
       width: 1.0
     },
     move: {
@@ -52,26 +44,26 @@ tsParticles.load("tsparticles", {
       direction: "none",
       enable: true,
       outMode: "out",
-      random: true,
+      random: false,
       speed: 2,
       straight: false
     },
     number: { 
       density: { enable: false },
-      value: 32
+      value: 48
     },
     opacity: {
-      animation: { enable: false },
-      random: false,
+      animation: { enable: true },
+      random: true,
       value: 0.5
     },
     shape: {
-      type: "square"
+      type: "triangle"
     },
     size: {
       anim: { enable: true },
       random: true,
-      value: 6
+      value: 8
     }
   }
 })
