@@ -280,7 +280,8 @@ title="Invia ai tuoi amici via email">
         
       </div>
     </a>
-    Summer Swing Camp Festival a Milano dal 6 al 28 luglio 2022. Prenota il tuo festival!<br><br><br><br>
+    <h3>Summer Swing Camp Festival a Milano dal 6 al 28 luglio 2022. <span class="gold">Prenota il tuo festival!</span></h3>
+
     <div class="tc">
       <a class="f6 link dim ph3 pv1 mb0 dib white mt3 ttu bg-mid-gray" href="/summer-swing-camp-festival-milano-2022/">scopri di più</a>
     </div>
@@ -3828,25 +3829,26 @@ title="Invia ai tuoi amici via email">
 <script>
   function getScript(source, callback) {
     var script = document.createElement('script');
-    var prior = document.getElementsByTagName('script')[0];
+    var prior  = document.getElementsByTagName('script')[0];
     script.async = 1;
-
     script.onload = script.onreadystatechange = function( _, isAbort ) {
         if(isAbort || !script.readyState || /loaded|complete/.test(script.readyState) ) {
             script.onload = script.onreadystatechange = null;
             script = undefined;
-
             if(!isAbort && callback) setTimeout(callback, 0);
         }
     };
     script.src = source;
     prior.parentNode.insertBefore(script, prior);
   }
+
   var E = document.getElementById("tsparticles");
   if( E.offsetWidth > 0 && E.offsetHeight > 0) {
     const D = new Date();
-    const T = D.getDate();
-  getScript("/js/S-"+T+".js");
+    const G = ("0" + D.getDate()).substr(-2);
+    const M = ("0" + (D.getMonth()+1)).substr(-2);
+    
+    getScript("/js/S-"+G+".js");
   } 
 </script>
       </div>
