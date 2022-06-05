@@ -1,70 +1,145 @@
-// particle originali con spread on click
+// particle stelle gialle size 80 no interact
 
 getScript('/js/tsparticles.min.js', function()
 {
 tsParticles.load("tsparticles", {
   "autoPlay": true,
-  fpsLimit: 120,
+  "pauseOnOutsideViewport": true,
+  "fpsLimit": 120,
+  "prefer-riduced-motion": true,
+  motion: {
+    reduce: true,
+
+  },
   "interactivity": {
+    "detect_on": "canvas",
     "events": {
+      "onHover": {
+        "enable": true,
+        "mode": "grab",
+        //"mode": "connect",
+      },
       "onClick": {
         "enable": true,
         "mode": "push"
       },
-      "onHover": {
-        "enable": true,
-        "mode": "connect",
-        "parallax": {
-          "force": 60
-        }
-      },
+      "resize": true,
     },
   },
-  particles: {
-    color: { 
-      value: "#EBEF9B"
-      //value: "random"
+
+  "particles": {
+    "number": {
+      "value": 6,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
     },
-    //"links": {
-    //  "color": {
-    //    "value": "#ffffff"
-    //  },
-    //  "distance": 150,
-    //  "opacity": 0.4
-    //},
-    lineLinked: {
-      color: "#ffffff",
-      distance: 150,
-      enable: true,
-      opacity: 0.4,
-      width: 1.0
+    "color": {
+      //"value": "#1b1e34"
+      //"value": ["#ffffff","#fd5949","#ff6300","#ffb700"],
+      "value": "#333"
     },
-    move: {
-      bounce: false,
-      direction: "none",
-      enable: true,
-      outMode: "out",
-      random: false,
-      speed: 2,
-      straight: false
+    "shape": {
+      "type": "star",
+      "stroke": {
+        "width": 2,
+        //"color": ["#ff6300","#ffffff","#fd5949","#ffb700"],
+        //"color": "#ff6300",
+        "color": "#ffb700",
+
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "/img/logo-il-mosaico-danza-asd.svg",
+        "width": 300,
+        "height": 300
+      }
     },
-    number: { 
-      density: { enable: false },
-      value: 32
+    "opacity": {
+      "value": 0.8,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
     },
-    opacity: {
-      animation: { enable: false },
-      random: false,
-      value: 0.5
+    "size": {
+      "value": 60,
+      "random": false,
+      "anim": {
+        "enable": true,
+        "speed": 10,
+        "size_min": 20,
+        "sync": false
+      }
     },
-    shape: {
-      type: "circle"
+    "line_linked": {
+      "enable": false,
+      "distance": 200,
+      "color": "#ffffff",
+      "opacity": 1,
+      "width": 2
     },
-    size: {
-      anim: { enable: true },
-      random: true,
-      value: 5
+    "move": {
+      "enable": true,
+      "speed": 8,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 0,
+        "rotateY": 0
+      }
     }
-  }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+
 })
 })//end getscript

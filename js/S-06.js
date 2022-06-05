@@ -1,4 +1,4 @@
-// particle quadrate bianche
+// particle quadrate colorate
 
 getScript('/js/tsparticles.min.js', function()
 {

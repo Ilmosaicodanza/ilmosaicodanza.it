@@ -1,4 +1,4 @@
-// particle quadrate bianche
+// particle size 8 tonde bounce colorate
 
 getScript('/js/tsparticles.min.js', function()
 {
@@ -26,8 +26,9 @@ tsParticles.load("tsparticles", {
       "resize": true,
     },
   },
+
   particles: {
-    color: { 
+    color: {
       value: ["#ffffff","#fd5949","#ff6300","#ffb700","#ff725c"],
       //value: "random"
     },
@@ -48,20 +49,15 @@ tsParticles.load("tsparticles", {
       width: 1.0
     },
     move: {
-      enable: true,
-      speed: 2,
       bounce: false,
       direction: "none",
+      enable: true,
       outMode: "out",
-      random: false,
-      straight: false,
-      "attract": {
-        "enable": true,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
+      random: true,
+      speed: 2,
+      straight: false
     },
-    number: { 
+    number: {
       density: { enable: false },
       value: 32
     },
@@ -79,5 +75,6 @@ tsParticles.load("tsparticles", {
       value: 6
     }
   }
+
 })
 })//end getscript
