@@ -1,5 +1,5 @@
 // tetris mosaico
-var strElem='<div><small class="near-white" style="font-family:consolas">SCORE</small> <div id="score" class="dib gold mh2" style="font-family:consolas;">0</div> 🕹 <kbd>&larr;</kbd> <kbd>↓</kbd> <kbd>&rarr;</kbd> <kbd>Q</kbd> <kbd>W</kbd></div><canvas id="tscanv"></canvas>';
+var strElem='<div id="scoreboard"><small class="near-white">SCORE</small> <div id="score" class="dib gold mh2">0</div><small>BEST</small> <div class="dib gold" id="best-score">0</div>  🕹 <kbd>&larr;</kbd> <kbd>↓</kbd> <kbd>&rarr;</kbd> <kbd>Q</kbd> <kbd>W</kbd></div><canvas id="tscanv"></canvas>';
 
 document.getElementById('tsparticles').insertAdjacentHTML('afterbegin',strElem);
 
@@ -163,6 +163,8 @@ function playerReset() {
     player.pos.x = (arena[0].length / 2 | 0) -
                    (player.matrix[0].length / 2 | 0);
     if (collide(arena, player)) {
+        flashScore();
+        sleep(1000);
         arena.forEach(row => row.fill(0));
         player.score = 0;
         updateScore();
@@ -183,7 +185,7 @@ function playerRotate(dir) {
     }
 }
 let dropCounter = 0;
-let dropInterval = 1000;
+let dropInterval = 600;
 let lastTime = 0;
 function update(time = 0) {
     const deltaTime = time - lastTime;
@@ -195,6 +197,22 @@ function update(time = 0) {
     draw();
     requestAnimationFrame(update);
 }
+async function flashScore(){
+    var s = document.getElementById('scoreboard');
+    var a = document.getElementById('score');
+    var b = document.getElementById('best-score');
+    if (a.textContent > b.textContent){
+        b.textContent = a.textContent;
+    }
+    s.classList.add("score-end");
+    setTimeout(function() {s.classList.remove("score-end");}, 2000);
+    await sleep(1400);
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 function updateScore() {
     document.getElementById('score').innerText = player.score;
 }
