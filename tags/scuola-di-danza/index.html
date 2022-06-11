@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it"><head>
+<html lang="it"><head itemscope itemtype="http://schema.org/Article">
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -5343,26 +5343,6 @@ title="Invia ai tuoi amici via email">
     </div>
   </nav>
   <style>
-    #consent-notice {padding: 1rem 1rem; display: none; text-align: center; position: fixed; bottom: 0; width: calc(100% - 2rem); background: #222; color: rgba(255,255,255,0.8);z-index: 1000}
-    #consent-notice span {margin-right: 1rem;}
-    #consent-notice a {cursor: pointer; display: inline-block; width: auto;border:1px outset white;padding:1rem;border-radius:10px;}
-    #consent-notice span a {color: inherit; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.5);}
-    #consent-notice a.btn {margin-left: 0.5rem;}
-    #consent-notice a.btn.manage-consent {background: rgba(255,255,255,0.1); font-weight: normal;}
-    #consent-notice a.btn.approve-consent {background: rgba(0,255,0,0.6); font-weight: normal;}
-    #consent-notice a.btn.deny-consent {background: rgba(255,255,0,0.6); font-weight: normal;}
-
-    #consent-overlay {position: fixed; left: 0; top: 0; width: 100%; height: 100vh; display: none; background: rgba(0,0,0,0.75); z-index: 999999; overflow: auto; cursor: pointer;}
-    #consent-overlay.active {display: flex;}
-    #consent-overlay > div {background: white; width: 100%; max-width: 30rem; padding: 1.75rem; margin: auto; cursor: initial;}
-    #consent-overlay > div > div {display: flex; align-items: flex-start; margin-bottom: 1rem;}
-    #consent-overlay > div > div:last-child {margin: 0;}
-    #consent-overlay h3 {padding-top: 0;}
-    #consent-overlay input {margin-top: 0.3rem;}
-    #consent-overlay label {display: block;}
-    #consent-overlay .btn {margin-right: 0.5rem;border:1px solid black;padding:1rem;}
-    #consent-overlay a.btn.save-consent {background: rgba(0,0,0,0.6); font-weight: normal;}
-
     @media (max-width: 767px) {
         #consent-overlay > div {padding: 1.75rem 1rem;}
         #consent-notice span {display: block; padding-top: 3px; margin-bottom: 1.5rem;}
@@ -5370,28 +5350,63 @@ title="Invia ai tuoi amici via email">
     }
 </style>
 <div id="consent-notice">
-    <span>We would like to use <a class="manage-consent" href="#manage-consent">third party code</a> to improve the functionality of this website.</span><a class="btn manage-consent">Manage preferences</a><a class="btn deny-consent">Deny</a><a class="btn approve-consent">Allow</a></div>
+    <div class="mv2 dib bg-gold pa2 ph5">Informativa Cookie</div><br>
+    <span>Abbiamo scelto di non volere i tuoi dati. Non usiamo cookie, non tracciamo nessuno e abbiamo piacere che tu lo sappia.</span><a class="btn manage-consent">Dimmi di più</a>
+    <a id="hocapito" class="btn approve-consent">Ho capito</a>
+</div>
 <div id="consent-overlay">
     <div>
+        <span id="close-overlay" role="button" tabindex="0">&times;</span>
+    <span class="near-black">Il Mosaico Danza a.s.d.</span><br><span class="b db ml4 pa2 ">Impostazioni cookie</span>
         
             <div>
-                <input type="checkbox" id="item0" value="1" name="item0"  />
+                <input type="checkbox" id="item0" value="1" name="item0" checked disabled />
                 <label for="item0">
-                    Google Anaytics (only functional)
-                    This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on. We follow the guidelines of the  Government, which describe how to use Google Analytics without requiring explicit consent.
+                    Cookie di prima parte e tecnici<br>
+                    Il sito non usa cookie di questo tipo
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item1" value="1" name="item1" checked disabled />
+                <label for="item1">
+                    Cookie di terza parte e profilazione pubblicitaria<br>
+                    Il sito non usa cookie di questo tipo
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item2" value="1" name="item2" checked disabled />
+                <label for="item2">
+                    Cookie di profilazione statistica<br>
+                    Il sito non usa cookie di questo tipo
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item3" value="1" name="item3" checked disabled />
+                <label for="item3">
+                    Cookie di prima parte e profilazione<br>
+                    Il sito non usa cookie di questo tipo
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item4" value="1" name="item4" checked disabled />
+                <label for="item4">
+                    Google Anaytics<br>
+                    Il sito non usa cookie di questo tipo.<br>La profilazione statistica per misurare le visite nel sito viene fatta seguendo le linee guida che descrivono come utilizzare Google Analytics senza tracciare gli utenti.<br>L'unico cookie che scriviamo è questo relativo alla tua preferenza, necessario per non far più comparire questo avviso per i prossimi 31 giorni. <br>Puoi leggere l'informativa completa sui cookie nella apposita <a href="/cookie-policy/" title="Cookie Policy"> pagina informativa</a>.
                 </label>
             </div>
         
         <div>
-            <button id="save-consent" class="btn save-consent" data-consentvalue="0">Save preferences</button>
-            <button class="btn approve-consent">Allow all</button>
+        <a id="save-consent" class="btn save-consent br3" data-consentvalue="11111">Ho capito, grazie</a>
+                
         </div>
     </div>
 </div>
 <script>
-
     const scripts = [];
-    scripts[ 0 ] = "/js/ga.js";
 
     function createCookie(name,value,days) {
         
@@ -5460,7 +5475,7 @@ title="Invia ai tuoi amici via email">
     }
     function setConsentValue() {
         var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
-        var consentValue = "";
+        var consentValue = 1;
         elements.forEach(function(el) {
             if(el.checked) consentValue = consentValue + "1";
             else consentValue = consentValue + "0";
@@ -5503,14 +5518,40 @@ title="Invia ai tuoi amici via email">
         setConsentValue();
         acceptSomeConsentScripts(this.dataset.consentvalue);
     });
+    document.getElementById("hocapito").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+
     document.getElementById("consent-overlay").addEventListener("click",function(e) {
-        if (!document.querySelector("#consent-overlay > div").contains(e.target)){
-            this.classList.toggle('active');
-        }
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){this.classList.toggle('active');}
+    });
+    document.getElementById("close-overlay").addEventListener("click",function(e) {
+        document.querySelector("#consent-overlay").classList.toggle('active');
     });
 </script>
 
 
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+        
+        <script type="text/javascript" src="/js/ga.js"></script>
+        
     
 
 </div>
