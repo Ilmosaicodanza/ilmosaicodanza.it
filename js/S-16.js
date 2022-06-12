@@ -1,145 +1,103 @@
-// particle stelle gialle size 80 no interact
+// snake mosaico
+var strElem='<div id="scoreboard"><small class="near-white">SCORE</small> <div id="score" class="dib gold mh2">0</div><small>BEST</small> <div class="dib gold" id="best-score">0</div>  🕹 <kbd>&larr;</kbd> <kbd>↓</kbd> <kbd>&rarr;</kbd> <kbd>⬆</kbd> </div><canvas id="tscanv"></canvas>';
 
-getScript('/js/tsparticles.min.js', function()
-{
-tsParticles.load("tsparticles", {
-  "autoPlay": true,
-  "pauseOnOutsideViewport": true,
-  "fpsLimit": 120,
-  "prefer-riduced-motion": true,
-  motion: {
-    reduce: true,
+document.getElementById('tsparticles').insertAdjacentHTML('afterbegin',strElem);
 
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onHover": {
-        "enable": true,
-        "mode": "grab",
-        //"mode": "connect",
-      },
-      "onClick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true,
-    },
-  },
+const canvas = document.getElementById('tscanv');
+canvas.style.width  = "90px";
+canvas.style.height = "190px";
 
-  "particles": {
-    "number": {
-      "value": 6,
-      "density": {
-        "enable": true,
-        "value_area": 800
-      }
-    },
-    "color": {
-      //"value": "#1b1e34"
-      //"value": ["#ffffff","#fd5949","#ff6300","#ffb700"],
-      "value": "#333"
-    },
-    "shape": {
-      "type": "star",
-      "stroke": {
-        "width": 2,
-        //"color": ["#ff6300","#ffffff","#fd5949","#ffb700"],
-        //"color": "#ff6300",
-        "color": "#ffb700",
-
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "/img/logo-il-mosaico-danza-asd.svg",
-        "width": 300,
-        "height": 300
-      }
-    },
-    "opacity": {
-      "value": 0.8,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 60,
-      "random": false,
-      "anim": {
-        "enable": true,
-        "speed": 10,
-        "size_min": 20,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": false,
-      "distance": 200,
-      "color": "#ffffff",
-      "opacity": 1,
-      "width": 2
-    },
-    "move": {
-      "enable": true,
-      "speed": 8,
-      "direction": "none",
-      "random": true,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": false,
-      "attract": {
-        "enable": false,
-        "rotateX": 0,
-        "rotateY": 0
-      }
+window.onload=function() {
+    canv=document.getElementById("tscanv");
+    ctx=canv.getContext("2d");
+    setInterval(game,1000/6);
+    document.addEventListener("keydown",keyPush);
+}
+//px=py=10;
+//gs=tc=20;
+//ax=ay=15;
+//xv=yv=0;
+px=py=10;
+gs=tc=17;
+ax=ay=4 ;
+xv=yv=0;
+trail=[];
+tail=5;
+points=0;
+var score = document.getElementById('score');
+var best = document.getElementById('best');
+function game() {
+    px+=xv;
+    py+=yv;
+    if(px<0) {
+        px= tc-1;
     }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": false,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 400,
-        "line_linked": {
-          "opacity": 1
+    if(px>tc-1) {
+        px= 0;
+    }
+    if(py<0) {
+        py= tc-1;
+    }
+    if(py>tc-1) {
+        py= 0;
+    }
+    ctx.fillStyle="black";
+    ctx.fillRect(0,0,canv.width,canv.height);
+    ctx.fillStyle="lime";
+    for(var i=0;i<trail.length;i++) {
+        ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
+        if(trail[i].x==px && trail[i].y==py) {
+            flashScore();
+            tail = 5;
         }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
     }
-  },
-  "retina_detect": true
+    trail.push({x:px,y:py});
+    while(trail.length>tail) {
+    trail.shift();
+    }
+    if(ax==px && ay==py) {
+        updateScore();
+        tail++;
+        ax=Math.floor(Math.random()*tc);
+        ay=Math.floor(Math.random()*tc);
+    }
+    ctx.fillStyle="red";
+    ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
+}
+function keyPush(evt) {
+    switch(evt.keyCode) {
+        case 37:
+            xv=-1;yv=0;
+            break;
+        case 38:
+            xv=0;yv=-1;
+            break;
+        case 39:
+            xv=1;yv=0;
+            break;
+        case 40:
+            xv=0;yv=1;
+            break;
+    }
+}
+function updateScore(){
+    points++;
+    score.innerText = points;
+}
+async function flashScore(){
+    var s = document.getElementById('scoreboard');
+    var a = document.getElementById('score');
+    var b = document.getElementById('best-score');
+    if (a.textContent > b.textContent){
+        b.textContent = a.textContent;
+    }
+    s.classList.add("score-end");
+    a = 0;
+    setTimeout(function() {s.classList.remove("score-end");}, 2000);
+    await sleep(1400);
+}
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
-})
-})//end getscript
+

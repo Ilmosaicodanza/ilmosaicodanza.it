@@ -1,11 +1,11 @@
 // snake mosaico
-var strElem='<div id="scoreboard"><small class="near-white">SCORE</small> <div id="score" class="dib gold mh2">0</div><small>BEST</small> <div class="dib gold" id="best-score">0</div>  🕹 <kbd>&larr;</kbd> <kbd>↓</kbd> <kbd>&rarr;</kbd> </div><canvas id="tscanv"></canvas>';
+var strElem='<div id="scoreboard"><small class="near-white">SCORE</small> <div id="score" class="dib gold mh2">0</div><small>BEST</small> <div class="dib gold" id="best-score">0</div>  🕹 <kbd>&larr;</kbd> <kbd>↓</kbd> <kbd>&rarr;</kbd> <kbd>⬆</kbd> </div><canvas id="tscanv"></canvas>';
 
 document.getElementById('tsparticles').insertAdjacentHTML('afterbegin',strElem);
 
 const canvas = document.getElementById('tscanv');
-canvas.style.width  = "144px";
-canvas.style.height = "144px";
+canvas.style.width  = "90px";
+canvas.style.height = "190px";
 
 window.onload=function() {
     canv=document.getElementById("tscanv");
@@ -17,13 +17,13 @@ window.onload=function() {
 //gs=tc=20;
 //ax=ay=15;
 //xv=yv=0;
-px=py=8;
-gs=tc=10;
-ax=ay=10;
+px=py=10;
+gs=tc=17;
+ax=ay=4 ;
 xv=yv=0;
 trail=[];
-tail = 5;
-points = 0;
+tail=5;
+points=0;
 var score = document.getElementById('score');
 var best = document.getElementById('best');
 function game() {
