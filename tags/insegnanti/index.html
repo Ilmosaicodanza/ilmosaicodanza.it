@@ -38,14 +38,7 @@
 
   
   
-        
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-EBVZR5F3Y8');
-</script>
-<script async defer src="https://www.googletagmanager.com/gtag/js?id=G-EBVZR5F3Y8"></script>
+  
   <link rel="stylesheet" href="/style.main.min.css" integrity="" media="screen">
 </head>
 <body>
@@ -4157,11 +4150,17 @@ title="Invia ai tuoi amici via email">
         #consent-notice a.btn {position: relative; bottom: 4px;}
     }
 </style>
+
 <div id="consent-notice">
-    <div class="mv2 dib bg-gold pa2 ph5">Informativa Cookie</div><br>
-    <span>Abbiamo scelto di non volere i tuoi dati. Non usiamo cookie, non tracciamo nessuno e abbiamo piacere che tu lo sappia.</span><a class="btn manage-consent">Dimmi di più</a>
-    <a id="hocapito" class="btn approve-consent">Ho capito</a>
+    <div class="mv2 dib bg-gold pa2 ph5">Gestisci consenso Cookie</div><br>
+    <span>
+Su questo sito utilizziamo cookie tecnici necessari alla navigazione e funzionali all’erogazione del servizio. Utilizziamo i cookie anche per fornirti un’esperienza di navigazione sempre migliore. Puoi esprimere il tuo consenso cliccando su ACCETTA TUTTI oppure cliccando su Gestisci consenso. Potrai sempre gestire le tue preferenze e ottenere maggiori informazioni sui cookie utilizzati, visitando la nostra <a class="btn link" href="/cookie-policy">COOKIE POLICY</a>.
+</span>
+    <a class="btn manage-consent bg-white">Gestisci consenso</a>
+    
+    <a id="approva" class="btn approve-consent white bg-light-green">Accetta tutti</a>
 </div>
+
 <div id="consent-overlay">
     <div>
         <span id="close-overlay" role="button" tabindex="0">&times;</span>
@@ -4170,51 +4169,40 @@ title="Invia ai tuoi amici via email">
             <div>
                 <input type="checkbox" id="item0" value="1" name="item0" checked disabled />
                 <label for="item0">
-                    Cookie di prima parte e tecnici<br>
-                    Il sito non usa cookie di questo tipo
+                    Cookie funzionale<br>
+                    Il cookie che permette di ricordare queste impostazioni
                 </label>
             </div>
         
             <div>
-                <input type="checkbox" id="item1" value="1" name="item1" checked disabled />
+                <input type="checkbox" id="item1" value="1" name="item1"  />
                 <label for="item1">
-                    Cookie di terza parte e profilazione pubblicitaria<br>
-                    Il sito non usa cookie di questo tipo
-                </label>
-            </div>
-        
-            <div>
-                <input type="checkbox" id="item2" value="1" name="item2" checked disabled />
-                <label for="item2">
-                    Cookie di profilazione statistica<br>
-                    Il sito non usa cookie di questo tipo
-                </label>
-            </div>
-        
-            <div>
-                <input type="checkbox" id="item3" value="1" name="item3" checked disabled />
-                <label for="item3">
-                    Cookie di prima parte e profilazione<br>
-                    Il sito non usa cookie di questo tipo
-                </label>
-            </div>
-        
-            <div>
-                <input type="checkbox" id="item4" value="1" name="item4" checked disabled />
-                <label for="item4">
                     Google Anaytics<br>
-                    Il sito non usa cookie di questo tipo.<br>La profilazione statistica per misurare le visite nel sito viene fatta seguendo le linee guida che descrivono come utilizzare Google Analytics senza tracciare gli utenti.<br>L'unico cookie che scriviamo è questo relativo alla tua preferenza, necessario per non far più comparire questo avviso per i prossimi 31 giorni. <br>Puoi leggere l'informativa completa sui cookie nella apposita <a href="/cookie-policy/" title="Cookie Policy"> pagina informativa</a>.
+                    Cookie per misurare le visite nel sito tramite statistiche anonimizzate
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item2" value="1" name="item2"  />
+                <label for="item2">
+                    Microsoft Clarity<br>
+                    Cookie per heat mapping e registrazione sessioni
                 </label>
             </div>
         
         <div>
-        <a id="save-consent" class="btn save-consent br3" data-consentvalue="11111">Ho capito, grazie</a>
-                
+        <a id="save-consent" class="btn save-consent br3" data-consentvalue="100">Salva preferenze</a>
+        <a class="btn deny-consent br3 bg-light-red">Rifiuta tutti</a>
+        <a class="btn approve-consent br3 bg-light-green">Accetta tutti</a>
+
         </div>
     </div>
 </div>
+
 <script>
     const scripts = [];
+    scripts[ 0 ] = "/js/gtag.js";
+    scripts[ 1 ] = "/js/clarity.js";
 
     function createCookie(name,value,days) {
         
@@ -4258,11 +4246,12 @@ title="Invia ai tuoi amici via email">
     }
     function acceptSomeConsentScripts(consentValue) {
         setConsentInputs(consentValue);
-        createCookie('consent-settings',consentValue,31);
+        createCookie('consent-settings',consentValue, 31);
         document.getElementById('consent-notice').style.display = 'none';
         document.getElementById('consent-overlay').classList.remove('active');
         loadConsentScripts(consentValue);
     }
+
     function loadConsentScripts(consentValue) {
         scripts.forEach(function(value,key){
             
@@ -4326,7 +4315,7 @@ title="Invia ai tuoi amici via email">
         setConsentValue();
         acceptSomeConsentScripts(this.dataset.consentvalue);
     });
-    document.getElementById("hocapito").addEventListener("click",function() {
+    document.getElementById("approva").addEventListener("click",function() {
         setConsentValue();
         acceptSomeConsentScripts(this.dataset.consentvalue);
     });
@@ -4345,22 +4334,9 @@ title="Invia ai tuoi amici via email">
     
 
     
-        
-    
 
     
-        
-    
 
-    
-        
-    
-
-    
-        
-        <script src="/js/ga.js"></script>
-        
-    
 
 </div>
 </footer>
@@ -4392,7 +4368,7 @@ title="Invia ai tuoi amici via email">
 </nav>
 
 <script>
-  function getScript(source, callback) {
+    function getScript(source, callback) {
     var script = document.createElement('script');
     var prior  = document.getElementsByTagName('script')[0];
     script.async = 1;
@@ -4415,6 +4391,7 @@ title="Invia ai tuoi amici via email">
     
     getScript("/js/S-"+G+".js");
   } 
+
 </script>
       </div>
     </body>
