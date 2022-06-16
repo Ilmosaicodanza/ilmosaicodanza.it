@@ -3,9 +3,12 @@
 
 User-agent: *
 
-Disallow: /images/
+Disallow: /cdn-cgi/l/email-protection
+
+# Disallow: /images/
 # Disallow: /js/
 # Disallow: /css/
+
 
 User-agent: MJ12bot
 Disallow: /
