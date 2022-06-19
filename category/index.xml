@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categorie on Il Mosaico Danza a.s.d.</title>
+    <title>Categorie on Il Mosaico Danza</title>
     <link>https://www.ilmosaicodanza.it/category/</link>
-    <description>Recent content in Categorie on Il Mosaico Danza a.s.d.</description>
+    <description>Recent content in Categorie on Il Mosaico Danza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
     <lastBuildDate>Thu, 26 May 2022 17:58:02 +0100</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/category/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>corsi estivi</title>
+      <link>https://www.ilmosaicodanza.it/category/corsi-estivi/</link>
+      <pubDate>Sun, 19 Jun 2022 14:15:21 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/category/corsi-estivi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speciali estivi</title>
+      <link>https://www.ilmosaicodanza.it/category/speciali-estivi/</link>
+      <pubDate>Sun, 19 Jun 2022 14:15:16 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/category/speciali-estivi/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>spettacoli</title>
       <link>https://www.ilmosaicodanza.it/category/spettacoli/</link>
@@ -17,30 +35,12 @@
     </item>
     
     <item>
-      <title>corsi estivi</title>
-      <link>https://www.ilmosaicodanza.it/category/corsi-estivi/</link>
-      <pubDate>Sat, 18 Jun 2022 23:54:34 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/category/corsi-estivi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>I nostri corsi di danza e ballo</title>
       <link>https://www.ilmosaicodanza.it/category/corsi-di-danza/</link>
       <pubDate>Sat, 18 Jun 2022 23:54:26 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/category/corsi-di-danza/</guid>
       <description>I nostri corsi di danza e ballo nelle tre sedi a Milano: Via Privata Pomezia 12 (Loreto), Via Passeroni 6 (Porta Romana), c/o Teatring Via Portoferraio 4 (Tibaldi).</description>
-    </item>
-    
-    <item>
-      <title>Speciali estivi</title>
-      <link>https://www.ilmosaicodanza.it/category/speciali-estivi/</link>
-      <pubDate>Fri, 17 Jun 2022 00:44:35 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/category/speciali-estivi/</guid>
-      <description></description>
     </item>
     
     <item>
