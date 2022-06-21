@@ -252,14 +252,14 @@ span .snap-lightbox-arrow {
 
 .snap-lightbox-prev .snap-lightbox-arrow {
   left: 2%;
-  transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
 }
 
 .snap-lightbox-next .snap-lightbox-arrow {
   right: 2%;
-  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 a.snap-lightbox-prev:hover > .snap-lightbox-arrow,
