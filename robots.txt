@@ -3,6 +3,34 @@
 
 User-agent: *
 
+Disallow: /corsi-in-presenza-e-on-line/index.html
+Disallow: /flamenco-lavoro-corporeo/danza-in-zona-loreto/index.html
+Disallow: /corso-di-improvvisazione-nel-flamenco/index.html
+Disallow: /workout/danza-in-zona-loreto/index.html
+Disallow: /corso-di-improvvisazione-nel-flamenco/danza-in-zona-loreto/index.html
+Disallow: /lezioni-di-flamenco-a-milano/index.html
+Disallow: /lezioni-di-chitarra-milano/danza-in-zona-loreto/index.html
+Disallow: /zumba/corsi-di-reggaeton/danza-in-zona-loreto/index.html
+Disallow: /lezioni-di-chitarra-milano/index.html
+Disallow: /corso-di-danza-contemporanea/index.html
+Disallow: /corso-di-ballo-liscio-a-milano/danza-in-zona-loreto/index.html
+Disallow: /tribal-bellydance-tribal-fusion/danza-in-zona-loreto/index.html
+Disallow: /pedagogia-del-flamenco/anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/index.html
+Disallow: /pedagogia-del-baile-flamenco/index.html
+Disallow: /corso-di-ballo-liscio-a-milano/viviane-grisvard/index.html
+Disallow: /flamenco-lavoro-corporeo/index.html
+Disallow: /pedagogia-del-baile-flamenco/danza-in-zona-loreto/index.html
+Disallow: /zumba/corsi-di-salsa/danza-in-zona-loreto/index.html
+Disallow: /improvvisazione/index.html
+Disallow: /pedagogia-del-flamenco/danza-in-zona-loreto/index.html
+Disallow: /jeromo-segura/danza-in-zona-loreto/index.html
+Disallow: /orari-flamenco/danza-in-zona-loreto/index.html
+Disallow: /marie-noelle-terrisse-yoga/index.html
+Disallow: /teoria-del-flamenco/danza-in-zona-loreto/index.html
+
+Disallow: /tags/index.html
+Disallow: /series/index.html
+Disallow: /category/index.html
 Disallow: /cdn-cgi/l/email-protection
 Disallow: /tag/
 Disallow: /benefici-del-massaggio-antistress/
@@ -14,11 +42,11 @@ Disallow: /corsi-di-tango/
 Disallow: /cos-e-la-danzaterapia/
 Disallow: /danza-gypsy-fusion/
 Disallow: /danzaterapia-dmt/
+Disallow: /flamenco-lavoro-corporeo/
 Disallow: /feed/
 Disallow: /formazione-insegnanti-danza-del-ventre-milano/
 Disallow: /giocodanza/
 Disallow: /insegnanti-del-corso-di-massaggio/
-Disallow: /la-migliore-scuola-di-flamenco-a-milano/
 Disallow: /lezioni-per-bambini/
 Disallow: /sitemap.xml.gz
 Disallow: /tags/attivit/303/240-per-bambini/index.html
@@ -29,9 +57,6 @@ Disallow: /tango_argentino/Tango_Argent
 # Disallow: /css/
 
 User-agent: MJ12bot
-Disallow: /
-
-User-agent: AhrefsBot
 Disallow: /
 
 User-agent: BLEXBot
