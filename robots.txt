@@ -3,6 +3,13 @@
 
 User-agent: *
 
+# 02/07/2022
+Disallow: /marinetta-la-porta-insegnante-di-zumba/
+Disallow: /tags/corsi-estivi/
+Disallow: /scuola-danza-del-ventre/
+Disallow: /heels-dance-milano.webp
+
+# 01/07/2022
 Disallow: /corsi-in-presenza-e-on-line/index.html
 Disallow: /flamenco-lavoro-corporeo/danza-in-zona-loreto/index.html
 Disallow: /corso-di-improvvisazione-nel-flamenco/index.html
