@@ -1,103 +1,80 @@
-// snake mosaico
-var strElem='<div id="scoreboard"><small class="near-white">SCORE</small> <div id="score" class="dib gold mh2">0</div><small>BEST</small> <div class="dib gold" id="best-score">0</div>  🕹 <kbd>&larr;</kbd> <kbd>↓</kbd> <kbd>&rarr;</kbd> <kbd>⬆</kbd> </div><canvas id="tscanv"></canvas>';
+// particle size 8 tonde bounce colorate
 
-document.getElementById('tsparticles').insertAdjacentHTML('afterbegin',strElem);
+getScript('/js/tsparticles.min.js', function()
+{
+tsParticles.load("tsparticles", {
+  "autoPlay": true,
+  "pauseOnOutsideViewport": true,
+  "fpsLimit": 120,
+  "prefer-riduced-motion": true,
+  motion: {
+    reduce: true,
 
-const canvas = document.getElementById('tscanv');
-canvas.style.width  = "90px";
-canvas.style.height = "190px";
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onHover": {
+        "enable": true,
+        "mode": "grab",
+        //"mode": "connect",
+      },
+      "onClick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true,
+    },
+  },
 
-window.onload=function() {
-    canv=document.getElementById("tscanv");
-    ctx=canv.getContext("2d");
-    setInterval(game,1000/6);
-    document.addEventListener("keydown",keyPush);
-}
-//px=py=10;
-//gs=tc=20;
-//ax=ay=15;
-//xv=yv=0;
-px=py=10;
-gs=tc=17;
-ax=ay=4 ;
-xv=yv=0;
-trail=[];
-tail=5;
-points=0;
-var score = document.getElementById('score');
-var best = document.getElementById('best');
-function game() {
-    px+=xv;
-    py+=yv;
-    if(px<0) {
-        px= tc-1;
+  particles: {
+    color: {
+      value: ["#ffffff","#fd5949","#ff6300","#ffb700","#ff725c"],
+      //value: "random"
+    },
+    //"links": {
+    //  "color": {
+    //    "value": "#ffffff"
+    //  },
+    //  "distance": 150,
+    //  "opacity": 0.4
+    //},
+    lineLinked: {
+      //color: "#ffffff",
+      //color: ["#fd5949","#ff6300","#ffb700","#ff725c"],
+      color: ["#d62828","#f77f00","#fcbf49","#eae2b7"],
+      distance: 190,
+      enable: true,
+      opacity: 0.2,
+      width: 1.0
+    },
+    move: {
+      bounce: false,
+      direction: "none",
+      enable: true,
+      outMode: "out",
+      random: true,
+      speed: 2,
+      straight: false
+    },
+    number: {
+      density: { enable: false },
+      value: 32
+    },
+    opacity: {
+      animation: { enable: false },
+      random: false,
+      value: 0.5
+    },
+    shape: {
+      type: "square"
+    },
+    size: {
+      anim: { enable: true },
+      random: true,
+      value: 6
     }
-    if(px>tc-1) {
-        px= 0;
-    }
-    if(py<0) {
-        py= tc-1;
-    }
-    if(py>tc-1) {
-        py= 0;
-    }
-    ctx.fillStyle="black";
-    ctx.fillRect(0,0,canv.width,canv.height);
-    ctx.fillStyle="lime";
-    for(var i=0;i<trail.length;i++) {
-        ctx.fillRect(trail[i].x*gs,trail[i].y*gs,gs-2,gs-2);
-        if(trail[i].x==px && trail[i].y==py) {
-            flashScore();
-            tail = 5;
-        }
-    }
-    trail.push({x:px,y:py});
-    while(trail.length>tail) {
-    trail.shift();
-    }
-    if(ax==px && ay==py) {
-        updateScore();
-        tail++;
-        ax=Math.floor(Math.random()*tc);
-        ay=Math.floor(Math.random()*tc);
-    }
-    ctx.fillStyle="red";
-    ctx.fillRect(ax*gs,ay*gs,gs-2,gs-2);
-}
-function keyPush(evt) {
-    switch(evt.keyCode) {
-        case 37:
-            xv=-1;yv=0;
-            break;
-        case 38:
-            xv=0;yv=-1;
-            break;
-        case 39:
-            xv=1;yv=0;
-            break;
-        case 40:
-            xv=0;yv=1;
-            break;
-    }
-}
-function updateScore(){
-    points++;
-    score.innerText = points;
-}
-async function flashScore(){
-    var s = document.getElementById('scoreboard');
-    var a = document.getElementById('score');
-    var b = document.getElementById('best-score');
-    if (a.textContent > b.textContent){
-        b.textContent = a.textContent;
-    }
-    s.classList.add("score-end");
-    a = 0;
-    setTimeout(function() {s.classList.remove("score-end");}, 2000);
-    await sleep(1400);
-}
-function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+  }
 
-
+})
+})//end getscript
