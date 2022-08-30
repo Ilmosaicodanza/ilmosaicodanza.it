@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ginnastica on Il Mosaico Danza</title>
+    <title>ginnastica on Il Mosaico Danza a.s.d. Milano</title>
     <link>https://www.ilmosaicodanza.it/tags/ginnastica/</link>
-    <description>Recent content in ginnastica on Il Mosaico Danza</description>
+    <description>Recent content in ginnastica on Il Mosaico Danza a.s.d. Milano</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
-    <lastBuildDate>Mon, 13 Jun 2022 12:49:50 +0200</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/tags/ginnastica/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Aug 2022 11:39:03 +0200</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/tags/ginnastica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Total Body</title>
+      <link>https://www.ilmosaicodanza.it/total-body/</link>
+      <pubDate>Fri, 24 Jun 2022 11:35:06 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/total-body/</guid>
+      <description>riassunto (se serve) multiriga per le pagine elenco</description>
+    </item>
+    
     <item>
       <title>Ginnastica consapevole – Metodo Feldenkrais</title>
       <link>https://www.ilmosaicodanza.it/ginnastica-consapevole-metodo-feldenkrais/</link>
@@ -14,6 +23,15 @@
       
       <guid>https://www.ilmosaicodanza.it/ginnastica-consapevole-metodo-feldenkrais/</guid>
       <description>Il corso non rientra tra le attività aerobiche, è quindi adatto a tutti e a tutte le età! È consigliato per chi desidera intraprendere un percorso per rincontrare sé stesso e il&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Ginnastica Posturale</title>
+      <link>https://www.ilmosaicodanza.it/ginnastica-posturale/</link>
+      <pubDate>Fri, 12 Aug 2022 11:39:03 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/ginnastica-posturale/</guid>
+      <description>Non trattandosi di attività aerobica, il corso è adatto a tutti, per tutte le età! È consigliato a chi vuole intraprendere un percorso per re-incontrare se stesso e il proprio corpo</description>
     </item>
     
   </channel>
