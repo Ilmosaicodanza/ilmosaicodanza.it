@@ -8,7 +8,16 @@
     <language>it</language>
     <lastBuildDate>Sun, 22 Jan 2023 17:42:33 +0100</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>danza del sud</title>
+      <title>castagnette</title>
+      <link>https://www.ilmosaicodanza.it/tags/castagnette/</link>
+      <pubDate>Sun, 22 Jan 2023 17:42:33 +0100</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/castagnette/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Danza del Sud</title>
       <link>https://www.ilmosaicodanza.it/tags/danza-del-sud/</link>
       <pubDate>Sun, 22 Jan 2023 17:42:33 +0100</pubDate>
       
@@ -26,11 +35,11 @@
     </item>
     
     <item>
-      <title>Lezioni di danza di danza</title>
-      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-danza-di-danza/</link>
+      <title>Lezioni di danza</title>
+      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-danza/</link>
       <pubDate>Sun, 22 Jan 2023 17:42:33 +0100</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-danza-di-danza/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-danza/</guid>
       <description></description>
     </item>
     
@@ -80,15 +89,6 @@
     </item>
     
     <item>
-      <title>blues</title>
-      <link>https://www.ilmosaicodanza.it/tags/blues/</link>
-      <pubDate>Tue, 10 Jan 2023 11:45:04 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/blues/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>corsi di danza</title>
       <link>https://www.ilmosaicodanza.it/tags/corsi-di-danza/</link>
       <pubDate>Tue, 10 Jan 2023 11:45:04 +0000</pubDate>
@@ -98,29 +98,11 @@
     </item>
     
     <item>
-      <title>corsi di swing</title>
-      <link>https://www.ilmosaicodanza.it/tags/corsi-di-swing/</link>
+      <title>Lezioni di Swing</title>
+      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-swing/</link>
       <pubDate>Tue, 10 Jan 2023 11:45:04 +0000</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/corsi-di-swing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danza</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza/</link>
-      <pubDate>Tue, 10 Jan 2023 11:45:04 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lezioni di danza di Swing</title>
-      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-danza-di-swing/</link>
-      <pubDate>Tue, 10 Jan 2023 11:45:04 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-danza-di-swing/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-swing/</guid>
       <description></description>
     </item>
     
@@ -139,15 +121,6 @@
       <pubDate>Tue, 10 Jan 2023 11:45:04 +0000</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/swing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Larry Daccò</title>
-      <link>https://www.ilmosaicodanza.it/tags/larry-dacc%C3%B2/</link>
-      <pubDate>Mon, 09 Jan 2023 21:23:10 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/larry-dacc%C3%B2/</guid>
       <description></description>
     </item>
     
@@ -175,78 +148,6 @@
       <pubDate>Mon, 09 Jan 2023 21:23:10 +0000</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/scuola-di-danza-zona-loreto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Attività per adulti</title>
-      <link>https://www.ilmosaicodanza.it/tags/attivit%C3%A0-per-adulti/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/attivit%C3%A0-per-adulti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>benessere</title>
-      <link>https://www.ilmosaicodanza.it/tags/benessere/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/benessere/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fitness</title>
-      <link>https://www.ilmosaicodanza.it/tags/fitness/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/fitness/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ginnastica</title>
-      <link>https://www.ilmosaicodanza.it/tags/ginnastica/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/ginnastica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lezioni di danza</title>
-      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-danza/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-danza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zona Loreto</title>
-      <link>https://www.ilmosaicodanza.it/tags/zona-loreto/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/zona-loreto/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>zona porta romana</title>
-      <link>https://www.ilmosaicodanza.it/tags/zona-porta-romana/</link>
-      <pubDate>Mon, 09 Jan 2023 18:00:12 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/zona-porta-romana/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Attività per bambini</title>
-      <link>https://www.ilmosaicodanza.it/tags/attivit%C3%A0-per-bambini/</link>
-      <pubDate>Mon, 09 Jan 2023 17:22:19 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/attivit%C3%A0-per-bambini/</guid>
       <description></description>
     </item>
     
@@ -314,7 +215,7 @@
     </item>
     
     <item>
-      <title>danza orientale</title>
+      <title>Danza orientale</title>
       <link>https://www.ilmosaicodanza.it/tags/danza-orientale/</link>
       <pubDate>Wed, 14 Sep 2022 14:50:35 +0200</pubDate>
       
@@ -323,25 +224,7 @@
     </item>
     
     <item>
-      <title>Sara Ti</title>
-      <link>https://www.ilmosaicodanza.it/tags/sara-ti/</link>
-      <pubDate>Wed, 14 Sep 2022 14:50:35 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/sara-ti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jamila Zaki</title>
-      <link>https://www.ilmosaicodanza.it/tags/jamila-zaki/</link>
-      <pubDate>Tue, 13 Sep 2022 17:04:19 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/jamila-zaki/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blues Dance</title>
+      <title>Blues dance</title>
       <link>https://www.ilmosaicodanza.it/tags/blues-dance/</link>
       <pubDate>Sun, 28 Aug 2022 19:17:23 +0200</pubDate>
       
@@ -368,65 +251,11 @@
     </item>
     
     <item>
-      <title>Michael Jackson</title>
-      <link>https://www.ilmosaicodanza.it/tags/michael-jackson/</link>
-      <pubDate>Sun, 28 Aug 2022 18:30:11 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/michael-jackson/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danza gypsy</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza-gypsy/</link>
-      <pubDate>Mon, 15 Aug 2022 22:55:43 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danza-gypsy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Elisabetta Gennaro</title>
-      <link>https://www.ilmosaicodanza.it/tags/elisabetta-gennaro/</link>
+      <title>Attività per adulti</title>
+      <link>https://www.ilmosaicodanza.it/tags/attivit%C3%A0-per-adulti/</link>
       <pubDate>Fri, 12 Aug 2022 20:03:15 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/elisabetta-gennaro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>percorso personale</title>
-      <link>https://www.ilmosaicodanza.it/tags/percorso-personale/</link>
-      <pubDate>Fri, 12 Aug 2022 11:39:03 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/percorso-personale/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danza del tao</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza-del-tao/</link>
-      <pubDate>Fri, 12 Aug 2022 11:34:58 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danza-del-tao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lezioni di danza di ballo</title>
-      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-danza-di-ballo/</link>
-      <pubDate>Fri, 12 Aug 2022 11:34:58 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-danza-di-ballo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meditazione</title>
-      <link>https://www.ilmosaicodanza.it/tags/meditazione/</link>
-      <pubDate>Fri, 12 Aug 2022 09:55:43 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/meditazione/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/attivit%C3%A0-per-adulti/</guid>
       <description></description>
     </item>
     
@@ -440,33 +269,6 @@
     </item>
     
     <item>
-      <title>Lezioni di Swing</title>
-      <link>https://www.ilmosaicodanza.it/tags/lezioni-di-swing/</link>
-      <pubDate>Tue, 02 Aug 2022 19:21:06 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/lezioni-di-swing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Massimiliano Montomoli</title>
-      <link>https://www.ilmosaicodanza.it/tags/massimiliano-montomoli/</link>
-      <pubDate>Tue, 02 Aug 2022 19:18:40 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/massimiliano-montomoli/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>attivita per bambini</title>
-      <link>https://www.ilmosaicodanza.it/tags/attivita-per-bambini/</link>
-      <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/attivita-per-bambini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Baile flamenco</title>
       <link>https://www.ilmosaicodanza.it/tags/baile-flamenco/</link>
       <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
@@ -476,20 +278,11 @@
     </item>
     
     <item>
-      <title>bambini</title>
-      <link>https://www.ilmosaicodanza.it/tags/bambini/</link>
+      <title>benessere</title>
+      <link>https://www.ilmosaicodanza.it/tags/benessere/</link>
       <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/bambini/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>boogie</title>
-      <link>https://www.ilmosaicodanza.it/tags/boogie/</link>
-      <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/boogie/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/benessere/</guid>
       <description></description>
     </item>
     
@@ -499,15 +292,6 @@
       <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/boogie-woogie/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>corsi di danza per adulti</title>
-      <link>https://www.ilmosaicodanza.it/tags/corsi-di-danza-per-adulti/</link>
-      <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/corsi-di-danza-per-adulti/</guid>
       <description></description>
     </item>
     
@@ -544,15 +328,6 @@
       <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/jive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lyrical-arab-dance</title>
-      <link>https://www.ilmosaicodanza.it/tags/lyrical-arab-dance/</link>
-      <pubDate>Tue, 02 Aug 2022 14:10:54 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/lyrical-arab-dance/</guid>
       <description></description>
     </item>
     
@@ -602,15 +377,6 @@
     </item>
     
     <item>
-      <title>corsi danza milano</title>
-      <link>https://www.ilmosaicodanza.it/tags/corsi-danza-milano/</link>
-      <pubDate>Tue, 02 Aug 2022 14:10:45 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/corsi-danza-milano/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>corsi di ballo</title>
       <link>https://www.ilmosaicodanza.it/tags/corsi-di-ballo/</link>
       <pubDate>Tue, 02 Aug 2022 14:10:45 +0200</pubDate>
@@ -656,47 +422,11 @@
     </item>
     
     <item>
-      <title>tango</title>
-      <link>https://www.ilmosaicodanza.it/tags/tango/</link>
-      <pubDate>Tue, 02 Aug 2022 14:10:45 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/tango/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>tango argentino</title>
       <link>https://www.ilmosaicodanza.it/tags/tango-argentino/</link>
       <pubDate>Tue, 02 Aug 2022 14:10:45 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/tango-argentino/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Annalena Berton</title>
-      <link>https://www.ilmosaicodanza.it/tags/annalena-berton/</link>
-      <pubDate>Tue, 05 Jul 2022 21:28:25 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/annalena-berton/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>summer camp</title>
-      <link>https://www.ilmosaicodanza.it/tags/summer-camp/</link>
-      <pubDate>Tue, 05 Jul 2022 21:28:25 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/summer-camp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gestualita</title>
-      <link>https://www.ilmosaicodanza.it/tags/gestualita/</link>
-      <pubDate>Tue, 05 Jul 2022 21:28:11 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/gestualita/</guid>
       <description></description>
     </item>
     
@@ -719,29 +449,11 @@
     </item>
     
     <item>
-      <title>abbigliamento</title>
-      <link>https://www.ilmosaicodanza.it/tags/abbigliamento/</link>
-      <pubDate>Sun, 03 Jul 2022 13:50:32 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/abbigliamento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scarpe flamenco</title>
+      <title>Scarpe flamenco</title>
       <link>https://www.ilmosaicodanza.it/tags/scarpe-flamenco/</link>
       <pubDate>Sun, 03 Jul 2022 13:50:32 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/scarpe-flamenco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>spagnolo</title>
-      <link>https://www.ilmosaicodanza.it/tags/spagnolo/</link>
-      <pubDate>Sun, 03 Jul 2022 13:50:32 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/spagnolo/</guid>
       <description></description>
     </item>
     
@@ -755,47 +467,11 @@
     </item>
     
     <item>
-      <title>danza di Michael Jackson</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza-di-michael-jackson/</link>
-      <pubDate>Sun, 03 Jul 2022 11:36:41 +0200</pubDate>
+      <title>Zona Loreto</title>
+      <link>https://www.ilmosaicodanza.it/tags/zona-loreto/</link>
+      <pubDate>Sun, 03 Jul 2022 12:03:27 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/danza-di-michael-jackson/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danze popolari</title>
-      <link>https://www.ilmosaicodanza.it/tags/danze-popolari/</link>
-      <pubDate>Sun, 03 Jul 2022 10:24:50 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danze-popolari/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>improvvisazioni</title>
-      <link>https://www.ilmosaicodanza.it/tags/improvvisazioni/</link>
-      <pubDate>Sun, 03 Jul 2022 10:24:50 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/improvvisazioni/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>insegnamento</title>
-      <link>https://www.ilmosaicodanza.it/tags/insegnamento/</link>
-      <pubDate>Sat, 02 Jul 2022 12:01:57 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/insegnamento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>insegnanti</title>
-      <link>https://www.ilmosaicodanza.it/tags/insegnanti/</link>
-      <pubDate>Sat, 02 Jul 2022 12:01:57 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/insegnanti/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/zona-loreto/</guid>
       <description></description>
     </item>
     
@@ -836,11 +512,11 @@
     </item>
     
     <item>
-      <title>Zumba</title>
-      <link>https://www.ilmosaicodanza.it/tags/zumba/</link>
-      <pubDate>Sat, 02 Jul 2022 00:28:46 +0200</pubDate>
+      <title>Danze popolari</title>
+      <link>https://www.ilmosaicodanza.it/tags/danze-popolari/</link>
+      <pubDate>Fri, 01 Jul 2022 21:37:41 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/zumba/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/danze-popolari/</guid>
       <description></description>
     </item>
     
@@ -854,65 +530,11 @@
     </item>
     
     <item>
-      <title>Marta Mai</title>
-      <link>https://www.ilmosaicodanza.it/tags/marta-mai/</link>
+      <title>Scuola di danza - Lezioni di danza</title>
+      <link>https://www.ilmosaicodanza.it/tags/scuola-di-danza-lezioni-di-danza/</link>
       <pubDate>Fri, 01 Jul 2022 21:27:35 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/marta-mai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mat work</title>
-      <link>https://www.ilmosaicodanza.it/tags/mat-work/</link>
-      <pubDate>Fri, 01 Jul 2022 20:24:48 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/mat-work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pilates</title>
-      <link>https://www.ilmosaicodanza.it/tags/pilates/</link>
-      <pubDate>Fri, 01 Jul 2022 20:24:48 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/pilates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>workout</title>
-      <link>https://www.ilmosaicodanza.it/tags/workout/</link>
-      <pubDate>Fri, 01 Jul 2022 20:24:48 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/workout/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>corsi on line</title>
-      <link>https://www.ilmosaicodanza.it/tags/corsi-on-line/</link>
-      <pubDate>Fri, 01 Jul 2022 20:23:27 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/corsi-on-line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>on line</title>
-      <link>https://www.ilmosaicodanza.it/tags/on-line/</link>
-      <pubDate>Fri, 01 Jul 2022 20:23:27 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/on-line/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nacchere</title>
-      <link>https://www.ilmosaicodanza.it/tags/nacchere/</link>
-      <pubDate>Fri, 01 Jul 2022 19:40:10 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/nacchere/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/scuola-di-danza-lezioni-di-danza/</guid>
       <description></description>
     </item>
     
@@ -922,24 +544,6 @@
       <pubDate>Fri, 01 Jul 2022 19:28:50 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/workout-flamenco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>scuola</title>
-      <link>https://www.ilmosaicodanza.it/tags/scuola/</link>
-      <pubDate>Fri, 01 Jul 2022 18:42:51 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/scuola/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arianna Biancotto</title>
-      <link>https://www.ilmosaicodanza.it/tags/arianna-biancotto/</link>
-      <pubDate>Thu, 30 Jun 2022 01:23:16 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/arianna-biancotto/</guid>
       <description></description>
     </item>
     
@@ -958,24 +562,6 @@
       <pubDate>Thu, 30 Jun 2022 01:23:16 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/salsa-e-bachata/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cajon</title>
-      <link>https://www.ilmosaicodanza.it/tags/cajon/</link>
-      <pubDate>Thu, 30 Jun 2022 00:28:55 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/cajon/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>percussioni</title>
-      <link>https://www.ilmosaicodanza.it/tags/percussioni/</link>
-      <pubDate>Thu, 30 Jun 2022 00:28:55 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/percussioni/</guid>
       <description></description>
     </item>
     
@@ -1016,15 +602,6 @@
     </item>
     
     <item>
-      <title>palmas</title>
-      <link>https://www.ilmosaicodanza.it/tags/palmas/</link>
-      <pubDate>Tue, 28 Jun 2022 14:32:37 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/palmas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>zapateo</title>
       <link>https://www.ilmosaicodanza.it/tags/zapateo/</link>
       <pubDate>Tue, 28 Jun 2022 14:32:37 +0200</pubDate>
@@ -1043,38 +620,29 @@
     </item>
     
     <item>
-      <title>Cante flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/cante-flamenco/</link>
-      <pubDate>Fri, 24 Jun 2022 10:28:20 +0200</pubDate>
+      <title>improvvisazioni</title>
+      <link>https://www.ilmosaicodanza.it/tags/improvvisazioni/</link>
+      <pubDate>Tue, 28 Jun 2022 14:22:21 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/cante-flamenco/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/improvvisazioni/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Chitarra flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</link>
-      <pubDate>Fri, 24 Jun 2022 10:28:20 +0200</pubDate>
+      <title>fitness</title>
+      <link>https://www.ilmosaicodanza.it/tags/fitness/</link>
+      <pubDate>Tue, 28 Jun 2022 14:03:57 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/fitness/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>yoga</title>
-      <link>https://www.ilmosaicodanza.it/tags/yoga/</link>
-      <pubDate>Wed, 22 Jun 2022 11:17:46 +0200</pubDate>
+      <title>workout</title>
+      <link>https://www.ilmosaicodanza.it/tags/workout/</link>
+      <pubDate>Tue, 28 Jun 2022 14:03:57 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/yoga/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Danza orientale - Danze popolari - Lezioni di danza - Milano - Scuola di danza - Scuola di danza zona Loreto</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/</link>
-      <pubDate>Tue, 21 Jun 2022 14:28:28 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/workout/</guid>
       <description></description>
     </item>
     
@@ -1088,74 +656,29 @@
     </item>
     
     <item>
-      <title>Danza moderna</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza-moderna/</link>
-      <pubDate>Sun, 19 Jun 2022 19:10:42 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danza-moderna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>viviane grisvard</title>
-      <link>https://www.ilmosaicodanza.it/tags/viviane-grisvard/</link>
-      <pubDate>Sun, 19 Jun 2022 18:56:57 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/viviane-grisvard/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>massaggio</title>
-      <link>https://www.ilmosaicodanza.it/tags/massaggio/</link>
-      <pubDate>Sun, 19 Jun 2022 18:51:16 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/massaggio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>chitarra</title>
-      <link>https://www.ilmosaicodanza.it/tags/chitarra/</link>
+      <title>Chitarra flamenco</title>
+      <link>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</link>
       <pubDate>Sun, 19 Jun 2022 13:03:53 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/chitarra/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>latin</title>
-      <link>https://www.ilmosaicodanza.it/tags/latin/</link>
-      <pubDate>Sun, 19 Jun 2022 00:53:12 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/latin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>afro</title>
-      <link>https://www.ilmosaicodanza.it/tags/afro/</link>
+      <title>Scuola di danza - Scuola di danza zona Loreto</title>
+      <link>https://www.ilmosaicodanza.it/tags/scuola-di-danza-scuola-di-danza-zona-loreto/</link>
       <pubDate>Sat, 18 Jun 2022 23:54:43 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/afro/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/scuola-di-danza-scuola-di-danza-zona-loreto/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>corsi di flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/corsi-di-flamenco/</link>
-      <pubDate>Sat, 18 Jun 2022 23:54:34 +0200</pubDate>
+      <title>Cante flamenco</title>
+      <link>https://www.ilmosaicodanza.it/tags/cante-flamenco/</link>
+      <pubDate>Thu, 16 Jun 2022 20:22:36 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/corsi-di-flamenco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>approfondimenti</title>
-      <link>https://www.ilmosaicodanza.it/tags/approfondimenti/</link>
-      <pubDate>Fri, 17 Jun 2022 00:44:50 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/approfondimenti/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/cante-flamenco/</guid>
       <description></description>
     </item>
     
@@ -1169,15 +692,6 @@
     </item>
     
     <item>
-      <title>Antonio Porro</title>
-      <link>https://www.ilmosaicodanza.it/tags/antonio-porro/</link>
-      <pubDate>Thu, 16 Jun 2022 20:18:18 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/antonio-porro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Insegnanti di musica</title>
       <link>https://www.ilmosaicodanza.it/tags/insegnanti-di-musica/</link>
       <pubDate>Thu, 16 Jun 2022 20:18:18 +0200</pubDate>
@@ -1187,29 +701,20 @@
     </item>
     
     <item>
-      <title>Francesco Perrotta</title>
-      <link>https://www.ilmosaicodanza.it/tags/francesco-perrotta/</link>
-      <pubDate>Thu, 16 Jun 2022 20:13:33 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/francesco-perrotta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Maria De Laurentiis</title>
-      <link>https://www.ilmosaicodanza.it/tags/maria-de-laurentiis/</link>
-      <pubDate>Thu, 16 Jun 2022 20:01:56 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/maria-de-laurentiis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Insegnanti danza</title>
-      <link>https://www.ilmosaicodanza.it/tags/insegnanti-danza/</link>
+      <title>Danza moderna</title>
+      <link>https://www.ilmosaicodanza.it/tags/danza-moderna/</link>
       <pubDate>Thu, 16 Jun 2022 19:50:31 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/insegnanti-danza/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/danza-moderna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zumba</title>
+      <link>https://www.ilmosaicodanza.it/tags/zumba/</link>
+      <pubDate>Thu, 16 Jun 2022 17:13:09 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/zumba/</guid>
       <description></description>
     </item>
     
@@ -1223,7 +728,7 @@
     </item>
     
     <item>
-      <title>ballo liscio</title>
+      <title>Ballo liscio</title>
       <link>https://www.ilmosaicodanza.it/tags/ballo-liscio/</link>
       <pubDate>Thu, 16 Jun 2022 16:40:30 +0200</pubDate>
       
@@ -1232,29 +737,11 @@
     </item>
     
     <item>
-      <title>danza a distanza</title>
-      <link>https://www.ilmosaicodanza.it/tags/danza-a-distanza/</link>
+      <title>corsi on line</title>
+      <link>https://www.ilmosaicodanza.it/tags/corsi-on-line/</link>
       <pubDate>Sun, 12 Jun 2022 02:36:17 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/danza-a-distanza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>castagnette</title>
-      <link>https://www.ilmosaicodanza.it/tags/castagnette/</link>
-      <pubDate>Sat, 11 Jun 2022 21:26:46 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/castagnette/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danze del sud</title>
-      <link>https://www.ilmosaicodanza.it/tags/danze-del-sud/</link>
-      <pubDate>Sat, 11 Jun 2022 21:26:46 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danze-del-sud/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/corsi-on-line/</guid>
       <description></description>
     </item>
     
@@ -1277,83 +764,11 @@
     </item>
     
     <item>
-      <title>coreografia</title>
-      <link>https://www.ilmosaicodanza.it/tags/coreografia/</link>
-      <pubDate>Fri, 03 Jun 2022 20:36:47 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/coreografia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>danze folk</title>
-      <link>https://www.ilmosaicodanza.it/tags/danze-folk/</link>
-      <pubDate>Sat, 28 May 2022 16:50:01 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/danze-folk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Danza per adulti</title>
       <link>https://www.ilmosaicodanza.it/tags/danza-per-adulti/</link>
       <pubDate>Fri, 27 May 2022 13:10:39 +0100</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/danza-per-adulti/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>movimento</title>
-      <link>https://www.ilmosaicodanza.it/tags/movimento/</link>
-      <pubDate>Thu, 26 May 2022 00:10:51 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/movimento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rilassamento</title>
-      <link>https://www.ilmosaicodanza.it/tags/rilassamento/</link>
-      <pubDate>Thu, 26 May 2022 00:10:51 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/rilassamento/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webinar</title>
-      <link>https://www.ilmosaicodanza.it/tags/webinar/</link>
-      <pubDate>Thu, 26 May 2022 00:10:12 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/webinar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tibaldi</title>
-      <link>https://www.ilmosaicodanza.it/tags/tibaldi/</link>
-      <pubDate>Thu, 26 May 2022 00:07:11 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/tibaldi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ballo</title>
-      <link>https://www.ilmosaicodanza.it/tags/ballo/</link>
-      <pubDate>Wed, 25 May 2022 23:57:18 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/ballo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>liscio</title>
-      <link>https://www.ilmosaicodanza.it/tags/liscio/</link>
-      <pubDate>Wed, 25 May 2022 23:57:18 +0100</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/liscio/</guid>
       <description></description>
     </item>
     

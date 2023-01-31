@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>danze popolari on Il Mosaico Danza</title>
+    <title>Danze popolari on Il Mosaico Danza</title>
     <link>https://www.ilmosaicodanza.it/tags/danze-popolari/</link>
-    <description>Recent content in danze popolari on Il Mosaico Danza</description>
+    <description>Recent content in Danze popolari on Il Mosaico Danza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 03 Jul 2022 10:24:50 +0200</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/tags/danze-popolari/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Jul 2022 21:37:41 +0200</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/tags/danze-popolari/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lezioni di Sevillanas a Milano</title>
       <link>https://www.ilmosaicodanza.it/corso-di-sevillanas/</link>
@@ -17,30 +17,21 @@
     </item>
     
     <item>
+      <title>Bollywood Dance</title>
+      <link>https://www.ilmosaicodanza.it/bollywood-dance/</link>
+      <pubDate>Tue, 21 Jun 2022 14:28:28 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/bollywood-dance/</guid>
+      <description>La Danza Bollywood è una disciplina che si ispira alla cinematografia indiana e che si è diffusa in tutto il mondo grazie ai suoi film che raccontano storie d&amp;rsquo;amore e avventura a ritmo di danza.</description>
+    </item>
+    
+    <item>
       <title>Pizzica Tarantella e Tammurriata</title>
       <link>https://www.ilmosaicodanza.it/corsi-di-pizzica/</link>
       <pubDate>Sat, 11 Jun 2022 21:26:46 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/corsi-di-pizzica/</guid>
       <description>Pizzica, tammurriata e viddanedda (tarantella calabrese) sono danze del sud Italia, si danzano in coppia uomo donna, ma anche donna donna o uomo uomo. Il corso è aperto a tutti</description>
-    </item>
-    
-    <item>
-      <title>Danze Popolari</title>
-      <link>https://www.ilmosaicodanza.it/danze-popolari/</link>
-      <pubDate>Sun, 03 Jul 2022 10:24:50 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/danze-popolari/</guid>
-      <description>Il divertimento è assicurato, non solo Tarantate! È un corso speciale: canto e danza si mischiano per far sentire e toccare con il corpo e la voce un mondo stratificato, fatto di cura, tamburi, danze e melodie cantate.</description>
-    </item>
-    
-    <item>
-      <title>Impara le danze popolari con Sofia</title>
-      <link>https://www.ilmosaicodanza.it/danze-popolari-con-sofia/</link>
-      <pubDate>Sat, 28 May 2022 16:50:01 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/danze-popolari-con-sofia/</guid>
-      <description>Le danze folk fanno parte della sua vita da tempo: ha sempre partecipato a concerti e feste danzanti, ma solo da questi ultimi anni ha ripreso il loro studio con un intento didattico. Ha seguito corsi e stage di diversi&amp;hellip;</description>
     </item>
     
   </channel>
