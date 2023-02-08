@@ -958,6 +958,31 @@ title="Invia ai tuoi amici via email">
 			<div>
 				
 <div class="summary-box relative">
+	<a href="/dancehall/" class="link" title="Dancehall">
+		<h2 class="f4 mt0" style="height:2rem">
+			Dancehall
+		</h2>
+		<div class="nested-links f5 lh-copy nested-copy-line-height">
+			<div class="center mb2">
+				<div class="aspect-ratio aspect-ratio--16x9">
+					<div class="aspect-ratio--object cover grow"
+						style="background:url(/dancehall/milena-ventre-insegnante-reggaeton.webp) center;">
+					</div>
+				</div>
+			</div>
+		</div>
+		Dalla Giamaica la danza che spopola nel mondo. Un ottimo modo per tenersi in forma e guadagnare <strong>elasticità</strong>, <strong>fluidità</strong>, <strong>energia</strong> lasciando tutto il resto fuori dalla porta! Che cos&rsquo;è il Dancehall? Nasce fra la fine degli anni &lsquo;70 e gli anni &lsquo;80 in Giamaica, nel seno della&hellip;
+	</a>
+	<div class="tc">
+		<a class="btn-scopri" href="/dancehall/">scopri di più</a>
+	</div>
+</div>
+			</div>
+			
+			
+			<div>
+				
+<div class="summary-box relative">
 	<a href="/jessica-vassalli/" class="link" title="Jessica Vassalli">
 		<h2 class="f4 mt0" style="height:2rem">
 			Jessica Vassalli
@@ -1820,7 +1845,7 @@ title="Invia ai tuoi amici via email">
           
           
             <a href="/tags/lezioni-di-danza/"
-            class="tagcloud-item link ctag11" title="lezioni-di-danza" style="font-size: 1.1363604768522824rem;">
+            class="tagcloud-item link ctag11" title="lezioni-di-danza" style="font-size: 1.1386849661850733rem;">
               
               lezioni-di-danza
             </a>
@@ -1845,6 +1870,17 @@ title="Invia ai tuoi amici via email">
             class="tagcloud-item link ctag10" title="lindy-hop" style="font-size: 1.028145304048344rem;">
               
               lindy-hop
+            </a>
+        
+          
+          
+          
+          
+          
+            <a href="/tags/marta-mai/"
+            class="tagcloud-item link ctag09" title="marta-mai" style="font-size: 0.9272790462954353rem;">
+              
+              marta-mai
             </a>
         
           
@@ -2062,7 +2098,7 @@ title="Invia ai tuoi amici via email">
           
           
             <a href="/tags/scuola-di-danza/"
-            class="tagcloud-item link ctag12" title="scuola-di-danza" style="font-size: 1.1818371388863058rem;">
+            class="tagcloud-item link ctag12" title="scuola-di-danza" style="font-size: 1.1846623594728407rem;">
               
               scuola-di-danza
             </a>
@@ -2072,30 +2108,8 @@ title="Invia ai tuoi amici via email">
           
           
           
-            <a href="/tags/scuola-di-danza-lezioni-di-danza/"
-            class="tagcloud-item link ctag08" title="scuola-di-danza-lezioni-di-danza" style="font-size: 0.8rem;">
-              
-              scuola-di-danza-lezioni-di-danza
-            </a>
-        
-          
-          
-          
-          
-          
-            <a href="/tags/scuola-di-danza-scuola-di-danza-zona-loreto/"
-            class="tagcloud-item link ctag08" title="scuola-di-danza-scuola-di-danza-zona-loreto" style="font-size: 0.8rem;">
-              
-              scuola-di-danza-scuola-di-danza-zona-loreto
-            </a>
-        
-          
-          
-          
-          
-          
             <a href="/tags/scuola-di-danza-zona-loreto/"
-            class="tagcloud-item link ctag11" title="scuola-di-danza-zona-loreto" style="font-size: 1.1237637092489043rem;">
+            class="tagcloud-item link ctag11" title="scuola-di-danza-zona-loreto" style="font-size: 1.1264251252880642rem;">
               
               scuola-di-danza-zona-loreto
             </a>
@@ -2120,17 +2134,6 @@ title="Invia ai tuoi amici via email">
             class="tagcloud-item link ctag09" title="sevillanas" style="font-size: 0.9477663967419203rem;">
               
               sevillanas
-            </a>
-        
-          
-          
-          
-          
-          
-            <a href="/tags/silvia-carabelli/"
-            class="tagcloud-item link ctag09" title="silvia-carabelli" style="font-size: 0.9008662577529085rem;">
-              
-              silvia-carabelli
             </a>
         
           
@@ -2702,6 +2705,28 @@ Su questo sito utilizziamo cookie tecnici necessari alla navigazione e funzional
 			Contattaci</a>
 	</div>
 </nav>
+
+<script>
+window.addEventListener("load", function() {
+	const banners = document.querySelectorAll('.banner');
+
+	banners.forEach(banner => {
+    	const expiry = banner.getAttribute('data-expiry');
+    	const visibilityStart = banner.getAttribute('data-visibility-start');
+    	if (new Date() > new Date(expiry)) {
+      		banner.style.display = 'none';
+    	} else if (new Date() < new Date(visibilityStart)) {
+      	banner.style.display = 'none';
+    } else {
+    	const threeDaysBeforeExpiry = new Date(expiry);
+    	threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
+    	if (new Date() > threeDaysBeforeExpiry) {
+        	banner.classList.add('urgent');
+      	}
+    }
+  });
+});
+</script>
 
 <script>
 	function getScript(source, callback) {
