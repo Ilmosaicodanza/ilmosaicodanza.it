@@ -2,7 +2,36 @@
 # http://code.google.com/web/controlcrawlindex/
 
 User-agent: *
-
+# 27/02/2023
+Disallow: /danza_contemporanea/musical/musical_653.html
+Disallow: /tag/lindy-ho-2
+Disallow: /contemporary-tribal-fusion/danzatrici-tribal-dance/
+Disallow: /tag-danpe-digruppgo/
+Disallow: /tag/ritmca/
+Disallow: /tag/pizzica/
+Disallow: /talalsa/
+Disallow: /cotggoscuola-dihball:/
+Disallow: /tag/salsa-portoricana/
+Disallow: /tag/corsi-di-ballo/
+Disallow: /tag/milano/
+Disallow: /tag/boogie-woogie/
+Disallow: /tag/sabina-todaro/
+Disallow: /corso_di_yoga/corso_di_yoga_65.html
+Disallow: /tag/insegnanti-di-danza/
+Disallow: /flamencologia/antonio-porro-chitarra-flamenca/
+Disallow: /body-work/logo-danza-moderna/
+Disallow: /tag/webinar/
+Disallow: /tag/balboa/
+Disallow: /foto-paola-savino/
+Disallow: /tag/anatomia/
+Disallow: /tag/swing/
+Disallow: /salsa-e-bachata/salsa/
+Disallow: /tag%20bchatci/
+Disallow: /pizzica_tarantella_e_tammurriata/pagine_culturali_sul_sud_italia/la_taranta/la_taranta_397.html
+Disallow: /corsi-danza-contemporanea/
+Disallow: /tag/scuola-gioco=
+Disallow: /wiag/clagnol.
+Disallow: /breakdance-b-boying/
 Disallow: /tags/caraibi/
 Disallow: /wp-copiinons/ss=
 Disallow: /esempi/
