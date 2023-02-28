@@ -193,13 +193,23 @@
     background-position: right;
   }
   .flex a {
-    box-shadow:0px 0px 12px 4px rgba( 255, 255, 255, 0.4 );
     text-decoration: none;
-    padding: 4px;
+    padding: 8px 1rem;
     font-size: 1.4rem;
     border-radius: 6px;
+    animation: change-shadow 1s infinite;
   }
-
+ @keyframes change-shadow {
+    0% {
+      box-shadow: 0px 0px 8px 4px rgba(255, 165, 0, 0.4);
+    }
+    50% {
+      box-shadow: 0px 0px 16px 4px rgba(255, 215, 200, 0.4);
+    }
+    100% {
+      box-shadow: 0px 0px 12px 4px rgba(255, 165, 0, 0.4);
+    }
+  }
   </style>
 <main class="page-main">
   <section class="page-content mw6 center mb4">
@@ -212,6 +222,47 @@
         <span class="gold">Rimani in pista!</span></a>
       </div>
   </div>
+  <section class="related-pages">
+	<ul>
+	
+		
+			
+			
+			<li>
+				<a href="/danza-in-zona-loreto/">
+				
+					<img src="/danza-in-zona-loreto/logo-il-mosaico-danza-asd.svg" alt="Corsi di danza ballo e movimento  in zona Loreto" title="Corsi di danza ballo e movimento  in zona Loreto">
+				
+				<h4 style="height:6rem">Corsi di danza ballo e movimento  in zona Loreto</h4>
+				</a>
+			</li>
+		
+			
+			
+			<li>
+				<a href="/corsi-in-zona-porta-romana/">
+				
+					<img src="/corsi-in-zona-porta-romana/logo-il-mosaico-danza-asd.svg" alt="Corsi di danza ballo e movimento in zona Porta Romana" title="Corsi di danza ballo e movimento in zona Porta Romana">
+				
+				<h4 style="height:6rem">Corsi di danza ballo e movimento in zona Porta Romana</h4>
+				</a>
+			</li>
+		
+			
+			
+			<li>
+				<a href="/corsi-danza-moderna-zona-tibaldi/">
+				
+					<img src="/corsi-danza-moderna-zona-tibaldi/logo-il-mosaico-danza-asd.svg" alt="Corsi di danza in zona Tibaldi" title="Corsi di danza in zona Tibaldi">
+				
+				<h4 style="height:6rem">Corsi di danza in zona Tibaldi</h4>
+				</a>
+			</li>
+		
+		<li></li>
+	</ul>
+</section>
+
   </section>
 </main>
     <nav class="page-sidebar">
@@ -1444,7 +1495,6 @@ title="Invia ai tuoi amici via email">
 
 
     </nav>
-
 <footer class="site-footer mb4 white">
 	
 	<div class="whatsapp-container">
