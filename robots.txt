@@ -2,9 +2,6 @@
 # http://code.google.com/web/controlcrawlindex/
 
 User-agent: *
-# 06/03/2023
-Disallow: /percussioni-francesco/category/stages-di-musica
-Disallow: /percussioni-francesco/category/flamenco
 # 27/02/2023
 Disallow: /danza_contemporanea/musical/musical_653.html
 Disallow: /tag/lindy-ho-2
@@ -122,7 +119,6 @@ Disallow: /teoria-del-flamenco/danza-in-zona-loreto/index.html
 Disallow: /tags/index.html
 Disallow: /series/index.html
 Disallow: /category/index.html
-Disallow: /cdn-cgi/l/email-protection
 Disallow: /tag/
 Disallow: /benefici-del-massaggio-antistress/
 Disallow: /category/0230-corso-di-spagnolo/
