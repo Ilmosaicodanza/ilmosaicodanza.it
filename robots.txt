@@ -85,10 +85,8 @@ Disallow: /yamuna-body-rolling/
 Disallow: /boogie/anza.it/corsi-danza-moderna-zo46pand
 
 # 02/07/2022
-Disallow: /marinetta-la-porta-insegnante-di-zumba/
 Disallow: /tags/corsi-estivi/
 Disallow: /scuola-danza-del-ventre/
-Disallow: /heels-dance-milano.webp
 
 # 01/07/2022
 Disallow: /corsi-in-presenza-e-on-line/index.html
@@ -113,22 +111,15 @@ Disallow: /improvvisazione/index.html
 Disallow: /pedagogia-del-flamenco/danza-in-zona-loreto/index.html
 Disallow: /jeromo-segura/danza-in-zona-loreto/index.html
 Disallow: /orari-flamenco/danza-in-zona-loreto/index.html
-Disallow: /marie-noelle-terrisse-yoga/index.html
 Disallow: /teoria-del-flamenco/danza-in-zona-loreto/index.html
 
-Disallow: /tags/index.html
-Disallow: /series/index.html
-Disallow: /category/index.html
-Disallow: /tag/
 Disallow: /benefici-del-massaggio-antistress/
 Disallow: /category/0230-corso-di-spagnolo/
 Disallow: /chiara-bistra-caparkova/
 Disallow: /condivisi
 Disallow: /corsi-di-pilates-a-milano/
 Disallow: /corsi-di-tango/
-Disallow: /cos-e-la-danzaterapia/
 Disallow: /danza-gypsy-fusion/
-Disallow: /danzaterapia-dmt/
 Disallow: /flamenco-lavoro-corporeo/
 Disallow: /feed/
 Disallow: /formazione-insegnanti-danza-del-ventre-milano/
@@ -137,7 +128,6 @@ Disallow: /insegnanti-del-corso-di-massaggio/
 Disallow: /lezioni-per-bambini/
 Disallow: /sitemap.xml.gz
 Disallow: /tags/attivit/303/240-per-bambini/index.html
-Disallow: /tango_argentino/Tango_Argent
 
 # Disallow: /images/
 # Disallow: /js/
