@@ -40,7 +40,7 @@ Disallow: /pizzica-con-ortensia/
 Disallow: /maria-de-laurentiis/contemporary-tribal-fusion
 Disallow: /tags/insegnanti-danza/index.xml
 Disallow: /js/S-
-Disallow: Mt/danza-moderna-per-d=
+Disallow: /Mt/danza-moderna-per-d=
 Disallow: /xmtag/dceza-oriertal:/
 Disallow: /category/stages-di-musica/feed/
 Disallow: /danza-modernag/boogie/
@@ -80,7 +80,7 @@ Disallow: /pablo-e-gabriela/
 Disallow: /corpeadonenagers.it7
 Disallow: /sciobookmark
 Disallow: /gttion
-Disallow: /boogie/anza.</nav
+Disallow: /boogie/anza.
 Disallow: /yamuna-body-rolling/
 Disallow: /boogie/anza.it/corsi-danza-moderna-zo46pand
 
