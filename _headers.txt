@@ -1,6 +1,16 @@
 # mar 28/06/2022 20:45:14
 /*
-  Access-Control-Allow-Origin: *
-  X-Frame-Options: DENY
-  Referrer-Policy: no-referrer
-  X-Robots-Tag: nosnippet
+Access-Control-Allow-Origin: *
+
+# il sito non funzionerà dentro a un iframe
+X-Frame-Options: DENY
+
+# disabled 6 mar 2023 Referrer-Policy: no-referrer
+# disabled 6 mar 2023 X-Robots-Tag: nosnippet
+
+# siti esterni da cui si può prelevare contenuto
+# non occorre specificare www o sottodomini
+Content-Security-Policy: default-src 'self' https://wa.me https://annalenaberton.it https://bit.ly https://static.cloudflareinsights.com https://widget.spreaker.com https://wordpress.com https://www.artefyl.com https://www.dailymotion.com https://www.eloiseladanzaeilrespiro.wordpress.com https://www.facebook.com https://www.flamencomilano.it https://www.google.com https://www.instagram.com https://www.mosaicoflamenco.com https://www.spreaker.com https://www.youtube-nocookie.com https://www.youtube.com;
+
+# javascript solo su questo sito
+Content-Security-Policy: script-src 'self';
