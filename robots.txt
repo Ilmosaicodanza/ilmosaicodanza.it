@@ -2,189 +2,191 @@
 # http://code.google.com/web/controlcrawlindex/
 
 User-agent: *
+
+disallow: /presentazione-del-corso-di-michael-jackson-style/
 # 27/02/2023
-Disallow: /danza_contemporanea/musical/musical_653.html
-Disallow: /tag/lindy-ho-2
-Disallow: /contemporary-tribal-fusion/danzatrici-tribal-dance/
-Disallow: /tag-danpe-digruppgo/
-Disallow: /tag/ritmca/
-Disallow: /tag/pizzica/
-Disallow: /talalsa/
-Disallow: /cotggoscuola-dihball:/
-Disallow: /tag/salsa-portoricana/
-Disallow: /tag/corsi-di-ballo/
-Disallow: /tag/milano/
-Disallow: /tag/boogie-woogie/
-Disallow: /tag/sabina-todaro/
-Disallow: /corso_di_yoga/corso_di_yoga_65.html
-Disallow: /tag/insegnanti-di-danza/
-Disallow: /flamencologia/antonio-porro-chitarra-flamenca/
-Disallow: /body-work/logo-danza-moderna/
-Disallow: /tag/webinar/
-Disallow: /tag/balboa/
-Disallow: /foto-paola-savino/
-Disallow: /tag/anatomia/
-Disallow: /tag/swing/
-Disallow: /salsa-e-bachata/salsa/
-Disallow: /tag%20bchatci/
-Disallow: /pizzica_tarantella_e_tammurriata/pagine_culturali_sul_sud_italia/la_taranta/la_taranta_397.html
-Disallow: /corsi-danza-contemporanea/
-Disallow: /tag/scuola-gioco=
-Disallow: /wiag/clagnol.
-Disallow: /breakdance-b-boying/
-Disallow: /tags/caraibi/
-Disallow: /wp-copiinons/ss=
-Disallow: /esempi/
-Disallow: /maria-de-laurentiis/corso-di-danza-del-ventre
-Disallow: /pizzica-con-ortensia/
-Disallow: /maria-de-laurentiis/contemporary-tribal-fusion
-Disallow: /tags/insegnanti-danza/index.xml
-Disallow: /js/S-
-Disallow: /Mt/danza-moderna-per-d=
-Disallow: /xmtag/dceza-oriertal:/
-Disallow: /category/stages-di-musica/feed/
-Disallow: /danza-modernag/boogie/
-Disallow: /corsi-di-reggaeton/andrea_orea/
-Disallow: /category/formazione-per-insegnanti/
-Disallow: /salsa-e-bachata-con-amadou/
-Disallow: /salsa-e-bachata-con-paolo-zizzi/
-Disallow: /catellows-target
-Disallow: /boogie/
-Disallow: /ginnastica-consapevole-metodo-feldenkrais/feed/
-Disallow: /cp/theme/
-Disallow: /zumba/https-movo.itm/ww.ilmosaicodanot
-Disallow: /hilal_dance_danza_contemporanea_egiziana/danza_e_musica_araba/strumenti_musicali_arabi/oud_liuto_arabo/oud_liuto_arabo_414.html
-Disallow: /author/cercoedo/
-Disallow: /corso-di-ballo-liscio-a-milano/aldo-rebatto-danza/
-Disallow: /corso-di-spagnolo/
-Disallow: /corsit-g/s-di-danza-liscrge=
-Disallow: /corso-insegnante-hip-hop/
-Disallow: /corso_di_bioenergetica/cose_la_bioenergetica/Cose_la_bioenergetica_178.html
-Disallow: /zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot
-Disallow: /wiag/boogie/
-Disallow: /tarantella-calabrese/
-Disallow: /corper-teenagers.itti-ti=
-Disallow: /ginnastica-dolce-alexander/
-Disallow: /cenze-sevi
-Disallow: /zumba/a.me/393396173388ont
-Disallow: /zumba/htpsiw.ilmosaicodantumblr.itm/not
-Disallow: /cenze-di
-Disallow: /corper-teenagers.it
-Disallow: /cenze-icoda-7
-Disallow: /cenmichada-jacks/ir7
-Disallow: /cenze-doogie-jive-e-eocka-moly-nzamilano7
-Disallow: /flamencologia/h_a_g-port_g%20aria-describedby=
-Disallow: /planning-corsi-online/
-Disallow: /strumenti-della-musica-del-sud-italia/
-Disallow: /pablo-e-gabriela/
-Disallow: /corpeadonenagers.it7
-Disallow: /sciobookmark
-Disallow: /gttion
-Disallow: /boogie/anza.
-Disallow: /yamuna-body-rolling/
-Disallow: /boogie/anza.it/corsi-danza-moderna-zo46pand
+disallow: /danza_contemporanea/musical/musical_653.html
+disallow: /tag/lindy-ho-2
+disallow: /contemporary-tribal-fusion/danzatrici-tribal-dance/
+disallow: /tag-danpe-digruppgo/
+disallow: /tag/ritmca/
+disallow: /tag/pizzica/
+disallow: /talalsa/
+disallow: /cotggoscuola-dihball:/
+disallow: /tag/salsa-portoricana/
+disallow: /tag/corsi-di-ballo/
+disallow: /tag/milano/
+disallow: /tag/boogie-woogie/
+disallow: /tag/sabina-todaro/
+disallow: /corso_di_yoga/corso_di_yoga_65.html
+disallow: /tag/insegnanti-di-danza/
+disallow: /flamencologia/antonio-porro-chitarra-flamenca/
+disallow: /body-work/logo-danza-moderna/
+disallow: /tag/webinar/
+disallow: /tag/balboa/
+disallow: /foto-paola-savino/
+disallow: /tag/anatomia/
+disallow: /tag/swing/
+disallow: /salsa-e-bachata/salsa/
+disallow: /tag%20bchatci/
+disallow: /pizzica_tarantella_e_tammurriata/pagine_culturali_sul_sud_italia/la_taranta/la_taranta_397.html
+disallow: /corsi-danza-contemporanea/
+disallow: /tag/scuola-gioco=
+disallow: /wiag/clagnol.
+disallow: /breakdance-b-boying/
+disallow: /tags/caraibi/
+disallow: /wp-copiinons/ss=
+disallow: /esempi/
+disallow: /maria-de-laurentiis/corso-di-danza-del-ventre
+disallow: /pizzica-con-ortensia/
+disallow: /maria-de-laurentiis/contemporary-tribal-fusion
+disallow: /tags/insegnanti-danza/index.xml
+disallow: /js/S-
+disallow: /Mt/danza-moderna-per-d=
+disallow: /xmtag/dceza-oriertal:/
+disallow: /category/stages-di-musica/feed/
+disallow: /danza-modernag/boogie/
+disallow: /corsi-di-reggaeton/andrea_orea/
+disallow: /category/formazione-per-insegnanti/
+disallow: /salsa-e-bachata-con-amadou/
+disallow: /salsa-e-bachata-con-paolo-zizzi/
+disallow: /catellows-target
+disallow: /boogie/
+disallow: /ginnastica-consapevole-metodo-feldenkrais/feed/
+disallow: /cp/theme/
+disallow: /zumba/https-movo.itm/ww.ilmosaicodanot
+disallow: /hilal_dance_danza_contemporanea_egiziana/danza_e_musica_araba/strumenti_musicali_arabi/oud_liuto_arabo/oud_liuto_arabo_414.html
+disallow: /author/cercoedo/
+disallow: /corso-di-ballo-liscio-a-milano/aldo-rebatto-danza/
+disallow: /corso-di-spagnolo/
+disallow: /corsit-g/s-di-danza-liscrge=
+disallow: /corso-insegnante-hip-hop/
+disallow: /corso_di_bioenergetica/cose_la_bioenergetica/Cose_la_bioenergetica_178.html
+disallow: /zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot
+disallow: /wiag/boogie/
+disallow: /tarantella-calabrese/
+disallow: /corper-teenagers.itti-ti=
+disallow: /ginnastica-dolce-alexander/
+disallow: /cenze-sevi
+disallow: /zumba/a.me/393396173388ont
+disallow: /zumba/htpsiw.ilmosaicodantumblr.itm/not
+disallow: /cenze-di
+disallow: /corper-teenagers.it
+disallow: /cenze-icoda-7
+disallow: /cenmichada-jacks/ir7
+disallow: /cenze-doogie-jive-e-eocka-moly-nzamilano7
+disallow: /flamencologia/h_a_g-port_g%20aria-describedby=
+disallow: /planning-corsi-online/
+disallow: /strumenti-della-musica-del-sud-italia/
+disallow: /pablo-e-gabriela/
+disallow: /corpeadonenagers.it7
+disallow: /sciobookmark
+disallow: /gttion
+disallow: /boogie/anza.
+disallow: /yamuna-body-rolling/
+disallow: /boogie/anza.it/corsi-danza-moderna-zo46pand
 
 # 02/07/2022
-Disallow: /tags/corsi-estivi/
-Disallow: /scuola-danza-del-ventre/
+disallow: /tags/corsi-estivi/
+disallow: /scuola-danza-del-ventre/
 
 # 01/07/2022
-Disallow: /corsi-in-presenza-e-on-line/index.html
-Disallow: /flamenco-lavoro-corporeo/danza-in-zona-loreto/index.html
-Disallow: /corso-di-improvvisazione-nel-flamenco/index.html
-Disallow: /workout/danza-in-zona-loreto/index.html
-Disallow: /corso-di-improvvisazione-nel-flamenco/danza-in-zona-loreto/index.html
-Disallow: /lezioni-di-flamenco-a-milano/index.html
-Disallow: /lezioni-di-chitarra-milano/danza-in-zona-loreto/index.html
-Disallow: /zumba/corsi-di-reggaeton/danza-in-zona-loreto/index.html
-Disallow: /lezioni-di-chitarra-milano/index.html
-Disallow: /corso-di-danza-contemporanea/index.html
-Disallow: /corso-di-ballo-liscio-a-milano/danza-in-zona-loreto/index.html
-Disallow: /tribal-bellydance-tribal-fusion/danza-in-zona-loreto/index.html
-Disallow: /pedagogia-del-flamenco/anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/index.html
-Disallow: /pedagogia-del-baile-flamenco/index.html
-Disallow: /corso-di-ballo-liscio-a-milano/viviane-grisvard/index.html
-Disallow: /flamenco-lavoro-corporeo/index.html
-Disallow: /pedagogia-del-baile-flamenco/danza-in-zona-loreto/index.html
-Disallow: /zumba/corsi-di-salsa/danza-in-zona-loreto/index.html
-Disallow: /improvvisazione/index.html
-Disallow: /pedagogia-del-flamenco/danza-in-zona-loreto/index.html
-Disallow: /jeromo-segura/danza-in-zona-loreto/index.html
-Disallow: /orari-flamenco/danza-in-zona-loreto/index.html
-Disallow: /teoria-del-flamenco/danza-in-zona-loreto/index.html
+disallow: /corsi-in-presenza-e-on-line/index.html
+disallow: /flamenco-lavoro-corporeo/danza-in-zona-loreto/index.html
+disallow: /corso-di-improvvisazione-nel-flamenco/index.html
+disallow: /workout/danza-in-zona-loreto/index.html
+disallow: /corso-di-improvvisazione-nel-flamenco/danza-in-zona-loreto/index.html
+disallow: /lezioni-di-flamenco-a-milano/index.html
+disallow: /lezioni-di-chitarra-milano/danza-in-zona-loreto/index.html
+disallow: /zumba/corsi-di-reggaeton/danza-in-zona-loreto/index.html
+disallow: /lezioni-di-chitarra-milano/index.html
+disallow: /corso-di-danza-contemporanea/index.html
+disallow: /corso-di-ballo-liscio-a-milano/danza-in-zona-loreto/index.html
+disallow: /tribal-bellydance-tribal-fusion/danza-in-zona-loreto/index.html
+disallow: /pedagogia-del-flamenco/anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/index.html
+disallow: /pedagogia-del-baile-flamenco/index.html
+disallow: /corso-di-ballo-liscio-a-milano/viviane-grisvard/index.html
+disallow: /flamenco-lavoro-corporeo/index.html
+disallow: /pedagogia-del-baile-flamenco/danza-in-zona-loreto/index.html
+disallow: /zumba/corsi-di-salsa/danza-in-zona-loreto/index.html
+disallow: /improvvisazione/index.html
+disallow: /pedagogia-del-flamenco/danza-in-zona-loreto/index.html
+disallow: /jeromo-segura/danza-in-zona-loreto/index.html
+disallow: /orari-flamenco/danza-in-zona-loreto/index.html
+disallow: /teoria-del-flamenco/danza-in-zona-loreto/index.html
 
-Disallow: /benefici-del-massaggio-antistress/
-Disallow: /category/0230-corso-di-spagnolo/
-Disallow: /chiara-bistra-caparkova/
-Disallow: /condivisi
-Disallow: /corsi-di-pilates-a-milano/
-Disallow: /corsi-di-tango/
-Disallow: /danza-gypsy-fusion/
-Disallow: /flamenco-lavoro-corporeo/
-Disallow: /feed/
-Disallow: /formazione-insegnanti-danza-del-ventre-milano/
-Disallow: /giocodanza/
-Disallow: /insegnanti-del-corso-di-massaggio/
-Disallow: /lezioni-per-bambini/
-Disallow: /sitemap.xml.gz
-Disallow: /tags/attivit/303/240-per-bambini/index.html
+disallow: /benefici-del-massaggio-antistress/
+disallow: /category/0230-corso-di-spagnolo/
+disallow: /chiara-bistra-caparkova/
+disallow: /condivisi
+disallow: /corsi-di-pilates-a-milano/
+disallow: /corsi-di-tango/
+disallow: /danza-gypsy-fusion/
+disallow: /flamenco-lavoro-corporeo/
+disallow: /feed/
+disallow: /formazione-insegnanti-danza-del-ventre-milano/
+disallow: /giocodanza/
+disallow: /insegnanti-del-corso-di-massaggio/
+disallow: /lezioni-per-bambini/
+disallow: /sitemap.xml.gz
+disallow: /tags/attivit/303/240-per-bambini/index.html
 
-# Disallow: /images/
-# Disallow: /js/
-# Disallow: /css/
+# disallow: /images/
+# disallow: /js/
+# disallow: /css/
 
 User-agent: MJ12bot
-Disallow: /
+disallow: /
 
 User-agent: BLEXBot
-Disallow: /
+disallow: /
 
 # Block SISTRIX
 User-agent: SISTRIX Crawler
-Disallow: /
+disallow: /
 User-agent: sistrix
-Disallow: /
+disallow: /
 User-agent: 007ac9
-Disallow: /
+disallow: /
 User-agent: 007ac9 Crawler
-Disallow: /
+disallow: /
 
 # Block Uptime robot
 User-agent: UptimeRobot/2.0
-Disallow: /
+disallow: /
 
 # Block Ezooms Robot
 User-agent: Ezooms Robot
-Disallow: /
+disallow: /
 
 # Block Perl LWP
 User-agent: Perl LWP
-Disallow: /
+disallow: /
 
 # Block netEstate NE Crawler (+http://www.website-datenbank.de/)
 User-agent: netEstate NE Crawler (+http://www.website-datenbank.de/)
-Disallow: /
+disallow: /
 
 # Block WiseGuys Robot
 User-agent: WiseGuys Robot
-Disallow: /
+disallow: /
 
 # Block Turnitin Robot
 User-agent: Turnitin Robot
-Disallow: /
+disallow: /
 
 # Block Heritrix
 User-agent: Heritrix
-Disallow: /
+disallow: /
 
 # Block pricepi
 User-agent: pimonster
-Disallow: /
+disallow: /
 
 User-agent: SurdotlyBot
-Disallow: /
+disallow: /
 
 User-agent: ZoominfoBot
-Disallow: /
+disallow: /
 
 Sitemap: https://www.ilmosaicodanza.it/sitemap.xml
