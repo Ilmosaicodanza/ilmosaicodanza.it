@@ -5,7 +5,6 @@ User-agent: *
 
 disallow: /presentazione-del-corso-di-michael-jackson-style/
 # 27/02/2023
-disallow: /danza_contemporanea/musical/musical_653.html
 disallow: /tag/lindy-ho-2
 disallow: /contemporary-tribal-fusion/danzatrici-tribal-dance/
 disallow: /tag-danpe-digruppgo/
@@ -16,18 +15,14 @@ disallow: /cotggoscuola-dihball:/
 disallow: /tag/salsa-portoricana/
 disallow: /tag/corsi-di-ballo/
 disallow: /tag/milano/
-disallow: /tag/boogie-woogie/
 disallow: /tag/sabina-todaro/
-disallow: /corso_di_yoga/corso_di_yoga_65.html
 disallow: /tag/insegnanti-di-danza/
 disallow: /flamencologia/antonio-porro-chitarra-flamenca/
 disallow: /body-work/logo-danza-moderna/
 disallow: /tag/webinar/
-disallow: /tag/balboa/
 disallow: /foto-paola-savino/
 disallow: /tag/anatomia/
 disallow: /tag/swing/
-disallow: /salsa-e-bachata/salsa/
 disallow: /tag%20bchatci/
 disallow: /pizzica_tarantella_e_tammurriata/pagine_culturali_sul_sud_italia/la_taranta/la_taranta_397.html
 disallow: /corsi-danza-contemporanea/
@@ -51,7 +46,6 @@ disallow: /category/formazione-per-insegnanti/
 disallow: /salsa-e-bachata-con-amadou/
 disallow: /salsa-e-bachata-con-paolo-zizzi/
 disallow: /catellows-target
-disallow: /boogie/
 disallow: /ginnastica-consapevole-metodo-feldenkrais/feed/
 disallow: /cp/theme/
 disallow: /zumba/https-movo.itm/ww.ilmosaicodanot
