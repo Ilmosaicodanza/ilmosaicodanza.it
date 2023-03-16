@@ -108,8 +108,9 @@
 /tag/boogie-woogie/ /tags/boogie-woogie/ 301
 /tag/cante-flamenco/ /tags/cante-flamenco/ 301
 /tag/cante-flamenco /tags/cante-flamenco/ 301
-/tag/danze-di-coppia/
+/tag/danze-di-coppia/ /tags/danze-di-coppia/ 301
 /tag/danze-di-coppia /tags/danze-di-coppia/ 301
+/tag/danze-popolari/ /tags/danze-popolari/ 301
 /tag/danze-popolari /tags/danze-popolari/ 301
 /tag/flamenco /tags/flamenco/ 301
 /tag/formazione/ /tags/formazione/ 301
@@ -268,6 +269,7 @@
 /yamuna-body-rolling/ /category/corsi-movimento-e-benessere/ 301
 /yoga /corso-yoga-milano/ 301
 /zumba/ /dance-workout/ 301
+
 /danza-moderna-per-* /danza-contemporanea/ 301
 /danzando-tribal-dance* /tags/tribal-dance/ 301
 /danze_caraibiche_* /salsa-e-bachata/ 301
