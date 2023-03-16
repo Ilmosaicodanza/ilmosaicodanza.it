@@ -67,10 +67,7 @@
 /flamencologia /flamencologia/ 301
 /gestione/* /category/flamenco/ 301
 /get_password* /news/ 301
-/ginnastica-consapevole-metodo-feldenkrais* /category/corsi-movimento-e-benessere/ 301
-/ginnastica-dolce-alexander* /category/corsi-movimento-e-benessere/ 301
-/ginnastica-fitness-e-benessere/ /category/corsi-movimento-e-benessere/ 301
-/ginnastica-posturale/ /category/corsi-movimento-e-benessere/ 301
+/ginnastica-* /category/corsi-movimento-e-benessere/ 301
 /giocodanza/ /tags/danza-milano-bambini/ 301
 /gttion /news/ 301
 /heel-dance* /heels-dance/ 301
@@ -92,6 +89,7 @@
 /lezioni-di-chitarra-* /lezioni-di-chitarra/ 301
 /lindy-hop /lindy-hop/ 301
 /login_up.php /news/ 301
+/lyrical-arab /lyrical-arab-dance/ 301
 /lyrical-arab/ /lyrical-arab-dance/ 301
 /m8saico* /news/ 301
 /maria-de-laurentiis/ /sara-ti/ 301
