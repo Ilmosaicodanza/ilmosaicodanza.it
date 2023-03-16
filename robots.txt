@@ -77,10 +77,6 @@ disallow: /wiag/clagnol.
 disallow: /wp-copiinons/ss=
 disallow: /xmtag/dceza-oriertal:/
 disallow: /yamuna-body-rolling/
-disallow: /zumba/a.me/393396173388ont
-disallow: /zumba/htpsiw.ilmosaicodantumblr.itm/not
-disallow: /zumba/https-movo.itm/ww.ilmosaicodanot
-disallow: /zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot
 
 # 02/07/2022
 
@@ -124,8 +120,6 @@ disallow: /tags/attivit/303/240-per-bambini/index.html
 disallow: /teoria-del-flamenco/danza-in-zona-loreto/index.html
 disallow: /tribal-bellydance-tribal-fusion/danza-in-zona-loreto/index.html
 disallow: /workout/danza-in-zona-loreto/index.html
-disallow: /zumba/corsi-di-reggaeton/danza-in-zona-loreto/index.html
-disallow: /zumba/corsi-di-salsa/danza-in-zona-loreto/index.html
 
 # disallow: /images/
 # disallow: /js/
