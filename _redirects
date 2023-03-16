@@ -5,12 +5,13 @@
 /category/attivita-pe/flamenco /category/flamenco/ 301
 /category/benessere /category/corsi-movimento-e-benessere/ 301
 /category/corsi-movimento-e-benessere /category/corsi-movimento-e-benessere/ 301
+/category/corsi-movimento-e-benessere, /category/corsi-movimento-e-benessere/ 301
 /category/formazione-per-insegnanti/ /insegnare-danza/ 301
 /category/i-nostri-insegnanti /category/i-nostri-insegnanti/ 301
 /category/stages-di-musica/feed/ /category/stages-di-musica/ 301
 /catellows-target / 301
 /catgg/salsa/ /salsa-e-bachata/ 301
-/ci-reggaetifcompas/
+/ci-reggaetifcompas/ /con-mucho-compas/ 301
 /ci-reggaetifcompas /con-mucho-compas/ 301
 /cookie-policy /cookie-policy/ 301
 /contact-us /contact-us/ 301
@@ -48,8 +49,8 @@
 /danza_contemporanea /danza-contemporanea/ 301
 /danza_e_musica_africana /tags/tribal-dance/ 301
 /danza_modern_jazz/ /danza-moderna/ 301
-/danza-in-zona-loreto /zona-loreto/ 301
-/danza-in-zona-loreto/ss/ /zona-loreto/ 301
+/danza-in-zona-loreto /tags/zona-loreto/ 301
+/danza-in-zona-loreto/ss/ /tags/zona-loreto/ 301
 /danza-del-tao/ /category/corsi-movimento-e-benessere/ 301
 /danza-del-ventre /corso-di-danza-del-ventre/ 301
 /danza-moderna /danza-moderna/ 301
@@ -145,8 +146,8 @@
 /tags/antonio-porro /tags/antonio-porro/ 301
 /tags/approfondimenti /flamencologia/ 301
 /tags/arianna-biancotto /tags/arianna-biancotto/ 301
-/tags/attivita-per-adulti /danza-per-adulti/ 301
-/tags/attività-per-adulti /danza-per-adulti/ 301
+/tags/attivita-per-adulti /tags/danza-per-adulti/ 301
+/tags/attività-per-adulti /tags/danza-per-adulti/ 301
 /tags/attivita-per-bambini /tags/danza-per-bambini/ 301
 /tags/attivita-per-bambini /tags/danza-per-bambini/ 301
 /tags/bachata /tags/bachata/ 301
@@ -225,15 +226,18 @@
 /tags/il-mosaico-danza/ /tags/milano/ 301
 /tags/il-mosaico-danza /tags/milano/ 301
 /tags/improvvisazione-flamenco/ /imparare-a-improvvisare/ 301
-/tags/improvvisazione-flamenco
+/tags/improvvisazione-flamenco /imparare-a-improvvisare/ 301
 /tags/improvvisazioni /tags/improvvisazioni/ 301
 /tags/insegnamento/ /tags/insegnanti-di-danza/ 301
 /tags/insegnanti-di-danza /tags/insegnanti-di-danza/ 301
 /tags/insegnanti-di-musica /tags/insegnanti-di-musica/ 301
 /tags/jamila-zaki /tags/jamila-zaki/ 301
+/tags/india /tags/danza-orientale/ 301
+/tags/insegnamento /tags/insegnanti-di-danza/ 301
 /tags/jive /tags/jive/ 301
 /tags/larry-daccò  /tags/larry-daccò/ 301
-/tags/latin/ /category/corsi-di-danza/ 301
+/tags/latin /tags/salsa-e-bachata/ 301
+/tags/latin/ /tags/salsa-e-bachata/ 301
 /tags/lezioni-di-ballo /tags/lezioni-di-ballo/ 301
 /tags/lezioni-di-danza /tags/lezioni-di-danza/ 301
 /tags/lezioni-di-danza-di-ballo/ /tags/lezioni-di-danza/ 301
