@@ -1,6 +1,6 @@
 /antonio-porro/ /chitarra-flamenca-antonio/ 301
-/author/cercoedo/ / 301
-/corper-teenagers.itti-ti=
+/author/cercoedo/ /category/corsi-di-danza/ 301
+/corper-teenagers.itti-ti= /category/corsi-di-danza/ 301
 /boogie/ /corso-di-boogie-jive-e-rockabilly-milano/ 301
 /canto-sul-tamburo- /corsi-di-pizzica/ 301
 /carmen-amor-flamenco /flamenco/ 301
@@ -204,9 +204,11 @@
 /tags/balboa /tags/balboa/ 301
 /tags/balli-latini/ /balli-latini/ 301
 /tags/balli-latini /balli-latini/ 301
-/tags/ballo/ /corsi-di-ballo/ 301
-/tags/ballo /corsi-di-ballo/ 301
+/tags/ballo/ /tags/corsi-di-ballo/ 301
+/tags/ballo /tags/corsi-di-ballo/ 301
 /tags/ballo-liscio /tags/ballo-liscio/ 301
+/tags/bata-de-cola  /tags/abbigliamento-flamenco/ 301
+/tags/bata-de-cola/ /tags/abbigliamento-flamenco/ 301
 /tags/bambini/ /tags/danza-per-bambini/ 301
 /tags/bambini /tags/danza-per-bambini/ 301
 /tags/bellydance /tags/bellydance/ 301
@@ -214,8 +216,6 @@
 /tags/blues /tags/blues-dance/ 301
 /tags/blues-dance /tags/blues-dance/ 301
 /tags/bollywood /bollywood-dance/ 301
-/tags/bata-de-cola  /abbigliamento-flamenco/ 301
-/tags/bata-de-cola/ /abbigliamento-flamenco/ 301
 /tags/bollywood/ /tags/tribal-dance/ 301
 /tags/boogie/ /tags/boogie-woogie/ 301
 /tags/boogie /tags/boogie-woogie/ 301
@@ -227,7 +227,7 @@
 /tags/castagnette /tags/castagnette/ 301
 /tags/castanuelas /tags/castagnette/ 301
 /tags/castanuelas/ /tags/castagnette/ 301
-/tags/coreografia/index.xml
+/tags/coreografia/index.xml /montare-una-coreografia-flamenco/ 301
 /tags/chitarra/ /tags/chitarra-flamenco/ 301
 /tags/chitarra /tags/chitarra-flamenco/ 301
 /tags/chitarra-flamenco /tags/chitarra-flamenco/ 301
@@ -429,6 +429,7 @@
 /tags/tammurita/ /tags/pizzica/ 301
 /tags/tammurita /tags/danza-del-sud/ 301
 /tags/tammurriata /tags/danze-popolari/ 301
+/tags/tammuriata /tags/danze-popolari/ 301
 /tags/tammuriata/ /tags/danze-popolari/ 301
 /tags/tango https://www.ilmosaicodanza.it/tags/tango-argentino/ 301
 /tags/tango/ https://www.ilmosaicodanza.it/tags/tango-argentino/ 301
