@@ -18,21 +18,15 @@ Disallow: /lezioni-di-cajon-milano/stage-di-cajon.webp
 # 27/02/2023
 disallow: /boogie/anza.
 disallow: /breakdance-b-boying/
-disallow: /category/stages-di-musica/feed/
 disallow: /catellows-target
 disallow: /cenmichada-jacks/ir7
 disallow: /cenze-di
 disallow: /cenze-icoda-7
 disallow: /cenze-sevi
-disallow: /contemporary-tribal-fusion/danzatrici-tribal-dance/
 disallow: /corpeadonenagers.it7
 disallow: /corper-teenagers.it
 disallow: /corper-teenagers.itti-ti=
-disallow: /corsi-danza-contemporanea/
 disallow: /corsit-g/s-di-danza-liscrge=
-disallow: /corso_di_bioenergetica/cose_la_bioenergetica/Cose_la_bioenergetica_178.html
-disallow: /corso-di-ballo-liscio-a-milano/aldo-rebatto-danza/
-disallow: /corso-di-spagnolo/
 disallow: /corso-insegnante-hip-hop/
 disallow: /cp/theme/
 disallow: /esempi/
@@ -40,15 +34,7 @@ disallow: /foto-paola-savino/
 disallow: /ginnastica-consapevole-metodo-feldenkrais/feed/
 disallow: /ginnastica-dolce-alexander/
 disallow: /gttion
-disallow: /hilal_dance_danza_contemporanea_egiziana/danza_e_musica_araba/strumenti_musicali_arabi/oud_liuto_arabo/oud_liuto_arabo_414.html
 disallow: /js/S-
-disallow: /maria-de-laurentiis/contemporary-tribal-fusion
-disallow: /maria-de-laurentiis/corso-di-danza-del-ventre
-disallow: /pablo-e-gabriela/
-disallow: /pizzica-con-ortensia/
-disallow: /planning-corsi-online/
-disallow: /salsa-e-bachata-con-amadou/
-disallow: /salsa-e-bachata-con-paolo-zizzi/
 disallow: /sciobookmark
 disallow: /tag/anatomia/
 disallow: /tag/corsi-di-ballo/
@@ -66,7 +52,6 @@ disallow: /wiag/boogie/
 disallow: /wiag/clagnol.
 disallow: /wp-copiinons/ss=
 disallow: /yamuna-body-rolling/
-
 
 User-agent: MJ12bot
 disallow: /
