@@ -18,7 +18,6 @@ Disallow: /lezioni-di-cajon-milano/stage-di-cajon.webp
 # 27/02/2023
 disallow: /boogie/anza.
 disallow: /breakdance-b-boying/
-disallow: /category/formazione-per-insegnanti/
 disallow: /category/stages-di-musica/feed/
 disallow: /catellows-target
 disallow: /cenmichada-jacks/ir7
@@ -53,7 +52,6 @@ disallow: /salsa-e-bachata-con-paolo-zizzi/
 disallow: /sciobookmark
 disallow: /tag/anatomia/
 disallow: /tag/corsi-di-ballo/
-disallow: /tag/insegnanti-di-danza/
 disallow: /tag/lindy-ho-2
 disallow: /tag/milano/
 disallow: /tag/pizzica/
@@ -62,7 +60,6 @@ disallow: /tag/sabina-todaro/
 disallow: /tag/salsa-portoricana/
 disallow: /tag/swing/
 disallow: /tag/webinar/
-disallow: /tags/insegnanti-danza/index.xml
 disallow: /talalsa/
 disallow: /tarantella-calabrese/
 disallow: /wiag/boogie/
