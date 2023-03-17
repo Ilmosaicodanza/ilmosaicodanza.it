@@ -5,8 +5,18 @@ User-agent: *
 
 disallow: /presentazione-del-corso-di-michael-jackson-style/
 
-# 27/02/2023
+# 16/03/2023
+Disallow: /danza-in-zona-loreto/ss/� 18.35-19.30
+Disallow: /zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot
+Disallow: /zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot
+Disallow: /zumba/https
+Disallow: /tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/index.xml
+Disallow: /categzumb-/ss=
+Disallow: /esempi/
+Disallow: /la-migliore-scuola-di-flamenco-a-milano/spettacolo-flamenco-mosaico-danza-milano.webp
+Disallow: /lezioni-di-cajon-milano/stage-di-cajon.webp
 
+# 27/02/2023
 disallow: /author/cercoedo/
 disallow: /body-work/logo-danza-moderna/
 disallow: /boogie/anza.
