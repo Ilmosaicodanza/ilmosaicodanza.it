@@ -3,55 +3,8 @@
 
 User-agent: *
 
-disallow: /presentazione-del-corso-di-michael-jackson-style/
-disallow: /tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/index.xml
 Disallow: /esempi/
-
-# 16/03/2023
-Disallow: /danza-in-zona-loreto/ss/� 18.35-19.30
-Disallow: /zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot
-Disallow: /zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot
-Disallow: /zumba/https
-Disallow: /categzumb-/ss=
-Disallow: /lezioni-di-cajon-milano/stage-di-cajon.webp
-
-# 27/02/2023
-disallow: /boogie/anza.
-disallow: /breakdance-b-boying/
-disallow: /catellows-target
-disallow: /cenmichada-jacks/ir7
-disallow: /cenze-di
-disallow: /cenze-icoda-7
-disallow: /cenze-sevi
-disallow: /corpeadonenagers.it7
-disallow: /corper-teenagers.it
-disallow: /corper-teenagers.itti-ti=
-disallow: /corsit-g/s-di-danza-liscrge=
-disallow: /corso-insegnante-hip-hop/
-disallow: /cp/theme/
-disallow: /esempi/
-disallow: /foto-paola-savino/
-disallow: /ginnastica-consapevole-metodo-feldenkrais/feed/
-disallow: /ginnastica-dolce-alexander/
-disallow: /gttion
-disallow: /js/S-
-disallow: /sciobookmark
-disallow: /tag/anatomia/
-disallow: /tag/corsi-di-ballo/
-disallow: /tag/lindy-ho-2
-disallow: /tag/milano/
-disallow: /tag/pizzica/
-disallow: /tag/ritmca/
-disallow: /tag/sabina-todaro/
-disallow: /tag/salsa-portoricana/
-disallow: /tag/swing/
-disallow: /tag/webinar/
-disallow: /talalsa/
-disallow: /tarantella-calabrese/
-disallow: /wiag/boogie/
-disallow: /wiag/clagnol.
-disallow: /wp-copiinons/ss=
-disallow: /yamuna-body-rolling/
+Disallow: /cdn-cgi/l/email-protection
 
 User-agent: MJ12bot
 disallow: /
