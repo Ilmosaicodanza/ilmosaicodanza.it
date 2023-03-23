@@ -10,7 +10,7 @@ X-Frame-Options: DENY
 
 # siti esterni da cui si può prelevare contenuto
 # non occorre specificare www o sottodomini
-Content-Security-Policy: default-src 'self' https://wa.me https://annalenaberton.it https://bit.ly https://static.cloudflareinsights.com https://widget.spreaker.com https://wordpress.com https://www.artefyl.com https://www.dailymotion.com https://www.eloiseladanzaeilrespiro.wordpress.com https://www.facebook.com https://www.flamencomilano.it https://www.google.com https://www.instagram.com https://www.mosaicoflamenco.com https://www.spreaker.com https://www.youtube-nocookie.com https://www.youtube.com;
+Content-Security-Policy: default-src 'self' https://wa.me https://annalenaberton.it https://www.annalenaberton.it https://bit.ly https://static.cloudflareinsights.com https://widget.spreaker.com https://wordpress.com https://www.artefyl.com https://www.dailymotion.com https://www.eloiseladanzaeilrespiro.wordpress.com https://www.facebook.com https://www.flamencomilano.it https://www.google.com https://www.instagram.com https://www.mosaicoflamenco.com https://www.spreaker.com https://www.youtube-nocookie.com https://www.youtube.com;
 
-# javascript solo su questo sito
-Content-Security-Policy: script-src 'self' https://www.googletagmanager.com;
+# javascript solo su questi siti
+Content-Security-Policy: script-src 'self' https://www.googletagmanager.com https://googletagmanager.com https://www.google-analytics.com https://google-analytics.com;
