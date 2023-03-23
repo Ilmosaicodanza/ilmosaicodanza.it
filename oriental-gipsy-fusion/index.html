@@ -2541,6 +2541,17 @@ Su questo sito utilizziamo cookie tecnici necessari alla navigazione e funzional
 </nav>
 
 <script>
+function getScript(url, callback) {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = url;
+  script.async = true;
+  script.onload = callback;
+  document.head.appendChild(script);
+}
+</script>
+
+<script>
 window.addEventListener("load", function() {
 	const banners = document.querySelectorAll('.banner');
 
