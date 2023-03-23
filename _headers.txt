@@ -4,7 +4,7 @@
 # il sito non funzionerà dentro a un iframe
 # disabilitato 23 mar 2023 X-Frame-Options: DENY
 # sostituisce X-Frame-Options da 23 mar 2023
-Content-Security-Policy: frame-ancestors 'none';
+# disabilitato 23 mar 2023 perché potrebbe interferire con gtag.js Content-Security-Policy: frame-ancestors 'none';
 
 # disabled 6 mar 2023 Referrer-Policy: no-referrer
 # disabled 6 mar 2023 X-Robots-Tag: nosnippet
