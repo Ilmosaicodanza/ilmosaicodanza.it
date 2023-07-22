@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Cerca nel sito",
+    "body": "Cerca e trova l'ispirazione per migliorare la tua salute e benessere fisico e mentale con i nostri corsi, tenuti da insegnanti qualificati! Cerca tra i nostri corsi di danza e yoga per tutti i livelli, dalle lezioni per bambini a quelle per adulti. Trova l'ispirazione per migliorare la tua salute e benessere fisico e mentale con i nostri insegnanti qualificati! Scopri il mondo della danza con Il Mosaico Danza!",
+    "uri": "/cerca-nel-sito",
+    "meta": {
+      "date": "2022-07-02T12:40:03+02:00",
+      "description": "Cerca e trova l'ispirazione per migliorare la tua salute e benessere fisico e mentale con i nostri corsi, tenuti da insegnanti qualificati!",
+      "tags": "salute, benessere, corsi, danza, yoga",
+      "categories": "crescita personale, benessere",
+      "keywords": "corsi di danza, corsi di yoga, insegnanti qualificati, benessere fisico, benessere mentale",
+      "summary": "Cerca e trova l'ispirazione per migliorare la tua salute e benessere fisico e mentale con i nostri corsi, tenuti da insegnanti qualificati!"
+    }
+  },
+  {
+    "title": "Titolo articolo 2",
+    "body": "Contenuto dell'articolo 2",
+    "uri": "/articolo-2",
+    "meta": {
+      "date": "2023-01-15T09:20:00+02:00",
+      "description": "Descrizione articolo 2",
+      "tags": "tag1, tag2, tag3",
+      "categories": "categoria1, categoria2",
+      "keywords": "parola chiave 1, parola chiave 2, parola chiave 3",
+      "summary": "Sommario articolo 2"
+    }
+  }
+]
