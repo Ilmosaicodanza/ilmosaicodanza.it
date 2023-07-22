@@ -15,7 +15,7 @@ const performSearch = async (searchEngine, searchTerm) => {
   document.getElementById("search-results").innerHTML = searchResponse.hits
     .map(
       (i) =>
-        `<li><a href="${i.document.url}" class="list-group-item list-group-item-action">${i.document.title}</a></li>`
+        `<li><a href="${i.document.uri}" class="list-group-item list-group-item-action">${i.document.title}</a></li>`
     )
     .join("");
 };
