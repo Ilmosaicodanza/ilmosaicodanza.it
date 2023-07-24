@@ -7,6 +7,11 @@ import {
 let showSpinner;
 let hideSpinner;
 
+const heading = document.getElementsByClassName('lh-copy')[0];
+      if (heading) {
+        heading.scrollIntoView();
+      }
+
 const performSearch = async (searchEngine, searchTerm) => {
   const searchResponse = await search(searchEngine, {
     term: searchTerm,
