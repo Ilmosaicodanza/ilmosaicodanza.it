@@ -41,6 +41,7 @@ const init = async () => {
       title: "string",
       content: "string",
       url: "string",
+      description: "string",
     },
     defaultLanguage: "italian",
   });
