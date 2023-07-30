@@ -1,0 +1,1484 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="locale" content="it_it">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title> - Il Mosaico Danza</title>
+  <meta name="description" content="Orama Plug and play React charts.
+Responsive layout Automatic data type extraction Freely composable marks Canvas rendering and caching optimizations Configurable theme Orama has been powering Kensho&rsquo;s charts in production for more than a year.
+/horáō, &ldquo;to see, spiritually and mentally&rdquo; – a vision, focusing on the impact it has on the one beholding the vision.
+Quick Start $ npm install orama Get an array of objects: [{key1, key2}, {key1, key2}, .">
+  <meta property="og:type"  content="article" >
+  <meta property="og:title" content=" - Il Mosaico Danza">
+  <meta property="og:description" content="Orama Plug and play React charts.
+Responsive layout Automatic data type extraction Freely composable marks Canvas rendering and caching optimizations Configurable theme Orama has been powering Kensho&rsquo;s charts in production for more than a year.
+/horáō, &ldquo;to see, spiritually and mentally&rdquo; – a vision, focusing on the impact it has on the one beholding the vision.
+Quick Start $ npm install orama Get an array of objects: [{key1, key2}, {key1, key2}, .">
+  <meta property="og:site_name" content="Il Mosaico Danza">
+  <meta property="og:url" content="https://www.ilmosaicodanza.it/search/orama/readme/">
+  <meta property="og:locale" content="it_it">
+  
+  <meta property="article:section" content="search">
+  
+  
+  
+  <link rel="canonical" href="https://www.ilmosaicodanza.it/search/orama/readme/">
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Orama Plug and play React charts.
+Responsive layout Automatic data type extraction Freely composable marks Canvas rendering and caching optimizations Configurable theme Orama has been powering Kensho&rsquo;s charts in production for more than a year.
+/horáō, &ldquo;to see, spiritually and mentally&rdquo; – a vision, focusing on the impact it has on the one beholding the vision.
+Quick Start $ npm install orama Get an array of objects: [{key1, key2}, {key1, key2}, ."/>
+<meta name="twitter:site" content="@mosaico"/>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2b5797">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#333333">
+<meta name="yandex-verification" content="226b8b89717a99ec">
+<link rel="alternate" type="application/rss+xml" href="https://www.ilmosaicodanza.it/search/orama/readme/index.xml" title=" - Il Mosaico Danza">
+  <link rel="stylesheet" href="/style.main.min.css" integrity="" media="screen">
+    
+
+
+</head>
+
+        <body>
+        <div class="grid-container"><header class="site-header">
+  <div class="relative">
+    <div class="smallmenu">
+      <a href="#menu-sidebar" title="smartphone menu">
+        <div class="moon-gray">
+          <div class="f7 tracked gold">menu</div>
+            <svg class="moon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <rect x="1" y="1" width="22" height="22" rx="3" ry="3" stroke="currentColor" fill="black" fill-opacity="1" class="moon-menu"/>
+              <line x1="6" y1="7" x2="18" y2="7" stroke="#ffba08" stroke-opacity="1"/>
+              <line x1="6" y1="12" x2="18" y2="12" stroke="#ffba08" stroke-opacity="1"/>
+              <line x1="6" y1="17" x2="18" y2="17" stroke="#ffba08" stroke-opacity="1"/>
+            </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="relative">
+    
+    <div id="bigbar">
+        <div class="logo">
+          <a class="link no-underline db"
+            href="https://www.ilmosaicodanza.it"
+            title="Il Mosaico Danza a.s.d. Logo">
+            <img src="/img/logo-il-mosaico-danza-asd.svg"
+              alt="Logo costituito da tre rombi con una figura danzante inscritta in ciascuno, e la scritta Il Mosaico Danza"
+              width="672" height="448">
+          </a>
+        </div>
+        <div class="whatsapp">
+          <span>
+            <span>
+            <a href="#" class="whatsappLink link gold">
+              <i class="dib w2 ma1"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 512 512"><path fill="#ededed" d="m0 512 35.31-128C12.359 344.276 0 300.138 0 254.234 0 114.759 114.759 0 255.117 0S512 114.759 512 254.234 395.476 512 255.117 512c-44.138 0-86.51-14.124-124.469-35.31L0 512z"/><path fill="#55cd6c" d="m137.71 430.786 7.945 4.414c32.662 20.303 70.621 32.662 110.345 32.662 115.641 0 211.862-96.221 211.862-213.628S371.641 44.138 255.117 44.138 44.138 137.71 44.138 254.234c0 40.607 11.476 80.331 32.662 113.876l5.297 7.945-20.303 74.152 75.916-19.421z"/><path fill="#fefefe" d="m187.145 135.945-16.772-.883c-5.297 0-10.593 1.766-14.124 5.297-7.945 7.062-21.186 20.303-24.717 37.959-6.179 26.483 3.531 58.262 26.483 90.041s67.09 82.979 144.772 105.048c24.717 7.062 44.138 2.648 60.028-7.062 12.359-7.945 20.303-20.303 22.952-33.545l2.648-12.359c.883-3.531-.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-.883-10.593 2.648l-22.069 28.248c-1.766 1.766-4.414 2.648-7.062 1.766-15.007-5.297-65.324-26.483-92.69-79.448-.883-2.648-.883-5.297.883-7.062l21.186-23.834c1.766-2.648 2.648-6.179 1.766-8.828l-25.6-57.379c-.884-2.649-3.532-5.297-7.063-5.297"/></svg></i> 339.61.73.388
+            </a>
+              
+              </a>
+            </span>
+          </span>
+        </div>
+        <div class="telefono">
+          <span>
+            <span>
+              <a href="tel:+390258317962"
+                class="link gold">
+                <i class="dib w1 mr2 white">
+                  <svg viewBox="0 0 406 406" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" >
+                    <path d="M362.333 293.88a231.532 231.532 0 0 1-72.704-11.563c-10.97-3.836-23.163-9.254-31.637-1.301l-43.037 23.731a257.105 257.105 0 0 1-114.389-114.368l30.813-43.928c8.537-8.543 3.59-21.136-.085-32.64A231.792 231.792 0 0 1 119.667 41c0-17.673 1.673-24-16-24L32 16C14.327 16 0 30.327 0 48c.235 206.089 151.244 357.098 357.333 357.333 17.673 0 32-6.327 32-24l-3-63.453c0-17.673-6.327-24-24-24Z" fill="currentColor" fill-rule="nonzero" />
+                    <path d="M378.667 178.667c-5.891 0-10.667-4.776-10.667-10.667-.094-76.545-54.122-130.573-130.667-130.667-5.891 0-10.667-4.776-10.667-10.667S231.442 16 237.333 16c88.327.094 151.906 63.673 152 152 0 5.891-4.775 10.667-10.666 10.667ZM285.333 194.667c-5.891 0-10.667-4.776-10.667-10.667 0-29.455-23.878-53.333-53.333-53.333-5.891 0-10.667-4.776-10.667-10.667s4.776-10.667 10.667-10.667c41.238 0 74.667 33.43 74.667 74.667 0 5.891-4.776 10.667-10.667 10.667Z" fill="currentColor" fill-rule="nonzero" />
+                  </svg> </i>02.58.31.79.62
+              </a></span></span>
+        </div>
+        <div class="mobile">
+          <span itemscope itemtype="https://schema.org/ContactPoint">
+            <span itemprop="telephone">
+              <a href="tel:+393519459036"
+                class="link gold"
+                title="Telefono mobile Segreteria">
+                <i class="dib w1 mr2 white">
+                  <svg width="14" height="22" version="1.1" viewBox="0 0 3.7042 5.8208" xmlns="http://www.w3.org/2000/svg" > <path d="m3.175 0.0026-2.6458-0.0026c-0.29104 0-0.52917 0.23812-0.52917 0.52917v4.7625c0 0.29104 0.23813 0.52917 0.52917 0.52917h2.6458c0.29104 0 0.52917-0.23812 0.52917-0.52917v-4.7625c0-0.29104-0.23813-0.52652-0.52917-0.52652zm0 4.7599h-2.6458v-3.7042h2.6458z" fill="currentColor" stroke-width=".26458" /> </svg>
+                </i>351.94.59.036
+              </a></span></span>
+        </div>
+        <div class="email">
+          <span  itemscope itemtype="https://schema.org/ContactPoint">
+            <span itemprop="email">
+              <a href="mailto:info@ilmosaicodanza.it"
+                class="link gold">
+                <i class="dib w1 mr2 white">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve" ><path d="M460.8 51.2H51.2C22.921 51.2 0 74.121 0 102.4v307.2c0 28.279 22.921 51.2 51.2 51.2h409.6c28.279 0 51.2-22.921 51.2-51.2V102.4c0-28.279-22.921-51.2-51.2-51.2zM25.6 148.745 178.825 256 25.6 363.264V148.745zM486.4 409.6c0 14.114-11.486 25.6-25.6 25.6H51.2c-14.114 0-25.6-11.486-25.6-25.6v-15.104l175.548-122.88 47.505 33.254c4.446 3.098 10.249 3.098 14.703 0l47.505-33.254L486.4 394.496V409.6zm0-46.345L333.175 256 486.4 148.736v214.519zm0-245.751L256 278.775 25.6 117.504V102.4c0-14.114 11.486-25.6 25.6-25.6h409.6c14.114 0 25.6 11.486 25.6 25.6v15.104z" fill="currentColor" /></svg>
+                </i>info@ilmosaicodanza.it
+              </a></span></span>
+        </div>
+        <div></div>
+        <div class="motto">La migliore scuola di danza a Milano</div>
+        <div class="particle" id="tsparticles"></div>
+    </div>
+    </div>
+    
+      <div id="smallbar">
+        <div class="smalllogo pt2 pl1">
+          <a
+            class="site-brand db center link no-underline"
+            href="https://www.ilmosaicodanza.it"
+            title="Logo il Mosaico Danza - Scuola di danza a Milano">
+            <img
+              src="/img/logo-il-mosaico-danza-asd.svg"
+              alt="Logo costituito da tre rombi con una figura danzante inscritta in ciascuno, e la scritta Il Mosaico Danza"
+              width="240" height="143">
+          </a>
+        </div>
+        <div class="whatsapp">
+            <a href="#" class="whatsappLink link gold">
+              <i class="dib w1 ma1"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 512 512"><path fill="#ededed" d="m0 512 35.31-128C12.359 344.276 0 300.138 0 254.234 0 114.759 114.759 0 255.117 0S512 114.759 512 254.234 395.476 512 255.117 512c-44.138 0-86.51-14.124-124.469-35.31L0 512z"/><path fill="#55cd6c" d="m137.71 430.786 7.945 4.414c32.662 20.303 70.621 32.662 110.345 32.662 115.641 0 211.862-96.221 211.862-213.628S371.641 44.138 255.117 44.138 44.138 137.71 44.138 254.234c0 40.607 11.476 80.331 32.662 113.876l5.297 7.945-20.303 74.152 75.916-19.421z"/><path fill="#fefefe" d="m187.145 135.945-16.772-.883c-5.297 0-10.593 1.766-14.124 5.297-7.945 7.062-21.186 20.303-24.717 37.959-6.179 26.483 3.531 58.262 26.483 90.041s67.09 82.979 144.772 105.048c24.717 7.062 44.138 2.648 60.028-7.062 12.359-7.945 20.303-20.303 22.952-33.545l2.648-12.359c.883-3.531-.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-.883-10.593 2.648l-22.069 28.248c-1.766 1.766-4.414 2.648-7.062 1.766-15.007-5.297-65.324-26.483-92.69-79.448-.883-2.648-.883-5.297.883-7.062l21.186-23.834c1.766-2.648 2.648-6.179 1.766-8.828l-25.6-57.379c-.884-2.649-3.532-5.297-7.063-5.297"/></svg></i> 339.61.73.388
+            </a>
+
+          
+        </div>
+        <div class="email f7">
+          <span>
+            <span>
+              <a
+                href="mailto:info@ilmosaicodanza.it"
+                class="link gold"
+                title="Contact us in email">
+                <i class="dib w1 mr2 white">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve">
+                    <path
+                      d="M460.8 51.2H51.2C22.921 51.2 0 74.121 0 102.4v307.2c0 28.279 22.921 51.2 51.2 51.2h409.6c28.279 0 51.2-22.921 51.2-51.2V102.4c0-28.279-22.921-51.2-51.2-51.2zM25.6 148.745 178.825 256 25.6 363.264V148.745zM486.4 409.6c0 14.114-11.486 25.6-25.6 25.6H51.2c-14.114 0-25.6-11.486-25.6-25.6v-15.104l175.548-122.88 47.505 33.254c4.446 3.098 10.249 3.098 14.703 0l47.505-33.254L486.4 394.496V409.6zm0-46.345L333.175 256 486.4 148.736v214.519zm0-245.751L256 278.775 25.6 117.504V102.4c0-14.114 11.486-25.6 25.6-25.6h409.6c14.114 0 25.6 11.486 25.6 25.6v15.104z"
+                      fill="currentColor"
+                    />
+                  </svg> </i><span class="f6">info@ilmosaicodanza.it</span>
+              </a>
+            </span>
+          </span>
+        </div>
+        <div class="motto">La migliore scuola di danza a Milano</div>
+      </div>
+</header>
+
+    <main class="page-main page">
+        <article class="lh-copy">
+            
+                <h1 class="f4 f2-ns mb2 lh-solid mt3"></h1><h1 id="orama">Orama</h1>
+<p><a href="https://travis-ci.org/kensho-technologies/orama"><img src="https://img.shields.io/travis/kensho-technologies/orama.svg" alt="travis"></a>
+<a href="https://npm.im/orama"><img src="https://img.shields.io/npm/v/orama.svg" alt="npm"></a></p>
+<p>Plug and play <a href="https://facebook.github.io/react/">React</a> charts.</p>
+<ul>
+<li>Responsive layout</li>
+<li>Automatic data type extraction</li>
+<li>Freely composable marks</li>
+<li>Canvas rendering and caching optimizations</li>
+<li>Configurable theme</li>
+</ul>
+<p>Orama has been powering <a href="https://kensho.com">Kensho</a>&rsquo;s charts in production for more than a year.</p>
+<blockquote>
+<p>/horáō, &ldquo;to see, spiritually and mentally&rdquo; – a vision, focusing on the impact it has on the one beholding the vision.</p>
+</blockquote>
+<h2 id="quick-start">Quick Start</h2>
+<pre tabindex="0"><code>$ npm install orama
+</code></pre><ol>
+<li>Get an array of objects: <code>[{key1, key2}, {key1, key2}, ...]</code>, or array of arrays for multi-lines and multi-areas.</li>
+<li>Choose which marks to use: <code>&lt;Lines /&gt;</code>, <code>&lt;Points /&gt;</code>, <code>&lt;Bars /&gt;</code>, <code>&lt;Areas /&gt;</code>, etc.</li>
+<li>Choose which keys in the data map to which visual dimensions: <code>x</code>, <code>y</code>, <code>fill</code>, <code>stroke</code>, etc.</li>
+</ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Lines} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">17</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">9</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-04-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">12</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-05-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">20</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Lines data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="api">API</h1>
+<p>Orama charts are all wrapped by the <code>&lt;Chart&gt;</code> tag, inside of which you can freely compose visual marks. The available marks are: <code>&lt;Lines /&gt;</code>, <code>&lt;Points /&gt;</code>, <code>&lt;Areas /&gt;</code>, <code>&lt;Guides /&gt;</code>, <code>&lt;Ranges /&gt;</code>, and <code>&lt;Text /&gt;</code>.</p>
+<p>The <code>data</code> for each mark can be an array of objects <code>[{}, {}]</code> or an array of arrays of objects <code>[ [{}, {}], [{}, {}] ]</code>. You can use arrays of arrays to get multi-lines or multi-areas in the <code>&lt;Lines /&gt;</code> and <code>&lt;Areas /&gt;</code> marks. Values in the objects can be <code>Number</code>s, <code>String</code>s or <code>Date</code>s</p>
+<p>Each key from the data objects can be mapped to a visual dimension on the marks. The available visual dimensions are: <code>x</code>, <code>x0</code>, <code>x1</code>, <code>x2</code>, <code>y</code>, <code>y0</code>, <code>y1</code>, <code>y2</code>, <code>radius</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code>, <code>alpha</code>, <code>text</code>, <code>textAlign</code>, <code>xOffset</code>, and <code>yOffset</code>. Not all dimensions are available in all marks.</p>
+<p>To map the values from the key <code>date</code> in the data objects to the <code>x</code> position of a <code>&lt;Points /&gt;</code> mark, you can do:</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Points} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>)},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>)},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>)},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Points data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The values&rsquo; types are automatically extracted from the data, and the data domain for each visual dimension is calculated using all marks inside of a chart. If a chart has both <code>&lt;Lines /&gt;</code> and <code>&lt;Points /&gt;</code> using the <code>x</code> dimension, the domain of the <code>x</code> dimension will be calculated using the data in both marks.</p>
+<p>Most of the props accepted by the components follow a schema that combines the dimension name with a specific property. For example, to manually set the axis name for the <code>x</code> dimension you can pass the prop: <code>xName=&quot;custom name&quot;</code>, to set the <code>fill</code> dimension to a constant value (instead of mapping from the data) you can use the prop: <code>fillValue=&quot;steelblue&quot;</code>.</p>
+<p>Throughout this documentation, we will refer to this use of dimension + property as <code>[dim]PropertyName</code>. All dimensions can be configured this way.</p>
+<p>The dimension props can also be set specifically for during hover behavior, by adding hover before the name of the prop: <code>hover[Dim]PropertyName</code>.</p>
+<h2 id="chart-"><code>&lt;Chart /&gt;</code></h2>
+<p>The chart component can be configured with the following properties:</p>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>width</code></td>
+<td><strong>Number</strong><br />Sets the width of the chart, if this property is not used the chart gets the dimension from its parent.</td>
+</tr>
+<tr>
+<td><code>proportion</code></td>
+<td><strong>Number = 0.5</strong><br />The height of the chart is calculated by multiplying the <code>width</code> by the <code>proportion</code> value. If <code>height</code> is defined, this value is ignored.</td>
+</tr>
+<tr>
+<td><code>height</code></td>
+<td><strong>Number</strong><br />If height is not defined, its value is calculated by multiplying the <code>width</code> the <code>proportion</code>. If <code>height</code> is defined, the <code>proportion</code> is ignored.</td>
+</tr>
+<tr>
+<td><code>margin</code></td>
+<td><strong>Object</strong><br />Overrides the margins of the chart. The margins are automatically calculated so that the axis labels can fit inside of the chart. <br /> <code>&lt;Chart margin={{top: 20, left: 20, bottom: 20, right: 20}} /&gt;</code></td>
+</tr>
+<tr>
+<td><code>theme</code></td>
+<td><strong>Object = DEFAULT_THEME</strong><br />Customizes the theme of the chart. <a href="#theme-configuration">See the theme object schema</a></td>
+</tr>
+<tr>
+<td><code>[dim]Name</code></td>
+<td><strong>String</strong><br />The name to be used for the dimension axis label and tooltip. Defaults to the accessor key.</td>
+</tr>
+<tr>
+<td><code>[dim]ZeroBased</code></td>
+<td><strong>boolean = false</strong><br />Sets if the domain of the dimension should include zero.</td>
+</tr>
+<tr>
+<td><code>[dim]Type</code></td>
+<td><strong>String</strong><br />Overrides the type of the dimension. Accepted values are: <code>linear</code>, <code>ordinal</code>, <code>time</code> and <code>log</code>.</td>
+</tr>
+<tr>
+<td><code>[dim]Domain</code></td>
+<td><strong>Array</strong><br />Overrides the domain of the dimension. <br /><code>&lt;Chart xRange={[-10, 10]}/&gt;</code></td>
+</tr>
+<tr>
+<td><code>[dim]Range</code></td>
+<td><strong>Array</strong><br />Overrides the range of the dimension. <br /><code>&lt;Chart radiusRange={[1, 20]}/&gt;</code> <br /><code>&lt;Chart fillRange={[&quot;green&quot;, &quot;blue&quot;]}/&gt;</code></td>
+</tr>
+<tr>
+<td><code>[dim]Nice</code></td>
+<td><strong>boolean = false</strong><br />If sets to <code>true</code> extends the domain of dimension to nice round values.</td>
+</tr>
+<tr>
+<td><code>[dim]ShowTicks</code></td>
+<td><strong>boolean = true</strong><br />Show or hide the axis ticks for the dimension.</td>
+</tr>
+<tr>
+<td><code>[dim]ShowGuides</code></td>
+<td><strong>boolean = true</strong><br />Show or hide the axis guides for the dimension.</td>
+</tr>
+<tr>
+<td><code>[dim]ShowLabel</code></td>
+<td><strong>boolean = true</strong><br />Show or hide the axis label for the dimension.</td>
+</tr>
+<tr>
+<td><code>[dim]TickSpace</code></td>
+<td><strong>Number</strong><br />Overrides the sugested space between axis ticks. For numbers and dates, the tick count on the axis is calculated by dividing the size of the axis by the <code>[dim]TickSpace</code> prop. For strings, all values become ticks on the axis, since there&rsquo;s no way to select a representative subset of them on a timeline.<br />The tickSpace defaults to <code>50</code> for the <code>x</code> dimension and <code>40</code> for the <code>y</code> dimension.</td>
+</tr>
+<tr>
+<td><code>[dim]TickCount</code></td>
+<td><strong>Number</strong><br />Overrides the number of ticks used on the axis of the dimension. For axes with datatypes string of number, the <code>[dim]TickCount</code> is automatically calculated by dividing the size of the axis by the <code>[dim]TickSpace</code> prop. For strings, all values become ticks on the axis, since there&rsquo;s no way to select a representative subset of them on a timeline.</td>
+</tr>
+<tr>
+<td><code>[dim]TickFormat</code></td>
+<td><strong>Function</strong><br />Overrides the function used to format the values of the dimension on the axis and tooltip. <br /> <code>&lt;Chart xTickFormat={d =&gt; Math.round(d)}/&gt;</code></td>
+</tr>
+<tr>
+<td><code>[dim]TickOffset</code></td>
+<td><strong>Number</strong><br />Overrides the distance between the tick text and the axis.</td>
+</tr>
+<tr>
+<td><code>[dim]LabelOffset</code></td>
+<td><strong>Number</strong><br />Overrides the distance between the axis label text and the axis.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="configuring-the-tooltip">Configuring the Tooltip</h3>
+<p>The tooltip can be configured by passing additional props to the Chart. You can also provide your own React component to be displayed as the tooltip.</p>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Tooltip</code></td>
+<td><strong>React Component</strong><br />Override the tooltip component.</td>
+</tr>
+<tr>
+<td><code>tooltipExtraDimensions</code></td>
+<td><strong>Array&lt;{accessor: string, name: string, format: function}&gt;</strong><br />Add extra dimensions to the tooltip. You can also pass an array of strings if you plan to use the default name and formatters.</td>
+</tr>
+<tr>
+<td><code>[dim]TooltipFormat</code></td>
+<td><strong>function</strong><br />Override the value formatter for the specified key.</td>
+</tr>
+<tr>
+<td><code>tooltipShowKeys</code></td>
+<td><strong>boolean = false</strong><br />Show or hide the keys row on the tooltip.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="marks">Marks</h2>
+<p>Marks can be freely composed inside of the <code>&lt;Chart /&gt;</code>. Orama offers the following marks components: <code>&lt;Lines /&gt;</code>, <code>&lt;Points /&gt;</code>, <code>&lt;Areas /&gt;</code>, <code>&lt;Guides /&gt;</code>, <code>&lt;Ranges /&gt;</code>, and <code>&lt;Text /&gt;</code>.</p>
+<p>Each mark needs a data input and at least one dimension accessor defined. The input data for the mark can be an array of objects or an array of arrays of objects, the latter denoting grouped data such as multi-lines or multi-areas. Accepted values for the data objects are: <code>Number</code>, <code>String</code>, and <code>Date</code>.</p>
+<h3 id="configuring-marks">Configuring Marks</h3>
+<p>The available visual dimensions that can be used to map data values to the marks are: <code>x</code>, <code>x0</code>, <code>x1</code>, <code>x2</code>, <code>y</code>, <code>y0</code>, <code>y1</code>, <code>y2</code>, <code>radius</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code>, <code>alpha</code>, <code>text</code>, <code>textAlign</code>, <code>xOffset</code>, and <code>yOffset</code>. Not all dimensions are available in all marks, see below for the specific dimensions supported by each mark.</p>
+<p>All marks can be configured with the following props:</p>
+<table>
+<thead>
+<tr>
+<th>Prop</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>data</code></td>
+<td><strong>Array</strong><br />The input data for the mark component, see above for what format is accepted.</td>
+</tr>
+<tr>
+<td><code>[dim]</code></td>
+<td><strong>String</strong><br />Sets the key data accessor for the specified dimension.</td>
+</tr>
+<tr>
+<td><code>[dim]Value</code></td>
+<td><strong>Any</strong><br />A constant to be used for the dimension. <br /><code>&lt;Points radiusValue={10}/&gt;</code> <br /><code>&lt;Lines alphaValue={0.25}/&gt;</code></td>
+</tr>
+<tr>
+<td><code>showHover</code></td>
+<td><strong>boolean = true</strong><br />Sets the tooltip hover behaviour for the mark.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lines-"><code>&lt;Lines /&gt;</code></h2>
+<p>Mark for drawing lines or multi-lines. To draw multi-lines, use an array of arrays as the data input.</p>
+<p>It accepts the following dimensions: <code>x</code>, <code>y</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code> and <code>alpha</code>.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Lines} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  [
+</span></span><span style="display:flex;"><span>    {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>, name<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;A&#39;</span>},
+</span></span><span style="display:flex;"><span>    {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">17</span>, name<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;A&#39;</span>},
+</span></span><span style="display:flex;"><span>    {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">9</span>, name<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;A&#39;</span>},
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>  [
+</span></span><span style="display:flex;"><span>    {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">16</span>, name<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;B&#39;</span>},
+</span></span><span style="display:flex;"><span>    {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">13</span>, name<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;B&#39;</span>},
+</span></span><span style="display:flex;"><span>    {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">15</span>, name<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;B&#39;</span>},
+</span></span><span style="display:flex;"><span>  ],
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Lines data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span> stroke<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;name&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="areas-"><code>&lt;Areas /&gt;</code></h2>
+<p>Mark for drawing areas on the charts.</p>
+<p>It accepts the following dimensions: <code>x</code>, <code>x0</code>, <code>y</code>, <code>y0</code>, <code>radius</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code> and <code>alpha</code>.</p>
+<p>To map the lower bound of the area to the data, use the <code>x0</code> or <code>y0</code> accessors.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Areas} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">17</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">3</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart yZeroBased<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Areas data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="points-"><code>&lt;Points /&gt;</code></h2>
+<p>Mark for drawing circles on the charts.</p>
+<p>It accepts the following dimensions: <code>x</code>, <code>y</code>, <code>radius</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code> and <code>alpha</code>.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Points} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {value1<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">16</span>, value2<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>, size<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">1</span>},
+</span></span><span style="display:flex;"><span>  {value1<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">13</span>, value2<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">17</span>, size<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">5</span>},
+</span></span><span style="display:flex;"><span>  {value1<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">15</span>, value2<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">14</span>, size<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Points data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value1&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value2&#34;</span> radius<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;size&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="bars-"><code>&lt;Bars /&gt;</code></h2>
+<p>Mark for drawing bars on the charts.</p>
+<p>It accepts the following dimensions: <code>x</code>, <code>x1</code>, <code>x2</code>, <code>y</code>, <code>y1</code>, <code>y2</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code> and <code>alpha</code>.</p>
+<p>You can define the exact start and end of the bars by using the <code>x1</code>, <code>x2</code>, <code>y1</code> and <code>y2</code> dimensions.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Bars} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {type<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;type 1&#39;</span>, value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>},
+</span></span><span style="display:flex;"><span>  {type<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;type 2&#39;</span>, value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">20</span>},
+</span></span><span style="display:flex;"><span>  {type<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;type 3&#39;</span>, value<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">-</span><span style="color:#bd93f9">7</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart yZeroBased<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Bars data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;type&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="guides-"><code>&lt;Guides /&gt;</code></h2>
+<p>Mark for drawing vertical or horizontal guides on the charts.</p>
+<p>It accepts the following dimensions: <code>x</code>, <code>y</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code> and <code>alpha</code>.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Guides} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [{x<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">1</span>}, {x<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">5</span>}, {x<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">8</span>}, {x<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>}, {y<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">1</span>}, {y<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">5</span>}, {y<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">8</span>}, {y<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>}]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart yZeroBased<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Guides
+</span></span><span style="display:flex;"><span>      data<span style="color:#ff79c6">=</span>{data}
+</span></span><span style="display:flex;"><span>      x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;x&#34;</span>
+</span></span><span style="display:flex;"><span>      y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;y&#34;</span>
+</span></span><span style="display:flex;"><span>      strokeValue<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;steelblue&#34;</span>
+</span></span><span style="display:flex;"><span>      lineDashValue<span style="color:#ff79c6">=</span>{[<span style="color:#bd93f9">5</span>, <span style="color:#bd93f9">5</span>]}
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="ranges-"><code>&lt;Ranges /&gt;</code></h2>
+<p>Mark for drawing vertical or horizontal ranges on the charts.</p>
+<p>It accepts the following dimensions: <code>x1</code>, <code>x2</code>, <code>y1</code>, <code>y2</code>, <code>fill</code>, <code>stroke</code>, <code>lineWidth</code>, <code>lineDash</code> and <code>alpha</code>.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Ranges} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {start<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">1</span>, end<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">5</span>},
+</span></span><span style="display:flex;"><span>  {start<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>, end<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">20</span>},
+</span></span><span style="display:flex;"><span>  {start<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">40</span>, end<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">50</span>},
+</span></span><span style="display:flex;"><span>  {start<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">60</span>, end<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">80</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Ranges
+</span></span><span style="display:flex;"><span>      data<span style="color:#ff79c6">=</span>{data}
+</span></span><span style="display:flex;"><span>      x1<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;start&#34;</span>
+</span></span><span style="display:flex;"><span>      x2<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;end&#34;</span>
+</span></span><span style="display:flex;"><span>      y1<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;start&#34;</span>
+</span></span><span style="display:flex;"><span>      y2<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;end&#34;</span>
+</span></span><span style="display:flex;"><span>      fillValue<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;lightgray&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="text-"><code>&lt;Text /&gt;</code></h2>
+<p>Mark for text on the charts.</p>
+<p>It accepts the following dimensions: <code>x</code>, <code>y</code>, <code>alpha</code>, <code>text</code>, <code>textAlign</code>, <code>xOffset</code> and <code>yOffset</code>.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Points, Text} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>, letter<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;A&#39;</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">17</span>, letter<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;B&#39;</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">9</span>, letter<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;C&#39;</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Points data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Text
+</span></span><span style="display:flex;"><span>      data<span style="color:#ff79c6">=</span>{data}
+</span></span><span style="display:flex;"><span>      x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span>
+</span></span><span style="display:flex;"><span>      y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span>
+</span></span><span style="display:flex;"><span>      text<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;letter&#34;</span>
+</span></span><span style="display:flex;"><span>      fillValue<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;white&#34;</span>
+</span></span><span style="display:flex;"><span>      textAlignValue<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;center&#34;</span>
+</span></span><span style="display:flex;"><span>      yOffsetValue<span style="color:#ff79c6">=</span>{<span style="color:#bd93f9">5</span>}
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="theme-configuration">Theme configuration</h2>
+<p>The theme can be configured by passing a <code>theme</code> prop to the <code>&lt;Chart /&gt;</code> component, which will be merged with the <a href="https://github.com/kensho-technologies/orama/blob/01b204d61dde0058c79f5f286a57bf4ea7e3d566/src/defaults.js#L82-L130">default theme</a>.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> {Chart, Points} from <span style="color:#f1fa8c">&#39;orama&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> data <span style="color:#ff79c6">=</span> [
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-01-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-02-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">17</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-03-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">9</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-04-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">12</span>},
+</span></span><span style="display:flex;"><span>  {date<span style="color:#ff79c6">:</span> <span style="color:#ff79c6">new</span> <span style="color:#8be9fd;font-style:italic">Date</span>(<span style="color:#f1fa8c">&#39;2010-05-01&#39;</span>), value<span style="color:#ff79c6">:</span> <span style="color:#bd93f9">10</span>},
+</span></span><span style="display:flex;"><span>]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> theme <span style="color:#ff79c6">=</span> {
+</span></span><span style="display:flex;"><span>  textFill<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;white&#39;</span>,
+</span></span><span style="display:flex;"><span>  backgroundFill<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;black&#39;</span>,
+</span></span><span style="display:flex;"><span>  plotBackgroundFill<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;hsl(0, 0%, 20%)&#39;</span>,
+</span></span><span style="display:flex;"><span>  guideStroke<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;hsl(0, 0%, 30%)&#39;</span>,
+</span></span><span style="display:flex;"><span>  guideZeroStroke<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;hsl(0, 0%, 55%)&#39;</span>,
+</span></span><span style="display:flex;"><span>  plotFill<span style="color:#ff79c6">:</span> <span style="color:#f1fa8c">&#39;white&#39;</span>,
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">const</span> chart <span style="color:#ff79c6">=</span> (
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>Chart theme<span style="color:#ff79c6">=</span>{theme}<span style="color:#ff79c6">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">&lt;</span>Points data<span style="color:#ff79c6">=</span>{data} x<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;date&#34;</span> y<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;value&#34;</span> <span style="color:#ff79c6">/&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#ff79c6">&lt;</span>/Chart&gt;
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="acknowledgment">Acknowledgment</h2>
+<p>Made with ♥ by <a href="http://luiscarli.com">Luis Carli</a></p>
+<p><em>This library is heavily influenced by the work of Mike Bostock, Hadley Wickham, and many other academics and practitioners from the data visualization community.</em></p>
+<h2 id="license">License</h2>
+<p>Licensed under the Apache 2.0 License. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &ldquo;AS IS&rdquo; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</p>
+<p>Copyright 2018 Kensho Technologies, LLC.</p>
+<div class="social-links pt3 mt1">
+<div class="gray f6 tracked ml2">condividi questa pagina nei tuoi social </div>
+
+<a class="dib w2 no-underline grow mr1" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_blank" rel="nofollow noopener noreferrer" aria-label=""
+  title="Condividi su Facebook">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" stroke="#787878" fill="#787878"/>
+    </svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://twitter.com/intent/tweet/?text=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_blank" rel="nofollow noopener noreferrer" aria-label=""
+  title="Condividi su Twitter">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.4 4.83c-.8.37-1.5.38-2.22.02.94-.56.98-.96 1.32-2.02-.88.52-1.85.9-2.9 1.1-.8-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.04.7.12 1.04-3.78-.2-7.12-2-9.37-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.73-.03-1.43-.23-2.05-.57v.06c0 2.2 1.57 4.03 3.65 4.44-.67.18-1.37.2-2.05.08.57 1.8 2.25 3.12 4.24 3.16-1.95 1.52-4.36 2.16-6.74 1.88 2 1.3 4.4 2.04 6.97 2.04 8.36 0 12.93-6.92 12.93-12.93l-.02-.6c.9-.63 1.96-1.22 2.57-2.14z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f&amp;media=https%3A%2F%2Filmosaicodanza.it&amp;description=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Pinna su Pinterest">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.14.5C5.86.5 2.7 5 2.7 8.75c0 2.27.86 4.3 2.7 5.05.3.12.57 0 .66-.33l.27-1.06c.1-.32.06-.44-.2-.73-.52-.62-.86-1.44-.86-2.6 0-3.33 2.5-6.32 6.5-6.32 3.55 0 5.5 2.17 5.5 5.07 0 3.8-1.7 7.02-4.2 7.02-1.37 0-2.4-1.14-2.07-2.54.4-1.68 1.16-3.48 1.16-4.7 0-1.07-.58-1.98-1.78-1.98-1.4 0-2.55 1.47-2.55 3.42 0 1.25.43 2.1.43 2.1l-1.7 7.2c-.5 2.13-.08 4.75-.04 5 .02.17.22.2.3.1.14-.18 1.82-2.26 2.4-4.33.16-.58.93-3.63.93-3.63.45.88 1.8 1.65 3.22 1.65 4.25 0 7.13-3.87 7.13-9.05C20.5 4.15 17.18.5 12.14.5z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f&amp;title=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;summary=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;source=https%3A%2F%2Filmosaicodanza.it" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Condividi su LinkedIn">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5h-.04c-1.5 0-2.5-1.18-2.5-2.48 0-1.33 1.02-2.4 2.56-2.4s2.5 1.1 2.52 2.43c0 1.3-.98 2.45-2.55 2.45zm11.5 6c-1.1 0-2 .9-2 2v7h-5s.06-12 0-13h5V10s1.55-1.46 3.94-1.46c2.96 0 5.06 2.15 5.06 6.3v6.66h-5v-7c0-1.1-.9-2-2-2z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="mailto:?subject=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;body=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_self" rel="nofollow noopener noreferrer" aria-label=""
+  title="Invia ai tuoi amici via email">
+  <div title="Condividi Il Mosaico Danza via email"><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.5 18c0 .8-.7 1.5-1.5 1.5H2c-.8 0-1.5-.7-1.5-1.5V6c0-.8.7-1.5 1.5-1.5h20c.8 0 1.5.7 1.5 1.5v12zm-3-9.5L12 14 3.5 8.5m0 7.5L7 14m13.5 2L17 14" stroke="#585858" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://telegram.me/share/url?text=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Condividi su Telegram">
+  <div><div aria-hidden="true" style="width:32px">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-width="1.5px" d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="whatsapp://send?text=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano%20https%3A%2F%2Filmosaicodanza.it" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Condividi su WhatsApp">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-width="1px" d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z" stroke="#787878" fill="#787878" /></svg>
+    </div>
+  </div>
+</a>
+</div>
+</article>
+    
+    </main>
+    
+<div id="sidebar">
+<div id="menu-sidebar">
+  <nav class="page-sidebar" itemscope itemtype="https://schema.org/SiteNavigationElement">
+    <div id="menu-search"><a rel="search" href="/search/" title="Cerca nel sito">🔎 Cerca nel sito</a></div>
+      <ul class="list pl1 pl3-ns sidemenu">  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/news/" itemprop="url">Novità</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link menunew1" href="/category/orari-corsi/" itemprop="url">Orari Corsi 2023-2024</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/category/corsi-di-danza/" itemprop="url">Corsi di Danza</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/category/corsi-movimento-e-benessere/" itemprop="url">Corsi di Movimento e benessere</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/category/stage-spettacoli-corsi-estivi/" itemprop="url">Stage Spettacoli Corsi Estivi</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/insegnare-danza/" itemprop="url">Corso Insegnanti di Danza</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/corsi-on-line/" itemprop="url">Corsi on line</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/category/stages-di-musica/" itemprop="url">Stages di Musica</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/category/i-nostri-insegnanti/" itemprop="url">I Nostri Insegnanti</a>
+    </li>  
+    <li class="menu-item pa0">
+    <a class="menu-link " href="/contact-us/" itemprop="url">Contattaci 👉 Il Mosaico Danza</a>
+    </li>
+    </ul>
+  </nav>
+</div>
+<hr>
+<div class="inspiration-point">INSPIRATION POINT</div>
+<div class="container tagcloud">
+      
+          <a href="/tags/abbigliamento-flamenco/" class="tagcloud-item link ctag09" title="Abbigliamento Flamenco" style="font-size: 0.8642176341736086rem;">abbigliamento flamenco</a>
+          <a href="/tags/anatomia-in-pratica/" class="tagcloud-item link ctag09" title="Anatomia in pratica" style="font-size: 0.9284352683472171rem;">anatomia in pratica</a>
+          <a href="/tags/annalena-berton/" class="tagcloud-item link ctag10" title="Annalena Berton" style="font-size: 0.9660001762238075rem;">annalena berton</a>
+          <a href="/tags/antonio-porro/" class="tagcloud-item link ctag09" title="Antonio Porro" style="font-size: 0.901782542050199rem;">antonio porro</a>
+          <a href="/tags/arianna-biancotto/" class="tagcloud-item link ctag10" title="Arianna Biancotto" style="font-size: 0.9802816913801746rem;">arianna biancotto</a>
+          <a href="/tags/baile-flamenco/" class="tagcloud-item link ctag11" title="Baile flamenco" style="font-size: 1.0677827182740065rem;">baile flamenco</a>
+          <a href="/tags/balboa/" class="tagcloud-item link ctag09" title="Balboa" style="font-size: 0.9284352683472171rem;">balboa</a>
+          <a href="/tags/ballo-liscio/" class="tagcloud-item link ctag09" title="Ballo Liscio" style="font-size: 0.8642176341736086rem;">ballo liscio</a>
+          <a href="/tags/bellydance/" class="tagcloud-item link ctag10" title="Bellydance" style="font-size: 0.9660001762238075rem;">bellydance</a>
+          <a href="/tags/benessere/" class="tagcloud-item link ctag09" title="Benessere" style="font-size: 0.9491087289749005rem;">benessere</a>
+          <a href="/tags/blues-dance/" class="tagcloud-item link ctag09" title="Blues Dance" style="font-size: 0.8642176341736086rem;">blues dance</a>
+          <a href="/tags/boogie-woogie/" class="tagcloud-item link ctag09" title="Boogie Woogie" style="font-size: 0.9491087289749005rem;">boogie woogie</a>
+          <a href="/tags/cante-flamenco/" class="tagcloud-item link ctag09" title="Cante flamenco" style="font-size: 0.8642176341736086rem;">cante flamenco</a>
+          <a href="/tags/castagnette/" class="tagcloud-item link ctag09" title="Castagnette" style="font-size: 0.8642176341736086rem;">castagnette</a>
+          <a href="/tags/chitarra-flamenco/" class="tagcloud-item link ctag09" title="Chitarra flamenco" style="font-size: 0.8642176341736086rem;">chitarra flamenco</a>
+          <a href="/tags/collegiate-shag/" class="tagcloud-item link ctag09" title="Collegiate Shag" style="font-size: 0.8642176341736086rem;">collegiate shag</a>
+          <a href="/tags/compas/" class="tagcloud-item link ctag09" title="Compas" style="font-size: 0.8642176341736086rem;">compas</a>
+          <a href="/tags/corsi/" class="tagcloud-item link ctag09" title="Corsi" style="font-size: 0.8642176341736086rem;">corsi</a>
+          <a href="/tags/corsi-di-ballo/" class="tagcloud-item link ctag09" title="Corsi di ballo" style="font-size: 0.9491087289749005rem;">corsi di ballo</a>
+          <a href="/tags/corsi-di-danza/" class="tagcloud-item link ctag11" title="Corsi di danza" style="font-size: 1.1210881708680427rem;">corsi di danza</a>
+          <a href="/tags/corsi-estivi/" class="tagcloud-item link ctag09" title="Corsi estivi" style="font-size: 0.901782542050199rem;">corsi estivi</a>
+          <a href="/tags/corsi-on-line/" class="tagcloud-item link ctag08" title="Corsi on line" style="font-size: 0.8rem;">corsi on line</a>
+          <a href="/tags/dance-workout/" class="tagcloud-item link ctag08" title="Dance Workout" style="font-size: 0.8rem;">dance workout</a>
+          <a href="/tags/dancehall/" class="tagcloud-item link ctag09" title="Dancehall" style="font-size: 0.901782542050199rem;">dancehall</a>
+          <a href="/tags/danza-araba/" class="tagcloud-item link ctag10" title="Danza araba" style="font-size: 0.9926529025208257rem;">danza araba</a>
+          <a href="/tags/danza-classica/" class="tagcloud-item link ctag10" title="Danza classica" style="font-size: 0.9660001762238075rem;">danza classica</a>
+          <a href="/tags/danza-contemporanea/" class="tagcloud-item link ctag09" title="Danza contemporanea" style="font-size: 0.8642176341736086rem;">danza contemporanea</a>
+          <a href="/tags/danza-del-ventre/" class="tagcloud-item link ctag10" title="Danza del ventre" style="font-size: 0.9926529025208257rem;">danza del ventre</a>
+          <a href="/tags/danza-milano-bambini/" class="tagcloud-item link ctag10" title="Danza Milano bambini" style="font-size: 0.9660001762238075rem;">danza milano bambini</a>
+          <a href="/tags/danza-moderna/" class="tagcloud-item link ctag09" title="Danza moderna" style="font-size: 0.901782542050199rem;">danza moderna</a>
+          <a href="/tags/danza-orientale/" class="tagcloud-item link ctag10" title="Danza orientale" style="font-size: 0.9926529025208257rem;">danza orientale</a>
+          <a href="/tags/danza-per-adulti/" class="tagcloud-item link ctag09" title="Danza per adulti" style="font-size: 0.9284352683472171rem;">danza per adulti</a>
+          <a href="/tags/danza-per-bambini/" class="tagcloud-item link ctag09" title="Danza per bambini" style="font-size: 0.9491087289749005rem;">danza per bambini</a>
+          <a href="/tags/danze-di-coppia/" class="tagcloud-item link ctag10" title="Danze di coppia" style="font-size: 1.013326363148509rem;">danze di coppia</a>
+          <a href="/tags/danze-popolari/" class="tagcloud-item link ctag09" title="Danze popolari" style="font-size: 0.9284352683472171rem;">danze popolari</a>
+          <a href="/tags/festival/" class="tagcloud-item link ctag08" title="Festival" style="font-size: 0.8rem;">festival</a>
+          <a href="/tags/fitness/" class="tagcloud-item link ctag09" title="Fitness" style="font-size: 0.8642176341736086rem;">fitness</a>
+          <a href="/tags/flamenco/" class="tagcloud-item link ctag11" title="Flamenco" style="font-size: 1.1345387704784338rem;">flamenco</a>
+          <a href="/tags/flamenco-contemporaneo/" class="tagcloud-item link ctag09" title="Flamenco contemporaneo" style="font-size: 0.8642176341736086rem;">flamenco contemporaneo</a>
+          <a href="/tags/flamencologia/" class="tagcloud-item link ctag09" title="Flamencologia" style="font-size: 0.9491087289749005rem;">flamencologia</a>
+          <a href="/tags/formazione/" class="tagcloud-item link ctag09" title="Formazione" style="font-size: 0.9284352683472171rem;">formazione</a>
+          <a href="/tags/gaia-ceccoli/" class="tagcloud-item link ctag09" title="Gaia Ceccoli" style="font-size: 0.9284352683472171rem;">gaia ceccoli</a>
+          <a href="/tags/hip-hop/" class="tagcloud-item link ctag10" title="Hip Hop" style="font-size: 0.9660001762238075rem;">hip hop</a>
+          <a href="/tags/improvvisazioni/" class="tagcloud-item link ctag09" title="Improvvisazioni" style="font-size: 0.901782542050199rem;">improvvisazioni</a>
+          <a href="/tags/insegnanti/" class="tagcloud-item link ctag09" title="Insegnanti" style="font-size: 0.8642176341736086rem;">insegnanti</a>
+          <a href="/tags/insegnanti-di-danza/" class="tagcloud-item link ctag11" title="Insegnanti di danza" style="font-size: 1.0775439973221177rem;">insegnanti di danza</a>
+          <a href="/tags/insegnanti-di-musica/" class="tagcloud-item link ctag09" title="Insegnanti di musica" style="font-size: 0.8642176341736086rem;">insegnanti di musica</a>
+          <a href="/tags/jamila-zaki/" class="tagcloud-item link ctag08" title="Jamila Zaki" style="font-size: 0.8rem;">jamila zaki</a>
+          <a href="/tags/jive/" class="tagcloud-item link ctag09" title="Jive" style="font-size: 0.9284352683472171rem;">jive</a>
+          <a href="/tags/larry-dacco/" class="tagcloud-item link ctag09" title="Larry Dacco" style="font-size: 0.8642176341736086rem;">larry dacco</a>
+          <a href="/tags/lezioni-di-ballo/" class="tagcloud-item link ctag09" title="Lezioni di ballo" style="font-size: 0.901782542050199rem;">lezioni di ballo</a>
+          <a href="/tags/lezioni-di-danza/" class="tagcloud-item link ctag11" title="Lezioni di danza" style="font-size: 1.1440493146986472rem;">lezioni di danza</a>
+          <a href="/tags/lezioni-di-swing/" class="tagcloud-item link ctag10" title="Lezioni di Swing" style="font-size: 0.9926529025208257rem;">lezioni di swing</a>
+          <a href="/tags/lindy-hop/" class="tagcloud-item link ctag10" title="Lindy Hop" style="font-size: 1.0302178103974162rem;">lindy hop</a>
+          <a href="/tags/lyrical-arab-dance/" class="tagcloud-item link ctag09" title="Lyrical Arab Dance" style="font-size: 0.901782542050199rem;">lyrical arab dance</a>
+          <a href="/tags/mariele-carnevale/" class="tagcloud-item link ctag09" title="Mariele Carnevale" style="font-size: 0.8642176341736086rem;">mariele carnevale</a>
+          <a href="/tags/marta-mai/" class="tagcloud-item link ctag09" title="Marta Mai" style="font-size: 0.9284352683472171rem;">marta mai</a>
+          <a href="/tags/massimiliano-montomoli/" class="tagcloud-item link ctag09" title="Massimiliano Montomoli" style="font-size: 0.9284352683472171rem;">massimiliano montomoli</a>
+          <a href="/tags/milano/" class="tagcloud-item link ctag12" title="Milano" style="font-size: 1.1987564046520423rem;">milano</a>
+          <a href="/tags/milena-ventre/" class="tagcloud-item link ctag10" title="Milena Ventre" style="font-size: 0.9660001762238075rem;">milena ventre</a>
+          <a href="/tags/musica/" class="tagcloud-item link ctag10" title="Musica" style="font-size: 1.013326363148509rem;">musica</a>
+          <a href="/tags/pedagogia-flamenco/" class="tagcloud-item link ctag09" title="Pedagogia flamenco" style="font-size: 0.901782542050199rem;">pedagogia flamenco</a>
+          <a href="/tags/percussioni-flamenco/" class="tagcloud-item link ctag09" title="Percussioni flamenco" style="font-size: 0.9284352683472171rem;">percussioni flamenco</a>
+          <a href="/tags/pizzica/" class="tagcloud-item link ctag09" title="Pizzica" style="font-size: 0.901782542050199rem;">pizzica</a>
+          <a href="/tags/quelli-di-via-oldrado/" class="tagcloud-item link ctag09" title="Quelli di Via Oldrado" style="font-size: 0.9491087289749005rem;">quelli di via oldrado</a>
+          <a href="/tags/reggaeton/" class="tagcloud-item link ctag09" title="Reggaeton" style="font-size: 0.9491087289749005rem;">reggaeton</a>
+          <a href="/tags/regolamento/" class="tagcloud-item link ctag08" title="Regolamento" style="font-size: 0.8rem;">regolamento</a>
+          <a href="/tags/roberta-albani/" class="tagcloud-item link ctag09" title="Roberta Albani" style="font-size: 0.9284352683472171rem;">roberta albani</a>
+          <a href="/tags/rockabilly/" class="tagcloud-item link ctag09" title="Rockabilly" style="font-size: 0.901782542050199rem;">rockabilly</a>
+          <a href="/tags/sabina-todaro/" class="tagcloud-item link ctag10" title="Sabina Todaro" style="font-size: 0.9660001762238075rem;">sabina todaro</a>
+          <a href="/tags/salsa-e-bachata/" class="tagcloud-item link ctag10" title="Salsa e Bachata" style="font-size: 0.9660001762238075rem;">salsa e bachata</a>
+          <a href="/tags/sara-ti/" class="tagcloud-item link ctag09" title="Sara Ti" style="font-size: 0.901782542050199rem;">sara ti</a>
+          <a href="/tags/scuola-di-ballo/" class="tagcloud-item link ctag10" title="Scuola di ballo" style="font-size: 1.0302178103974162rem;">scuola di ballo</a>
+          <a href="/tags/scuola-di-danza/" class="tagcloud-item link ctag12" title="Scuola di danza" style="font-size: 1.1777694193178398rem;">scuola di danza</a>
+          <a href="/tags/selena-tarla/" class="tagcloud-item link ctag09" title="Selena Tarla" style="font-size: 0.9284352683472171rem;">selena tarla</a>
+          <a href="/tags/sevillanas/" class="tagcloud-item link ctag09" title="Sevillanas" style="font-size: 0.9491087289749005rem;">sevillanas</a>
+          <a href="/tags/spettacoli/" class="tagcloud-item link ctag09" title="Spettacoli" style="font-size: 0.901782542050199rem;">spettacoli</a>
+          <a href="/tags/stefano-benedetti/" class="tagcloud-item link ctag08" title="Stefano Benedetti" style="font-size: 0.8rem;">stefano benedetti</a>
+          <a href="/tags/swing/" class="tagcloud-item link ctag10" title="Swing" style="font-size: 1.0221565141342646rem;">swing</a>
+          <a href="/tags/tango-argentino/" class="tagcloud-item link ctag09" title="Tango argentino" style="font-size: 0.8642176341736086rem;">tango argentino</a>
+          <a href="/tags/teatro/" class="tagcloud-item link ctag10" title="Teatro" style="font-size: 0.9926529025208257rem;">teatro</a>
+          <a href="/tags/tribal-dance/" class="tagcloud-item link ctag09" title="Tribal dance" style="font-size: 0.9284352683472171rem;">tribal dance</a>
+          <a href="/tags/viviane-grisvard/" class="tagcloud-item link ctag09" title="Viviane Grisvard" style="font-size: 0.9491087289749005rem;">viviane grisvard</a>
+          <a href="/tags/workout/" class="tagcloud-item link ctag09" title="workout" style="font-size: 0.8642176341736086rem;">workout</a>
+          <a href="/tags/yoga/" class="tagcloud-item link ctag09" title="Yoga" style="font-size: 0.901782542050199rem;">yoga</a>
+          <a href="/tags/zona-loreto/" class="tagcloud-item link ctag11" title="Zona Loreto" style="font-size: 1.1345387704784338rem;">zona loreto</a>
+          <a href="/tags/zona-porta-romana/" class="tagcloud-item link ctag11" title="Zona Porta Romana" style="font-size: 1.1239390561844635rem;">zona porta romana</a>
+          <a href="/tags/zona-tibaldi/" class="tagcloud-item link ctag09" title="Zona Tibaldi" style="font-size: 0.901782542050199rem;">zona tibaldi</a>
+</div>
+<hr><div class="social-links pt3 mt1">
+<div class="gray f6 tracked ml2">condividi questa pagina nei tuoi social </div>
+
+<a class="dib w2 no-underline grow mr1" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_blank" rel="nofollow noopener noreferrer" aria-label=""
+  title="Condividi su Facebook">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" stroke="#787878" fill="#787878"/>
+    </svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://twitter.com/intent/tweet/?text=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_blank" rel="nofollow noopener noreferrer" aria-label=""
+  title="Condividi su Twitter">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.4 4.83c-.8.37-1.5.38-2.22.02.94-.56.98-.96 1.32-2.02-.88.52-1.85.9-2.9 1.1-.8-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.04.7.12 1.04-3.78-.2-7.12-2-9.37-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.73-.03-1.43-.23-2.05-.57v.06c0 2.2 1.57 4.03 3.65 4.44-.67.18-1.37.2-2.05.08.57 1.8 2.25 3.12 4.24 3.16-1.95 1.52-4.36 2.16-6.74 1.88 2 1.3 4.4 2.04 6.97 2.04 8.36 0 12.93-6.92 12.93-12.93l-.02-.6c.9-.63 1.96-1.22 2.57-2.14z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f&amp;media=https%3A%2F%2Filmosaicodanza.it&amp;description=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Pinna su Pinterest">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12.14.5C5.86.5 2.7 5 2.7 8.75c0 2.27.86 4.3 2.7 5.05.3.12.57 0 .66-.33l.27-1.06c.1-.32.06-.44-.2-.73-.52-.62-.86-1.44-.86-2.6 0-3.33 2.5-6.32 6.5-6.32 3.55 0 5.5 2.17 5.5 5.07 0 3.8-1.7 7.02-4.2 7.02-1.37 0-2.4-1.14-2.07-2.54.4-1.68 1.16-3.48 1.16-4.7 0-1.07-.58-1.98-1.78-1.98-1.4 0-2.55 1.47-2.55 3.42 0 1.25.43 2.1.43 2.1l-1.7 7.2c-.5 2.13-.08 4.75-.04 5 .02.17.22.2.3.1.14-.18 1.82-2.26 2.4-4.33.16-.58.93-3.63.93-3.63.45.88 1.8 1.65 3.22 1.65 4.25 0 7.13-3.87 7.13-9.05C20.5 4.15 17.18.5 12.14.5z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f&amp;title=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;summary=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;source=https%3A%2F%2Filmosaicodanza.it" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Condividi su LinkedIn">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.5 21.5h-5v-13h5v13zM4 6.5h-.04c-1.5 0-2.5-1.18-2.5-2.48 0-1.33 1.02-2.4 2.56-2.4s2.5 1.1 2.52 2.43c0 1.3-.98 2.45-2.55 2.45zm11.5 6c-1.1 0-2 .9-2 2v7h-5s.06-12 0-13h5V10s1.55-1.46 3.94-1.46c2.96 0 5.06 2.15 5.06 6.3v6.66h-5v-7c0-1.1-.9-2-2-2z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="mailto:?subject=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;body=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_self" rel="nofollow noopener noreferrer" aria-label=""
+  title="Invia ai tuoi amici via email">
+  <div title="Condividi Il Mosaico Danza via email"><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.5 18c0 .8-.7 1.5-1.5 1.5H2c-.8 0-1.5-.7-1.5-1.5V6c0-.8.7-1.5 1.5-1.5h20c.8 0 1.5.7 1.5 1.5v12zm-3-9.5L12 14 3.5 8.5m0 7.5L7 14m13.5 2L17 14" stroke="#585858" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="https://telegram.me/share/url?text=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano&amp;url=https%3a%2f%2fwww.ilmosaicodanza.it%2fsearch%2forama%2freadme%2f" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Condividi su Telegram">
+  <div><div aria-hidden="true" style="width:32px">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-width="1.5px" d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z" stroke="#787878" fill="#787878"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="dib w2 no-underline grow mr1" href="whatsapp://send?text=Il%20Mosaico%20Danza%20-%20Scuola%20di%20danza%20a%20Milano%20https%3A%2F%2Filmosaicodanza.it" target="_blank" rel="nofollow noopener noreferrer" aria-label="" title="Condividi su WhatsApp">
+  <div><div aria-hidden="true" style="width:32px">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path stroke-width="1px" d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z" stroke="#787878" fill="#787878" /></svg>
+    </div>
+  </div>
+</a>
+</div>
+
+</div>
+<footer class="site-footer mb4 white">
+	
+	<div class="whatsapp-container">
+  <div class="whatsapp-float">
+    <a href="#" class="whatsappLink" rel="nofollow noopener noreferrer" title="Contattaci tramite WhatsApp">
+			<svg class="icon-float-whatsapp" width="50" height="51" version="1.1" viewBox="0 0 135.5 136.1" xmlns="http://www.w3.org/2000/svg"><g transform="translate(-6.667 -4.006)"><path d="m122.4 23.79a67.01 67.01 0 0 0-47.72-19.78c-37.18 0-67.44 30.26-67.45 67.45 0 11.89 3.102 23.49 9.007 33.72l-9.574 34.95 35.76-9.381a67.39 67.39 0 0 0 32.23 8.213h0.02146c37.17 0 67.44-30.26 67.45-67.45a67.04 67.04 0 0 0-19.74-47.72z" fill="#fff" stroke="#4d4d4d" stroke-width="1.058"/><path d="m74.69 127.6h-0.02146a55.98 55.98 0 0 1-28.53-7.815l-2.047-1.213-21.22 5.57 5.66-20.69-1.333-2.122a55.92 55.92 0 0 1-8.564-29.83c0.0055-30.91 25.16-56.06 56.08-56.06 14.97 0 29.05 5.842 39.63 16.44a55.72 55.72 0 0 1 16.41 39.67c-0.01724 30.91-25.17 56.06-56.06 56.06" fill="#008000" stroke="#075e54" stroke-width=".2646"/><path d="m105.4 85.59c-1.685-0.8446-9.971-4.917-11.51-5.484-1.548-0.5616-2.671-0.8403-3.8 0.851-1.117 1.685-4.35 5.479-5.331 6.602-0.9818 1.128-1.968 1.265-3.653 0.4244-1.685-0.851-7.118-2.626-13.56-8.366-5.008-4.469-8.394-9.988-9.375-11.68-0.9818-1.685-0.1071-2.598 0.7374-3.437 0.761-0.7546 1.689-1.968 2.53-2.949 0.8446-0.9861 1.123-1.691 1.689-2.819 0.5616-1.123 0.283-2.105-0.1501-2.949-0.4244-0.8446-3.794-9.143-5.195-12.52-1.372-3.284-2.762-2.836-3.794-2.893-0.9818-0.04283-2.105-0.06428-3.233-0.06428-1.123 0-2.949 0.4201-4.492 2.109-1.543 1.685-5.899 5.762-5.899 14.06 0 8.292 6.04 16.31 6.88 17.43 0.8446 1.123 11.89 18.15 28.79 25.45 4.021 1.736 7.158 2.774 9.608 3.545 4.038 1.288 7.713 1.106 10.61 0.6688 3.239-0.4823 9.971-4.078 11.38-8.014 1.406-3.936 1.406-7.311 0.9818-8.014-0.4202-0.7031-1.543-1.123-3.233-1.968" fill="#fff" stroke="#0f0" stroke-width=".2646"/></g></svg>
+    </a>
+  </div>
+</div>
+<div id="whatsapp-message">
+  <p class="avviso"></p>
+  <form action="#" id="contactForm">
+    <input type="text" name="name" placeholder="Your name / nome">
+    <textarea name="request" placeholder="Your request / richiesta" rows="3"></textarea>
+		<span class="error-message yellow"></span>
+		<button type="submit">
+			Invia messaggio <i class="dib w2 ma1"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 512 512"><path fill="#ededed" d="m0 512 35.31-128C12.359 344.276 0 300.138 0 254.234 0 114.759 114.759 0 255.117 0S512 114.759 512 254.234 395.476 512 255.117 512c-44.138 0-86.51-14.124-124.469-35.31L0 512z"/><path fill="#55cd6c" d="m137.71 430.786 7.945 4.414c32.662 20.303 70.621 32.662 110.345 32.662 115.641 0 211.862-96.221 211.862-213.628S371.641 44.138 255.117 44.138 44.138 137.71 44.138 254.234c0 40.607 11.476 80.331 32.662 113.876l5.297 7.945-20.303 74.152 75.916-19.421z"/><path fill="#fefefe" d="m187.145 135.945-16.772-.883c-5.297 0-10.593 1.766-14.124 5.297-7.945 7.062-21.186 20.303-24.717 37.959-6.179 26.483 3.531 58.262 26.483 90.041s67.09 82.979 144.772 105.048c24.717 7.062 44.138 2.648 60.028-7.062 12.359-7.945 20.303-20.303 22.952-33.545l2.648-12.359c.883-3.531-.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-.883-10.593 2.648l-22.069 28.248c-1.766 1.766-4.414 2.648-7.062 1.766-15.007-5.297-65.324-26.483-92.69-79.448-.883-2.648-.883-5.297.883-7.062l21.186-23.834c1.766-2.648 2.648-6.179 1.766-8.828l-25.6-57.379c-.884-2.649-3.532-5.297-7.063-5.297"/></svg></i>
+		</button>
+	</form>
+	<button id="closeBtn" type="button">&times; Chiudi</button>
+</div>
+	
+	<div class="bgfooter">
+		<p class="light-red tc tracked">
+			 &copy; 2023 Il Mosaico Danza a.s.d. tutti i diritti riservati
+			
+		</p>
+		<div class="footer-links">
+			<div class="location">
+				<p class="tracked">Il Mosaico Danza a.s.d.</p>
+				<ul class="listasedi list">
+					<li class="orange">Sede Loreto <small>• segreteria</small></li>
+					<li class="gold ml2">
+						<a href="/danza-in-zona-loreto/" class="link">
+							Via Privata Pomezia 12, 20127, Milano, Italy</a>
+					</li>
+				</ul>
+				<ul class="listasedi list">
+					<li class="orange">Sede Porta Romana</li>
+					<li class="gold ml2">
+						<a href="/corsi-in-zona-porta-romana/" class="link">
+							Via Passeroni 6, 20135, Milano, Italy</a></li>
+				</ul>
+				<ul class="listasedi list">
+					<li class="orange">Sede Tibaldi c/o Fennec Danza</li>
+					<li class="gold ml2">
+						<a href="/corsi-danza-moderna-zona-tibaldi/" class="link">
+							Via Pomponazzi 1, 20141, Milano, Italy</a></li>
+				</ul>
+			</div>
+			<div class="contacts">
+				<div>
+					<p>Segreteria per prenotazioni e informazioni</p>
+					<ul class="lista5">
+						<li id="contact-point-segreteria">Mobile:
+								<a href="tel:+393519459036" class="link">
+									<i class="dib w1 ma1">
+											<svg viewBox="0 0 406 406"
+												xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+												fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round"
+												stroke-miterlimit="2">
+												<path
+													d="M362.333 293.88a231.532 231.532 0 0 1-72.704-11.563c-10.97-3.836-23.163-9.254-31.637-1.301l-43.037 23.731a257.105 257.105 0 0 1-114.389-114.368l30.813-43.928c8.537-8.543 3.59-21.136-.085-32.64A231.792 231.792 0 0 1 119.667 41c0-17.673 1.673-24-16-24L32 16C14.327 16 0 30.327 0 48c.235 206.089 151.244 357.098 357.333 357.333 17.673 0 32-6.327 32-24l-3-63.453c0-17.673-6.327-24-24-24Z"
+													fill-rule="nonzero" fill="white"></path>
+												<path
+													d="M378.667 178.667c-5.891 0-10.667-4.776-10.667-10.667-.094-76.545-54.122-130.573-130.667-130.667-5.891 0-10.667-4.776-10.667-10.667S231.442 16 237.333 16c88.327.094 151.906 63.673 152 152 0 5.891-4.775 10.667-10.666 10.667ZM285.333 194.667c-5.891 0-10.667-4.776-10.667-10.667 0-29.455-23.878-53.333-53.333-53.333-5.891 0-10.667-4.776-10.667-10.667s4.776-10.667 10.667-10.667c41.238 0 74.667 33.43 74.667 74.667 0 5.891-4.776 10.667-10.667 10.667Z"
+													fill="#4d4d4d" fill-rule="nonzero"></path>
+											</svg></i><strong>351.94.59.036</strong></a></li>
+						<li>Mobile: <a href="tel:+393396173388" class="link">
+									<i class="dib w1 ma1">
+										<svg width="100%" height="100%" viewBox="0 0 406 406"
+												version="1.1" xmlns="http://www.w3.org/2000/svg"
+												xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+												style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+												<g transform="matrix(1,0,0,1,-8,8)">
+													<path
+														d="M370.333,285.88C345.637,285.928 321.092,282.024 297.629,274.317C286.659,270.481 274.466,265.063 265.992,273.016L222.955,296.747C173.514,271.924 133.398,231.816 108.566,182.379L139.379,138.451C147.916,129.908 142.969,117.315 139.294,105.811C131.558,82.316 127.633,57.735 127.667,33C127.667,15.327 129.34,9 111.667,9L40,8C22.327,8 8,22.327 8,40C8.235,246.089 159.244,397.098 365.333,397.333C383.006,397.333 397.333,391.006 397.333,373.333L394.333,309.88C394.333,292.207 388.006,285.88 370.333,285.88Z"
+														style="fill-rule:nonzero" fill="white"></path>
+												</g>
+												<g>
+													<g transform="matrix(1,0,0,1,-16,16)">
+														<path
+															d="M394.667,162.667C388.776,162.667 384,157.891 384,152C383.906,75.455 329.878,21.427 253.333,21.333C247.442,21.333 242.666,16.557 242.666,10.666C242.666,4.775 247.442,0 253.333,0C341.66,0.094 405.239,63.673 405.333,152C405.333,157.891 400.558,162.667 394.667,162.667Z"
+															style="fill:rgb(77,77,77);fill-rule:nonzero;"></path>
+													</g>
+													<g transform="matrix(1,0,0,1,-8,8)">
+														<path
+															d="M293.333,186.667C287.442,186.667 282.666,181.891 282.666,176C282.666,146.545 258.788,122.667 229.333,122.667C223.442,122.667 218.666,117.891 218.666,112C218.666,106.109 223.442,101.333 229.333,101.333C270.571,101.333 304,134.763 304,176C304,181.891 299.224,186.667 293.333,186.667Z"
+															style="fill:rgb(77,77,77);fill-rule:nonzero;"></path>
+													</g>
+												</g>
+											</svg></i><strong>339.61.73.388</strong></a>
+						</li>
+						<li>
+						<a href="#" class="whatsappLink link gold">
+              <i class="dib w1 ma1"><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 512 512"><path fill="#ededed" d="m0 512 35.31-128C12.359 344.276 0 300.138 0 254.234 0 114.759 114.759 0 255.117 0S512 114.759 512 254.234 395.476 512 255.117 512c-44.138 0-86.51-14.124-124.469-35.31L0 512z"/><path fill="#55cd6c" d="m137.71 430.786 7.945 4.414c32.662 20.303 70.621 32.662 110.345 32.662 115.641 0 211.862-96.221 211.862-213.628S371.641 44.138 255.117 44.138 44.138 137.71 44.138 254.234c0 40.607 11.476 80.331 32.662 113.876l5.297 7.945-20.303 74.152 75.916-19.421z"/><path fill="#fefefe" d="m187.145 135.945-16.772-.883c-5.297 0-10.593 1.766-14.124 5.297-7.945 7.062-21.186 20.303-24.717 37.959-6.179 26.483 3.531 58.262 26.483 90.041s67.09 82.979 144.772 105.048c24.717 7.062 44.138 2.648 60.028-7.062 12.359-7.945 20.303-20.303 22.952-33.545l2.648-12.359c.883-3.531-.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-.883-10.593 2.648l-22.069 28.248c-1.766 1.766-4.414 2.648-7.062 1.766-15.007-5.297-65.324-26.483-92.69-79.448-.883-2.648-.883-5.297.883-7.062l21.186-23.834c1.766-2.648 2.648-6.179 1.766-8.828l-25.6-57.379c-.884-2.649-3.532-5.297-7.063-5.297"/></svg></i> 339.61.73.388
+            </a></li>
+						<li>fissa:
+							<a href="tel:+390258317962" class="link">
+								<i class="dib w1 ma1"><svg viewBox="0 0 406 406"
+										xmlns="http://www.w3.org/2000/svg" xml:space="preserve"
+										fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round"
+										stroke-miterlimit="2">
+										<path
+											d="M362.333 293.88a231.532 231.532 0 0 1-72.704-11.563c-10.97-3.836-23.163-9.254-31.637-1.301l-43.037 23.731a257.105 257.105 0 0 1-114.389-114.368l30.813-43.928c8.537-8.543 3.59-21.136-.085-32.64A231.792 231.792 0 0 1 119.667 41c0-17.673 1.673-24-16-24L32 16C14.327 16 0 30.327 0 48c.235 206.089 151.244 357.098 357.333 357.333 17.673 0 32-6.327 32-24l-3-63.453c0-17.673-6.327-24-24-24Z"
+											fill-rule="nonzero" fill="white"></path>
+										<path
+											d="M378.667 178.667c-5.891 0-10.667-4.776-10.667-10.667-.094-76.545-54.122-130.573-130.667-130.667-5.891 0-10.667-4.776-10.667-10.667S231.442 16 237.333 16c88.327.094 151.906 63.673 152 152 0 5.891-4.775 10.667-10.666 10.667ZM285.333 194.667c-5.891 0-10.667-4.776-10.667-10.667 0-29.455-23.878-53.333-53.333-53.333-5.891 0-10.667-4.776-10.667-10.667s4.776-10.667 10.667-10.667c41.238 0 74.667 33.43 74.667 74.667 0 5.891-4.776 10.667-10.667 10.667Z"
+											fill="white" fill-rule="nonzero"></path>
+									</svg></i><strong>02.58.31.79.62</strong></a>
+						</li>
+						<li>Mail
+							<a href="mailto:info@ilmosaicodanza.it" class="link"><i class="dib w1 ma1">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve">
+										<path d="M460.8 51.2H51.2C22.921 51.2 0 74.121 0 102.4v307.2c0 28.279 22.921 51.2 51.2 51.2h409.6c28.279 0 51.2-22.921 51.2-51.2V102.4c0-28.279-22.921-51.2-51.2-51.2zM25.6 148.745 178.825 256 25.6 363.264V148.745zM486.4 409.6c0 14.114-11.486 25.6-25.6 25.6H51.2c-14.114 0-25.6-11.486-25.6-25.6v-15.104l175.548-122.88 47.505 33.254c4.446 3.098 10.249 3.098 14.703 0l47.505-33.254L486.4 394.496V409.6zm0-46.345L333.175 256 486.4 148.736v214.519zm0-245.751L256 278.775 25.6 117.504V102.4c0-14.114 11.486-25.6 25.6-25.6h409.6c14.114 0 25.6 11.486 25.6 25.6v15.104z"
+											fill="white"></path></svg></i>
+									<strong>info@ilmosaicodanza.it</strong></a>
+						</li>
+						<li>L'icona WhatsApp che vedi qui accanto 👉</li>
+					</ul>
+				</div>
+			</div>
+			<div class="legal">
+				<p>Info, Crediti & Privacy</p>
+				<ul class="lista5">
+					<li><a href="/regolamento-di-iscrizione/" class="link" title="Regolamento di iscrizione">Regolamento
+							di iscrizione</a></li>
+					<li><a href="/category/covid-19-info-e-regolamento/" class="link"
+							title="Info e regole per Covid-19">Info e regolamento Covid-19</a></li>
+					<li><a href="/cookie-policy/" title="Cookie Policy" class="link">Cookie Policy</a></li>
+					<li><a href="/privacy-policy/" title="Privacy Policy" class="link">Privacy Policy</a></li>
+					<li>GDPR</li>
+					<li>Statuto</li>
+				</ul>
+			</div>
+		</div><div class="consent-notice-container">
+<div id="consent-notice">
+    <img src="/img/logo-il-mosaico-danza-asd.svg" width="140" height="84" alt="Logo costituito da tre rombi con una figura danzante inscritta in ciascuno, e la scritta Il Mosaico Danza">
+    <p>Il Mosaico Danza a.s.d.</p>
+    <div class="db b pa1">Gestisci consenso Cookie
+    </div>
+    <span>
+Su questo sito utilizziamo cookie tecnici necessari alla navigazione e funzionali all'erogazione del servizio. Utilizziamo i cookie anche per fornirti un'esperienza di navigazione sempre migliore. Puoi esprimere il tuo consenso cliccando su Accetta tutti oppure cliccando su Gestisci consenso.<br>Leggi la nostra <a href="/cookie-policy/" class="btn cookie">COOKIE POLICY</a>
+</span>
+    <button class="btn manage-consent" rel="disallow">Gestisci consenso</button>
+    
+    <button id="approva" rel="disallow" class="btn approve-consent white bg-light-green">Accetta tutti</button>
+</div>
+<div id="consent-overlay">
+    <div>
+        <span id="close-overlay" role="button" tabindex="0">&times;</span>
+    <span class="near-black">Il Mosaico Danza a.s.d.</span><br><span class="b db ml4 pa2 ">Impostazioni cookie</span>
+        
+            <div>
+                <input type="checkbox" id="item0" value="1" name="item0" checked disabled>
+                <label for="item0">
+                    Cookie funzionale<br>
+                    Il cookie che permette di ricordare queste impostazioni
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item1" value="1" name="item1" >
+                <label for="item1">
+                    Google Anaytics<br>
+                    Cookie per misurare le visite nel sito tramite statistiche anonimizzate
+                </label>
+            </div>
+        
+            <div>
+                <input type="checkbox" id="item2" value="1" name="item2" >
+                <label for="item2">
+                    Microsoft Clarity<br>
+                    Cookie per heat mapping e registrazione sessioni
+                </label>
+            </div>
+        
+        <div>
+        <button id="save-consent" rel="disallow" class="btn save-consent br3" data-consentvalue="100">Salva preferenze</button>
+        <button rel="disallow" class="btn deny-consent br3 bg-light-red">Rifiuta tutti</button>
+        <button rel="disallow" class="btn approve-consent br3 bg-light-green">Accetta tutti</button>
+        </div>
+        <div>Il Mosaico Danza a.s.d.</div>
+    </div>
+</div>
+</div>
+
+<script>
+    const scripts = [];
+    scripts[ 0 ] = "/js/gtag.js";
+    scripts[ 1 ] = "/js/clarity.js";
+
+    function createCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        
+        document.cookie = name + "=" + value + expires + "; path=/; SameSite=None; Secure";
+    }
+    function readCookie(name) {
+        
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        createCookie(name,"",-1);
+    }
+    function denyAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "0";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptAllConsentScripts() {
+        var consentValue = "";
+        scripts.forEach(function(){
+            consentValue = consentValue + "1";
+        });
+        acceptSomeConsentScripts(consentValue);
+    }
+    function acceptSomeConsentScripts(consentValue) {
+        setConsentInputs(consentValue);
+        createCookie('consent-settings',consentValue, 31);
+        document.getElementById('consent-notice').style.display = 'none';
+        document.getElementById('consent-overlay').classList.remove('active');
+        loadConsentScripts(consentValue);
+    }
+
+    function loadConsentScripts(consentValue) {
+        scripts.forEach(function(value,key){
+            
+            if(consentValue[key]=="1") {
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.src = value;
+                document.body.appendChild(s);
+            }
+        });
+    }
+    function setConsentInputs(consentValue) {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        elements.forEach(function(el,index) {
+            if(consentValue[index]=="1") el.checked = true;
+            else el.checked = false;
+        });
+    }
+    function setConsentValue() {
+        var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+        var consentValue = 1;
+        elements.forEach(function(el) {
+            if(el.checked) consentValue = consentValue + "1";
+            else consentValue = consentValue + "0";
+        });
+        document.getElementById("save-consent").dataset.consentvalue = consentValue;
+    }
+
+    var elements = document.querySelectorAll('#consent-overlay input:not([disabled])');
+    elements.forEach(function(el) {
+        el.checked = false;
+    });
+
+    if(readCookie('consent-settings')) {
+        var consentValue = readCookie('consent-settings').toString();
+        
+        setConsentInputs(consentValue);
+        loadConsentScripts(consentValue);
+    } else {
+        document.getElementById('consent-notice').style.display = 'block';
+    }
+    var elements = document.querySelectorAll('.manage-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            document.getElementById('consent-overlay').classList.toggle('active');
+        });
+    });
+    var elements = document.querySelectorAll('.deny-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            denyAllConsentScripts();
+        });
+    });
+    var elements = document.querySelectorAll('.approve-consent');
+    elements.forEach(function(el) {
+        el.addEventListener("click",function() {
+            acceptAllConsentScripts();
+        });
+    });
+    document.getElementById("save-consent").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+    document.getElementById("approva").addEventListener("click",function() {
+        setConsentValue();
+        acceptSomeConsentScripts(this.dataset.consentvalue);
+    });
+
+    document.getElementById("consent-overlay").addEventListener("click",function(e) {
+        if (!document.querySelector("#consent-overlay > div").contains(e.target)){this.classList.toggle('active');}
+    });
+    document.getElementById("close-overlay").addEventListener("click",function(e) {
+        document.querySelector("#consent-overlay").classList.toggle('active');
+    });
+</script>
+
+
+    
+        
+    
+
+    
+
+    
+
+
+	</div>
+</footer>
+
+
+<aside>
+  <nav id="navbar-footer" itemscope itemtype="https://schema.org/SiteNavigationElement">
+    <div>
+      <a href="/category/orari-corsi/" class="moon-gray db tc no-underline" itemprop="url">
+        orari corsi
+      </a>
+    </div>
+    <div>
+      <a id="page-top-link" href="#top" title="vai a inizio pagina" class="moon-gray db tc no-underline" itemprop="url">
+        top
+      </a>
+    </div>
+    <div>
+      <a href="/contact-us/#informazioni-prenotazioni" class="moon-gray db tc no-underline" itemprop="url">
+        Contattaci
+      </a>
+    </div>
+  </nav>
+</aside>
+<script>
+function getScript(url, callback) {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src = url;
+  script.async = true;
+  script.onload = callback;
+  document.head.appendChild(script);
+}
+  
+  function showWhatsappMessage() {
+    const whatsappMessage = document.querySelector('#whatsapp-message');
+
+    
+    whatsappMessage.style.display = 'block';
+
+    
+    if (typeof aperto === 'undefined') {
+			const script = document.createElement('script');
+			script.src = '/js/mosaico-send-whatsapp-message.js';
+			document.body.appendChild(script);
+		}
+  }
+
+  
+  function hideWhatsappMessage() {
+    const whatsappMessage = document.querySelector('#whatsapp-message');
+
+    
+    whatsappMessage.style.animation = 'slideOutToRight 0.3s forwards';
+
+    
+    setTimeout(() => {
+      whatsappMessage.style.display = 'none';
+      
+      whatsappMessage.style.animation = 'slideInFromRight 0.3s forwards';
+    }, 300); 
+  }
+
+  
+  document.getElementById('closeBtn').addEventListener('click', function () {
+    hideWhatsappMessage();
+  });
+
+function handleWhatsappLinkClick(event) {
+  event.preventDefault(); 
+  showWhatsappMessage(); 
+}
+function showErrorMessage() {
+  const errorMessage = document.querySelector('.error-message');
+  errorMessage.style.display = 'block';
+}
+function hideErrorMessage() {
+  const errorMessage = document.querySelector('.error-message');
+  errorMessage.style.display = 'none';
+}
+
+
+const whatsappLinks = document.querySelectorAll('.whatsappLink');
+whatsappLinks.forEach(link => {
+  link.addEventListener('click', handleWhatsappLinkClick);
+});
+document.querySelector('input[name="name"]').addEventListener('keyup', hideErrorMessage);
+document.querySelector('textarea[name="request"]').addEventListener('keyup', hideErrorMessage);
+</script>
+
+<script>
+window.addEventListener("load", function() {
+	const banners = document.querySelectorAll('.banner');
+
+	banners.forEach(banner => {
+    	const expiry = banner.getAttribute('data-expiry');
+    	const visibilityStart = banner.getAttribute('data-visibility-start');
+    	if (new Date() > new Date(expiry)) {
+      		banner.style.display = 'none';
+    	} else if (new Date() < new Date(visibilityStart)) {
+      	banner.style.display = 'none';
+    } else {
+    	const threeDaysBeforeExpiry = new Date(expiry);
+    	threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
+    	if (new Date() > threeDaysBeforeExpiry) {
+        	banner.classList.add('urgent');
+      	}
+    }
+  });
+});
+</script>
+
+
+      </div>
+    </body>
+</html>

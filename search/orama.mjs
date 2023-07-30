@@ -2,6 +2,8 @@ import {
   create,
   search,
   insert,
+  insertMultiple,
+//} from "./orama/lib/index.js";
 } from "https://unpkg.com/@orama/orama@latest/dist/index.js";
 
 let showSpinner;
@@ -41,7 +43,7 @@ const init = async () => {
       title: "string",
       content: "string",
       url: "string",
-      description: "string",
+      //description: "string",
     },
     defaultLanguage: "italian",
   });
@@ -49,9 +51,11 @@ const init = async () => {
   const indexResponse = await fetch("/index.json");
   const index = await indexResponse.json();
 
-  for (const item of index) {
-    await insert(searchEngine, item);
-  }
+  await insertMultiple(searchEngine, index);
+  //for (const item of index) {
+  //  await insert(searchEngine, item);
+  //}
+
   hideSpinner();
 
   const urlSearchParams = new URLSearchParams(window.location.search);
