@@ -107,7 +107,7 @@ function setAvviso() {
   let greet = getGreeting();
   if(open){
     const [dalle, alle] = open.split('-');
-    msg = greet + "La segreteria è aperta oggi fino alle #ALLE1#. Poi riaprirà #NEXT# alle #ALLE2#.";
+    msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.";
     nextDay = new Date(now.getDate()+1);
     //onsole.log("93 nextDay", nextDay);
     nextOpen = getNextOpening(nextDay, 'Segreteria');
