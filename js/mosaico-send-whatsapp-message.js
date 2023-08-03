@@ -107,7 +107,8 @@ function setAvviso() {
   let greet = getGreeting();
   if(open){
     const [dalle, alle] = open.split('-');
-    msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.";
+    var lnk = "<a href='/regolamento-di-iscrizione/' class='link'>Prenota le tue lezioni di prova e scarica i moduli di iscrizione</a>";
+    msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.<br>" + lnk;
     nextDay = new Date(now.getDate()+1);
     //onsole.log("93 nextDay", nextDay);
     nextOpen = getNextOpening(nextDay, 'Segreteria');
@@ -118,7 +119,7 @@ function setAvviso() {
     msg = msg.replace("#ALLE1#", alle);
     msg = msg.replace("#NEXT#", nextDayName);
     msg = msg.replace("#ALLE2#", alle2);
-    avviso.textContent = msg;
+    avviso.innerHTML = msg;
   }else{
     next = getNextOpening(now, 'Segreteria');
     recipient.nextHours = next;
