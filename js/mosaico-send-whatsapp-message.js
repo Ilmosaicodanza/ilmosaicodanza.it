@@ -23,7 +23,7 @@ const aperto = {
   },
   'VE': {
     'Sabina': '17:00-20:00',
-    'Segreteria': '11:00-17:00',
+    'Segreteria': null
   },
   'SA': {
     'Sabina': '11:00-16:15',
