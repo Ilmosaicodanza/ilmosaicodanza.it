@@ -76,11 +76,11 @@ figure.no-border .snap-wrapper {
 /* avoid sick effects of inline-block on gallery elements */
 .snap-gallery .snap-wrapper {
   display: block;
-} 
+}
 
 .snap-gallery figure {
   position: relative;
-  width: 30%;
+  width: 20%;
   padding-bottom: 30%;
   margin: 1%;
   text-align: left;
@@ -140,7 +140,7 @@ figure.no-border .snap-wrapper {
   background: rgba(0,0,0,0.8);
 }
 
-/* effects when "activating" the figure */ 
+/* effects when "activating" the figure */
 .snap-lightbox:target {
   /** Remove default browser outline */
   outline: none;
