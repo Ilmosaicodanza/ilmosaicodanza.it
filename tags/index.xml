@@ -80,20 +80,74 @@
     </item>
     
     <item>
-      <title>news</title>
-      <link>https://www.ilmosaicodanza.it/tags/news/</link>
-      <pubDate>Tue, 12 Sep 2023 17:27:48 +0200</pubDate>
+      <title>Cante flamenco</title>
+      <link>https://www.ilmosaicodanza.it/tags/cante-flamenco/</link>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
       
-      <guid>https://www.ilmosaicodanza.it/tags/news/</guid>
+      <guid>https://www.ilmosaicodanza.it/tags/cante-flamenco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chitarra flamenco</title>
+      <link>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</link>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flamenco</title>
+      <link>https://www.ilmosaicodanza.it/tags/flamenco/</link>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/flamenco/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Insegnanti</title>
       <link>https://www.ilmosaicodanza.it/tags/insegnanti/</link>
-      <pubDate>Tue, 12 Sep 2023 14:43:30 +0200</pubDate>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/insegnanti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insegnanti di musica</title>
+      <link>https://www.ilmosaicodanza.it/tags/insegnanti-di-musica/</link>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/insegnanti-di-musica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Musica</title>
+      <link>https://www.ilmosaicodanza.it/tags/musica/</link>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/musica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedagogia flamenco</title>
+      <link>https://www.ilmosaicodanza.it/tags/pedagogia-flamenco/</link>
+      <pubDate>Wed, 13 Sep 2023 04:11:28 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/pedagogia-flamenco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>news</title>
+      <link>https://www.ilmosaicodanza.it/tags/news/</link>
+      <pubDate>Tue, 12 Sep 2023 17:27:48 +0200</pubDate>
+      
+      <guid>https://www.ilmosaicodanza.it/tags/news/</guid>
       <description></description>
     </item>
     
@@ -305,29 +359,11 @@
     </item>
     
     <item>
-      <title>Flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/flamenco/</link>
-      <pubDate>Mon, 12 Jun 2023 20:09:15 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/flamenco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Corsi estivi</title>
       <link>https://www.ilmosaicodanza.it/tags/corsi-estivi/</link>
       <pubDate>Sun, 11 Jun 2023 11:24:23 +0000</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/corsi-estivi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cante flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/cante-flamenco/</link>
-      <pubDate>Mon, 13 Mar 2023 23:33:06 +0000</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/cante-flamenco/</guid>
       <description></description>
     </item>
     
@@ -728,24 +764,6 @@
     </item>
     
     <item>
-      <title>Pedagogia flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/pedagogia-flamenco/</link>
-      <pubDate>Sat, 02 Jul 2022 11:51:35 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/pedagogia-flamenco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Musica</title>
-      <link>https://www.ilmosaicodanza.it/tags/musica/</link>
-      <pubDate>Sat, 02 Jul 2022 00:44:09 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/musica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Corsi</title>
       <link>https://www.ilmosaicodanza.it/tags/corsi/</link>
       <pubDate>Sat, 02 Jul 2022 00:28:46 +0200</pubDate>
@@ -814,24 +832,6 @@
       <pubDate>Tue, 28 Jun 2022 14:03:57 +0200</pubDate>
       
       <guid>https://www.ilmosaicodanza.it/tags/postura/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Chitarra flamenco</title>
-      <link>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</link>
-      <pubDate>Sun, 19 Jun 2022 13:03:53 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/chitarra-flamenco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Insegnanti di musica</title>
-      <link>https://www.ilmosaicodanza.it/tags/insegnanti-di-musica/</link>
-      <pubDate>Thu, 16 Jun 2022 20:18:18 +0200</pubDate>
-      
-      <guid>https://www.ilmosaicodanza.it/tags/insegnanti-di-musica/</guid>
       <description></description>
     </item>
     
