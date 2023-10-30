@@ -2,6 +2,7 @@
 # http://code.google.com/web/controlcrawlindex/
 
 User-agent: *
+Disallow: /prova-form/
 Disallow: /esempi/
 Disallow: /cdn-cgi/l/email-protection
 
