@@ -1,4 +1,5 @@
 
+/*
 import staticFormsPlugin from "@cloudflare/pages-plugin-static-forms";
 
 export const onRequest: PagesFunction = staticFormsPlugin({
@@ -7,3 +8,4 @@ export const onRequest: PagesFunction = staticFormsPlugin({
     return new Response(`Hello, ${email}! Thank you for submitting the ${name} form.`)
   }
 });
+*/
