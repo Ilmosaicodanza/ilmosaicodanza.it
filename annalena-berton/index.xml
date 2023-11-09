@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Annalena Berton on Il Mosaico Danza</title>
+    <title>Corsi di Balboa e Lindy Hop con Annalena Berton a Milano on Il Mosaico Danza</title>
     <link>https://www.ilmosaicodanza.it/annalena-berton/</link>
-    <description>Recent content in Annalena Berton on Il Mosaico Danza</description>
+    <description>Recent content in Corsi di Balboa e Lindy Hop con Annalena Berton a Milano on Il Mosaico Danza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
-    <lastBuildDate>Sun, 03 Jul 2022 11:46:07 +0200</lastBuildDate><atom:link href="https://www.ilmosaicodanza.it/annalena-berton/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Jul 2022 11:46:07 +0200</lastBuildDate>
+    <atom:link href="https://www.ilmosaicodanza.it/annalena-berton/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
