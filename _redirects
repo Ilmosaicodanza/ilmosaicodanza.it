@@ -1,5 +1,6 @@
 # 2023-12-08
 /baby-hip-hop/ /gioco-hip-hop/ 301
+/tags/mariele-carnevale/ /tags/yoga/ 301
 # 2023-10-12
 /insegnanti/ /category/i-nostri-insegnanti/ 301
 # 2023-10-01
@@ -44,6 +45,7 @@
 /tags/corso-danza-orientale/index.xml /tags/danza-orientale/index.xml 301
 /tags/corso/index.xml /tags/corsi/index.xml 301
 /tags/danza-di-coppia/index.xml /tags/danze-di-coppia/index.xml 301
+/tags/danza-milano-bambini/ /tags/danza-per-bambini-milano/ 301
 /tags/danza-milano-bambini/index.xml /tags/danza-per-bambini-milano/index.xml 301
 /tags/festival/index.xml /corsi-estivi/index.xml 301
 /tags/larry-daccò/index.xml /tags/larry-dacco/index.xml 301
@@ -309,7 +311,7 @@
 /cose-il-flamenco /cose-il-flamenco/ 301
 /cotgg/boogie/ /corso-di-boogie-jive-e-rockabilly-milano/ 301
 /cotggoscuola-dihball:/ /dancehall/ 301
-/tag/scuola-gioco= /tags/danza-milano-bambini/ 301
+/tag/scuola-gioco= /tags/danza-per-bambini-milano/ 301
 /cp/ / 301
 /dance-hall/ /dancehall/ 301
 /danza_contemporanea/musical/musical_653.html /danza-contemporanea/ 301
@@ -353,7 +355,7 @@
 /ginnastica-consapevole-metodo-feldenkrais/?utm_source=rss&utm_medium=rss&utm_campaign=ginnastica-consapevole-metodo-feldenkrais /category/corsi-movimento-e-benessere/index.xml 301
 /ginnastica-dolce-alexander/ /category/corsi-movimento-e-benessere/ 301
 /gestione/ /news/ 301
-/giocodanza/ /tags/danza-milano-bambini/ 301
+/giocodanza/ /tags/danza-per-bambini-milano/ 301
 /gttion /news/ 301
 /gttion /news/ 301
 /heel-dance /heels-dance/ 301
@@ -377,7 +379,7 @@
 /lezioni-di-chitarra-milano/danza-in-zona-loreto/index.html /lezioni-di-chitarra/ 301
 /lezioni-di-chitarra-milano/index.html /lezioni-di-chitarra/ 301
 /lezioni-di-flamenco-a-milano/index.html /la-migliore-scuola-di-flamenco-a-milano/ 301
-/lezioni-per-bambini/ /tags/danza-milano-bambini/ 301
+/lezioni-per-bambini/ /tags/danza-per-bambini-milano/ 301
 /lindy-hop /lindy-hop/ 301
 /lindy-hop-pilates-hip-hop/ /tags/lindy-hop/ 301
 /lindy-hop/lindy-hop-a-milano.webp /lindy-hop/lindy-hop-a-milano-1720x1144.webp 301
@@ -515,7 +517,7 @@
 /tags/approfondimenti /category/articoli-informativi-su-danza-e-movimento/ 301
 /tags/approfondimenti/index.xml /category/articoli-informativi-su-danza-e-movimento/ 301
 /tags/arianna-biancotto /tags/arianna-biancotto/ 301
-/tags/attivit/303/240-per-bambini/index.html /tags/danza-milano-bambini/ 301
+/tags/attivit/303/240-per-bambini/index.html /tags/danza-per-bambini-milano/ 301
 /tags/attivita-per-adulti /tags/danza-per-adulti/ 301
 /tags/attività-per-adulti /tags/danza-per-adulti/ 301
 /tags/attivita-per-adulti/ /tags/danza-per-adulti/ 301
@@ -616,7 +618,7 @@
 /tags/danza-di-coppia /tags/danza-di-coppia/ 301
 /tags/danza-di-michael-jackson /corso-michael-jackson-style/ 301
 /tags/danza-gypsy /tags/danza-gypsy/ 301
-/tags/danza-milano-bambini /tags/danza-milano-bambini/ 301
+/tags/danza-milano-bambini /tags/danza-per-bambini-milano/ 301
 /tags/danza-moderna /tags/danza-moderna/ 301
 /tags/danza-orientale /tags/danza-orientale-milano/ 301
 /tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/index.xml /tags/danza-orientale/ 301
@@ -638,7 +640,8 @@
 /tags/feldenkrais/index.xml /tags/benessere/ 301
 /tags/francesco-perrotta /tags/insegnanti-di-musica/ 301
 /tags/francesco-perrotta/index.xml /tags/insegnanti-di-musica/ 301
-/tags/festival /tags/festival/ 301
+/tags/festival /corsi-estivi/ 301
+/tags/festival/ /corsi-estivi/ 301
 /tags/fitness /tags/fitness/ 301
 /tags/flamenco /tags/flamenco/ 301
 /tags/flamenco-contemporaneo /tags/flamenco-contemporaneo/ 301
