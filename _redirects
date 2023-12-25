@@ -1,6 +1,16 @@
 # fissi
 /contatti/ /contact-us/ 301
 
+# 2023-12-25
+/corsi-di-danza-in-porta-romana/ /corsi-in-zona-porta-romana/ 301
+/tag/milano/ /tags/milano/ 301
+/tag/milano/index.xml /tags/milano/index.xml 301
+/tags/summer-camp/ /corsi-estivi/ 301
+/tags/summer-camp/index.xml /corsi-estivi/index.xml 301
+/tags/festival/ /corsi-estivi/ 301
+/tags/festival/index.xml /corsi-estivi/index.xml 301
+
+
 # 2023-12-08
 /baby-hip-hop/ /gioco-hip-hop/ 301
 /tags/mariele-carnevale/ /tags/yoga/ 301
@@ -765,9 +775,9 @@
 /tags/sara-ti /tags/sara-ti/ 301
 /tags/sara-tremolizzo/ /tags/sara-ti/ 301
 /tags/sara-tremolizzo /tags/sara-ti/ 301
-/tags/scarpe /tags/abbigliamento-flamenco/ 301
-/tags/scarpe/index.xml /tags/abbigliamento-flamenco/ 301
-/tags/scarpe-flamenco /tags/abbigliamento-flamenco/ 301
+/tags/scarpe /scarpe-da-flamenco/ 301
+/tags/scarpe/index.xml /scarpe-da-flamenco/index.xml 301
+/tags/scarpe-flamenco /scarpe-da-flamenco/ 301
 /tags/scuola/ /tags/scuola-di-ballo/ 301
 /tags/scuola /tags/scuola-di-ballo/ 301
 /tags/scuola/index.xml /tags/scuola-di-ballo/ 301
