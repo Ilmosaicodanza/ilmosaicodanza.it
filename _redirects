@@ -1,6 +1,68 @@
 # fissi
 /contatti/ /contact-us/ 301
 
+# 2023-12-27
+/tags/danza-araba /tags/danza-orientale/ 301
+/tags/danza-araba/ /tags/danza-orientale/ 301
+/tags/corsi-on-line  /tags/corsi/ 301
+/tags/corsi-on-line/ /tags/corsi/ 301
+/tags/corsi-on-line/index.xml /tags/corsi/index.xml 301
+/tags/mariele-carnevale/index.xml /tags/yoga/index.xml 301
+/tags/fabio-fedosi/index.xml /salsa-e-bachata/index.xml 301
+/pilates/pilates-in-milan-1024x576.webp /category/corsi-movimento-e-benessere/corsi-movimento-benessere-milano-cover-1920x1080.jpg 301
+/danza-del-ventre-silvia-carabelli/silvia-carabelli-bellydance-milano.webp /corso-di-danza-del-ventre/danza-del-ventre-belly-dance.webp 301
+/tags/insegnant-di-danza /tags/insegnanti-di-danza/ 301
+/tags/insegnant-di-danza/ /tags/insegnanti-di-danza/ 301
+/tags/insegnant-di-danza/index.xml /tags/insegnanti-di-danza/index.xml 301
+/tags/insegnant-di-musica /tags/insegnanti-di-musica 301
+/tags/insegnant-di-musica/ /tags/insegnanti-di-musica/ 301
+/tags/insegnant-di-musica/index.xml /tags/insegnanti-di-musica/index.xml 301
+/tag/sabina-todaro /tags/sabina-todaro/ 301
+/tag/sabina-todaro/ /tags/sabina-todaro/ 301
+/tag/sabina-todaro/index.xml /tags/sabina-todaro/index.xml 301
+/scarpe-da-flamenco /tags/abbigliamento-flamenco/ 301
+/scarpe-da-flamenco/ /tags/abbigliamento-flamenco/ 301
+/scarpe-da-flamenco/index.xml /tags/abbigliamento-flamenco/index.xml 301
+/tags/danza-milano-ragazzi /tags/danza-per-ragazzi-milano/ 301
+/tags/danza-milano-ragazzi/ /tags/danza-per-ragazzi-milano/ 301
+/tags/danza-milano-ragazzi/index.xml /tags/danza-per-ragazzi-milano/index.xml 301
+/tags/danza-per-ragazzi /tags/danza-per-ragazzi-milano/
+/tags/danza-per-ragazzi/ /tags/danza-per-ragazzi-milano/
+/tags/danza-per-ragazzi/index.xml /tags/danza-per-ragazzi-milano/index.xml
+/tags/corso /tags/corsi/ 301
+/tags/corso/ /tags/corsi/ 301
+/tags/corso/index.xml /tags/corsi/index.xml 301
+/search/orama/readme/ /search/ 301
+/roberto-angelica-insegnante-tango-milano/ /roberto-angelica/ 301
+/roberto-angelica-insegnante-tango-milano /roberto-angelica/ 301
+/roberto-angelica-insegnante-tango-milano/index.xml /roberto-angelica/index.xml 301
+/imparare_a_improvvisare /imparare-a-improvvisare/ 301
+/imparare_a_improvvisare/ /imparare-a-improvvisare/ 301
+/imparare_a_improvvisare/index.xml /imparare-a-improvvisare/index.xml 301
+/imparare_a_improvvisare/improvvisazione-nel-flamenco.webp /imparare-a-improvvisare/improvvisazione-nel-flamenco.webp 301
+/cante-flamenco-jeromo/ /cante-flamenco-jeromo-segura/ 301
+/cante-flamenco-jeromo/index.xml /cante-flamenco-jeromo-segura/index.xml 301
+/tag/sevillanas /tags/sevillanas/ 301
+/tag/sevillanas/ /tags/sevillanas/ 301
+/tag/sevillanas/index.xml /tags/sevillanas/index.xml 301
+/tags/percussioni-arabe /tags/percussioni-flamenco/ 301
+/tags/percussioni-arabe/ /tags/percussioni-flamenco/ 301
+/tags/percussioni-arabe/index.xml /tags/percussioni-flamenco/index.xml 301
+/hip-hop /tags/hip-hop/ 301
+/hip-hop/ /tags/hip-hop/ 301
+/hip-hop/index.xml /tags/hip-hop/index.xml 301
+/jeromo-segura /cante-flamenco-jeromo-segura/ 301
+/jeromo-segura/ /cante-flamenco-jeromo-segura/ 301
+/jeromo-segura/index.xml /cante-flamenco-jeromo-segura/index.xml 301
+/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot /zumba/ 301
+/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanotseer= /zumba/ 301
+/tags/ritmca /category/corsi-movimento-e-benessere/ 301
+/tags/ritmca/ /category/corsi-movimento-e-benessere/ 301
+/tags/ritmca/index.xml /category/corsi-movimento-e-benessere/index.xml 301
+/tag/ritmca /category/corsi-movimento-e-benessere/ 301
+/tag/ritmca/ /category/corsi-movimento-e-benessere/ 301
+/tag/ritmca/index.xml /category/corsi-movimento-e-benessere/index.xml 301
+
 # 2023-12-26
 /category/sagra-permanente/ /category/informazioni-e-contatti/ 301
 /category/sagra-permanente/index.xml /category/informazioni-e-contatti/index.xml 301
@@ -42,7 +104,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 # 2023-09-27
 /luglio-in-danza-milano-2023/ /corsi-estivi/ 301
 /news/corso-yoga-milano-da-sabato-25-marzo-2023/ /corso-yoga-milano/ 301
-/cante-flamenco-jeromo/index.xml /cante-flamenco-jeromo-segura/index.xml 301
 /category/corsi-movimento-e-benessere/mariele-carnevale-yoga-234x132.webp /category/corsi-movimento-e-benessere/corso-yoga-milano-cover-234x132.webp 301
 /category/corsi-movimento-e-benessere/mariele-carnevale-yoga.webp /category/corsi-movimento-e-benessere/corso-yoga-milano-cover-1920x1080.webp 301
 /category/corsi-estivi/ /corsi-estivi/ 301
@@ -60,7 +121,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /corso-yoga-milano/mariele-carnevale-yoga.webp /corso-yoga-milano/corso-yoga-milano-cover-1920x1080.webp 301
 /danza-con-marta/marta-mai-insegnante-danza-2608x1736.webp /marta-mai/marta-mai-insegnante-danza-2608x1736.webp 301
 /danza-con-marta/marta-mai-performance-1072x1904.webp /marta-mai/marta-mai-performance-1072x1904.webp 301
-/imparare_a_improvvisare/index.xml /imparare-a-improvvisare/index.xml 301
 /marie-noelle-terrisse-yoga /corso-yoga-milano/ 301
 /mariele-carnevale-yoga/ /corso-yoga-milano/ 301
 /mariele-carnevale-yoga/index.xml /corso-yoga-milano/index.xml 301
@@ -84,7 +144,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/luglio-in-danza-a-milano/index.xml /corsi-estivi/index.xml 301
 /tags/milano-zona-loreto/index.xml /tags/zona-loreto/index.xml 301
 /tags/on-line/ /tags/ 301
-/tags/percussioni-arabe/index.xml /tags/percussioni-flamenco/index.xml 301
 /tags/porta-romana/index.xml /tags/zona-porta-romana/index.xml 301
 /tags/scarpe-flamenco/index.xml /tags/abbigliamento-flamenco/index.xml 301
 /tags/silvia-carabelli/index.xml /category/corsi-di-danza/index.xml 301
@@ -123,7 +182,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /elisabetta-gennaro/index.xml /category/corsi-movimento-e-benessere/index.xml 301
 /hip-hop-con-ilaria-catalano/ /corso-di-hip-hop-a-milano/ 301
 /img/logo-il-mosaico-danza-asd-800x472 /img/logo-il-mosaico-danza-asd-800x472.png 301
-/imparare_a_improvvisare/ /imparare-a-improvvisare/ 301
 /jazz-dance/ /solo-jazz/ 301
 /jazz-dance/index.xml /solo-jazz/index.xml 301
 /kizomba/ /category/corsi-di-danza/ 301
@@ -149,7 +207,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tag/chitarra/ /tags/chitarra-flamenco/ 301
 /tag/corsi-di-ballo/ /tags/corsi-di-ballo/ 301
 /tag/corsi/feed/ /tags/corsi/ 301
-/tag/danza-araba/ /tags/danza-classica/ 301
+/tag/danza-araba/ /tags/danza-orientale/ 301
 /tag/danza-contemporanea/ /tags/danza-contemporanea/ 301
 /tag/danza/ /tags/danza/ 301
 /tags/danza-per-bambini/ /tags/danza-per-bambini-milano/ 301
@@ -202,7 +260,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/milano-zona-loreto/ /tags/zona-loreto/ 301
 /tags/palillos/ /tags/percussioni-flamenco/ 301
 /tags/palmas/index.xml /tags/percussioni-flamenco/index.xml 301
-/tags/percussioni-arabe/ /tags/percussioni-flamenco/ 301
 /tags/percussioni/ /tags/percussioni-flamenco/ 301
 /tags/porta-romana/ /tags/zona-porta-romana/ 301
 /tags/rilassamento/ /tags/benessere/ 301
@@ -396,7 +453,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /hilal-dance/ /lyrical-arab-dance/ 301
 /hilal-dance/lyrical-arab-dance-2/ /lyrical-arab-dance/ 301
 /il-mosaico-danza-e-il-covid-19/m /il-mosaico-danza-e-il-covid-19/ 301
-/imparare_a_improvvisare /imparare-a-improvvisare/ 301
 /improvvisazione/index.html /imparare-a-improvvisare/ 301
 /index.php / 301
 /insegnanti-del-corso-di-massaggio/ /category/corsi-movimento-e-benessere/ 301
@@ -513,8 +569,8 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tag/flamencologia/ /tags/flamencologia/ 301
 /tag/flamenco/ /tags/flamenco/ 301
 /tag/formazione/ /tags/formazione/ 301
-/tag/hip-hop/ /tags/hip-hop/ 301
 /tag/hip-hop /tags/hip-hop/ 301
+/tag/hip-hop/ /tags/hip-hop/ 301
 /tag/insegnanti-di-danza/ /tags/insegnanti-di-danza/ 301
 /tag/jive/ /tags/jive/ 301
 /tag/mat-work/ /tags/benessere/ 301
@@ -629,7 +685,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/dance-workout /tags/dance-workout/ 301
 /tags/dancehall /tags/dancehall/ 301
 /tags/danz /category/corsi-di-danza/ 301
-/tags/danza-araba /tags/danza-araba/ 301
 /tags/danza-bollywood /category/corsi-di-danza/ 301
 /tags/danza-classica /tags/danza-classica/ 301
 /tags/danza-contemporanea /tags/danza-contemporanea/ 301
@@ -779,9 +834,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/saggio-2022/index.xml /tags/spettacoli/ 301
 /tags/salsa-cubana /tags/salsa-e-bachata/ 301
 /tags/rilassamento /tags/benessere/ 301
-/tags/ritmca/ /category/corsi-movimento-e-benessere/ 301
-/tags/ritmca /category/corsi-movimento-e-benessere/ 301
-/tags/ritmca /category/corsi-movimento-e-benessere/ 301
 /tags/sabina-todaro /tags/sabina-todaro/ 301
 /tags/saggio-2022/ /tags/spettacoli/ 301
 /tags/salsa/ /tags/salsa-e-bachata/ 301
