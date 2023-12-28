@@ -22,6 +22,14 @@
 /zumba /category/corsi-movimento-e-benessere/ 301
 /zumba/ /category/corsi-movimento-e-benessere/ 301
 /zumba/index.xml /category/corsi-movimento-e-benessere/index.xml 301
+/corsi-on-line /corsi-on-line/ 301
+/tags/corso-danza-orientale/ /tags/danza-orientale/ 301
+/tags/corso-danza-orientale/index.xml /tags/danza-orientale/index.xml 301
+/search /search/ 301
+/tags/scuola-di-flamenco-a-milano/ /tags/pedagogia-flamenco/ 301
+
+/tags/scuola-di-flamenco-a-milano/index.xml /tags/pedagogia-flamenco/index.xml 301
+
 
 # 2023-12-27
 /cante-flamenco-jeromo/ /cante-flamenco-jeromo-segura/ 301
@@ -151,7 +159,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /search/orama/ /search/ 301
 /search/orama/readme/index.xml /search/ 301
 /tags/bachata/index.xml /tags/salsa-e-bachata/index.xml 301
-/tags/corso-danza-orientale/index.xml /tags/danza-orientale/index.xml 301
 /tags/corso/index.xml /tags/corsi/index.xml 301
 /tags/danza-di-coppia/index.xml /tags/danze-di-coppia/index.xml 301
 /tags/danza-milano-bambini/ /tags/danza-per-bambini-milano/ 301
@@ -753,7 +760,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/ginnastica/ /category/corsi-movimento-e-benessere/ 301
 /tags/ginnastica /category/corsi-movimento-e-benessere/ 301
 /tags/hip-hop /tags/hip-hop/ 301
-/tags/il-mosaico-danza  /tags/corsi-di-danza/ 301
+/tags/il-mosaico-danza /tags/corsi-di-danza/ 301
 /tags/il-mosaico-danza/ /tags/corsi-di-danza/ 301
 /tags/il-mosaico-danza/index.xml /tags/corsi-di-danza/index.xml 301
 /tags/improvvisazione-flamenco /imparare-a-improvvisare/ 301
@@ -872,7 +879,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/scuola-di-danza-scuola-di-danza-zona-loreto/index.xml /tags/zona-loreto/ 301
 /tags/scuola-di-danza-zona-loreto /tags/zona-loreto/ 301
 /tags/scuola-di-flamenco-a-milano /la-migliore-scuola-di-flamenco-a-milano/ 301
-/tags/scuola-di-flamenco-a-milano/index.xml /la-migliore-scuola-di-flamenco-a-milano/index.xml 301
 /tags/scuola-di-danza-zona-tibaldi /tags/scuola-di-danza-zona-tibaldi/ 301
 /tags/scuola-di-danza /tags/scuola-di-danza/ 301
 /tags/scuola-di-flamenco /flamenco/ 301
