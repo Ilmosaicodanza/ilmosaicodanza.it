@@ -1,5 +1,6 @@
 # fissi
 /contatti/ /contact-us/ 301
+/index.php / 301
 
 # 2023-12-28
 /latin-dance-per-bambini-e-ragazzi/ /category/corsi-per-bambini-milano-loreto-tibaldi/ 301
@@ -15,7 +16,10 @@
 /tag/swing/ /tags/swing/ 301
 /salsa-e-bachata/salsa/ /salsa-e-bachata/ 301
 /breakdance-b-boying/ /corso-di-hip-hop-a-milano/ 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot%20seer= / 301
+/ginnastica-posturale /ginnastica-posturale-antalgica/ 301
+/ginnastica-posturale/ /ginnastica-posturale-antalgica/ 301
+/ginnastica-posturale/index.xml /ginnastica-posturale-antalgica/index.xml 301
+/zumba /zumba/ 301
 
 # 2023-12-27
 /cante-flamenco-jeromo/ /cante-flamenco-jeromo-segura/ 301
@@ -62,7 +66,6 @@
 /tags/danza-per-ragazzi /tags/danza-per-ragazzi-milano/ 301
 /tags/danza-per-ragazzi/ /tags/danza-per-ragazzi-milano/ 301
 /tags/danza-per-ragazzi/index.xml /tags/danza-per-ragazzi-milano/index.xml 301
-/tags/fabio-fedosi/index.xml /salsa-e-bachata/index.xml 301
 /tags/insegnant-di-danza /tags/insegnanti-di-danza/ 301
 /tags/insegnant-di-danza/ /tags/insegnanti-di-danza/ 301
 /tags/insegnant-di-danza/index.xml /tags/insegnanti-di-danza/index.xml 301
@@ -76,8 +79,6 @@
 /tags/ritmca /category/corsi-movimento-e-benessere/ 301
 /tags/ritmca/ /category/corsi-movimento-e-benessere/ 301
 /tags/ritmca/index.xml /category/corsi-movimento-e-benessere/index.xml 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot /zumba/ 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanotseer= /zumba/ 301
 
 # 2023-12-26
 /category/sagra-permanente/ /category/informazioni-e-contatti/ 301
@@ -170,6 +171,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 # 2023-09-25
 /fabio-fedosi/ /salsa-e-bachata/ 301
 /tags/fabio-fedosi/ /salsa-e-bachata/ 301
+/tags/fabio-fedosi/index.xml /salsa-e-bachata/index.xml 301
 /corso-intensivo-flamenco-sevillanas-lyrical-arab-dance-workout-anatomia/ /tags/flamenco/ 301
 # 2023-09-14
 /corsi-di-lindy-hop-al-mosaico.webp /corsi-di-lindy-hop-al-mosaico-1024x1816.webp 301
@@ -302,8 +304,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /total-body/ /tags/dance-workout/ 301
 /tribal-bellydance-tribal-fusion/ /tags/tribal-dance/ 301
 /yoga-della-risata/ /corso-yoga-milano/ 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot /zumba/index.html 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot%20seer= /zumba/ 301
 
 # prima di 2023-09-14
 /chitarra-flamenca-antonio/ /antonio-porro/ 301
@@ -376,7 +376,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /corsi-in-tibaldi /corsi-danza-moderna-zona-tibaldi/ 301
 /corsi-in-zona-porta-romana /tags/zona-porta-romana/ 301
 /corsi-in-zo-expand /category/orari-corsi/ 301
-/corsi-on-line /corsi-on-line/ 301
 /corsi-zona-tibaldi-anno-2021-2022/ /corsi-danza-moderna-zona-tibaldi/ 301
 /corsit-g/ /category/orari-corsi/ 301
 /corsit-g/ba/ /category/orari-corsi/ 301
@@ -389,7 +388,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /corso-di-ballo-liscio-a-milano /corso-di-ballo-liscio-a-milano/ 301
 /corso-di-ballo-liscio-a-milano/aldo-rebatto-danza/ /corso-di-ballo-liscio-a-milano/ 301
 /corso-di-spagnolo/ /tags/flamencologia/ 301
-/corso-insegnante-hip-hop/ /tags/hip-hop/ 301
 /corso_di_bioenergetica/cose_la_bioenergetica/Cose_la_bioenergetica_178.html /category/corsi-movimento-e-benessere/ 301
 /cp/theme/ / 301
 /danza-con-marta/ /marta-mai/ 301
@@ -405,7 +403,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /corsi-di-pilates-a-milano/ /tags/benessere/ 301
 /corso_di_yoga/corso_di_yoga_65.html /corso-yoga-milano/ 301
 /corso-di-boogie-jive-e-rockabilly-milano /corso-di-boogie-jive-e-rockabilly-milano/ 301
-/tags/corso-danza-orientale/ /tags/danza-orientale/ 301
 /corso-di-improvvisazione-nel-flamenco/danza-in-zona-loreto/index.html /imparare-a-improvvisare/ 301
 /corso-di-improvvisazione-nel-flamenco/index.html /imparare-a-improvvisare/ 301
 /corso-di-formazione-per-insegnanti-di-danza-classica/ /insegnare-danza/ 301
@@ -423,7 +420,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /danza_contemporanea /danza-contemporanea/ 301
 /danza_e_musica_africana /tags/tribal-dance/ 301
 /danza_modern_jazz/ /danza-moderna/ 301
-/danza-in-zona-loreto/ss/ /danza-in-zona-loreto/ 301
 /danza-in-zona-loreto /danza-in-zona-loreto/ 301
 /danza-del-tao/ /category/corsi-movimento-e-benessere/ 301
 /danza-del-ventre /corso-di-danza-del-ventre/ 301
@@ -444,7 +440,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /flamenco /flamenco/ 301
 /flamenco-lavoro-corporeo/ /la-migliore-scuola-di-flamenco-a-milano/ 301
 /flamenco-lavoro-corporeo/danza-in-zona-loreto/index.html /la-migliore-scuola-di-flamenco-a-milano/ 301
-/flamenco-lavoro-corporeo/index.html /la-migliore-scuola-di-flamenco-a-milano/ 301
+/flamenco-lavoro-corporeo/index.html /la-migliore-scuola-di-flamenco-a-milano/index.xml 301
 /flamenco-per-bambini/ /category/flamenco/ 301
 /flamenco-workout/ /dance-workout/ 301
 /Flamenco/ /category/flamenco/ 301
@@ -491,13 +487,11 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /lyrical-arab /lyrical-arab-dance/ 301
 /lyrical-arab-hilal-dance/ /tags/lyrical-arab-dance/ 301
 /lyrical-arab/ /lyrical-arab-dance/ 301
-/maria-de-laurentiis/ /sara-ti/ 301
-/maria-de-laurentiis/contemporary-tribal-fusion /corso-di-danza-del-ventre/ 301
+/maria-de-laurentiis/ /corso-di-danza-del-ventre/ 301
 /maria-de-laurentiis/contemporary-tribal-fusion /corso-di-danza-del-ventre/ 301
 /maria-de-laurentiis/corso-di-danza-del-ventre /corso-di-danza-del-ventre/ 301
-/maria-de-laurentiis/corso-di-danza-del-ventre /corso-di-danza-del-ventre/ 301
-/maria-de-laurentiis/danza-del-ventre-silvia-carabelli /sara-ti/ 301
-/maria-de-laurentiis/lyrical-arab-dance /lyrical-arab-dance/ 301
+/maria-de-laurentiis/danza-del-ventre-silvia-carabelli /corso-di-danza-del-ventre/ 301
+/maria-de-laurentiis/lyrical-arab-dance /corso-di-danza-del-ventre/ 301
 /marianna-fontana-corsi-tango /corso-di-tango-argentino/ 301
 /marianna-fontana-corsi-tango/ /corso-di-tango-argentino/ 301
 /marinetta-la-porta /category/corsi-movimento-e-benessere/ 301
@@ -536,6 +530,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /presentazione-del-corso-di-michael-jackson-style/ /corso-michael-jackson-style/ 301
 /provaindex/index.xml / 301
 /quelli-di-via-oldrado-qdvo /quelli-di-via-oldrado-qdvo/ 301
+/quelli-di-via-oldrado-qdvo/index.html /quelli-di-via-oldrado-qdvo/ 301
 /reggaeton /corsi-di-reggaeton/ 301
 /reggaeton/ /corsi-di-reggaeton/ 301
 /reggaeton-e-salsa-con-yusef/ /corsi-di-reggaeton/ 301
@@ -678,10 +673,11 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/corsi-danza-milano/ /tags/corsi-di-danza/ 301
 /tags/corsi-di-coreografia /montare-una-coreografia-flamenco/ 301
 /tags/corsi-di-coreografia/ /montare-una-coreografia-flamenco/ 301
-/tags/corsi-di-coreografia/index.xml /montare-una-coreografia-flamenco/ 301
+/tags/corsi-di-coreografia/index.xml /montare-una-coreografia-flamenco/index.xml 301
 /tags/corsi-di-danza /tags/corsi-di-danza/ 301
 /tags/corsi-di-danza-per-adulti /tags/danza-per-adulti/ 301
 /tags/corsi-di-danza-per-adulti/index.xml /tags/danza-per-adulti/ 301
+/tags/corsi-di-flamenco /flamenco/ 301
 /tags/corsi-di-flamenco/ /flamenco/ 301
 /tags/corsi-estivi /tags/corsi-estivi/ 301
 /tags/danz/ /category/corsi-di-danza/ 301
@@ -690,9 +686,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/danza-a-distanza /category/corsi-di-danza/ 301
 /tags/danza-a-distanza/ /category/corsi-di-danza/ 301
 /tags/danza-a-distanza/index.xml /category/corsi-di-danza/ 301
-/tags/corsi-di-flamenco /flamenco/ 301
 /tags/corsi-di-swing /tags/lezioni-di-swing/ 301
-/tags/corsi-on-line /tags/corsi-on-line/ 301
 /tags/dance-hall /tags/dancehall/ 301
 /tags/dance-hall/ /tags/dancehall/ 301
 /tags/dance-hall/index.xml /tags/dancehall/index.xml 301
@@ -757,11 +751,11 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/ginnastica/ /category/corsi-movimento-e-benessere/ 301
 /tags/ginnastica /category/corsi-movimento-e-benessere/ 301
 /tags/hip-hop /tags/hip-hop/ 301
-/tags/il-mosaico-danza/ /tags/milano/ 301
-/tags/il-mosaico-danza /tags/milano/ 301
-/tags/il-mosaico-danza/index.xml / 301
-/tags/improvvisazione-flamenco/ /imparare-a-improvvisare/ 301
+/tags/il-mosaico-danza  /tags/corsi-di-danza/ 301
+/tags/il-mosaico-danza/ /tags/corsi-di-danza/ 301
+/tags/il-mosaico-danza/index.xml /tags/corsi-di-danza/index.xml 301
 /tags/improvvisazione-flamenco /imparare-a-improvvisare/ 301
+/tags/improvvisazione-flamenco/ /imparare-a-improvvisare/ 301
 /tags/improvvisazione-flamenco/index.xml /imparare-a-improvvisare/ 301
 /tags/improvvisazioni /tags/improvvisazioni/ 301
 /tags/insegnamento/ /tags/insegnanti-di-danza/ 301
@@ -770,10 +764,10 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/insegnanti-danza/index.xml /tags/insegnanti-di-danza/ 301
 /tags/insegnanti-di-musica /tags/insegnanti-di-musica/ 301
 /tags/jamila-zaki /tags/jamila-zaki/ 301
-/tags/india/ /tags/danza-orientale/ 301
 /tags/india /tags/danza-orientale/ 301
+/tags/india/ /tags/danza-orientale/ 301
 /tags/insegnamento /tags/insegnanti-di-danza/ 301
-/tags/insegnamento/index.xml /tags/insegnanti-di-danza/ 301
+/tags/insegnamento/index.xml /tags/insegnanti-di-danza/index.xml 301
 /tags/insegnanti-danza/ /tags/insegnanti-di-danza/ 301
 /tags/insegnanti-danza /tags/insegnanti-di-danza/ 301
 /tags/insegnanti-danza/index.xml /tags/insegnanti-di-danza/index.xml 301
@@ -802,8 +796,8 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/loreto /tags/zona-loreto/ 301
 /tags/loreto/ /tags/zona-loreto/ 301
 /tags/lyrical-arab-dance /tags/lyrical-arab-dance/ 301
-/tags/maria-de-laurentiis/ /category/corsi-di-danza/ 301
 /tags/maria-de-laurentiis /category/corsi-di-danza/ 301
+/tags/maria-de-laurentiis/ /category/corsi-di-danza/ 301
 /tags/marta-mai /tags/marta-mai/ 301
 /tags/massaggio/ /category/corsi-movimento-e-benessere/ 301
 /tags/massaggio /category/corsi-movimento-e-benessere/ 301
@@ -847,11 +841,11 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/regolamento /tags/regolamento/ 301
 /tags/rockabilly /tags/rockabilly/ 301
 /tags/saggio-2022/index.xml /tags/spettacoli/ 301
-/tags/salsa-cubana /tags/salsa-e-bachata/ 301
 /tags/rilassamento /tags/benessere/ 301
 /tags/sabina-todaro /tags/sabina-todaro/ 301
 /tags/saggio-2022/ /tags/spettacoli/ 301
 /tags/salsa/ /tags/salsa-e-bachata/ 301
+/tags/salsa-cubana /tags/salsa-e-bachata/ 301
 /tags/salsa-cubana/ /tags/salsa-e-bachata/ 301
 /tags/salsa-cubana/index.xml /tags/salsa-e-bachata/index.xml 301
 /tags/salsa-e-bachata /tags/salsa-e-bachata/ 301
@@ -876,8 +870,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/scuola-di-danza-scuola-di-danza-zona-loreto/index.xml /tags/zona-loreto/ 301
 /tags/scuola-di-danza-zona-loreto /tags/zona-loreto/ 301
 /tags/scuola-di-flamenco-a-milano /la-migliore-scuola-di-flamenco-a-milano/ 301
-/tags/scuola-di-flamenco-a-milano/index.xml /la-migliore-scuola-di-flamenco-a-milano/ 301
-/tags/scuola-di-flamenco-a-milano/ /tags/pedagogia-flamenco/ 301
+/tags/scuola-di-flamenco-a-milano/index.xml /la-migliore-scuola-di-flamenco-a-milano/index.xml 301
 /tags/scuola-di-danza-zona-tibaldi /tags/scuola-di-danza-zona-tibaldi/ 301
 /tags/scuola-di-danza /tags/scuola-di-danza/ 301
 /tags/scuola-di-flamenco /flamenco/ 301
@@ -951,8 +944,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /zumba/immagine-zumba-fitness.webp /zumba-fitness-milano-mosaico-936x528.webp/ 301
 /zumba/index.xml /dance-workout/ 301
 /zumba/https /news/ 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot /news/ 301
-/zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot /news/ 301
 
 /zumba/httpsit-it.face-* / 301
 /danza-in-zona-loreto/ss/* /danza-in-zona-loreto/ 301
