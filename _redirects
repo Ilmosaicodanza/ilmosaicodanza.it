@@ -15,7 +15,6 @@
 /tag/swing/ /tags/swing/ 301
 /salsa-e-bachata/salsa/ /salsa-e-bachata/ 301
 /breakdance-b-boying/ /corso-di-hip-hop-a-milano/ 301
-/zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanotseer= / 301
 /zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot%20seer= / 301
 
 # 2023-12-27
@@ -955,6 +954,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /zumba/httpsit-it.face-ook.itm/ww.ilmosaicodamzamilanot /news/ 301
 /zumba/httpsit.pirterest.itm/ww.ilmosaicodaanot /news/ 301
 
+/zumba/httpsit-it.face-* / 301
 /danza-in-zona-loreto/ss/* /danza-in-zona-loreto/ 301
 /danzando-tribal-dance* /tags/tribal-dance/ 301
 /danze_caraibiche_* /salsa-e-bachata/ 301
