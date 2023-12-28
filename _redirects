@@ -19,7 +19,9 @@
 /ginnastica-posturale /ginnastica-posturale-antalgica/ 301
 /ginnastica-posturale/ /ginnastica-posturale-antalgica/ 301
 /ginnastica-posturale/index.xml /ginnastica-posturale-antalgica/index.xml 301
-/zumba /zumba/ 301
+/zumba /category/corsi-movimento-e-benessere/ 301
+/zumba/ /category/corsi-movimento-e-benessere/ 301
+/zumba/index.xml /category/corsi-movimento-e-benessere/index.xml 301
 
 # 2023-12-27
 /cante-flamenco-jeromo/ /cante-flamenco-jeromo-segura/ 301
@@ -473,8 +475,8 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /jeromo-segura/danza-in-zona-loreto/index.html /cante-flamenco-jeromo-segura/ 301
 /js/S- /news/ 301
 /la-migliore-scuola-di-flamenco-a-milano/spettacolo-flamenco-mosaico-danza-milano.webp /la-migliore-scuola-di-flamenco-a-milano/spettacolo-flamenco-milano-mosaico-danza-1912x1272.webp 301
-/la-zumba-con-silvia/ /zumba/ 301
-/la-zumba-con-silvia/index.xml /zumba/ 301
+/la-zumba-con-silvia/ /category/corsi-movimento-e-benessere/ 301
+/la-zumba-con-silvia/index.xml /category/corsi-movimento-e-benessere/ 301
 /latino_americano_salsa_bachata /salsa-e-bachata/ 301
 /lezioni-di-chitarra-milano/danza-in-zona-loreto/index.html /lezioni-di-chitarra/ 301
 /lezioni-di-chitarra-milano/index.html /lezioni-di-chitarra/ 301
@@ -941,11 +943,11 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /yoga /corso-yoga-milano/ 301
 /yoga-della-risata/index.xml /tags/yoga/ 301
 /xmtag/dceza-oriertal:/ /tags/danza-orientale-milano/ 301
-/zumba/immagine-zumba-fitness.webp /zumba-fitness-milano-mosaico-936x528.webp/ 301
-/zumba/index.xml /dance-workout/ 301
-/zumba/https /news/ 301
+/zumba/immagine-zumba-fitness.webp /dance-workout/flamenco-espressivita.webp 301
+/zumba/index.xml /dance-workout/index.xml 301
+/zumba/https /dance-workout/ 301
 
-/zumba/httpsit-it.face-* / 301
+/zumba/httpsit-it.face-* /dance-workout/ 301
 /danza-in-zona-loreto/ss/* /danza-in-zona-loreto/ 301
 /danzando-tribal-dance* /tags/tribal-dance/ 301
 /danze_caraibiche_* /salsa-e-bachata/ 301
