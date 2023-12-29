@@ -2,6 +2,10 @@
 /contatti/ /contact-us/ 301
 /index.php / 301
 
+# 2023-12-29
+/tags/regolamento/ /regolamento-di-iscrizione/ 301
+/tags/regolamento/index.xml /regolamento-di-iscrizione/index.xml 301
+
 # 2023-12-28
 /latin-dance-per-bambini-e-ragazzi/ /category/corsi-per-bambini-milano-loreto-tibaldi/ 301
 /latin-dance-per-bambini-e-ragazzi/index.md /category/corsi-per-bambini-milano-loreto-tibaldi/index.md 301
