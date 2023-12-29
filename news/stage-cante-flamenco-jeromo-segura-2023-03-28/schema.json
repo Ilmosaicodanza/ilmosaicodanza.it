@@ -1,0 +1,900 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Stage di Cante Flamenco a Milano con Jeromo Segura dal 28 marzo al 1 aprile",
+    "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
+    "startDate": "2023-03-28T19:30",
+    "endDate": "2023-04-01T13:30",
+    "duration": "PT15H",
+    "performer": {"@type": "Person","name": "Jeromo Segura"},
+    "eventStatus": "https://schema.org/EventScheduled",
+    "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/stage-cante-flamenco-milano-jeromo-segura-2023.webp",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "description": "Lo stage di Cante Flamenco a Milano di Jeromo Segura si svolgerà presso la sede de Il Mosaico Danza a.s.d. da martedì 28 marzo a sabato 1 aprile.",
+    "organizer": {
+        "@type": "Organization",
+        "name": "Il Mosaico Danza a.s.d.",
+        "url": "https://www.ilmosaicodanza.it",
+        "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+        "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "+39-351-94-59-036",
+        "contactType": "Segreteria"
+      },
+      {
+        "@type": "ContactPoint",
+        "email": "info@ilmosaicodanza.it",
+        "contactType": "Segreteria prenotazioni"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+39-339-61-73-388",
+        "contactType": "Segreteria prenotazioni",
+        "contactOption": "WhatsApp e Mobile"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "+39-02-583-179-62",
+        "contactType": "Segreteria Linea fissa"
+      }
+    ]
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image":{
+            "@type": "ImageObject",
+            "url":"https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+            "width": "800",
+            "height": "472"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Passeroni 6",
+            "addressLocality": "Milano",
+            "postalCode": "20135",
+            "addressCountry": "IT"
+        }
+    },
+    "offers": [
+        {"@type": "Offer",
+            "price": "25",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "1 ora di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "40",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "2 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "3 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "60",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "4 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "70",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "5 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "80",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "6 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "90",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "7 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "100",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "8 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "110",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "9 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "120",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "10 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "130",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "Da 11 a 15 ore abbonamento OPEN a frequenza libera Da 11 a 15 ore",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+    ]
+},
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Lezione 1 - Stage di Cante Flamenco con Jeromo Segura - Martedì 28 Marzo",
+    "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
+    "startDate": "2023-03-28T19:30",
+    "endDate": "2023-03-28T22:30",
+    "duration": "PT3H",
+    "performer": {"@type": "Person","name": "Jeromo Segura"},
+    "eventStatus": "https://schema.org/EventScheduled",
+    "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/stage-cante-flamenco-milano-jeromo-segura-2023.webp",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "description": "Partecipa alla prima lezione dello Stage di Cante Flamenco a Milano con Jeromo Segura. Impara le basi del cante flamenco e inizia il tuo viaggio nella tradizione musicale andalusa. Argomenti di oggi: Tientos, Tangos, Tango de Granada, Guajiras, Fandango de Huelva e Sevillanas",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Il Mosaico Danza a.s.d.",
+      "url": "https://www.ilmosaicodanza.it",
+      "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+      "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-351-94-59-036",
+      "contactType": "Segreteria"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "info@ilmosaicodanza.it",
+      "contactType": "Segreteria prenotazioni"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-339-61-73-388",
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "WhatsApp e Mobile"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-02-583-179-62",
+      "contactType": "Segreteria Linea fissa"
+    }
+  ]
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image":{
+            "@type": "ImageObject",
+            "url":"https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+            "width": "800",
+            "height": "472"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Passeroni 6",
+            "addressLocality": "Milano",
+            "postalCode": "20135",
+            "addressCountry": "IT"
+        }
+    },
+    "offers": [
+        {"@type": "Offer",
+            "price": "25",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "1 ora di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "40",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "2 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "3 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "60",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "4 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "70",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "5 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "80",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "6 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "90",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "7 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "100",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "8 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "110",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "9 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "120",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "10 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "130",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "Da 11 a 15 ore abbonamento OPEN a frequenza libera Da 11 a 15 ore",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+    ]
+},
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Lezione 2 - Stage di Cante Flamenco con Jeromo Segura - Mercoledì 29 marzo",
+    "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
+    "startDate": "2023-03-29T19:30",
+    "endDate": "2023-03-29T22:30",
+    "duration": "PT3H",
+    "performer": {"@type": "Person","name": "Jeromo Segura"},
+    "eventStatus": "https://schema.org/EventScheduled",
+    "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/stage-cante-flamenco-milano-jeromo-segura-2023.webp",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "description": "Partecipa alla prima lezione dello Stage di Cante Flamenco a Milano con Jeromo Segura. Impara le basi del cante flamenco e inizia il tuo viaggio nella tradizione musicale andalusa. Argomenti di oggi: Policaña, Soleá Apolá, Peteneras, Fandango de Huelva e Sevillanas",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Il Mosaico Danza a.s.d.",
+      "url": "https://www.ilmosaicodanza.it",
+      "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+      "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-351-94-59-036",
+      "contactType": "Segreteria"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "info@ilmosaicodanza.it",
+      "contactType": "Segreteria prenotazioni"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-339-61-73-388",
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "WhatsApp e Mobile"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-02-583-179-62",
+      "contactType": "Segreteria Linea fissa"
+    }
+  ]
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image":{
+            "@type": "ImageObject",
+            "url":"https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+            "width": "800",
+            "height": "472"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Passeroni 6",
+            "addressLocality": "Milano",
+            "postalCode": "20135",
+            "addressCountry": "IT"
+        }
+    },
+    "offers": [
+        {"@type": "Offer",
+            "price": "25",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "1 ora di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "40",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "2 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "3 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "60",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "4 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "70",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "5 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "80",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "6 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "90",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "7 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "100",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "8 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "110",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "9 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "120",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "10 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "130",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "Da 11 a 15 ore abbonamento OPEN a frequenza libera Da 11 a 15 ore",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+    ]
+},
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Lezione 3 - Stage di Cante Flamenco con Jeromo Segura - Giovedì 30 Marzo",
+    "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
+    "startDate": "2023-03-30T18:30",
+    "endDate": "2023-03-30T21:30",
+    "duration": "PT3H",
+    "performer": {"@type": "Person","name": "Jeromo Segura"},
+    "eventStatus": "https://schema.org/EventScheduled",
+    "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/stage-cante-flamenco-milano-jeromo-segura-2023.webp",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "description": "Partecipa alla terza lezione dello Stage di Cante Flamenco a Milano con Jeromo Segura. Esplora diversi stili di cante flamenco e scopri nuove tecniche vocali. Argomenti di oggi: Tientos, Tangos, Murciana, Taranto,Guajiras, Fandango de Huelva e Sevillanas",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Il Mosaico Danza a.s.d.",
+      "url": "https://www.ilmosaicodanza.it",
+      "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+      "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-351-94-59-036",
+      "contactType": "Segreteria"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "info@ilmosaicodanza.it",
+      "contactType": "Segreteria prenotazioni"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-339-61-73-388",
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "WhatsApp e Mobile"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-02-583-179-62",
+      "contactType": "Segreteria Linea fissa"
+    }
+  ]
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image":{
+            "@type": "ImageObject",
+            "url":"https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+            "width": "800",
+            "height": "472"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Passeroni 6",
+            "addressLocality": "Milano",
+            "postalCode": "20135",
+            "addressCountry": "IT"
+        }
+    },
+    "offers": [
+        {"@type": "Offer",
+            "price": "25",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "1 ora di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "40",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "2 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "3 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "60",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "4 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "70",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "5 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "80",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "6 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "90",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "7 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "100",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "8 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "110",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "9 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "120",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "10 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "130",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "Da 11 a 15 ore abbonamento OPEN a frequenza libera Da 11 a 15 ore",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+    ]
+},
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Lezione 4 - Stage di Cante Flamenco con Jeromo Segura - Venerdì 31 Marzo",
+    "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
+    "startDate": "2023-03-31T19:00",
+    "endDate": "2023-03-31T22:00",
+    "duration": "PT3H",
+    "performer": {"@type": "Person","name": "Jeromo Segura"},
+    "eventStatus": "https://schema.org/EventScheduled",
+    "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/stage-cante-flamenco-milano-jeromo-segura-2023.webp",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "description": "Unisciti alla quarta lezione dello Stage di Cante Flamenco a Milano con Jeromo Segura. Lavora sulla tua interpretazione e sulle emozioni nel cante flamenco. Argomenti di oggi: Murciana, Taranto, Tango de Granada, Fandango de Huelva e Sevillanas",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Il Mosaico Danza a.s.d.",
+      "url": "https://www.ilmosaicodanza.it",
+      "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+      "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-351-94-59-036",
+      "contactType": "Segreteria"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "info@ilmosaicodanza.it",
+      "contactType": "Segreteria prenotazioni"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-339-61-73-388",
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "WhatsApp e Mobile"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-02-583-179-62",
+      "contactType": "Segreteria Linea fissa"
+    }
+  ]
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image":{
+            "@type": "ImageObject",
+            "url":"https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+            "width": "800",
+            "height": "472"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Privata Pomezia 12",
+            "addressLocality": "Milano",
+            "postalCode": "20127",
+            "addressCountry": "IT"
+        }
+    },
+    "offers": [
+        {"@type": "Offer",
+            "price": "25",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "1 ora di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "40",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "2 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "3 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "60",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "4 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "70",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "5 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "80",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "6 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "90",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "7 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "100",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "8 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "110",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "9 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "120",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "10 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "130",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "Da 11 a 15 ore abbonamento OPEN a frequenza libera Da 11 a 15 ore",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+    ]
+},
+{
+    "@context": "http://schema.org",
+    "@type": "Event",
+    "name": "Lezione 5 - Stage di Cante Flamenco con Jeromo Segura - Sabato 1 Aprile",
+    "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
+    "startDate": "2023-04-01T10:30",
+    "endDate": "2023-04-01T13:30",
+    "duration": "PT3H",
+    "performer": {"@type": "Person","name": "Jeromo Segura"},
+    "eventStatus": "https://schema.org/EventScheduled",
+    "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/stage-cante-flamenco-milano-jeromo-segura-2023.webp",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "description": "Partecipa alla lezione finale dello Stage di Cante Flamenco a Milano con Jeromo Segura. Metti insieme tutto ciò che hai imparato e perfeziona le tue abilità nel cante flamenco. Argomenti di oggi: Peteneras, Policaña, Soleá Apolá, Fandango de Huelva e Sevillanas",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Il Mosaico Danza a.s.d.",
+      "url": "https://www.ilmosaicodanza.it",
+      "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+      "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-351-94-59-036",
+      "contactType": "Segreteria"
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "info@ilmosaicodanza.it",
+      "contactType": "Segreteria prenotazioni"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-339-61-73-388",
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "WhatsApp e Mobile"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+39-02-583-179-62",
+      "contactType": "Segreteria Linea fissa"
+    }
+  ]
+    },
+    "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image":{
+            "@type": "ImageObject",
+            "url":"https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+            "width": "800",
+            "height": "472"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Via Privata Pomezia 12",
+            "addressLocality": "Milano",
+            "postalCode": "20127",
+            "addressCountry": "IT"
+        }
+    },
+    "offers": [
+        {"@type": "Offer",
+            "price": "25",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "1 ora di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "40",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "2 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "3 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "60",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "4 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "70",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "5 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "80",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "6 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "90",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "7 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "100",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "8 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "110",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "9 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "120",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "10 ore di partecipazione",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {"@type": "Offer",
+            "price": "130",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2023-03-28",
+            "name": "Da 11 a 15 ore abbonamento OPEN a frequenza libera Da 11 a 15 ore",
+            "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+    ]
+}
