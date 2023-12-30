@@ -170,7 +170,9 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/milano-zona-loreto/index.xml /tags/zona-loreto/index.xml 301
 /tags/on-line/ /tags/ 301
 /tags/porta-romana/index.xml /tags/zona-porta-romana/index.xml 301
-/tags/scarpe-flamenco/index.xml /tags/abbigliamento-flamenco/index.xml 301
+/tags/scarpe-flamenco /scarpe-da-flamenco/ 301
+/tags/scarpe-flamenco/ /scarpe-da-flamenco/ 301
+/tags/scarpe-flamenco/index.xml /scarpe-da-flamenco/index.xml 301
 /tags/silvia-carabelli/index.xml /category/corsi-di-danza/index.xml 301
 /tags/summer-camp /corsi-estivi/ 301
 /tags/summer-camp/index.xml /corsi-estivi/index.xml 301
@@ -248,7 +250,7 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tag/rockabilly/ /tags/rockabilly/ 301
 /tag/salsa-e-bachata/ /tags/salsa-e-bachata/ 301
 /tag/salsa/ /tags/salsa-e-bachata/ 301
-/tag/scarpe-flamenco/ /tags/abbigliamento-flamenco/ 301
+/tag/scarpe-flamenco/ /scarpe-da-flamenco/ 301
 /tag/tammurriata/ /tags/danze-popolari/ 301
 /tag/tribal-fusion/ /tags/tribal-dance/ 301
 /tags/approfondimenti/ /tags/formazione/ 301
@@ -290,7 +292,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/porta-romana/ /tags/zona-porta-romana/ 301
 /tags/rilassamento/ /tags/benessere/ 301
 /tags/saggio-2022 /tags/spettacoli/ 301
-/tags/scarpe-flamenco/ /tags/abbigliamento-flamenco/ 301
 /tags/scuola-di-ballo-milano-porta-romana/index.xml /tags/zona-porta-romana/ 301
 /tags/scuola-di-danza-lezioni-di-danza/ /tags/lezioni-di-danza/ 301
 /tags/scuola-di-danza-scuola-di-danza-zona-loreto/ /tags/zona-loreto/ 301
@@ -869,7 +870,6 @@ regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-2
 /tags/scarpe /scarpe-da-flamenco/ 301
 /tags/scarpe/ /scarpe-da-flamenco/ 301
 /tags/scarpe/index.xml /scarpe-da-flamenco/index.xml 301
-/tags/scarpe-flamenco /scarpe-da-flamenco/ 301
 /tags/scuola/ /tags/scuola-di-ballo/ 301
 /tags/scuola /tags/scuola-di-ballo/ 301
 /tags/scuola/index.xml /tags/scuola-di-ballo/ 301
