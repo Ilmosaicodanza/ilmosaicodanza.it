@@ -6,9 +6,6 @@
 # sostituisce X-Frame-Options da 23 mar 2023
 # disabilitato 23 mar 2023 perché potrebbe interferire con gtag.js Content-Security-Policy: frame-ancestors 'none';
 
-# disabled 6 mar 2023 Referrer-Policy: no-referrer
-# disabled 6 mar 2023 X-Robots-Tag: nosnippet
-
 # siti esterni da cui si può prelevare contenuto
 # non occorre specificare www o sottodomini
 Content-Security-Policy: default-src 'self' https://wa.me https://annalenaberton.it https://www.annalenaberton.it https://bit.ly https://static.cloudflareinsights.com https://widget.spreaker.com https://wordpress.com https://www.artefyl.com https://www.dailymotion.com https://www.eloiseladanzaeilrespiro.wordpress.com https://www.facebook.com https://www.flamencomilano.it https://www.google.com https://www.instagram.com https://www.mosaicoflamenco.com https://www.spreaker.com https://www.youtube-nocookie.com https://www.youtube.com https://www.google-analytics.com https://clarity.ms;

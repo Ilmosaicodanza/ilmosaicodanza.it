@@ -1,6 +1,9 @@
 /contatti/ /contact-us/ 301
 /index.php / 301
-
+# 2023-12-31
+/tags/postura/index.xml /tags/dance-workout/index.xml 301
+/tags/corsi-estivi /tags/corsi-estivi/ 301
+/tags/corsi-estivi/index.xml /tags/corsi-estivi/index.xml 301
 # 2023-12-29
 /tags/regolamento/ /regolamento-di-iscrizione/ 301
 /tags/regolamento/index.xml /regolamento-di-iscrizione/index.xml 301
@@ -681,7 +684,6 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /tags/corsi-di-danza-per-adulti/index.xml /tags/danza-per-adulti/ 301
 /tags/corsi-di-flamenco /flamenco/ 301
 /tags/corsi-di-flamenco/ /flamenco/ 301
-/tags/corsi-estivi /tags/corsi-estivi/ 301
 /tags/danz/ /category/corsi-di-danza/ 301
 /tags/danz/index.xml /category/corsi-di-danza/ 301
 /tags/danza /category/corsi-di-danza/ 301
