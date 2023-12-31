@@ -20,23 +20,26 @@
       {
         "@type": "ContactPoint",
         "telephone": "+39-351-94-59-036",
-        "contactType": "Segreteria"
+        "contactType": "Segreteria",
+        "contactOption": "TollFree"
       },
       {
         "@type": "ContactPoint",
         "email": "info@ilmosaicodanza.it",
-        "contactType": "Segreteria prenotazioni"
+        "contactType": "Segreteria prenotazioni",
+        "contactOption": "TollFree"
       },
       {
         "@type": "ContactPoint",
         "telephone": "+39-339-61-73-388",
         "contactType": "Segreteria prenotazioni",
-        "contactOption": "WhatsApp e Mobile"
+        "contactOption": "TollFree"
       },
       {
         "@type": "ContactPoint",
         "telephone": "+39-02-583-179-62",
-        "contactType": "Segreteria Linea fissa"
+        "contactType": "Segreteria Linea fissa",
+        "contactOption": "TollFree"
       }
     ]
     },
@@ -170,23 +173,26 @@
     {
       "@type": "ContactPoint",
       "telephone": "+39-351-94-59-036",
-      "contactType": "Segreteria"
+      "contactType": "Segreteria",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "email": "info@ilmosaicodanza.it",
-      "contactType": "Segreteria prenotazioni"
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-339-61-73-388",
       "contactType": "Segreteria prenotazioni",
-      "contactOption": "WhatsApp e Mobile"
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-02-583-179-62",
-      "contactType": "Segreteria Linea fissa"
+      "contactType": "Segreteria Linea fissa",
+      "contactOption": "TollFree"
     }
   ]
     },
@@ -320,23 +326,26 @@
     {
       "@type": "ContactPoint",
       "telephone": "+39-351-94-59-036",
-      "contactType": "Segreteria"
+      "contactType": "Segreteria",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "email": "info@ilmosaicodanza.it",
-      "contactType": "Segreteria prenotazioni"
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-339-61-73-388",
       "contactType": "Segreteria prenotazioni",
-      "contactOption": "WhatsApp e Mobile"
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-02-583-179-62",
-      "contactType": "Segreteria Linea fissa"
+      "contactType": "Segreteria Linea fissa",
+      "contactOption": "TollFree"
     }
   ]
     },
@@ -470,23 +479,27 @@
     {
       "@type": "ContactPoint",
       "telephone": "+39-351-94-59-036",
-      "contactType": "Segreteria"
+      "contactType": "Segreteria",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "email": "info@ilmosaicodanza.it",
-      "contactType": "Segreteria prenotazioni"
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-339-61-73-388",
       "contactType": "Segreteria prenotazioni",
-      "contactOption": "WhatsApp e Mobile"
+      "contactOption": "TollFree",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-02-583-179-62",
-      "contactType": "Segreteria Linea fissa"
+      "contactType": "Segreteria Linea fissa",
+      "contactOption": "TollFree"
     }
   ]
     },
@@ -620,23 +633,26 @@
     {
       "@type": "ContactPoint",
       "telephone": "+39-351-94-59-036",
-      "contactType": "Segreteria"
+      "contactType": "Segreteria",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "email": "info@ilmosaicodanza.it",
-      "contactType": "Segreteria prenotazioni"
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-339-61-73-388",
       "contactType": "Segreteria prenotazioni",
-      "contactOption": "WhatsApp e Mobile"
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-02-583-179-62",
-      "contactType": "Segreteria Linea fissa"
+      "contactType": "Segreteria Linea fissa",
+      "contactOption": "TollFree"
     }
   ]
     },
@@ -770,23 +786,26 @@
     {
       "@type": "ContactPoint",
       "telephone": "+39-351-94-59-036",
-      "contactType": "Segreteria"
+      "contactType": "Segreteria",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "email": "info@ilmosaicodanza.it",
-      "contactType": "Segreteria prenotazioni"
+      "contactType": "Segreteria prenotazioni",
+      "contactOption": "TollFree"
     },
     {
       "@type": "ContactPoint",
       "telephone": "+39-339-61-73-388",
       "contactType": "Segreteria prenotazioni",
-      "contactOption": "WhatsApp e Mobile"
+      "contactOption": "TollFree"
     },
     {
-      "@type": "ContactPoint",
-      "telephone": "+39-02-583-179-62",
-      "contactType": "Segreteria Linea fissa"
+        "@type": "ContactPoint",
+        "telephone": "+39-02-583-179-62",
+        "contactType": "Segreteria Linea fissa",
+        "contactOption": "TollFree"
     }
   ]
     },
