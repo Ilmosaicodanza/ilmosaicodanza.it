@@ -23,7 +23,12 @@ const init = async () => {
   };
   hideSpinner = () => {
     const overlay = document.getElementById("loading-overlay");
-    overlay.style.display = "none";
+    const kitt = document.getElementById("kittLoader");
+    const inp = document.getElementById("search-input");
+    const cf = document.getElementsByClassName("cf")[0];
+    overlay.style.display = kitt.style.display = "none";
+    inp.placeholder = "Scrivi qui per cercare";
+    cf.style.display = "block"
   };
   showSpinner();
   const searchEngine = await create({
@@ -48,7 +53,7 @@ const init = async () => {
   });
   if (searchTerm) {
     showSpinner();
-    searchInput.value = decodeURIComponent(searchTerm); // Imposta il valore del campo search-input con il termine cercato
+    searchInput.value = decodeURIComponent(searchTerm);
     await performSearch(searchEngine, searchTerm);
   }
 };
