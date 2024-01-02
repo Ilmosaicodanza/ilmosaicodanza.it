@@ -10,7 +10,7 @@
 
 // versione 1
 {
-  "@context": "http://schema.org",
+  "@context": "https://schema.org",
   "@type": "Event",
   "name": "Stage di Cante Flamenco a Milano con Jeromo Segura",
   "startDate": "2023-03-28T19:30",

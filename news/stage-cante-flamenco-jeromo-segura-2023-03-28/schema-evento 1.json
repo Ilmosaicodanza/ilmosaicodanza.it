@@ -1,7 +1,7 @@
 // 2023-03-15 19:47:30 GOOGLE NON INTERPRETA CORRETTAMENTE I SuperEvent
 
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Stage di Cante Flamenco a Milano con Jeromo Segura",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",

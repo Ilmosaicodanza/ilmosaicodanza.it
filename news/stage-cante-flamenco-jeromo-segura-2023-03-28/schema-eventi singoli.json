@@ -1,7 +1,7 @@
 // 2023-03-15 19:47:30 GOOGLE NON INTERPRETA CORRETTAMENTE I SuperEvent
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Stage di Cante Flamenco a Milano con Jeromo Segura dal 28 marzo al 1 aprile",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
@@ -142,7 +142,7 @@
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Lezione 1 - Stage di Cante Flamenco con Jeromo Segura - Martedì 28 Marzo",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
@@ -283,7 +283,7 @@
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Lezione 2 - Stage di Cante Flamenco con Jeromo Segura - Mercoledì 29 marzo",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
@@ -424,7 +424,7 @@
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Lezione 3 - Stage di Cante Flamenco con Jeromo Segura - Giovedì 30 Marzo",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
@@ -565,7 +565,7 @@
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Lezione 4 - Stage di Cante Flamenco con Jeromo Segura - Venerdì 31 Marzo",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
@@ -706,7 +706,7 @@
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Lezione 5 - Stage di Cante Flamenco con Jeromo Segura - Sabato 1 Aprile",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",
@@ -849,7 +849,7 @@
 
 
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "Event",
     "name": "Stage di Cante Flamenco a Milano con Jeromo Segura",
     "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-jeromo-segura-2023-03-28/",

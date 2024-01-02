@@ -1,5 +1,5 @@
 {
-  "@context" : "http://schema.org",
+  "@context" : "https://schema.org",
   "@type" : "TheaterEvent",
   "name" : "Huellas De Tu Ser - Impronte del tuo essere",
   "startDate" : "2022-06-30T21:15",
