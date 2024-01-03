@@ -1,5 +1,10 @@
 /contatti/ /contact-us/ 301
 /index.php / 301
+# 2024-01-03
+/tags/suonare-le-nacchere/ /nacchere/ 301
+/tags/suonare-le-nacchere/index.xml /nacchere/index.xml 301
+/tags/workout/ /tags/dance-workout/ 301
+/tags/workout/index.xml /tags/dance-workout/index.xml 301
 # 2023-12-31
 /tags/postura/index.xml /tags/dance-workout/index.xml 301
 /tags/corsi-estivi /corsi-estivi/ 301
