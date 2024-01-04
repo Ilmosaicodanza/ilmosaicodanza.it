@@ -8,5 +8,12 @@
     <language>it</language>
     <lastBuildDate>Sun, 11 Jun 2023 10:15:43 +0000</lastBuildDate>
     <atom:link href="https://www.ilmosaicodanza.it/category/stage-spettacoli-corsi-estivi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Corsi estivi</title>
+      <link>https://www.ilmosaicodanza.it/corsi-estivi/</link>
+      <pubDate>Sat, 18 Jun 2022 23:54:26 +0200</pubDate>
+      <guid>https://www.ilmosaicodanza.it/corsi-estivi/</guid>
+      <description>Corsi, mini-corsi e stage estivi.</description>
+    </item>
   </channel>
 </rss>
