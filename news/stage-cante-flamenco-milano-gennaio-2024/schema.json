@@ -1,0 +1,599 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Event",
+      "name": "Stage di Cante Flamenco a Milano con Jeromo Segura dal 31 gennaio al 3 febbraio 2024",
+      "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/",
+      "startDate": "2024-01-31T19:30+01:00",
+      "endDate": "2024-02-03T17:00+01:00",
+      "duration": "PT13H30M",
+      "performer": [{ "@type": "Person", "name": "Jeromo Segura" },{ "@type": "Person", "name": "Alvaro Espina" }],
+      "eventStatus": "https://schema.org/EventScheduled",
+      "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/stage-cante-flamenco-milano-2024-01-1214x1214.jpg",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "description": "Lo stage di Cante Flamenco a Milano di Jeromo Segura si svolgerà presso la sede de Il Mosaico Danza a.s.d. da martedì 28 marzo a sabato 1 aprile.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Il Mosaico Danza a.s.d.",
+        "url": "https://www.ilmosaicodanza.it",
+        "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-351-94-59-036",
+            "contactType": "Segreteria",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "info@ilmosaicodanza.it",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-339-61-73-388",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-02-583-179-62",
+            "contactType": "Segreteria Linea fissa",
+            "contactOption": "TollFree"
+          }
+        ]
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+          "width": "800",
+          "height": "472"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Passeroni 6",
+          "addressLocality": "Milano",
+          "postalCode": "20135",
+          "addressCountry": "IT"
+        }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "25",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "1 ora di partecipazione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "15",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "ogni successiva ora di partecipazione dopo la prima, o frazione di ora",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per una giornata intera di cante (3 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "85",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per due giornate di cante (6 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "120",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per tre giornate intere di cante (9 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "130",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Da 12 ore di stage in su, abbonamento open a tutto il corso, a frequenza libera, fino a un massimo di 14,5 ore di lezione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Giornata 1 - Stage di Cante Flamenco con Jeromo Segura - Mercoledì 31 gennaio",
+      "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/",
+      "startDate": "2024-01-31T19:30+01:00",
+      "endDate": "2024-01-31T22:30+01:00",
+      "duration": "PT3H",
+      "performer": [{ "@type": "Person", "name": "Jeromo Segura" },{ "@type": "Person", "name": "Alvaro Espina" }],
+      "eventStatus": "https://schema.org/EventScheduled",
+      "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/stage-cante-flamenco-milano-2024-01-1214x1214.jpg",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "description": "Partecipa alla prima giornata dello Stage di Cante Flamenco a Milano con Jeromo Segura. Impara le basi del cante flamenco e inizia il tuo viaggio nella tradizione musicale andalusa.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Il Mosaico Danza a.s.d.",
+        "url": "https://www.ilmosaicodanza.it",
+        "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-351-94-59-036",
+            "contactType": "Segreteria",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "info@ilmosaicodanza.it",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-339-61-73-388",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-02-583-179-62",
+            "contactType": "Segreteria Linea fissa",
+            "contactOption": "TollFree"
+          }
+        ]
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+          "width": "800",
+          "height": "472"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Passeroni 6",
+          "addressLocality": "Milano",
+          "postalCode": "20135",
+          "addressCountry": "IT"
+        }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "25",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "1 ora di partecipazione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "15",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "ogni successiva ora di partecipazione dopo la prima, o frazione di ora",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per una giornata intera di cante (3 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "85",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per due giornate di cante (6 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "120",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per tre giornate intere di cante (9 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "130",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Da 12 ore di stage in su, abbonamento open a tutto il corso, a frequenza libera, fino a un massimo di 14,5 ore di lezione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Giornata 2 - Stage di Cante Flamenco con Jeromo Segura - Giovedì 1 febbraio",
+      "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/",
+      "startDate": "2024-02-01T19:30+01:00",
+      "endDate": "2024-02-01T22:30+01:00",
+      "duration": "PT3H",
+      "performer": [{ "@type": "Person", "name": "Jeromo Segura" },{ "@type": "Person", "name": "Alvaro Espina" }],
+      "eventStatus": "https://schema.org/EventScheduled",
+      "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/stage-cante-flamenco-milano-2024-01-1214x1214.jpg",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "description": "Partecipa alla seconda giornata dello Stage di Cante Flamenco a Milano con Jeromo Segura. Impara le basi del cante flamenco e inizia il tuo viaggio nella tradizione musicale andalusa.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Il Mosaico Danza a.s.d.",
+        "url": "https://www.ilmosaicodanza.it",
+        "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-351-94-59-036",
+            "contactType": "Segreteria",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "info@ilmosaicodanza.it",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-339-61-73-388",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-02-583-179-62",
+            "contactType": "Segreteria Linea fissa",
+            "contactOption": "TollFree"
+          }
+        ]
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+          "width": "800",
+          "height": "472"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Passeroni 6",
+          "addressLocality": "Milano",
+          "postalCode": "20135",
+          "addressCountry": "IT"
+        }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "25",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "1 ora di partecipazione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "15",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "ogni successiva ora di partecipazione dopo la prima, o frazione di ora",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per una giornata intera di cante (3 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "85",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per due giornate di cante (6 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "120",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per tre giornate intere di cante (9 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "130",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Da 12 ore di stage in su, abbonamento open a tutto il corso, a frequenza libera, fino a un massimo di 14,5 ore di lezione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Giornata 3 - Stage di Cante Flamenco con Jeromo Segura - Venerdì 2 febbraio",
+      "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/",
+      "startDate": "2024-02-02T19:00+01:00",
+      "endDate": "2024-02-02T22:00+01:00",
+      "duration": "PT3H",
+      "performer": [{ "@type": "Person", "name": "Jeromo Segura" },{ "@type": "Person", "name": "Alvaro Espina" }],
+      "eventStatus": "https://schema.org/EventScheduled",
+      "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/stage-cante-flamenco-milano-2024-01-1214x1214.jpg",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "description": "Partecipa alla terza giornata dello Stage di Cante Flamenco a Milano con Jeromo Segura.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Il Mosaico Danza a.s.d.",
+        "url": "https://www.ilmosaicodanza.it",
+        "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-351-94-59-036",
+            "contactType": "Segreteria",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "info@ilmosaicodanza.it",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-339-61-73-388",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-02-583-179-62",
+            "contactType": "Segreteria Linea fissa",
+            "contactOption": "TollFree"
+          }
+        ]
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+          "width": "800",
+          "height": "472"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Privata Pomezia 12",
+          "addressLocality": "Milano",
+          "postalCode": "20127",
+          "addressCountry": "IT"
+        }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "25",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "1 ora di partecipazione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "15",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "ogni successiva ora di partecipazione dopo la prima, o frazione di ora",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per una giornata intera di cante (3 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "85",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per due giornate di cante (6 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "120",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per tre giornate intere di cante (9 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "130",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Da 12 ore di stage in su, abbonamento open a tutto il corso, a frequenza libera, fino a un massimo di 14,5 ore di lezione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "Giornata 4 - Stage di Cante Flamenco con Jeromo Segura - Sabato 3 febbraio",
+      "url": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/",
+      "startDate": "2024-02-03T12:00+01:00",
+      "endDate": "2023-02-03T17:00",
+      "duration": "PT4H30M",
+      "performer": [{ "@type": "Person", "name": "Jeromo Segura" },{ "@type": "Person", "name": "Alvaro Espina" }],
+      "eventStatus": "https://schema.org/EventScheduled",
+      "image": "https://www.ilmosaicodanza.it/news/stage-cante-flamenco-milano-gennaio-2024/stage-cante-flamenco-milano-2024-01-1214x1214.jpg",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "description": "Unisciti alla quarta giornata dello Stage di Cante Flamenco a Milano con Jeromo Segura. Lavora sulla tua interpretazione e sulle emozioni nel cante flamenco. Argomenti di oggi: Laboratorio di bulería y tango.",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Il Mosaico Danza a.s.d.",
+        "url": "https://www.ilmosaicodanza.it",
+        "logo": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd.svg",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-351-94-59-036",
+            "contactType": "Segreteria",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "email": "info@ilmosaicodanza.it",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-339-61-73-388",
+            "contactType": "Segreteria prenotazioni",
+            "contactOption": "TollFree"
+          },
+          {
+            "@type": "ContactPoint",
+            "telephone": "+39-02-583-179-62",
+            "contactType": "Segreteria Linea fissa",
+            "contactOption": "TollFree"
+          }
+        ]
+      },
+      "location": {
+        "@type": "Place",
+        "name": "Il Mosaico Danza a.s.d.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x480.png",
+          "width": "800",
+          "height": "472"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Via Privata Pomezia 12",
+          "addressLocality": "Milano",
+          "postalCode": "20127",
+          "addressCountry": "IT"
+        }
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "price": "25",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "1 ora di partecipazione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "15",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "ogni successiva ora di partecipazione dopo la prima, o frazione di ora",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "50",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per una giornata intera di cante (3 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "85",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per due giornate di cante (6 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "120",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Per tre giornate intere di cante (9 ore)",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        },
+        {
+          "@type": "Offer",
+          "price": "130",
+          "priceCurrency": "EUR",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2024-01-31",
+          "name": "Da 12 ore di stage in su, abbonamento open a tutto il corso, a frequenza libera, fino a un massimo di 14,5 ore di lezione",
+          "url": "https://www.ilmosaicodanza.it/contact-us/"
+        }
+      ]
+    }
+  ]
+}
