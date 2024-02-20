@@ -6,7 +6,7 @@
     <description>Recent content in Stage Spettacoli e Corsi Estivi on Il Mosaico Danza</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it</language>
-    <lastBuildDate>Fri, 05 Jan 2024 11:18:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Feb 2024 23:26:57 +0000</lastBuildDate>
     <atom:link href="https://www.ilmosaicodanza.it/category/stage-spettacoli-corsi-estivi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corsi estivi</title>
@@ -14,6 +14,20 @@
       <pubDate>Sat, 18 Jun 2022 23:54:26 +0200</pubDate>
       <guid>https://www.ilmosaicodanza.it/corsi-estivi/</guid>
       <description>Corsi, mini-corsi e stage estivi.</description>
+    </item>
+    <item>
+      <title>Stage di danza e canto</title>
+      <link>https://www.ilmosaicodanza.it/category/stage-di-danza-e-canto/</link>
+      <pubDate>Sat, 18 Jun 2022 23:54:26 +0200</pubDate>
+      <guid>https://www.ilmosaicodanza.it/category/stage-di-danza-e-canto/</guid>
+      <description>Stages e corsi intensivi di danza e canto.</description>
+    </item>
+    <item>
+      <title>Spettacoli e saggi</title>
+      <link>https://www.ilmosaicodanza.it/category/spettacoli/</link>
+      <pubDate>Fri, 10 Mar 2023 08:53:55 +0000</pubDate>
+      <guid>https://www.ilmosaicodanza.it/category/spettacoli/</guid>
+      <description>La scuola di danza presenta i suoi spettacoli e saggi di fine anno, un&amp;rsquo;occasione per gli allievi di mettere in pratica ciò che hanno appreso e per gli spettatori di ammirare il talento dei nostri studenti e delle esibizioni musicali di caratura internazionale</description>
     </item>
   </channel>
 </rss>
