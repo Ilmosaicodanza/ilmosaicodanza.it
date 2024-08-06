@@ -85,6 +85,25 @@
       font-size: 2.1rem;
       font-weight: bold;
     }
+    .central-div {
+      width: 100%;
+
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    @media (max-width: 767px) {
+      .central-div {
+      height: 25rem;
+        background-image: url('corsi-danza-milano-mosaico-360.webp');
+        }
+    }
+    @media (min-width: 768px) {
+      .central-div {
+      height: 16rem;
+        background-image: url('corsi-danza-milano-mosaico-1920.webp');
+      }
+    }
     @media (min-width:460px){
       .patch-element {width: 15rem;}
     }
@@ -219,25 +238,13 @@
 
 <p class="b">SCEGLI IL CORSO CHE TI INTERESSA, CHIEDI INFORMAZIONI E PRENOTA LA TUA LEZIONE DI PROVA COMPILANDO IL MODULO QUI SOTTO</p>
       </section>
-      <section id="corsi" class="pv4 ph4 tc">
+      <section id="corsi" class="pv2 ph2 tc">
     <h2 class="text-4xl md-text-5xl">I NOSTRI CORSI</h2>
-    <div class="grid gap2">
+    <div class="central-div">
+
     </div>
 
-    	<div class="flex flex-wrap justify-center around">
-      <div class="bg-near-black white pa4 br3 mw5-ns shadow-md grow">
-        <img src="https://placehold.co/90" alt="dance-course" class="h-40  cover br3 mb4">
-        <h3 class="text-2xl font-bold mb-2">Danza classica</h3>
-        <p class="text-sm mb4">Lunedì e Mercoledì, 18:00-20:00</p>
-        <a href="#" class="bg-red white pv1 ph4 br3">Iscriviti Ora</a>
-      </div>
-      <div class="bg-near-black white pa4 br3 mw5-ns shadow-md grow">
-        <img src="https://placehold.co/90" alt="dance-course" class="h-40 cover br3 mb4">
-        <h3 class="text-2xl font-bold mb-2">Lindy Hop</h3>
-        <p class="text-sm mb4">Lunedì e Mercoledì, 18:00-20:00</p>
-        <a href="#" class="bg-red white pv1 ph4 br3">Iscriviti Ora</a>
-      </div>
-    </div>
+
   </section>
 
   <section>
