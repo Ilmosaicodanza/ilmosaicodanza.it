@@ -201,6 +201,13 @@ sizes="(max-width: 30em) 467px,
 (min-width: 60em) 1020px,
 100vw" alt="Gruppo di allievi e insegnanti della scuola di danza a Milano Il Mosaico Danza" decoding="async" title="Benvenuti al Mosaico Danza"></p>
 <p><em>Benvenuti nella migliore scuola di danza a Milano</em>! Il Mosaico Danza a.s.d. è la migliore scuola di danza a Milano, la scuola di danza e ballo in cui le attività sono un mezzo e non il fine: divertirci danzando è una cosa seria. Molto. La scuola Il Mosaico Danza a Milano è fondata e diretta da <em>Sabina Todaro</em>.</p>
+<div class="f4 gold ba b--dashed pa2 br2 b--orange">
+
+<span class="showhide" data-visibility-start="2024-08-01" data-expiry="2024-09-16">
+  Dal <em class="white b">16 settembre</em> ricominciano tutti i corsi e sarà possibile fare una lezione di prova di qualsiasi disciplina prenotandosi in segreteria
+</span>
+
+</div>
 <h2 id="le-sedi-dei-nostri-corsi-di-danza-e-ballo">Le Sedi dei nostri corsi di danza e ballo</h2>
 <p>Le attività, riservate ai soci, si svolgono nelle sedi di:</p>
 <ul class="lista1">
@@ -329,6 +336,13 @@ Una specie di <em>enciclopedia della danza</em>! Ecco tutti gli indirizzi:</p>
 <p>La direzione artistica è di <em>Sabina</em>, <em>Marta</em> e <em>Ale.</em> Con l&rsquo;ineguagliabile contributo di Juanjo, il Prof. Juan José Goss Zampoa de la Serrania Barone di Von Geflugel: esimio flamencologo di fama internazionale è la mascotte pelosa della scuola di danza. Oggi purtroppo ci guarda dal Cielo. È stato il cane più coccolato del mondo. Ha lasciato ad accogliere i nostri allievi la bellissima <em>Anastasia</em>, una micia blu di Russia che fa gli onori di casa a miagolii e fusa (soprattutto in prossimità della sua ciotola).</p>
 <p>In parecchi anticipano l&rsquo;arrivo alla scuola per ricevere un po&rsquo; di coccole&hellip; pelose. Siamo dei veri amanti degli animali, al Mosaico!</p>
 <p class="f4 orange">Un approccio alla danza competente e senza giudizio: ecco cosa troverai al Mosaico!</p>
+<div class="f4 gold ba b--dashed pa2 br2 b--orange">
+
+<span class="showhide" data-visibility-start="2024-08-01" data-expiry="2024-09-16">
+  Dal <em class="white b">16 settembre</em> ricominciano tutti i corsi e sarà possibile fare una lezione di prova di qualsiasi disciplina prenotandosi in segreteria
+</span>
+
+</div>
 <div class="social-links pt3 mt1">
 <div class="gray f6 tracked ml2">condividi questa pagina con i tuoi amici </div>
 
@@ -1009,26 +1023,31 @@ document.querySelector('input[name="name"]').addEventListener('keyup', hideError
 document.querySelector('textarea[name="request"]').addEventListener('keyup', hideErrorMessage);
 </script>
 <script>
-window.addEventListener("load", function() {
-	const banners = document.querySelectorAll('.banner');
+  const banners = document.querySelectorAll(".banner,.showhide");
 
-	banners.forEach(banner => {
-    	const expiry = banner.getAttribute('data-expiry');
-    	const visibilityStart = banner.getAttribute('data-visibility-start');
-    	if (new Date() > new Date(expiry)) {
-      		banner.style.display = 'none';
-    	} else if (new Date() < new Date(visibilityStart)) {
-      	banner.style.display = 'none';
+  banners.forEach((banner) => {
+    const expiry = banner.getAttribute("data-expiry");
+    const visibilityStart = banner.getAttribute("data-visibility-start");
+    const currentDate = new Date();
+    const expiryDate = new Date(expiry);
+    const visibilityStartDate = new Date(visibilityStart);
+    console.log("maggiore " + (currentDate > expiryDate));
+		if (currentDate > expiryDate) {
+      console.log("arcadia");
+      banner.style.display = "none";
+    } else if (currentDate < visibilityStartDate) {
+      console.log("arcadia2");
+      banner.style.display = "none";
     } else {
-    	const threeDaysBeforeExpiry = new Date(expiry);
-    	threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
-    	if (new Date() > threeDaysBeforeExpiry) {
-        	banner.classList.add('imminent');
-      	}
+      const threeDaysBeforeExpiry = new Date(expiryDate);
+      threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
+      if (currentDate > threeDaysBeforeExpiry) {
+        banner.classList.add("imminent");
+      }
     }
   });
-});
 </script>
+
 
 
       </div>

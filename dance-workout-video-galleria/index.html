@@ -1056,26 +1056,31 @@ document.querySelector('input[name="name"]').addEventListener('keyup', hideError
 document.querySelector('textarea[name="request"]').addEventListener('keyup', hideErrorMessage);
 </script>
 <script>
-window.addEventListener("load", function() {
-	const banners = document.querySelectorAll('.banner');
+  const banners = document.querySelectorAll(".banner,.showhide");
 
-	banners.forEach(banner => {
-    	const expiry = banner.getAttribute('data-expiry');
-    	const visibilityStart = banner.getAttribute('data-visibility-start');
-    	if (new Date() > new Date(expiry)) {
-      		banner.style.display = 'none';
-    	} else if (new Date() < new Date(visibilityStart)) {
-      	banner.style.display = 'none';
+  banners.forEach((banner) => {
+    const expiry = banner.getAttribute("data-expiry");
+    const visibilityStart = banner.getAttribute("data-visibility-start");
+    const currentDate = new Date();
+    const expiryDate = new Date(expiry);
+    const visibilityStartDate = new Date(visibilityStart);
+    console.log("maggiore " + (currentDate > expiryDate));
+		if (currentDate > expiryDate) {
+      console.log("arcadia");
+      banner.style.display = "none";
+    } else if (currentDate < visibilityStartDate) {
+      console.log("arcadia2");
+      banner.style.display = "none";
     } else {
-    	const threeDaysBeforeExpiry = new Date(expiry);
-    	threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
-    	if (new Date() > threeDaysBeforeExpiry) {
-        	banner.classList.add('imminent');
-      	}
+      const threeDaysBeforeExpiry = new Date(expiryDate);
+      threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
+      if (currentDate > threeDaysBeforeExpiry) {
+        banner.classList.add("imminent");
+      }
     }
   });
-});
 </script>
+
 
 
       </div>

@@ -195,7 +195,7 @@
     <main class="page-main page">
         <article class="lh-copy orangem">
             <h1>Orari corsi danza e ballo in zona Loreto - Milano</h1>
-            <h2 id="orari-dei-corsi-di-danza-ballo-e-movimento-zona-loreto-anno-hahahugoshortcode63s0hbhb">Orari dei corsi di danza, ballo e movimento Zona Loreto Anno 
+            <h2 id="orari-dei-corsi-di-danza-ballo-e-movimento-zona-loreto-anno-hahahugoshortcode61s0hbhb">Orari dei corsi di danza, ballo e movimento Zona Loreto Anno 
 </h2>
 <p>NB: Gli orari dei corsi potrebbero subire variazioni. Per partecipare a una lezione di prova è assolutamente necessario che la prenoti <a href="#contact-point-segreteria" title="Segreteria per prenotazioni e informazioni">via mail, telefono</a> o <span class="whatsappLink gold">WhatsApp</span>. I corsi sono a numero chiuso!</p>
 <p><span class="f3">Sede: <a href="https://bit.ly/3wnLl8q" class="link " target="_blank" rel="nofollow noopener noreferrer"  title="Mappa sede Via Privata Pomezia 12 Zona Loreto" >Via Privata Pomezia 12</a></span></p>
@@ -1571,26 +1571,31 @@ document.querySelector('input[name="name"]').addEventListener('keyup', hideError
 document.querySelector('textarea[name="request"]').addEventListener('keyup', hideErrorMessage);
 </script>
 <script>
-window.addEventListener("load", function() {
-	const banners = document.querySelectorAll('.banner');
+  const banners = document.querySelectorAll(".banner,.showhide");
 
-	banners.forEach(banner => {
-    	const expiry = banner.getAttribute('data-expiry');
-    	const visibilityStart = banner.getAttribute('data-visibility-start');
-    	if (new Date() > new Date(expiry)) {
-      		banner.style.display = 'none';
-    	} else if (new Date() < new Date(visibilityStart)) {
-      	banner.style.display = 'none';
+  banners.forEach((banner) => {
+    const expiry = banner.getAttribute("data-expiry");
+    const visibilityStart = banner.getAttribute("data-visibility-start");
+    const currentDate = new Date();
+    const expiryDate = new Date(expiry);
+    const visibilityStartDate = new Date(visibilityStart);
+    console.log("maggiore " + (currentDate > expiryDate));
+		if (currentDate > expiryDate) {
+      console.log("arcadia");
+      banner.style.display = "none";
+    } else if (currentDate < visibilityStartDate) {
+      console.log("arcadia2");
+      banner.style.display = "none";
     } else {
-    	const threeDaysBeforeExpiry = new Date(expiry);
-    	threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
-    	if (new Date() > threeDaysBeforeExpiry) {
-        	banner.classList.add('imminent');
-      	}
+      const threeDaysBeforeExpiry = new Date(expiryDate);
+      threeDaysBeforeExpiry.setDate(threeDaysBeforeExpiry.getDate() - 3);
+      if (currentDate > threeDaysBeforeExpiry) {
+        banner.classList.add("imminent");
+      }
     }
   });
-});
 </script>
+
 
 
       </div>
