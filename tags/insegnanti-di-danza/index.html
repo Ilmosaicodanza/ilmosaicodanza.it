@@ -21,7 +21,6 @@
   
       <link rel="canonical" href="https://www.ilmosaicodanza.it/tags/insegnanti-di-danza/">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/lyrical-arab-dance-con-sabina-960x640.jpg">
-        <meta property="og:image" content="https://www.ilmosaicodanza.it/saba-tadesse-zumba-cover-1920x1080.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/marta-mai-insegnante-mosaico-danza-1920x1080.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/annalena-berton-insegnante-mosaico-danza-milano.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/arianna-biancotto-mosaico-danza-1392x920.jpg">
@@ -214,20 +213,6 @@
 		alt="Sabina Todaro nella cultura araba" title="Sabina Todaro nella cultura araba" width="234" height="132"/>
 	</div>
 	<p class="text-wrapper">Sabina Todaro è un&rsquo;esperta insegnante di Flamenco e Lyrical Arab Dance, con una particolare musicalità e didattica di grande efficacia.</p>
-	</a>
-</div>
-
-					</div>
-					<div>
-<div class="summary-box">
-	<a href="https://www.ilmosaicodanza.it/saba-tadesse/" title="Saba Tadesse"> 
-		<h2 >
-			corso di Zumba con Saba Tadesse a Milano</h2>
-	<div class="img-wrapper">
-		<img src="/saba-tadesse/saba-tadesse-zumba-cover-1920x1080.jpg"
-		alt="Saba Tadesse" title="Saba Tadesse" width="234" height="132"/>
-	</div>
-	<p class="text-wrapper">Saba Tadesse è una ballerina e istruttrice di zumba, danza afrofusion e salto con la corda. Scopri la sua storia, le sue passioni e i suoi corsi!</p>
 	</a>
 </div>
 
@@ -1087,12 +1072,9 @@ document.querySelector('textarea[name="request"]').addEventListener('keyup', hid
     const currentDate = new Date();
     const expiryDate = new Date(expiry);
     const visibilityStartDate = new Date(visibilityStart);
-    console.log("maggiore " + (currentDate > expiryDate));
 		if (currentDate > expiryDate) {
-      console.log("arcadia");
       banner.style.display = "none";
     } else if (currentDate < visibilityStartDate) {
-      console.log("arcadia2");
       banner.style.display = "none";
     } else {
       const threeDaysBeforeExpiry = new Date(expiryDate);

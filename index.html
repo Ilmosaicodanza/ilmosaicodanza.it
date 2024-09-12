@@ -211,7 +211,7 @@ sizes="(max-width: 30em) 467px,
   <div class='f4 gold ba b--dashed pa2 br2 b--orange'>
 
 <span class="showhide" data-visibility-start="2024-08-01" data-expiry="2024-09-16">
-  <h2>Dal <em class="white b fs-normal">16 settembre</em> ricominciano <em class="gold b fs-normal">tutti i corsi</em> e sarà possibile fare una <em class="white b fs-normal">lezione di prova</em> di qualsiasi disciplina <em class="gold b fs-normal whatsappLink">prenotandosi in segreteria</em></h2>
+  <h2 class="white">Dal <em class="orange b fs-normal">16 settembre</em> ricominciano <em class="gold b fs-normal">tutti i corsi</em> e sarà possibile fare una <em class="white b fs-normal">lezione di prova</em> di qualsiasi disciplina <em class="gold b fs-normal whatsappLink">prenotandosi in segreteria</em></h2>
 </span>
 
   </div>
@@ -350,7 +350,7 @@ Una specie di <em>enciclopedia della danza</em>! Ecco tutti gli indirizzi:</p>
   <div class='f4 gold ba b--dashed pa2 br2 b--orange'>
 
 <span class="showhide" data-visibility-start="2024-08-01" data-expiry="2024-09-16">
-  <h2>Dal <em class="white b fs-normal">16 settembre</em> ricominciano <em class="gold b fs-normal">tutti i corsi</em> e sarà possibile fare una <em class="white b fs-normal">lezione di prova</em> di qualsiasi disciplina <em class="gold b fs-normal whatsappLink">prenotandosi in segreteria</em></h2>
+  <h2 class="white">Dal <em class="orange b fs-normal">16 settembre</em> ricominciano <em class="gold b fs-normal">tutti i corsi</em> e sarà possibile fare una <em class="white b fs-normal">lezione di prova</em> di qualsiasi disciplina <em class="gold b fs-normal whatsappLink">prenotandosi in segreteria</em></h2>
 </span>
 
   </div>
@@ -876,12 +876,9 @@ document.querySelector('textarea[name="request"]').addEventListener('keyup', hid
     const currentDate = new Date();
     const expiryDate = new Date(expiry);
     const visibilityStartDate = new Date(visibilityStart);
-    console.log("maggiore " + (currentDate > expiryDate));
 		if (currentDate > expiryDate) {
-      console.log("arcadia");
       banner.style.display = "none";
     } else if (currentDate < visibilityStartDate) {
-      console.log("arcadia2");
       banner.style.display = "none";
     } else {
       const threeDaysBeforeExpiry = new Date(expiryDate);

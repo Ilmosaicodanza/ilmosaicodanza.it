@@ -34,7 +34,6 @@
         <meta property="og:image" content="https://www.ilmosaicodanza.it/nacchere-castanuelas-296x200.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/bata-de-cola-a-lezione-552x400.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/scarpe-flamenco-720x336.jpg">
-        <meta property="og:image" content="https://www.ilmosaicodanza.it/saba-tadesse-zumba-cover-1920x1080.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/scuola-di-danza-milano-zona-loreto-1528x856.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/spettacolo-flamenco-teatro-milano-1320x736.jpg">
         <meta property="og:image" content="https://www.ilmosaicodanza.it/marta-mai-insegnante-mosaico-danza-1920x1080.jpg">
@@ -462,20 +461,6 @@
 		alt="Scarpe da flamenco" title="Scarpe da flamenco" width="234" height="132"/>
 	</div>
 	<p class="text-wrapper">Saper scegliere bene le scarpe da flamenco è molto importante, poiché devono garantire stabilità senza compromettere la salute di piedi e articolazioni.</p>
-	</a>
-</div>
-
-					</div>
-					<div>
-<div class="summary-box">
-	<a href="https://www.ilmosaicodanza.it/saba-tadesse/" title="Saba Tadesse"> 
-		<h2 >
-			corso di Zumba con Saba Tadesse a Milano</h2>
-	<div class="img-wrapper">
-		<img src="/saba-tadesse/saba-tadesse-zumba-cover-1920x1080.jpg"
-		alt="Saba Tadesse" title="Saba Tadesse" width="234" height="132"/>
-	</div>
-	<p class="text-wrapper">Saba Tadesse è una ballerina e istruttrice di zumba, danza afrofusion e salto con la corda. Scopri la sua storia, le sue passioni e i suoi corsi!</p>
 	</a>
 </div>
 
@@ -2066,12 +2051,9 @@ document.querySelector('textarea[name="request"]').addEventListener('keyup', hid
     const currentDate = new Date();
     const expiryDate = new Date(expiry);
     const visibilityStartDate = new Date(visibilityStart);
-    console.log("maggiore " + (currentDate > expiryDate));
 		if (currentDate > expiryDate) {
-      console.log("arcadia");
       banner.style.display = "none";
     } else if (currentDate < visibilityStartDate) {
-      console.log("arcadia2");
       banner.style.display = "none";
     } else {
       const threeDaysBeforeExpiry = new Date(expiryDate);

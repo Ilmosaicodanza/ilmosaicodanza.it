@@ -712,12 +712,9 @@ document.querySelector('textarea[name="request"]').addEventListener('keyup', hid
     const currentDate = new Date();
     const expiryDate = new Date(expiry);
     const visibilityStartDate = new Date(visibilityStart);
-    console.log("maggiore " + (currentDate > expiryDate));
 		if (currentDate > expiryDate) {
-      console.log("arcadia");
       banner.style.display = "none";
     } else if (currentDate < visibilityStartDate) {
-      console.log("arcadia2");
       banner.style.display = "none";
     } else {
       const threeDaysBeforeExpiry = new Date(expiryDate);

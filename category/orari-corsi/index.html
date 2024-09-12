@@ -195,7 +195,7 @@
   <div class='f4 gold ba b--dashed pa2 br2 b--orange'>
 
 <span class="showhide" data-visibility-start="2024-08-01" data-expiry="2024-09-16">
-  <h2>Dal <em class="white b fs-normal">16 settembre</em> ricominciano <em class="gold b fs-normal">tutti i corsi</em> e sarà possibile fare una <em class="white b fs-normal">lezione di prova</em> di qualsiasi disciplina <em class="gold b fs-normal whatsappLink">prenotandosi in segreteria</em></h2>
+  <h2 class="white">Dal <em class="orange b fs-normal">16 settembre</em> ricominciano <em class="gold b fs-normal">tutti i corsi</em> e sarà possibile fare una <em class="white b fs-normal">lezione di prova</em> di qualsiasi disciplina <em class="gold b fs-normal whatsappLink">prenotandosi in segreteria</em></h2>
 </span>
 
   </div>
@@ -675,9 +675,9 @@
                     
                 
                     
-                        <li class="lesson-item" data-search="[modern &lt;small class=&#34;red&#34;&gt;speciale teen&lt;/small&gt; (&lt;span class=&#34;bimbi&#34;&gt;ragazzi 10-14 anni&lt;/span&gt;)] dore tibaldi">
+                        <li class="lesson-item" data-search="[modern &lt;small class=&#34;red&#34;&gt;speciale teen&lt;/small&gt; (&lt;span class=&#34;bimbi&#34;&gt;ragazzi 11-18 anni&lt;/span&gt;)] dore tibaldi">
                              
-                            <em><a href="/danza-moderna/" title="Lezione di danza moderna per adulti e teenagers]">Modern <small class="red">Speciale Teen</small> (<span class="bimbi">ragazzi 10-14 anni</span>)</a></em><br><span class="gray">Insegnante:</span> <span class="gold">Doré</span><br> ME 17 - 18<br>
+                            <em><a href="/danza-moderna/" title="Lezione di danza moderna per adulti e teenagers]">Modern <small class="red">Speciale Teen</small> (<span class="bimbi">ragazzi 11-18 anni</span>)</a></em><br><span class="gray">Insegnante:</span> <span class="gold">Doré</span><br> ME 17 - 18<br>
                             <span class="white-80" style="text-transform: uppercase">tibaldi</span>
                         </li>
                     
@@ -1617,12 +1617,9 @@ document.querySelector('textarea[name="request"]').addEventListener('keyup', hid
     const currentDate = new Date();
     const expiryDate = new Date(expiry);
     const visibilityStartDate = new Date(visibilityStart);
-    console.log("maggiore " + (currentDate > expiryDate));
 		if (currentDate > expiryDate) {
-      console.log("arcadia");
       banner.style.display = "none";
     } else if (currentDate < visibilityStartDate) {
-      console.log("arcadia2");
       banner.style.display = "none";
     } else {
       const threeDaysBeforeExpiry = new Date(expiryDate);

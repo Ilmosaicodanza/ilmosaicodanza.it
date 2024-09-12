@@ -666,20 +666,6 @@
 					</div>
 					<div>
 <div class="summary-box">
-	<a href="https://www.ilmosaicodanza.it/tags/saba-tadesse/" title="Saba Tadesse">
-		<h2 >
-			</h2>
-	<div class="img-wrapper">
-		<img src="/saba-tadesse/saba-tadesse-zumba-cover-1920x1080.jpg"
-		alt="Saba Tadesse" title="Saba Tadesse" width="234" height="132"/>
-	</div>
-	<p class="text-wrapper"></p>
-	</a>
-</div>
-
-					</div>
-					<div>
-<div class="summary-box">
 	<a href="https://www.ilmosaicodanza.it/tags/jessica-vassalli/" title="Jessica Vassalli">
 		<h2 >
 			</h2>
@@ -1246,6 +1232,20 @@
 	<div class="img-wrapper">
 		<img src="/danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-234x132.webp"
 		alt="Rockabilly" title="Rockabilly" width="234" height="132"/>
+	</div>
+	<p class="text-wrapper"></p>
+	</a>
+</div>
+
+					</div>
+					<div>
+<div class="summary-box">
+	<a href="https://www.ilmosaicodanza.it/tags/saba-tadesse/" title="Saba Tadesse">
+		<h2 >
+			</h2>
+	<div class="img-wrapper">
+		<img src="/danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-234x132.webp"
+		alt="Saba Tadesse" title="Saba Tadesse" width="234" height="132"/>
 	</div>
 	<p class="text-wrapper"></p>
 	</a>
@@ -2093,12 +2093,9 @@ document.querySelector('textarea[name="request"]').addEventListener('keyup', hid
     const currentDate = new Date();
     const expiryDate = new Date(expiry);
     const visibilityStartDate = new Date(visibilityStart);
-    console.log("maggiore " + (currentDate > expiryDate));
 		if (currentDate > expiryDate) {
-      console.log("arcadia");
       banner.style.display = "none";
     } else if (currentDate < visibilityStartDate) {
-      console.log("arcadia2");
       banner.style.display = "none";
     } else {
       const threeDaysBeforeExpiry = new Date(expiryDate);
