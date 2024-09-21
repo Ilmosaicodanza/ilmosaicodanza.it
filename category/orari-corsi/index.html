@@ -315,7 +315,10 @@
 }
 </style>
 <div class="course-calendar">
-    <div style="float:right"><button id="generatePDF">Scarica calendario in PDF</button></div>
+    <div style="float:right">
+        <button id="generatePDF" onclick="window.print()">🖨 Stampa calendario in PDF</button><br>
+        Cerca il tuo corso, e se vuoi stampa gli orari
+    </div>
     <input type="text" id="searchCourse" placeholder="Esplora i corsi...">
     <div class="calendar-days">
             <ul class="day-column" id="day-LU">
