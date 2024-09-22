@@ -1,7 +1,7 @@
 /*
-* @Author: Faber
+* @Author: Fabrizio Conti <panathos@gmail.com>
 * @Date:   2023-07-17 18:03:35
-* @Last Modified by:   Faber
+* @Last Modified by:   Fabrizio Conti <panathos@gmail.com>
 * @Last Modified time: 2023-07-27 09:05:16
 */
 const aperto = {
@@ -176,7 +176,7 @@ function composeWhatsAppMessage() {
     recipient.num = entity['Sabina'].num;
     recipient.msg = entity['Sabina'].msg;
   }
-  // se è aperta Sabina, siamo a posto
+  // se è disponibile Sabina, siamo a posto
   if ( getIsEntityOpen('Sabina') || isFlamenco && getIsEntityOpen('Segreteria') ) {
     recipient.num = entity['Sabina'].num;
     recipient.msg = entity['Sabina'].msgO;
@@ -187,7 +187,7 @@ function composeWhatsAppMessage() {
     composeMessage();
     return true;
   };
-  // qui sono chiuse entrambe, c'è da scegliere il numero
+  // qui sono chiuse entrambe
   let next1 = getNextOpening(now, 'Segreteria');
   let next2 = getNextOpening(now, 'Sabina');
   if (next2.getTime() < next1.getTime()){
@@ -204,6 +204,13 @@ function composeWhatsAppMessage() {
   return true;
 }
 
+function getSlug() {
+  const segments = window.location.pathname.split('/').filter(segment => segment !== '');
+ if (segments.length === 0) {
+    return "Home";
+  }
+  return segments[segments.length - 1];
+}
 function composeMessage() {
   let incipit = '';
   if (recipient.nextHours){
@@ -214,7 +221,8 @@ function composeMessage() {
     incipit = incipit.replace("#ORA#", hours);
     incipit = "[" + incipit + "]"
   }
-  let msg = incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value;
+  const slug = `Pagina: ${getSlug()} `;
+  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value;
   const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
   window.open(whatsappLink);
   hideWhatsappMessage();
