@@ -1218,12 +1218,9 @@
     var filterWords = filter.split(' ');
     lessons.forEach(function(lesson) {
     var searchText = lesson.getAttribute('data-search').toLowerCase();
-    
     var matches = filterWords.every(function(word) {
         return searchText.includes(word);
     });
-
-     
     lesson.style.display = matches ? '' : 'none';
     });
 });
