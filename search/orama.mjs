@@ -1,4 +1,4 @@
-import {create,search,insertMultiple} from "https://unpkg.com/@orama/orama@latest/dist/index.js";
+import {create,search,insertMultiple} from "https://cdn.jsdelivr.net/npm/@orama/orama@latest/dist/index.js";
 let showSpinner;
 let hideSpinner;
 const heading = document.getElementsByClassName('lh-copy')[0];
