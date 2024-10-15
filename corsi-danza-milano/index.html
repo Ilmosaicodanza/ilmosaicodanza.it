@@ -458,27 +458,7 @@ document.querySelector('input[name="name"]').addEventListener('keyup', hideError
 document.querySelector('textarea[name="request"]').addEventListener('keyup', hideErrorMessage);
 </script>
 <script>
-  const banners = document.querySelectorAll(".banner,.showhide");
-  const today = new Date();
-  const oggi = today.toISOString().slice(0, 10);
-  const deadline = new Date(today);
-  deadline.setDate(today.getDate() + 3);
-  const scadenza = deadline.toISOString().slice(0, 10);
-
-
-  banners.forEach((banner) => {
-    const fine = banner.getAttribute("data-expiry");
-    const partenza = banner.getAttribute("data-visibility-start");
-    if (oggi > fine) {
-      banner.style.display = "none";
-    }
-    else {
-      if (oggi => scadenza && oggi < fine) {
-        banner.classList.add("imminent");
-      }
-    }
-  });
-
+const banners=document.querySelectorAll(".banner,.showhide"),today=new Date,oggi=today.toISOString().slice(0,10),deadline=new Date(today);deadline.setDate(today.getDate()+3);const scadenza=deadline.toISOString().slice(0,10);banners.forEach((t=>{const e=t.getAttribute("data-expiry");t.getAttribute("data-visibility-start");oggi>e?t.style.display="none":(t=>scadenza&&t<e)&&t.classList.add("imminent")}));
 </script>
 
 

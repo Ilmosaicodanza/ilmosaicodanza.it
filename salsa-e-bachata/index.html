@@ -1091,75 +1091,9 @@ Su questo sito utilizziamo cookie tecnici necessari alla navigazione e funzional
   </nav>
 </aside>
 <script>
-function getScript(url, callback) {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = url;
-  script.async = true;
-  script.onload = callback;
-  document.head.appendChild(script);
-}
-  function showWhatsappMessage() {
-    const whatsappMessage = document.querySelector('#whatsapp-message');
-    whatsappMessage.style.display = 'block';
-    if (typeof aperto === 'undefined') {
-			const script = document.createElement('script');
-			script.src = '/js/mosaico-send-whatsapp-message.js';
-			document.body.appendChild(script);
-		}
-  }
-  function hideWhatsappMessage() {
-    const whatsappMessage = document.querySelector('#whatsapp-message');
-    whatsappMessage.style.animation = 'slideOutToRight 0.3s forwards';
-    setTimeout(() => {
-      whatsappMessage.style.display = 'none';
-      whatsappMessage.style.animation = 'slideInFromRight 0.3s forwards';
-    }, 300); 
-  }
-  document.getElementById('closeBtn').addEventListener('click', function () {
-    hideWhatsappMessage();
-  });
-function handleWhatsappLinkClick(event) {
-  event.preventDefault();
-  showWhatsappMessage();
-}
-function showErrorMessage() {
-  const errorMessage = document.querySelector('.error-message');
-  errorMessage.style.display = 'block';
-}
-function hideErrorMessage() {
-  const errorMessage = document.querySelector('.error-message');
-  errorMessage.style.display = 'none';
-}
-const whatsappLinks = document.querySelectorAll('.whatsappLink');
-whatsappLinks.forEach(link => {
-  link.addEventListener('click', handleWhatsappLinkClick);
-});
-document.querySelector('input[name="name"]').addEventListener('keyup', hideErrorMessage);
-document.querySelector('textarea[name="request"]').addEventListener('keyup', hideErrorMessage);
-</script>
+function getScript(e,t){var s=document.createElement("script");s.type="text/javascript",s.src=e,s.async=!0,s.onload=t,document.head.appendChild(s)}function showWhatsappMessage(){if(document.querySelector("#whatsapp-message").style.display="block","undefined"==typeof aperto){const e=document.createElement("script");e.src="/js/mosaico-send-whatsapp-message.js",document.body.appendChild(e)}}function hideWhatsappMessage(){const e=document.querySelector("#whatsapp-message");e.style.animation="slideOutToRight 0.3s forwards",setTimeout((()=>{e.style.display="none",e.style.animation="slideInFromRight 0.3s forwards"}),300)}function handleWhatsappLinkClick(e){e.preventDefault(),showWhatsappMessage()}function showErrorMessage(){document.querySelector(".error-message").style.display="block"}function hideErrorMessage(){document.querySelector(".error-message").style.display="none"}document.getElementById("closeBtn").addEventListener("click",(function(){hideWhatsappMessage()}));const whatsappLinks=document.querySelectorAll(".whatsappLink");whatsappLinks.forEach((e=>{e.addEventListener("click",handleWhatsappLinkClick)})),document.querySelector('input[name="name"]').addEventListener("keyup",hideErrorMessage),document.querySelector('textarea[name="request"]').addEventListener("keyup",hideErrorMessage);</script>
 <script>
-  const banners = document.querySelectorAll(".banner,.showhide");
-  const today = new Date();
-  const oggi = today.toISOString().slice(0, 10);
-  const deadline = new Date(today);
-  deadline.setDate(today.getDate() + 3);
-  const scadenza = deadline.toISOString().slice(0, 10);
-
-
-  banners.forEach((banner) => {
-    const fine = banner.getAttribute("data-expiry");
-    const partenza = banner.getAttribute("data-visibility-start");
-    if (oggi > fine) {
-      banner.style.display = "none";
-    }
-    else {
-      if (oggi => scadenza && oggi < fine) {
-        banner.classList.add("imminent");
-      }
-    }
-  });
-
+const banners=document.querySelectorAll(".banner,.showhide"),today=new Date,oggi=today.toISOString().slice(0,10),deadline=new Date(today);deadline.setDate(today.getDate()+3);const scadenza=deadline.toISOString().slice(0,10);banners.forEach((t=>{const e=t.getAttribute("data-expiry");t.getAttribute("data-visibility-start");oggi>e?t.style.display="none":(t=>scadenza&&t<e)&&t.classList.add("imminent")}));
 </script>
 
 
