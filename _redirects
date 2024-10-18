@@ -4,10 +4,12 @@
 /corsi-di-reggaeton/reggaeton-teatro-ringhiera-milano-234x132.webp /corsi-di-reggaeton/reggaeton-teatro-ringhiera-milano-thumbnail.webp 301
 /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-1528x856.jpg /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-featured.jpg 301
 /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-234x132.webp /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-thumbnail.webp 301
+/category/orari-corsi/ /orari-corsi/ 301
+/category/orari-corsi/index.xml /orari-corsi/index.xml 301
 
 
 # 2024-09-28
-/category/orari-corsi/ /orari-corsi/ 301
+/orari-corsi/ /orari-corsi/ 301
 /saba-tadesse/ /category/i-nostri-insegnanti/ 301
 # 2024-09-01
 /collegiate-shag/corso-collegiate-shag-milano-234x132.webp /collegiate-shag/corso-collegiate-shag-milano-thumbnail.webp 410
@@ -45,8 +47,10 @@
 /tags/workout/ /tags/dance-workout/ 301
 /tags/workout/index.xml /tags/dance-workout/index.xml 301
 # 2023-12-31
-/tags/postura/index.xml /tags/dance-workout/index.xml 301
+/tags/postura/ /category/corsi-movimento-e-benessere/ 301
+/tags/postura/index.xml /category/corsi-movimento-e-benessere/index.xml 301
 /tags/corsi-estivi /corsi-estivi/ 301
+/tags/corsi-estivi/ /corsi-estivi/ 301
 /tags/corsi-estivi/index.xml /corsi-estivi/index.xml 301
 /tags/insegnanti /tags/insegnante/ 301
 /tag/insegnanti/ /tags/insegnante/ 301
@@ -134,21 +138,21 @@
 # 2023-12-26
 /category/sagra-permanente/ /category/informazioni-e-contatti/ 301
 /category/sagra-permanente/index.xml /category/informazioni-e-contatti/index.xml 301
-/category/covid-19-info-e-regolamento/ /category/informazioni-e-contatti/ 301
-/category/covid-19-info-e-regolamento/index.xml /category/informazioni-e-contatti/index.xml 301
-/category/covid-19-info-e-regolamento/index.xml /category/informazioni-e-contatti/index.xml 301
-/category/covid-19-info-e-regolamento/coronavirus-234x132.webp /tags/regolamento/ 301
-/category/covid-19-info-e-regolamento/logo-il-mosaico-danza-332x186.png /regolamento-di-iscrizione/logo-il-mosaico-danza-asd-culturale-234x132.webp 301
-/category/covid-19-info-e-regolamento/coronavirus.webp /regolamento-di-iscrizione/logo-il-mosaico-danza-asd-culturale-234x132.webp 301
-il-mosaico-danza-e-il-covid-19/index.xml /category/orari-corsi/ 301
-il-mosaico-danza-e-il-covid-19/coronavirus-234x132.webp /category/orari-corsi/orari-corsi-234x132.webp 301
-il-mosaico-danza-e-il-covid-19/coronavirus-1456x984.jpg /category/orari-corsi/orari-corsi-234x132.webp 301
-il-mosaico-danza-e-il-covid-19/coronavirus.webp /category/orari-corsi/orari-corsi-234x132.webp 301
-/regole-di-accesso-ai-locali/index.xml /category/orari-corsi/index.xml 301
-/regole-di-accesso-ai-locali/ /category/orari-corsi/ 301
-regole-di-accesso-ai-locali/coronavirus-234x132.webp /category/orari-corsi/orari-corsi-234x132.webp 301
-regole-di-accesso-ai-locali/coronavirus-1912x1072.jpg /category/orari-corsi/orari-corsi-234x132.webp 301
-regole-di-accesso-ai-locali/coronavirus.webp /category/orari-corsi/orari-corsi-234x132.webp 301
+/category/covid-19-info-e-regolamento/ /contact-us/ 301
+/category/covid-19-info-e-regolamento/index.xml /contact-us/index.xml 301
+/category/covid-19-info-e-regolamento/index.xml /contact-us/index.xml 301
+/category/covid-19-info-e-regolamento/coronavirus-234x132.webp /contact-us/logo-il-mosaico-danza-asd-default-1320x795.webp 301
+/category/covid-19-info-e-regolamento/logo-il-mosaico-danza-332x186.png /contact-us/logo-il-mosaico-danza-asd-default-1320x795.webp 301
+/category/covid-19-info-e-regolamento/coronavirus.webp /contact-us/logo-il-mosaico-danza-asd-default-1320x795.webp 301
+il-mosaico-danza-e-il-covid-19/index.xml /orari-corsi/ 301
+il-mosaico-danza-e-il-covid-19/coronavirus-234x132.webp /orari-corsi/orari-corsi-featured.webp 301
+il-mosaico-danza-e-il-covid-19/coronavirus-1456x984.jpg /orari-corsi/orari-corsi-featured.webp 301
+il-mosaico-danza-e-il-covid-19/coronavirus.webp /orari-corsi/orari-corsi-featured.webp 301
+/regole-di-accesso-ai-locali/index.xml /orari-corsi/index.xml 301
+/regole-di-accesso-ai-locali/ /orari-corsi/ 301
+regole-di-accesso-ai-locali/coronavirus-234x132.webp /orari-corsi/orari-corsi-featured.webp 301
+regole-di-accesso-ai-locali/coronavirus-1912x1072.jpg /orari-corsi/orari-corsi-featured.webp 301
+regole-di-accesso-ai-locali/coronavirus.webp /orari-corsi/orari-corsi-featured.webp 301
 # 2023-12-25
 /corsi-di-danza-in-porta-romana/ /corsi-in-zona-porta-romana/ 301
 /tag/milano/ /tags/milano/ 301
@@ -235,7 +239,7 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /corsi-in-presenza-e-on-line/ / 301
 /corso-di-danza-contemporanea/ /danza-contemporanea/ 301
 /corso-di-rockabilly/ /corso-di-boogie-jive-e-rockabilly-milano/ 301
-/corso-mensile-del-sabato-con-chiara-sangiovese/ /category/orari-corsi/ 301
+/corso-mensile-del-sabato-con-chiara-sangiovese/ /orari-corsi/ 301
 /cou-/coualon / 301
 /cou-:2, / 301
 /danza-creativa/danza-in-zona-loreto /danza-in-zona-loreto/ 301
@@ -257,7 +261,7 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /percussioni-francesco/ /francesco-perrotta/ 301
 /pilates-con-gym-ball/ /category/corsi-movimento-e-benessere/ 301
 /pilates/ /category/corsi-movimento-e-benessere/ 301
-/programma/ /category/orari-corsi/ 301
+/programma/ /orari-corsi/ 301
 /prova/ / 301
 /provaindex/ / 301
 /reggaeton-e-salsa-con-yusef/index.xml /corsi-di-reggaeton/index.xml 301
@@ -422,16 +426,16 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /corsi-di-tango-argentino/ /corso-di-tango-argentino/ 301
 /corsi-in-tibaldi /corsi-danza-moderna-zona-tibaldi/ 301
 /corsi-in-zona-porta-romana /tags/zona-porta-romana/ 301
-/corsi-in-zo-expand /category/orari-corsi/ 301
+/corsi-in-zo-expand /orari-corsi/ 301
 /corsi-zona-tibaldi-anno-2021-2022/ /corsi-danza-moderna-zona-tibaldi/ 301
-/corsit-g/ /category/orari-corsi/ 301
-/corsit-g/ba/ /category/orari-corsi/ 301
+/corsit-g/ /orari-corsi/ 301
+/corsit-g/ba/ /orari-corsi/ 301
 /corso_di_bioenergetica/ /category/corsi-movimento-e-benessere/ 301
 /corso_di_bioenergetica/cose_la_bioenergetica/Cose_la_bioenergetica_178.html /category/corsi-movimento-e-benessere/ 301
 /corso_di_yoga /corso-yoga-milano/ 301
 /corso-danza-espressiva-bambini-milano /category/corsi-per-bambini-milano-loreto-tibaldi/ 301
-/corso-di-antiaggressione-femminile-metodo-difesa-donna/ /category/orari-corsi/ 301
-/corso-di-antiaggressione-femminile-metodo-difesa-donna /category/orari-corsi/ 301
+/corso-di-antiaggressione-femminile-metodo-difesa-donna/ /orari-corsi/ 301
+/corso-di-antiaggressione-femminile-metodo-difesa-donna /orari-corsi/ 301
 /corso-di-ballo-liscio-a-milano /corso-di-ballo-liscio-a-milano/ 301
 /corso-di-ballo-liscio-a-milano/aldo-rebatto-danza/ /corso-di-ballo-liscio-a-milano/ 301
 /corso-di-spagnolo/ /tags/flamencologia/ 301
@@ -507,7 +511,7 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /gttion /news/ 301
 /gttion /news/ 301
 /heel-dance /heels-dance/ 301
-/il-mosaico-danza-e-il-covid-19/m /category/orari-corsi/ 301
+/il-mosaico-danza-e-il-covid-19/m /orari-corsi/ 301
 /improvvisazione/index.html /imparare-a-improvvisare/index.html 301
 /index.php / 301
 /insegnanti-del-corso-di-massaggio/ /category/corsi-movimento-e-benessere/ 301
@@ -549,7 +553,7 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /nacchere /nacchere/ 301
 /nuovi-corsi-di-lindy-hop-milano/ /nuovi-corsi-lindy-hop-milano/ 301
 /nuovi-corsi-di-lindy-hop /nuovi-corsi-lindy-hop-milano/ 301
-/orari-corsi-2021-2022/ /category/orari-corsi/ 301
+/orari-corsi-2021-2022/ /orari-corsi/ 301
 /orari-flamenco/danza-in-zona-loreto/index.html /orari-corsi-flamenco/ 301
 /oriental-gipsy-fusion/ /oriental-gypsy-fusion/ 301
 /oskar-arauz-salsa/ /salsa-e-bachata/ 301
@@ -566,10 +570,10 @@ insegnanti/ /category/i-nostri-insegnanti/ 301
 /pizzica-con-ortensia/ /corsi-di-pizzica/ 301
 /pizzica_tarantella_e_tammurriata /corsi-di-pizzica/ 301
 /pizzica_tarantella_e_tammurriata/pagine_culturali_sul_sud_italia/la_taranta/la_taranta_397.html /corsi-di-pizzica/ 301
-/planning-corsi-online/ /category/orari-corsi/ 301
+/planning-corsi-online/ /orari-corsi/ 301
 /pizzica-con-ortensia/ /corsi-di-pizzica/ 301
 /pizzica-con-sofia/ /corsi-di-pizzica/ 301
-/planning-corsi-online/ /category/orari-corsi/ 301
+/planning-corsi-online/ /orari-corsi/ 301
 /presentazione-del-corso-di-michael-jackson-style/ /corso-michael-jackson-style/ 301
 /provaindex/index.xml / 301
 /quelli-di-via-oldrado-qdvo /quelli-di-via-oldrado-qdvo/ 301
