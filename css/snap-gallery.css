@@ -176,12 +176,13 @@ a.snap-lightbox-close {
 
 /* Container for image */
 .snap-lightbox-inner {
+  height: 100%;
+  overflow: auto;
+  max-width: 100%;
+  max-height: 100vh;
   display: inline-block;
   vertical-align: middle;
   white-space: normal;
-  max-width: 90%;
-  max-height: 80%;
-  height: 100%;
 }
 
 .snap-lightbox-inner p {
