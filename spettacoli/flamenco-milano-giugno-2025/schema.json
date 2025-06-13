@@ -20,7 +20,7 @@
     }
   },
   "image": [
-    "https://www.ilmosaicodanza.it/news/spettacolo-flamenco-sin-raices-no-hay-alas-milano-2025/spettacolo-flamenco-sin-raices-no-hay-alas-milano-2025.jpg"
+    "https://www.ilmosaicodanza.it/spettacoli/flamenco-milano-giugno-2025/locandina-spettacolo-flamenco-milano-giugno-2025.jpg"
   ],
   "organizer": {
     "@type": "Organization",
@@ -63,7 +63,7 @@
   ],
   "offers": {
     "@type": "Offer",
-    "url": "https://www.ilmosaicodanza.it/news/spettacolo-flamenco-sin-raices-no-hay-alas-milano-2025/",
+    "url": "https://www.ilmosaicodanza.it/spettacoli/flamenco-milano-giugno-2025/",
     "priceCurrency": "EUR",
     "price": "15.00",
     "availability": "https://schema.org/InStock",
