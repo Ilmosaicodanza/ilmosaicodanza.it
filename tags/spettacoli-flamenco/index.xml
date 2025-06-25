@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spettacoli Flamenco on Il Mosaico Danza</title>
+    <link>https://www.ilmosaicodanza.it/tags/spettacoli-flamenco/</link>
+    <description>Recent content in Spettacoli Flamenco on Il Mosaico Danza</description>
+    <generator>Hugo</generator>
+    <language>it</language>
+    <lastBuildDate>Thu, 28 Dec 2023 12:01:03 +0000</lastBuildDate>
+    <atom:link href="https://www.ilmosaicodanza.it/tags/spettacoli-flamenco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spettacoli flamenco a teatro</title>
+      <link>https://www.ilmosaicodanza.it/category/spettacoli-flamenco-teatro/</link>
+      <pubDate>Sat, 18 Jun 2022 23:54:26 +0200</pubDate>
+      <guid>https://www.ilmosaicodanza.it/category/spettacoli-flamenco-teatro/</guid>
+      <description>Spettacoli di flamenco a teatro realizzati da Il Mosaico Danza.</description>
+    </item>
+  </channel>
+</rss>
