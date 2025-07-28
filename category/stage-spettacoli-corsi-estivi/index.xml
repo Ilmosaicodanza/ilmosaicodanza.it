@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stage Spettacoli e Corsi Estivi on Il Mosaico Danza</title>
+    <title>Stage Spettacoli Corsi Estivi on Il Mosaico Danza</title>
     <link>https://www.ilmosaicodanza.it/category/stage-spettacoli-corsi-estivi/</link>
-    <description>Recent content in Stage Spettacoli e Corsi Estivi on Il Mosaico Danza</description>
+    <description>Recent content in Stage Spettacoli Corsi Estivi on Il Mosaico Danza</description>
     <generator>Hugo</generator>
     <language>it</language>
-    <lastBuildDate>Fri, 13 Jun 2025 00:20:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Jun 2025 21:14:48 +0000</lastBuildDate>
     <atom:link href="https://www.ilmosaicodanza.it/category/stage-spettacoli-corsi-estivi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Corsi estivi</title>
@@ -21,13 +21,6 @@
       <pubDate>Sat, 18 Jun 2022 23:54:26 +0200</pubDate>
       <guid>https://www.ilmosaicodanza.it/category/stage-di-danza-e-canto/</guid>
       <description>Stages e corsi intensivi di danza e canto.</description>
-    </item>
-    <item>
-      <title>Spettacoli a teatro</title>
-      <link>https://www.ilmosaicodanza.it/spettacoli/</link>
-      <pubDate>Fri, 13 Jun 2025 01:44:28 +0000</pubDate>
-      <guid>https://www.ilmosaicodanza.it/spettacoli/</guid>
-      <description>Rimani aggiornato su tutti gli spettacoli, saggi e performance de Il Mosaico Danza. Date, location e dettagli per non perderti nessun evento.</description>
     </item>
   </channel>
 </rss>

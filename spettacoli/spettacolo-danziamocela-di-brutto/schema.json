@@ -28,17 +28,17 @@
         "@type": "Offer",
         "price": "15.00",
         "priceCurrency": "EUR",
-        "url": "https://www.ilmosaicodanza.it/news/spettacolo-danziamocela-di-brutto/",
+        "url": "https://www.ilmosaicodanza.it/spettacoli/spettacolo-danziamocela-di-brutto/",
         "availability": "https://schema.org/LimitedAvailability",
-        "validFrom": "2024-06-08T00:00"
+        "validFrom": "2025-06-08T00:00"
       },
-      "image": "https://www.ilmosaicodanza.it/wp-content/uploads/spettacolo-danziamocela-di-brutto-featured.jpg",
+      "image": "https://www.ilmosaicodanza.it/spettacoli/spettacolo-danziamocela-di-brutto/spettacolo-danziamocela-di-brutto-featured.jpg",
       "organizer": {
         "@type": "Organization",
         "name": "Il Mosaico Danza",
         "url": "https://www.ilmosaicodanza.it"
       },
-      "eventStatus": "https://schema.org/EventScheduled"
+      "eventStatus": "https://schema.org/EventFinished"
     },
       {
         "@id": "https://www.ilmosaicodanza.it/#organization",

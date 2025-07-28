@@ -116,6 +116,11 @@
         <priority>0.5</priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/corsi-di-danza/</loc>
+        <lastmod>2022-06-18</lastmod>
+        <priority>0.5</priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/marta-mai/</loc>
         <lastmod>2022-06-16</lastmod>
         <priority>0.6</priority>
@@ -346,7 +351,7 @@
         <priority>0.8</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/funky-brasiliano/</loc>
+        <loc>https://www.ilmosaicodanza.it/funk-brasiliano/</loc>
         <lastmod>2025-06-10</lastmod>
         <priority>0.8</priority>
       </url>
@@ -571,16 +576,6 @@
         <priority>0.8</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/lezioni-di-cajon-milano/</loc>
-        <lastmod>2022-06-30</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/lezioni-di-chitarra/</loc>
-        <lastmod>2022-06-19</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/i-migliori-corsi-di-danza-on-line/</loc>
         <lastmod>2022-06-12</lastmod>
         <priority>0.5</priority>
@@ -596,9 +591,19 @@
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/news/</loc>
+        <loc>https://www.ilmosaicodanza.it/i-nostri-insegnanti/</loc>
         <lastmod>2022-05-26</lastmod>
-        <priority>0.3</priority>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/stage-laboratori-milano/</loc>
+        <lastmod>2022-05-26</lastmod>
+        <priority>0.5</priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/stage-di-musica/</loc>
+        <lastmod>2022-05-26</lastmod>
+        <priority>0.5</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/libera-la-danza/</loc>
