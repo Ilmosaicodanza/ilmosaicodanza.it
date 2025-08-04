@@ -14,10 +14,10 @@
   <meta property="og:site_name" content="Il Mosaico Danza">
   <meta property="og:url" content="https://www.ilmosaicodanza.it/orari-corsi/">
   <meta property="og:locale" content="it_it">
-  <meta property="og:updated_time" content="2025-06-08T14:53:05+00:00">
+  <meta property="og:updated_time" content="2025-07-30T11:43:19+00:00">
   <meta property="article:section" content="orari-corsi">
   <meta property="article:published_time" content="2022-08-02T14:14:26+02:00">
-  <meta property="article:modified_time" content="2025-06-08T14:53:05+00:00">
+  <meta property="article:modified_time" content="2025-07-30T11:43:19+00:00">
   
       <link rel="canonical" href="https://www.ilmosaicodanza.it/orari-corsi/"><meta name="keywords" content="Milano,Scuola di danza,Corsi di danza,Flamenco,Lindy Hop,Danza moderna,Zona Loreto,Zona Porta Romana,Zona Tibaldi">
   <meta property="og:image" content="https://www.ilmosaicodanza.it/orari-corsi/orari-corsi-featured.jpg">
@@ -199,7 +199,7 @@
     role="status" aria-live="polite" aria-label="Messaggio dello Staff"
   
 >
-  <p class="gold ma0">BUONA ESTATE DALLO STAFF DEL MOSAICO DANZA</p>
+  <p class="gold ma0">LE NOSTRE LEZIONI RIPARTONO IL 22 SETTEMBRE. BUONA ESTATE!</p>
 </div><nav aria-label="breadcrumb">
   <ol class="breadcrumb"><li><a href="/">Home</a></li><li class="active" aria-current="page">Orari di tutti i corsi</li>
   </ol>
@@ -207,9 +207,7 @@
 		
 				<h1>Orari Corsi</h1>
 		<div class="ma4">
-			<!-- Consulta qui gli orari dei corsi nelle tre sedi, trova quella più comoda per te, e <span class="whatsappLink gold">prenota in segreteria le tue lezioni di prova!</span>
- -->
-<p class="f4">Gli orari dei corsi 2025/2026 saranno aggiornati a settembre. Nel frattempo, questi sono gli orari dello scorso anno per farti un&rsquo;idea della nostra offerta.</p>
+			<p>Gli orari dei corsi 2025/2026 saranno aggiornati a settembre. Nel frattempo, questi sono gli orari dello scorso anno per farti un&rsquo;idea della nostra offerta.</p>
 
 
 		</div> 
@@ -221,7 +219,8 @@
 								<a href="/corsi-danza-moderna-zona-tibaldi" class="btn-sede"> ORARI CORSI DANZA <br> ZONA TIBALDI</a>
 									          
 				</div>
-	<style>
+	
+<style>
     .course-calendar {
         max-width: 100%;
         margin: 0 auto;
@@ -231,6 +230,7 @@
     #searchCourse {
         position: sticky;
         top: 0;
+        z-index: 10;
         margin-bottom: 1rem;
         padding: 0.5rem;
         width: 100%;
@@ -238,6 +238,8 @@
         background-color: darkred;
         color: white;
         box-sizing: border-box;
+        border: 1px solid #ffc107;
+        border-radius: 4px;
     }
 
     .calendar-days {
@@ -247,6 +249,7 @@
 
     .day-column {
         flex: 1;
+        min-width: 250px;  
         list-style: none;
         padding: 0;
         margin: 0 0.5rem;
@@ -258,6 +261,8 @@
         padding: 0.5rem;
         text-align: center;
         margin-bottom: 0.5rem;
+        border-radius: 3px;
+        text-transform: uppercase;
     }
 
     .lesson-item {
@@ -266,6 +271,7 @@
         border: 1px solid darkslategray;
         border-radius: 2px;
         line-height: 1.3rem;
+        background-color: #222;
     }
     .lesson-item em a { color: white;}
     .day-column .lesson-item .teacher a {
@@ -282,6 +288,7 @@
 
         .day-column {
             margin-bottom: 1rem;
+            min-width: 100%;
         }
     }
 @media print {
@@ -293,21 +300,23 @@
         height: 210mm;  
         margin: 0;
         color: #000000;
+        background-color: #ffffff;
     }
-    a { color: #000000!important;}
+    a { color: #000000!important; text-decoration: none; }
 
-    header,footer,aside,article,button,#searchCourse,#devel,#sidebar,.social-links {
+    header,footer,aside,button,h1,#sidebar,.ma4,.list-content, #searchCourse,.breadcrumb,.banner-annunci, .social-links {
         display: none!important;
     }
-    .page-main {
-        display: block;
-    }
-    .course-calendar {
-         
+    main.page-main, .course-calendar {
+        display: block!important;
         width: 100%;
         page-break-inside: avoid;
-        font-size:8pt;
+        font-size: 8pt;
         max-width: none;
+    }
+    .lesson-item, .day-header {
+        background-color: #ffffff!important;
+        color: black!important;
     }
     .calendar-days {
         display: flex !important;
@@ -316,9 +325,9 @@
         justify-content: space-between !important;
     }
     .day-column {
-        flex: 1 1 0 !important;
-        width: 0;  
-        margin: 0 2px;  
+        flex: 1 1 auto !important;
+         
+        margin: 0 2px;
     }
     .lesson-item {
         margin-bottom: 0.3rem;
@@ -330,919 +339,315 @@
     .course-calendar * {
         color: black!important;
     }
-    .calendar-days {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-    }
 }
 </style>
+
 <div class="course-calendar">
     <div class="tc f4 mt2 lh-copy">
         <button id="generatePDF" class="ma2" onclick="window.print()">🖨 STAMPA GLI ORARI IN PDF</button>
     </div>
     <input type="text" id="searchCourse" placeholder="Scrivi qui corso, insegnante, orario per filtrare i risultati" autocomplete="off">
-    <div class="calendar-days">
-            <ul class="day-column" id="day-LU">
-                <li class="day-header">LUNEDÌ</li>
-                
-                
-                
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì gioco danza moderna 3-6 anni arianna biancotto loreto 17 - 17.45">
-                            
-                            <em><a href="/danza-moderna-per-bambini/" title="Corso di danza moderna per bambini">Gioco danza moderna <span class="bimbi">3-6 anni</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br> LU 17 - 17.45<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì flamenco per bambini karen sánchez portaromana 17 - 18">
-                            
-                            <em><a href="/corso-flamenco-bambini-milano/" title="Corso di Flamenco per bambini a Milano">Flamenco per bambini</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/karen-sanchez-insegnante/" title="Insegnante di flmenco e danze spagnole Karen Sánchez">Karen Sánchez</a></span><br> LU 17 - 18<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì danza moderna bambini 6-12 anni arianna biancotto loreto 17.45 - 18.45">
-                            
-                            <em><a href="/danza-moderna-per-bambini/" title="Corso di danza moderna per bambini">Danza moderna bambini <span class="bimbi">6-12 anni</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br> LU 17.45 - 18.45<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì heels dance elena granata loreto 18 - 19">
-                            
-                            <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br> LU 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì flamenco avviamento al baile “a solo” sabina todaro portaromana 18 - 19">
-                            
-                            <em><a href="/montare-una-coreografia-flamenco/" title="Montare una coreografia flamenco">Flamenco avviamento al baile “a solo”</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> LU 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì danza classica intermedio marta mai loreto 19 - 20">
-                            
-                            <em><a href="/corso-di-danza-classica/" title="Corso di danza Classica">Danza classica intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/marta-mai/" title="Insegnante di danza Marta Mai">Marta Mai</a></span><br> LU 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì danza moderna arianna biancotto loreto 19 - 20">
-                            
-                            <em><a href="/danza-moderna/" title="Lezione di danza moderna per adulti e teenagers]">Danza moderna</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br> LU 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì heels dance elena granata loreto 19 - 20">
-                            
-                            <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br> LU 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì flamenco avanzato sabina todaro portaromana 19 - 21.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Avanzato</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> LU 19 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì lindy hop new open sold out larry daccò loreto 20 - 21">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop New Open <span class="nuovorario">sold out</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/larry-dacco/" title="Insegnante di Lindy Hop Larry Daccò">Larry Daccò</a></span><br> LU 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì heels dance elena granata loreto 20 - 21">
-                            
-                            <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br> LU 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì salsa cubana base arianna biancotto e davide ranzani loreto 20 - 21">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa cubana base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a> e <a href="/insegnante-salsa-bachata-davide-ranzani/" title="Insegnante di balli latini Davide Ranzani">Davide Ranzani</a></span><br> LU 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì lindy hop intermediate/advanced larry daccò loreto 21 - 22">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Intermediate/Advanced</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/larry-dacco/" title="Insegnante di Lindy Hop Larry Daccò">Larry Daccò</a></span><br> LU 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì balboa advanced stefano battistella e quelli di via oldrado loreto 21 - 22">
-                            
-                            <em><a href="/balboa/" title="Corso di Balboa">Balboa Advanced</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/stefano-battistella/" title="Insegnante di Lindy Hop Stefano Battistella">Stefano Battistella</a> e <a href="/quelli-di-via-oldrado-qdvo/" title="Crew di Lindy Hop QDVO">Quelli di Via Oldrado</a></span><br> LU 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì bachata arianna biancotto e davide ranzani loreto 21 - 22">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Bachata</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a> e <a href="/insegnante-salsa-bachata-davide-ranzani/" title="Insegnante di balli latini Davide Ranzani">Davide Ranzani</a></span><br> LU 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì corso di nacchere karen sánchez portaromana 21.30 - 22.30">
-                            
-                            <em><a href="/nacchere/" title="Corso di nacchere">Corso di nacchere</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/karen-sanchez-insegnante/" title="Insegnante di flmenco e danze spagnole Karen Sánchez">Karen Sánchez</a></span><br> LU 21.30 - 22.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì flamenco base sabina todaro portaromana 21.30 - 23">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> LU 21.30 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì solo jazz advanced larry daccò loreto 22 - 23">
-                            
-                            <em><a href="/solo-jazz/" title="Corso di Solo Jazz a Milano">Solo Jazz Advanced</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/larry-dacco/" title="Insegnante di Lindy Hop Larry Daccò">Larry Daccò</a></span><br> LU 22 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="lunedì salsa cubana intermedia arianna biancotto e davide ranzani loreto 22 - 23">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa cubana Intermedia</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a> e <a href="/insegnante-salsa-bachata-davide-ranzani/" title="Insegnante di balli latini Davide Ranzani">Davide Ranzani</a></span><br> LU 22 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-            </ul>
-        
-            <ul class="day-column" id="day-MA">
-                <li class="day-header">MARTEDÌ</li>
-                
-                
-                
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì oriental gypsy fusion sara ti loreto 13 - 14">
-                            
-                            <em><a href="/oriental-gypsy-fusion/" title="Corso di Oriental Gypsy Fusion">Oriental Gypsy Fusion</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/sara-ti/" title="Insegnante di danza Sara Ti">Sara Ti</a></span><br> MA 13 - 14<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì capoeira bambini 6-12 anni mestre baixinho loreto 17 - 18">
-                            
-                            <em><a href="/corso-capoeira-milano/" title="Corso di Capoeira">Capoeira bambini <span class="bimbi">6-12 anni</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/mestre-baixinho-capoeira-milano/" title="Insegnante di Capoeira Mestre Baixinho">Mestre Baixinho</a></span><br> MA 17 - 18<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì lyrical arab dance sabina todaro portaromana 17 - 18.30">
-                            
-                            <em><a href="/lyrical-arab-dance/" title="Corso di Lyrical Arab Dance">Lyrical Arab Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> MA 17 - 18.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                            
-                            
-                                
-                                
-                                
-                                
-                            <li class="lesson-item" data-search="martedì lindy hop guest daycon insegnanti ospiti  loreto 17 - 19">
-                            
-                            <em><span class="specialguestday pa3 mb2">LINDY HOP GUEST DAY<br><span class="orange">con insegnanti ospiti</span></span></em><br><br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì dance workout sabina todaro portaromana 17.30 - 18.30">
-                            
-                            <em><a href="/dance-workout/" title="Lezione di Dance Workout: allenamento alla danza">Dance Workout</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> MA 17.30 - 18.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì capoeira ragazzi e adulti mestre baixinho loreto 18 - 19">
-                            
-                            <em><a href="/corso-capoeira-milano/" title="Corso di Capoeira">Capoeira ragazzi e adulti</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/mestre-baixinho-capoeira-milano/" title="Insegnante di Capoeira Mestre Baixinho">Mestre Baixinho</a></span><br> MA 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì hip hop base jessica vassalli loreto 18 - 19">
-                            
-                            <em><a href="/corso-di-hip-hop-a-milano/" title="Corso di Hip Hop">Hip Hop base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br> MA 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì danze irlandesi perla davide loreto 18.30 - 19.30">
-                            
-                            <em><a href="/danze-irlandesi/" title="Lezione di danze irlandesi con Perla Davide">Danze Irlandesi</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/perla-davide/" title="Perla Davide insegnante di danze irlandesi e tip tap dance">Perla Davide</a></span><br> MA 18.30 - 19.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì flamenco intermedio sabina todaro portaromana 18.30 - 20">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> MA 18.30 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì danza contemporanea marta mai loreto 19 - 20">
-                            
-                            <em><a href="/danza-contemporanea/" title="Corso di Danza Contemporanea">Danza Contemporanea</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/marta-mai/" title="Insegnante di danza Marta Mai">Marta Mai</a></span><br> MA 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì corso coreografico di dancehall e reggaeton elena granata e jessica vassalli loreto 19 - 20">
-                            
-                            <em>Corso coreografico di <a href="/dancehall/" title="Corso di Dancehall">Dancehall</a> e <a href="/corsi-di-reggaeton/" title="Corso di Reggaeton">Reggaeton</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a> e <a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br> MA 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì tip tap perla davide loreto 19.30 - 20.30">
-                            
-                            <em><a href="/tip-tap-dance/" title="Corso di Tip Tap">Tip Tap</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/perla-davide/" title="Perla Davide insegnante di danze irlandesi e tip tap dance">Perla Davide</a></span><br> MA 19.30 - 20.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì heels dance jessica vassalli loreto 20 - 21">
-                            
-                            <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br> MA 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì flamenco base sabina todaro portaromana 20 - 21.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> MA 20 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì pizzica e altre tarantelle gaia ceccoli loreto 20.30 - 21.30">
-                            
-                            <em><a href="/corsi-di-pizzica/" title="Lezione di Pizzica, tarantelle e canto popolare">Pizzica e altre tarantelle</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/gaia-ceccoli/" title="Insegnante di pizzica e tarantelle Gaia Ceccoli">Gaia Ceccoli</a></span><br> MA 20.30 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì corso di nacchere karen sánchez portaromana 20.30 - 21.30">
-                            
-                            <em><a href="/nacchere/" title="Corso di nacchere">Corso di nacchere</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/karen-sanchez-insegnante/" title="Insegnante di flmenco e danze spagnole Karen Sánchez">Karen Sánchez</a></span><br> MA 20.30 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì tango intermedio roberto angelica loreto 21 - 22">
-                            
-                            <em><a href="/corso-di-tango-argentino/" title="Corsi di Tango Argentino">Tango Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/roberto-angelica/" title="Insegnante di tango Roberto Angelica">Roberto Angelica</a></span><br> MA 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì lindy hop under 35 annalena berton loreto 21 - 22">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Under 35</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/annalena-berton/" title="Insegnante di danza Annalena Berton">Annalena Berton</a></span><br> MA 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì bachata fusion nuovo leonardo negrillo ybarra loreto 21.30 - 22.30">
-                            
-                            <em><a href="/corsi-bachata-fusion-milano/" title="Corsi di Bachata Fusion a Milano con Leonardo Negrillo Ybarra">Bachata Fusion <span class="nuovorario">NUOVO</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/leonardo-negrillo-ybarra-bachata-fusion/" title="Insegnante di Bachata Leonardo Negrillo Ybarra">Leonardo Negrillo Ybarra</a></span><br> MA 21.30 - 22.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì pizzica e altre tarantelle gaia ceccoli loreto 21.30 - 22.30">
-                            
-                            <em><a href="/corsi-di-pizzica/" title="Lezione di Pizzica, tarantelle e canto popolare">Pizzica e altre tarantelle</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/gaia-ceccoli/" title="Insegnante di pizzica e tarantelle Gaia Ceccoli">Gaia Ceccoli</a></span><br> MA 21.30 - 22.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì danza spagnola stilizzata karen sánchez portaromana 21.30 - 23">
-                            
-                            <em><a href="/danza-spagnola-stilizzata-milano/" title="Corso di danza spagnola stilizzata a Milano">Danza Spagnola Stilizzata</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/karen-sanchez-insegnante/" title="Insegnante di flmenco e danze spagnole Karen Sánchez">Karen Sánchez</a></span><br> MA 21.30 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="martedì tango intermedio/avanzato roberto angelica loreto 22 - 23">
-                            
-                            <em><a href="/corso-di-tango-argentino/" title="Corsi di Tango Argentino">Tango intermedio/avanzato</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/roberto-angelica/" title="Insegnante di tango Roberto Angelica">Roberto Angelica</a></span><br> MA 22 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-            </ul>
-        
-            <ul class="day-column" id="day-ME">
-                <li class="day-header">MERCOLEDÌ</li>
-                
-                
-                
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì flamenco intermedio sabina todaro portaromana 12.30 - 14.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> ME 12.30 - 14.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì gioco danza classica bimbi 3-6 anni roberta albani loreto 17 - 17.45">
-                            
-                            <em><a href="/danza-classica-per-bambini/" title="Corso di danza Classica per bambini">Gioco Danza Classica</a> <span class="bimbi">bimbi 3-6 anni</span></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/roberta-albani/" title="Insegnante di danza classica Roberta Albani">Roberta Albani</a></span><br> ME 17 - 17.45<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì danza del ventre base nuovo jamila zaki loreto 17 - 18">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Danza del ventre base <sup class='nuovorario'>nuovo</sup></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> ME 17 - 18<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì modern speciale teen (ragazzi 11-18 anni) doré tibaldi 17 - 18">
-                            
-                            <em><a href="/danza-moderna/" title="Lezione di danza moderna per adulti e teenagers]">Modern <small class="red">Speciale Teen</small> (<span class="bimbi">ragazzi 11-18 anni</span>)</a></em><br><span class="gray">🎓</span> <span class="teacher"><span class="gold">Doré</span></span><br> ME 17 - 18<br>
-                            <span class="white-80" style="text-transform: uppercase">tibaldi</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì flamenco base sabina todaro portaromana 17 - 18.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> ME 17 - 18.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì heels dance elena granata loreto 18 - 19">
-                            
-                            <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br> ME 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì bollywood dance jamila zaki loreto 18 - 19.30">
-                            
-                            <em><a href="/bollywood-dance/" title="Corso di Bollywood Dance">Bollywood Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> ME 18 - 19.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì dance workout sabina todaro portaromana 18.30 - 19.15">
-                            
-                            <em><a href="/dance-workout/" title="Lezione di Dance Workout: allenamento alla danza">Dance Workout</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> ME 18.30 - 19.15<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì danza classica base/intermedio roberta albani loreto 18.30 - 20">
-                            
-                            <em><a href="/corso-di-danza-classica/" title="Corso di danza Classica">Danza Classica Base/Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/roberta-albani/" title="Insegnante di danza classica Roberta Albani">Roberta Albani</a></span><br> ME 18.30 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì heels dance elena granata loreto 19 - 20">
-                            
-                            <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br> ME 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì flamenco avanzato sabina todaro portaromana 19 - 21.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Avanzato</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> ME 19 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì danza del ventre intermedio/avanzato jamila zaki loreto 19.30 - 20.30">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Danza del ventre intermedio/avanzato</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> ME 19.30 - 20.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì lindy hop improvers davide resta loreto 20 - 21">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Improvers</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/davide-resta/" title="Insegnante di Lindy Hop Davide Resta">Davide Resta</a></span><br> ME 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì afro dance blue loreto 20 - 21">
-                            
-                            <em><a href="/corso-afro-dance-milano/" title="Corso di Afro Dance a Milano">Afro Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/insegnante-danza-afro-blue/" title="Insegnante di danza Afro Blue">Blue</a></span><br> ME 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì salsa stile los angeles base selena tarla loreto 20.30 - 21.30">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa stile <em>Los Angeles</em> Base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/selena-tarla/" title="Insegnante di Salsa e Bachata Selena Tarla">Selena Tarla</a></span><br> ME 20.30 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì flamenco intermedio/avanz sabina todaro portaromana 20.30 - 23">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio/avanz</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> ME 20.30 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì solo jazz beginner sogol parhizgar loreto 21 - 22">
-                            
-                            <em><a href="/solo-jazz/" title="Corso di Solo Jazz a Milano">Solo Jazz Beginner</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/insegnante-solo-jazz-sogol-parhizgar/" title="Insegnante di Solo Jazz Sogol Parhizgar">Sogol Parhizgar</a></span><br> ME 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì lindy hop intermediate davide resta loreto 21 - 22">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Intermediate</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/davide-resta/" title="Insegnante di Lindy Hop Davide Resta">Davide Resta</a></span><br> ME 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì salsa stile los angeles intermediate selena tarla loreto 21.30 - 22.30">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa stile <em>Los Angeles</em> Intermediate</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/selena-tarla/" title="Insegnante di Salsa e Bachata Selena Tarla">Selena Tarla</a></span><br> ME 21.30 - 22.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="mercoledì lindy hop new open under 35 davide resta loreto 22 - 23">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop New Open Under 35</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/davide-resta/" title="Insegnante di Lindy Hop Davide Resta">Davide Resta</a></span><br> ME 22 - 23<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-            </ul>
-        
-            <ul class="day-column" id="day-GI">
-                <li class="day-header">GIOVEDÌ</li>
-                
-                
-                
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì modern bambini bimbi 7-10 anni doré tibaldi 16.50 - 17.50">
-                            
-                            <em><a href="/danza-moderna-per-bambini/" title="Corso di danza moderna per bambini">Modern bambini <span class="bimbi">bimbi 7-10 anni</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><span class="gold">Doré</span></span><br> GI 16.50 - 17.50<br>
-                            <span class="white-80" style="text-transform: uppercase">tibaldi</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì flamenco intermedio sabina todaro portaromana 17 - 18.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> GI 17 - 18.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì video dance jessica vassalli loreto 18 - 19">
-                            
-                            <em><a href="/video-dance/" title="Corso di Video Dance">Video Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br> GI 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì capoeira ragazzi e adulti mestre baixinho loreto 18 - 19">
-                            
-                            <em><a href="/corso-capoeira-milano/" title="Corso di Capoeira">Capoeira ragazzi e adulti</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/mestre-baixinho-capoeira-milano/" title="Insegnante di Capoeira Mestre Baixinho">Mestre Baixinho</a></span><br> GI 18 - 19<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì flamenco base sabina todaro portaromana 18.30 - 20">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> GI 18.30 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì danza classica principianti roberta albani loreto 18.45 - 20">
-                            
-                            <em><a href="/corso-di-danza-classica/" title="Corso di danza Classica">Danza classica principianti</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/roberta-albani/" title="Insegnante di danza classica Roberta Albani">Roberta Albani</a></span><br> GI 18.45 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì hip hop mix style jessica vassalli loreto 19 - 19.45">
-                            
-                            <em><a href="/corso-di-hip-hop-a-milano/" title="Corso di Hip Hop">Hip Hop mix style</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br> GI 19 - 19.45<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì reggaeton base elena granata loreto 19 - 20">
-                            
-                            <em><a href="/corsi-di-reggaeton/" title="Corso di Reggaeton">Reggaeton Base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br> GI 19 - 20<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì hip hop intermedio jessica vassalli loreto 19.45 - 20.45">
-                            
-                            <em><a href="/corso-di-hip-hop-a-milano/" title="Corso di Hip Hop">Hip Hop intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br> GI 19.45 - 20.45<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì lindy hop under 35 annalena berton loreto 20 - 21">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Under 35</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/annalena-berton/" title="Insegnante di danza Annalena Berton">Annalena Berton</a></span><br> GI 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì salsa cubana arianna biancotto loreto 20 - 21">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa cubana</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br> GI 20 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì flamenco intermedio sabina todaro portaromana 20 - 21.30">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> GI 20 - 21.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì boogie woogie viviane grisvard loreto 20.45 - 21.45">
-                            
-                            <em><a href="/corso-di-boogie-jive-e-rockabilly-milano/" title="Corso di Boogie Woogie Jive e Rockabilly">Boogie Woogie</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/viviane-grisvard/" title="Insegnante di danza Viviane Grisvard">Viviane Grisvard</a></span><br> GI 20.45 - 21.45<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì lindy hop intermediate under 35 annalena berton loreto 21 - 22">
-                            
-                            <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Intermediate Under 35</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/annalena-berton/" title="Insegnante di danza Annalena Berton">Annalena Berton</a></span><br> GI 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì bachata nuovo arianna biancotto loreto 21 - 22">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Bachata <span class="nuovorario">NUOVO</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br> GI 21 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="giovedì pizzica e altre tarantelle gaia ceccoli portaromana 21.30 - 22.30">
-                            
-                            <em><a href="/corsi-di-pizzica/" title="Lezione di Pizzica, tarantelle e canto popolare">Pizzica e altre tarantelle</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/gaia-ceccoli/" title="Insegnante di pizzica e tarantelle Gaia Ceccoli">Gaia Ceccoli</a></span><br> GI 21.30 - 22.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-            </ul>
-        
-            <ul class="day-column" id="day-VE">
-                <li class="day-header">VENERDÌ</li>
-                
-                
-                
-                
-                    
-                             
-                            <li class="lesson-item" data-search="venerdì danza orientale intermedi jamila zaki portaromana 19.30 - 21">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Danza orientale intermedi</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> VE 19.30 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="venerdì danza orientale principianti jamila zaki portaromana 20.30 - 22">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Danza orientale principianti</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> VE 20.30 - 22<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-            </ul>
-        
-            <ul class="day-column" id="day-SA">
-                <li class="day-header">SABATO</li>
-                
-                
-                
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato laboratorio accessori mensile (4° we) jamila zaki portaromana 10.30 - 13.30">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Laboratorio accessori <small title="Incontro speciale mensile" class="orange bg-white-20 pa1">MENSILE (4° we)</small></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> SA 10.30 - 13.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato lyrical arab dance sabina todaro loreto 11 - 12.30">
-                            
-                            <em><a href="/lyrical-arab-dance/" title="Corso di Lyrical Arab Dance">Lyrical Arab Dance</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/sabina-todaro-insegnante/" title="Insegnante di flamenco e danze arabe Sabina Todaro">Sabina Todaro</a></span><br> SA 11 - 12.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato dance workout sabina todaro loreto 12 - 12.30">
-                            
-                            <em><a href="/dance-workout/" title="Lezione di Dance Workout: allenamento alla danza">Dance Workout</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/sabina-todaro-insegnante/" title="Insegnante di flamenco e danze arabe Sabina Todaro">Sabina Todaro</a></span><br> SA 12 - 12.30<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato flamenco base sabina todaro loreto 12.30 - 14">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco base</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> SA 12.30 - 14<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato flamenco intermedio sabina todaro loreto 14 - 16">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> SA 14 - 16<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato laboratorio ritmica mensile (4° we) jamila zaki portaromana 14.30 - 16.30">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Laboratorio ritmica <small title="Incontro speciale mensile" class="orange bg-white-20 pa1">MENSILE (4° we)</small></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> SA 14.30 - 16.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato gestualità femminile nuovo arianna biancotto loreto 15 - 17">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Gestualità femminile <span class="nuovorario">NUOVO</span></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br> SA 15 - 17<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato flamenco intermedio/avanz sabina todaro loreto 15 - 17.15">
-                            
-                            <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Intermedio/avanz</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br> SA 15 - 17.15<br>
-                            <span class="white-80" style="text-transform: uppercase">loreto</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato laboratorio folklore mensile (4° we) jamila zaki portaromana 16.30 - 19.30">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">Laboratorio folklore <small title="Incontro speciale mensile" class="orange bg-white-20 pa1">MENSILE (4° we)</small></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> SA 16.30 - 19.30<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="sabato drum circle facilitato mensile (4° we) jamila zaki portaromana 19.30 - 21">
-                            
-                            <em><a href="/corso-di-danza-del-ventre/" title="Corso di danza del ventre">drum circle facilitato <small title="Incontro speciale mensile" class="orange bg-white-20 pa1">MENSILE (4° we)</small></a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/jamila-zaki/" title="Insegnante di Danze Orientali Jamila Zaki">Jamila Zaki</a></span><br> SA 19.30 - 21<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-            </ul>
-        
-            <ul class="day-column" id="day-DO">
-                <li class="day-header">DOMENICA</li>
-                
-                
-                
-                
-                    
-                            
-                                    
-                            <li class="lesson-item" data-search="domenica specialincontro a richiesta selena tarla portaromana 13 - 14">
-                            
-                            <em><span class="dt ba pa3 b--orange mv2 tc br3"><span class="b orange">SPECIAL</span><br>incontro a richiesta</span></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/selena-tarla/" title="Insegnante di Salsa e Bachata Selena Tarla">Selena Tarla</a></span><br> DO 13 - 14<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-                    
-                             
-                            <li class="lesson-item" data-search="domenica salsa ladies styling selena tarla portaromana 15 - 16">
-                            
-                            <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa Ladies Styling</a></em><br><span class="gray">🎓</span> <span class="teacher"><a href="/selena-tarla/" title="Insegnante di Salsa e Bachata Selena Tarla">Selena Tarla</a></span><br> DO 15 - 16<br>
-                            <span class="white-80" style="text-transform: uppercase">porta romana</span>
-                        </li>
-                    
-                
-            </ul>
-        
-    </div>
-</div>
+    <div class="calendar-days"><ul class="day-column" id="day-LU">
+                <li class="day-header">Lunedì</li>
 
+                
+
+                    <li class="lesson-item" data-search="lunedì [gioco danza moderna {{ arianna biancotto loreto 17 - 17:45">
+                        <em><a href="/danza-moderna-per-bambini/" title="Corso di danza moderna per bambini">Gioco danza moderna
+<span class="bimbi">bimbi 3-6 anni</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br>
+                        <span class="white-80">LU 17 - 17:45</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì flamencobimbi karen sánchez porta romana 17 - 18">
+                        <em><a href="/corso-flamenco-bambini-milano/" title="Corso di Flamenco per bambini a Milano">Flamenco per bambini</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/karen-sanchez-insegnante/" title="Insegnante di flmenco e danze spagnole Karen Sánchez">Karen Sánchez</a></span><br>
+                        <span class="white-80">LU 17 - 18</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 porta romana</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [danza moderna {{ arianna biancotto loreto 17:45 - 18">
+                        <em><a href="/danza-moderna-per-bambini/" title="Corso di danza moderna per bambini">Danza moderna
+<span class="bimbi">bimbi 6-12 anni</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br>
+                        <span class="white-80">LU 17:45 - 18</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [heels dance] elena granata loreto 18 - 19">
+                        <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br>
+                        <span class="white-80">LU 18 - 19</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì flamencoavviamentobaile sabina todaro porta romana 18 - 19">
+                        <em><a href="/montare-una-coreografia-flamenco/" title="Montare una coreografia flamenco">Flamenco avviamento al baile “a solo”</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br>
+                        <span class="white-80">LU 18 - 19</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 porta romana</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [danza moderna] arianna biancotto loreto 19 - 20">
+                        <em><a href="/danza-moderna/" title="Lezione di danza moderna per adulti e teenagers]">Danza moderna</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a></span><br>
+                        <span class="white-80">LU 19 - 20</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [danza classica intermedio] marta mai loreto 19 - 20">
+                        <em><a href="/corso-di-danza-classica/" title="Corso di danza Classica">Danza classica intermedio</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/marta-mai/" title="Insegnante di danza Marta Mai">Marta Mai</a></span><br>
+                        <span class="white-80">LU 19 - 20</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì flamencoavanzato sabina todaro porta romana 19 - 21:30">
+                        <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco Avanzato</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br>
+                        <span class="white-80">LU 19 - 21:30</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 porta romana</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [lindy hop new open {{ larry daccò loreto 20 - 21">
+                        <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop New Open
+<span class="nuovorario">sold out</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/larry-dacco/" title="Insegnante di Lindy Hop Larry Daccò">Larry Daccò</a></span><br>
+                        <span class="white-80">LU 20 - 21</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [heels dance] elena granata loreto 20 - 21">
+                        <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/elena-granata/" title="Insegnante di Heels Dance e Reggaeton">Elena Granata</a></span><br>
+                        <span class="white-80">LU 20 - 21</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [salsa cubana base] arianna biancotto e davide ranzani loreto 20 - 21">
+                        <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa cubana base</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a> e <a href="/insegnante-salsa-bachata-davide-ranzani/" title="Insegnante di balli latini Davide Ranzani">Davide Ranzani</a></span><br>
+                        <span class="white-80">LU 20 - 21</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [lindy hop intermediate/advanced] larry daccò loreto 21 - 22">
+                        <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop Intermediate/Advanced</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/larry-dacco/" title="Insegnante di Lindy Hop Larry Daccò">Larry Daccò</a></span><br>
+                        <span class="white-80">LU 21 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [balboa advanced] stefano battistella e quelli di via oldrado loreto 21 - 22">
+                        <em><a href="/balboa/" title="Corso di Balboa">Balboa Advanced</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/stefano-battistella/" title="Insegnante di Lindy Hop Stefano Battistella">Stefano Battistella</a> e <a href="/quelli-di-via-oldrado-qdvo/" title="Crew di Lindy Hop QDVO">Quelli di Via Oldrado</a></span><br>
+                        <span class="white-80">LU 21 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [bachata] arianna biancotto e davide ranzani loreto 21 - 22">
+                        <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Bachata</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a> e <a href="/insegnante-salsa-bachata-davide-ranzani/" title="Insegnante di balli latini Davide Ranzani">Davide Ranzani</a></span><br>
+                        <span class="white-80">LU 21 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì flamencobase sabina todaro porta romana 21:30 - 23">
+                        <em><a href="/pedagogia-del-flamenco/" title="Lezione di Flamenco basico">Flamenco base</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/baile-sabina/" title="Insegnante di Flamenco e Lyrical Arab Dance Sabina Todaro">Sabina Todaro</a></span><br>
+                        <span class="white-80">LU 21:30 - 23</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 porta romana</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì corso-di-nacchere karen sánchez porta romana 21:30 - 22">
+                        <em><a href="/nacchere/" title="Corso di nacchere">Corso di nacchere</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/karen-sanchez-insegnante/" title="Insegnante di flmenco e danze spagnole Karen Sánchez">Karen Sánchez</a></span><br>
+                        <span class="white-80">LU 21:30 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 porta romana</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì solo jazz advanced larry daccò loreto 22 - 23">
+                        <em><a href="/solo-jazz/" title="Corso di Solo Jazz a Milano">Solo Jazz Advanced</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/larry-dacco/" title="Insegnante di Lindy Hop Larry Daccò">Larry Daccò</a></span><br>
+                        <span class="white-80">LU 22 - 23</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="lunedì [salsa cubana intermedia] arianna biancotto e davide ranzani loreto 22 - 23">
+                        <em><a href="/salsa-e-bachata/" title="Corso di Salsa e bachata">Salsa cubana Intermedia</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/arianna-biancotto/" title="Insegnante di danza Arianna Biancotto">Arianna Biancotto</a> e <a href="/insegnante-salsa-bachata-davide-ranzani/" title="Insegnante di balli latini Davide Ranzani">Davide Ranzani</a></span><br>
+                        <span class="white-80">LU 22 - 23</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li></ul><ul class="day-column" id="day-MA">
+                <li class="day-header">Martedì</li>
+
+                
+
+                    <li class="lesson-item" data-search="martedì [oriental gypsy fusion] sara ti loreto 13 - 14">
+                        <em><a href="/oriental-gypsy-fusion/" title="Corso di Oriental Gypsy Fusion">Oriental Gypsy Fusion</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/sara-ti/" title="Insegnante di danza Sara Ti">Sara Ti</a></span><br>
+                        <span class="white-80">MA 13 - 14</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [capoeira bambini {{ mestre baixinho loreto 17 - 18">
+                        <em><a href="/corso-capoeira-milano/" title="Corso di Capoeira">Capoeira bambini
+<span class="bimbi">bimbi 6-12 anni</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/mestre-baixinho-capoeira-milano/" title="Insegnante di Capoeira Mestre Baixinho">Mestre Baixinho</a></span><br>
+                        <span class="white-80">MA 17 - 18</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [capoeira ragazzi e adulti] mestre baixinho loreto 18 - 19">
+                        <em><a href="/corso-capoeira-milano/" title="Corso di Capoeira">Capoeira ragazzi e adulti</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/mestre-baixinho-capoeira-milano/" title="Insegnante di Capoeira Mestre Baixinho">Mestre Baixinho</a></span><br>
+                        <span class="white-80">MA 18 - 19</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [danze irlandesi] perla davide loreto 18:30 - 19">
+                        <em><a href="/danze-irlandesi/" title="Lezione di danze irlandesi con Perla Davide">Danze Irlandesi</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/perla-davide/" title="Perla Davide insegnante di danze irlandesi e tip tap dance">Perla Davide</a></span><br>
+                        <span class="white-80">MA 18:30 - 19</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [danza contemporanea] marta mai loreto 19 - 20">
+                        <em><a href="/danza-contemporanea/" title="Corso di Danza Contemporanea">Danza Contemporanea</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/marta-mai/" title="Insegnante di danza Marta Mai">Marta Mai</a></span><br>
+                        <span class="white-80">MA 19 - 20</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì tip-tap-dance perla davide loreto 19:30 - 20">
+                        <em><a href="/tip-tap-dance/" title="Corso di Tip Tap">Tip Tap</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/perla-davide/" title="Perla Davide insegnante di danze irlandesi e tip tap dance">Perla Davide</a></span><br>
+                        <span class="white-80">MA 19:30 - 20</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [heels dance] jessica vassalli loreto 20 - 21">
+                        <em><a href="/heels-dance/" title="Corsi di Heels Dance">Heels Dance</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/jessica-vassalli/" title="Insegnante di danza Jessica Vassalli">Jessica Vassalli</a></span><br>
+                        <span class="white-80">MA 20 - 21</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [pizzica e altre tarantelle] gaia ceccoli loreto 20:30 - 21">
+                        <em><a href="/corsi-di-pizzica/" title="Lezione di Pizzica, tarantelle e canto popolare">Pizzica e altre tarantelle</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/gaia-ceccoli/" title="Insegnante di pizzica e tarantelle Gaia Ceccoli">Gaia Ceccoli</a></span><br>
+                        <span class="white-80">MA 20:30 - 21</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [lindy hop under 35] annalena berton loreto 21 - 22">
+                        <em><a href="/lindy-hop/" title="Corso di Lindy Hop a Milano">Lindy Hop <span class="u35">Under 35</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/annalena-berton/" title="Insegnante di danza Annalena Berton">Annalena Berton</a></span><br>
+                        <span class="white-80">MA 21 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [tango intermedio] roberto angelica loreto 21 - 22">
+                        <em><a href="/corso-di-tango-argentino/" title="Corsi di Tango Argentino">Tango Intermedio</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/roberto-angelica/" title="Insegnante di tango Roberto Angelica">Roberto Angelica</a></span><br>
+                        <span class="white-80">MA 21 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [bachata fusion {{ leonardo negrillo ybarra loreto 21:30 - 22">
+                        <em><a href="/corsi-bachata-fusion-milano/" title="Corsi di Bachata Fusion a Milano con Leonardo Negrillo Ybarra">Bachata Fusion
+<span class="nuovorario">nuovo</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/leonardo-negrillo-ybarra-bachata-fusion/" title="Insegnante di Bachata Leonardo Negrillo Ybarra">Leonardo Negrillo Ybarra</a></span><br>
+                        <span class="white-80">MA 21:30 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [pizzica e altre tarantelle] gaia ceccoli loreto 21:30 - 22">
+                        <em><a href="/corsi-di-pizzica/" title="Lezione di Pizzica, tarantelle e canto popolare">Pizzica e altre tarantelle</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/gaia-ceccoli/" title="Insegnante di pizzica e tarantelle Gaia Ceccoli">Gaia Ceccoli</a></span><br>
+                        <span class="white-80">MA 21:30 - 22</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li>
+
+                    <li class="lesson-item" data-search="martedì [tango intermedio/avanzato] roberto angelica loreto 22 - 23">
+                        <em><a href="/corso-di-tango-argentino/" title="Corsi di Tango Argentino">Tango intermedio/avanzato</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><a href="/roberto-angelica/" title="Insegnante di tango Roberto Angelica">Roberto Angelica</a></span><br>
+                        <span class="white-80">MA 22 - 23</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 loreto</span>
+                    </li></ul><ul class="day-column" id="day-ME">
+                <li class="day-header">Mercoledì</li>
+
+                
+
+                    <li class="lesson-item" data-search="mercoledì [modern speciale teen (ragazzi 11-18 anni)] doré tibaldi 17 - 18">
+                        <em><a href="/danza-moderna/" title="Lezione di danza moderna per adulti e teenagers]">Modern <small class="red">Speciale Teen</small> (<span class="bimbi">ragazzi 11-18 anni</span>)</a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><span class="gold">Doré</span></span><br>
+                        <span class="white-80">ME 17 - 18</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 tibaldi</span>
+                    </li></ul><ul class="day-column" id="day-GI">
+                <li class="day-header">Giovedì</li>
+
+                
+
+                    <li class="lesson-item" data-search="giovedì [modern bambini bimbi 7-10 anni] doré tibaldi 16:50 - 17:50">
+                        <em><a href="/danza-moderna-per-bambini/" title="Corso di danza moderna per bambini">Modern bambini <span class="bimbi">bimbi 7-10 anni</span></a></em><br>
+                        <span title="Insegnante">🎓</span> <span class="teacher"><span class="gold">Doré</span></span><br>
+                        <span class="white-80">GI 16:50 - 17:50</span><br>
+                        <span class="white-80" style="text-transform: uppercase;">📍 tibaldi</span>
+                    </li></ul><ul class="day-column" id="day-VE">
+                <li class="day-header">Venerdì</li>
+
+                </ul><ul class="day-column" id="day-SA">
+                <li class="day-header">Sabato</li>
+
+                </ul><ul class="day-column" id="day-DO">
+                <li class="day-header">Domenica</li>
+
+                </ul></div>
+</div>
 <script>
     document.getElementById('searchCourse').addEventListener('input', function() {
-    var filter = this.value.toLowerCase();
-    var lessons = document.querySelectorAll('.lesson-item');
-    var filterWords = filter.split(' ');
-    lessons.forEach(function(lesson) {
-    var searchText = lesson.getAttribute('data-search').toLowerCase();
-    var matches = filterWords.every(function(word) {
-        return searchText.includes(word);
-    });
-    lesson.style.display = matches ? '' : 'none';
-    });
-});
-</script>
+        var filter = this.value.toLowerCase().trim();
+        var lessons = document.querySelectorAll('.lesson-item');
+        var dayColumns = document.querySelectorAll('.day-column');
+        var filterWords = filter.split(' ').filter(Boolean);
 
-  
+        
+        lessons.forEach(function(lesson) {
+            var searchText = lesson.getAttribute('data-search').toLowerCase();
+
+            var matches = filterWords.every(function(word) {
+                return searchText.includes(word);
+            });
+
+            if (matches) {
+                lesson.style.display = '';
+            } else {
+                lesson.style.display = 'none';
+            }
+        });
+
+        
+        dayColumns.forEach(function(column) {
+            var visibleLessonsFound = false;
+            var lessonsInColumn = column.querySelectorAll('.lesson-item');
+
+            lessonsInColumn.forEach(function(lesson) {
+                if (lesson.style.display !== 'none') {
+                    visibleLessonsFound = true;
+                }
+            });
+
+            if (visibleLessonsFound) {
+                column.style.display = '';
+            } else {
+                column.style.display = 'none';
+            }
+        });
+    });
+</script>
+		
 	</article><div class="social-links pt3 mt1">
 <div class="gray f6 tracked ml2">condividi questa pagina con i tuoi amici </div>
 
@@ -1334,7 +739,7 @@
     </li>  
     <li class="menu-item pa0"> <a class="menu-link " href="/category/corsi-movimento-e-benessere/" itemprop="url">Corsi di Movimento e benessere</a>
     </li>  
-    <li class="menu-item pa0"> <a class="menu-link menunew1" href="/stage-spettacoli-corsi-estivi/" itemprop="url">STAGES SPETTACOLI CORSI ESTIVI</a>
+    <li class="menu-item pa0"> <a class="menu-link " href="/stage-spettacoli-corsi-estivi/" itemprop="url">STAGES SPETTACOLI CORSI ESTIVI</a>
     </li>  
     <li class="menu-item pa0"> <a class="menu-link " href="/insegnare-danza/" itemprop="url">Corso Insegnanti di Danza</a>
     </li>  
