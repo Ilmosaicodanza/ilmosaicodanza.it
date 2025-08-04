@@ -639,13 +639,6 @@
       <description>Sogol Parhizgar, insegnante di Solo Jazz e Lindy Hop, con una forte passione per le danze afroamericane e lo swing. Offre lezioni focalizzate sull&amp;rsquo;improvvisazione, l&amp;rsquo;individualità e il divertimento, partecipando attivamente a competizioni, festival e social dancing.</description>
     </item>
     <item>
-      <title>Insegnante di Salsa Bachata Davide Ranzani</title>
-      <link>https://www.ilmosaicodanza.it/insegnante-salsa-bachata-davide-ranzani/</link>
-      <pubDate>Mon, 02 Sep 2024 19:20:31 +0200</pubDate>
-      <guid>https://www.ilmosaicodanza.it/insegnante-salsa-bachata-davide-ranzani/</guid>
-      <description>Davide Ranzani, insegnante di salsa cubana e bachata a Milano, trasmette la passione per la danza latina attraverso lezioni coinvolgenti e personalizzate. Scopri un approccio unico che combina tecnica, cultura e divertimento.</description>
-    </item>
-    <item>
       <title>Blue - Insegnante di Danza Afro</title>
       <link>https://www.ilmosaicodanza.it/insegnante-danza-afro-blue/</link>
       <pubDate>Sun, 01 Sep 2024 12:29:51 +0200</pubDate>
@@ -804,7 +797,7 @@
       <link>https://www.ilmosaicodanza.it/search/</link>
       <pubDate>Sat, 02 Jul 2022 12:40:03 +0200</pubDate>
       <guid>https://www.ilmosaicodanza.it/search/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.ilmosaicodanza.it/pagefind/pagefind-ui.css&#34; /&gt;&#xD;&#xA;&lt;script type=&#34;module&#34; src=&#34;https://www.ilmosaicodanza.it/pagefind/pagefind-ui.js&#34; defer&gt;&lt;/script&gt;&#xD;&#xA;&lt;noscript&gt;&#xD;&#xA;&lt;div class=&#34;ma2 bg-black db gold pa4 b--gold ba br2 b tc&#34;&gt;&#xD;&#xA;  Il JavaScript è disabilitato o non è supportato dal tuo browser. La ricerca potrebbe non essere disponibile.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;/noscript&gt;&#xD;&#xA;&lt;div id=&#34;search&#34;&gt;&lt;/div&gt;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;  window.addEventListener(&#39;DOMContentLoaded&#39;, () =&gt; {&#xD;&#xA;    new PagefindUI({ element: &#34;#search&#34; });&#xD;&#xA;  });&#xD;&#xA;&lt;/script&gt;&#xD;&#xA;&lt;script type=&#34;application/ld+json&#34;&gt;&#xD;&#xA;  {&#xD;&#xA;    &#34;@context&#34;: &#34;https://schema.org&#34;,&#xD;&#xA;    &#34;@type&#34;: &#34;WebSite&#34;,&#xD;&#xA;    &#34;name&#34;: &#34;Il Mosaico Danza&#34;,&#xD;&#xA;    &#34;url&#34;: &#34;https://www.ilmosaicodanza.it/&#34;,&#xD;&#xA;    &#34;potentialAction&#34;: {&#xD;&#xA;      &#34;@type&#34;: &#34;SearchAction&#34;,&#xD;&#xA;      &#34;target&#34;: &#34;https://www.ilmosaicodanza.it/search?q={search_term_string}&#34;,&#xD;&#xA;      &#34;query&#34;: &#34;required name=search_term_string&#34;&#xD;&#xA;    }&#xD;&#xA;  }&#xD;&#xA;  &lt;/script&gt;&#xD;&#xA;&lt;p&gt;&amp;ndash;&amp;gt;&lt;/p&gt;</description>
+      <description>Cerca tra tutti i nostri corsi di flamenco, lindy hop, heels dance, danza classica, e tanto altro. Lezioni per adulti teenagers e bambini di qualità garantita</description>
     </item>
     <item>
       <title>Privacy Policy: Leggi la nostra politica sulla privacy</title>
