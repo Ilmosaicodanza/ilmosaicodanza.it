@@ -51,11 +51,6 @@
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/lindy-hop/</loc>
-        <lastmod>2022-07-02</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/gioco-hip-hop/</loc>
         <lastmod>2022-06-13</lastmod>
         <priority>0.8</priority>
@@ -64,11 +59,6 @@
         <loc>https://www.ilmosaicodanza.it/nuovi-corsi-lindy-hop-milano/</loc>
         <lastmod>2023-01-10</lastmod>
         <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corso-di-boogie-jive-e-rockabilly-milano/</loc>
-        <lastmod>2022-06-19</lastmod>
-        <priority>0.8</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/arianna-biancotto/</loc>
@@ -83,26 +73,6 @@
       <url>
         <loc>https://www.ilmosaicodanza.it/corsi-per-teenagers/</loc>
         <lastmod>2022-06-13</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/video-dance/</loc>
-        <lastmod>2023-08-05</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/balboa/</loc>
-        <lastmod>2022-06-12</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/danze-irlandesi/</loc>
-        <lastmod>2023-09-08</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/blues-dance/</loc>
-        <lastmod>2022-08-02</lastmod>
         <priority>0.8</priority>
       </url>
       <url>
@@ -121,16 +91,6 @@
         <priority>0.8</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/collegiate-shag/</loc>
-        <lastmod>2022-08-02</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/solo-jazz/</loc>
-        <lastmod>2023-08-05</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/selena-tarla/</loc>
         <lastmod>2023-03-01</lastmod>
         <priority>0.6</priority>
@@ -141,34 +101,14 @@
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/lyrical-arab-dance/</loc>
-        <lastmod>2022-05-27</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/larry-dacco/</loc>
         <lastmod>2023-01-09</lastmod>
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/corso-di-danza-del-ventre/</loc>
-        <lastmod>2022-06-30</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/oriental-gypsy-fusion/</loc>
-        <lastmod>2022-09-14</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/jamila-zaki/</loc>
         <lastmod>2022-09-13</lastmod>
         <priority>0.6</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/tip-tap-dance/</loc>
-        <lastmod>2023-09-13</lastmod>
-        <priority>0.8</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/perla-davide/</loc>
@@ -181,16 +121,6 @@
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/bollywood-dance/</loc>
-        <lastmod>2022-06-21</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corso-di-danza-classica/</loc>
-        <lastmod>2022-07-01</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/francesco-perrotta/</loc>
         <lastmod>2022-06-16</lastmod>
         <priority>0.6</priority>
@@ -201,19 +131,9 @@
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/danza-moderna/</loc>
-        <lastmod>2022-05-26</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/stefano-benedetti/</loc>
         <lastmod>2022-08-07</lastmod>
         <priority>0.6</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/danza-contemporanea/</loc>
-        <lastmod>2022-06-19</lastmod>
-        <priority>0.8</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/jessica-vassalli/</loc>
@@ -221,64 +141,9 @@
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/corso-di-hip-hop-a-milano/</loc>
-        <lastmod>2022-07-02</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/balli-latini/</loc>
-        <lastmod>2022-06-16</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/sara-ti/</loc>
         <lastmod>2022-08-15</lastmod>
         <priority>0.6</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corsi-di-reggaeton/</loc>
-        <lastmod>2022-06-19</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corsi-di-pizzica/</loc>
-        <lastmod>2022-06-11</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/dancehall/</loc>
-        <lastmod>2022-06-18</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corso-di-ballo-liscio-a-milano/</loc>
-        <lastmod>2022-05-25</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/funk-brasiliano/</loc>
-        <lastmod>2025-06-10</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corso-capoeira-milano/</loc>
-        <lastmod>2025-02-07</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corsi-bachata-fusion-milano/</loc>
-        <lastmod>2025-01-22</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corso-afro-dance-milano/</loc>
-        <lastmod>2024-09-01</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/danza-spagnola-stilizzata-milano/</loc>
-        <lastmod>2024-07-11</lastmod>
-        <priority>0.8</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/carlos-guillen/</loc>
@@ -291,19 +156,9 @@
         <priority>0.6</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/heels-dance/</loc>
-        <lastmod>2022-07-05</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/cante-flamenco-jeromo-segura/</loc>
         <lastmod>2022-06-16</lastmod>
         <priority>0.6</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/salsa-e-bachata/</loc>
-        <lastmod>2022-06-30</lastmod>
-        <priority>0.8</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/ale-venturini/</loc>
@@ -416,16 +271,6 @@
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/corso-di-tango-argentino/</loc>
-        <lastmod>2022-07-03</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corso-michael-jackson-style/</loc>
-        <lastmod>2022-07-03</lastmod>
-        <priority>0.8</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/search/</loc>
         <lastmod>2022-07-02</lastmod>
         <priority>0.5</priority>
@@ -499,11 +344,6 @@
         <loc>https://www.ilmosaicodanza.it/stage-di-musica/</loc>
         <lastmod>2022-05-26</lastmod>
         <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/libera-la-danza/</loc>
-        <lastmod>2022-05-26</lastmod>
-        <priority>0.8</priority>
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/le-meraviglie-del-corpo/</loc>
