@@ -743,6 +743,10 @@
 </div>
 
 <script>
+    function removeAccents(str) {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    }
+
     
     function clearSearch() {
         const searchInput = document.getElementById('searchCourse');
@@ -757,28 +761,28 @@
     function filterLessons(filter) {
         const lessons = document.querySelectorAll('.lesson-item');
         const dayColumns = document.querySelectorAll('.day-column');
-        const filterWords = filter.toLowerCase().trim().split(' ').filter(Boolean);
         const notification = document.getElementById('notification-dropdown');
+
+        
+        const filterWords = removeAccents(filter.toLowerCase().trim()).split(' ').filter(Boolean);
 
         let visibleLessonsCount = 0;
 
-        
         lessons.forEach(function(lesson) {
-            const searchText = lesson.getAttribute('data-search').toLowerCase();
+            
+            const searchText = removeAccents(lesson.getAttribute('data-search').toLowerCase());
             const matches = filterWords.length === 0 ||
-                           filterWords.every(word => searchText.includes(word));
+                filterWords.every(word => searchText.includes(word));
 
             lesson.style.display = matches ? '' : 'none';
             if (matches) visibleLessonsCount++;
         });
 
-        
         dayColumns.forEach(function(column) {
             const visibleLessons = column.querySelectorAll('.lesson-item:not([style*="display: none"])');
             column.style.display = visibleLessons.length > 0 ? '' : 'none';
         });
 
-        
         if (filterWords.length > 0 && visibleLessonsCount === 0) {
             notification.style.display = 'block';
         } else {
