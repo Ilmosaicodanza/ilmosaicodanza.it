@@ -230,7 +230,9 @@
 <div id="search"></div>
 <script>
   window.addEventListener('DOMContentLoaded', () => {
-    new PagefindUI({ element: "#search" });
+    new PagefindUI({ element: "#search",
+      normalize: true
+     });
   });
 </script>
 <script type="application/ld+json">

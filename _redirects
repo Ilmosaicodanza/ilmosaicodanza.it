@@ -1,5 +1,7 @@
-# 18-08-2025
+#22-08-2025
+/corsi-benessere/corso-yoga-milano/ /corsi-benessere/yoga-milano/ 301
 
+#18-08-2025
 /corso-afro-dance-milano/                                /corsi-danza/afro-dance-milano/ 301
 /corso-afro-dance-milano/corso-afro-dance-thumbnail.webp /corsi-danza/afro-dance-milano/afro-dance-milano-cover.jpg 301
 /corso-afro-dance-milano/corso-afro-dance.jpg            /corsi-danza/afro-dance-milano/afro-dance-milano-cover.webp 301
@@ -493,55 +495,55 @@
 /wiag/boogie/               / 410
 /wiag/clagnol.              / 410
 
-# 2024-01-03
-/tags/suonare-le-nacchere/          /nacchere/               301
-/tags/suonare-le-nacchere/index.xml /nacchere/index.xml      301
-/tags/workout/                      /dance-workout/          301
-/tags/workout/index.xml             /dance-workout/index.xml 301
-# 2023-12-31
-/tags/postura/               /corsi-benessere/          301
-/tags/postura/index.xml      /corsi-benessere/index.xml 301
-/tags/corsi-estivi           /corsi-estivi/             301
-/tags/corsi-estivi/          /corsi-estivi/             301
-/tags/corsi-estivi/index.xml /corsi-estivi/index.xml    301
-/tags/insegnanti             /tags/insegnante/          301
-/tag/insegnanti/             /tags/insegnante/          301
-# 2023-12-29
-/tags/regolamento/          /regolamento-di-iscrizione/          301
-/tags/regolamento/index.xml /regolamento-di-iscrizione/index.xml 301
-# 2023-12-28
-/tag/webinar/           /tags/formazione/                         301
-/tag/lindy-ho-2         /tags/lindy-hop/                          301
-/tag/salsa-portoricana/ /tags/salsa-e-bachata/                    301
-/author/sabina/         /baile-sabina/                            301
-/tag/corsi/                   /tags/corsi/                        301
-/djembe-percussioni-africane/ /tags/percussioni-flamenco/         301
-/tag/anatomia/                /anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/          301
-/tag/swing/                   /tags/swing/                        301
-/salsa-e-bachata/salsa/       /corsi-danza/salsa-bachata-milano/                   301
-/breakdance-b-boying/         /corsi-danza/hip-hop-milano/         301
-/ginnastica-posturale         /ginnastica-posturale-antalgica/    301
-/ginnastica-posturale/          /ginnastica-posturale-antalgica/          301
-/ginnastica-posturale/index.xml /ginnastica-posturale-antalgica/index.xml 301
-/zumba                          /corsi-benessere/                                   301
-/corsi-on-line                  /corsi-on-line/                       301
-/tags/corso-danza-orientale/          /tags/danza-orientale/          301
-/tags/corso-danza-orientale/index.xml /tags/danza-orientale/index.xml 301
-/search                               /search/                        301
-/tags/scuola-di-flamenco-a-milano/          /tags/pedagogia-flamenco/          301
-/tags/scuola-di-flamenco-a-milano/index.xml /tags/pedagogia-flamenco/index.xml 301
+#2024-01-03
+/tags/suonare-le-nacchere/          /flamenco/nacchere/                  301
+/tags/suonare-le-nacchere/index.xml /flamenco/nacchere/index.xml         301
+/tags/workout/                      /flamenco/dance-workout/             301
+/tags/workout/index.xml             /flamenco/dance-workout/index.xml    301
+#2023-12-31
+/tags/postura/                      /corsi-benessere/                    301
+/tags/postura/index.xml             /corsi-benessere/index.xml           301
+/tags/corsi-estivi                  /corsi-estivi/                       301
+/tags/corsi-estivi/                 /corsi-estivi/                       301
+/tags/corsi-estivi/index.xml        /corsi-estivi/index.xml              301
+/tags/insegnanti                    /i-nostri-insegnanti/                301
+/tag/insegnanti/                    /i-nostri-insegnanti/                301
+#2023-12-29
+/tags/regolamento/                  /regolamento-di-iscrizione/          301
+/tags/regolamento/index.xml         /regolamento-di-iscrizione/index.xml 301
+#2023-12-28
+/tag/webinar/                       /                                    301
+/tag/lindy-ho-2                     /corsi-danza/lindy-hop-milano/       301
+/tag/salsa-portoricana/             /corsi-danza/salsa-bachata-milano/   301
+/author/sabina/                     /baile-sabina/                       301
+/tag/corsi/                         /corsi-di-danza/                         301
+/djembe-percussioni-africane/       /flamenco/                           301
+/tag/anatomia/                              /anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/ 301
+/tag/swing/                                 /corsi-danza/lindy-hop-milano/                 301
+/salsa-e-bachata/salsa/                     /corsi-danza/salsa-bachata-milano/             301
+/breakdance-b-boying/                       /corsi-danza/hip-hop-milano/                   301
+/ginnastica-posturale                       /ginnastica-posturale-antalgica/               301
+/ginnastica-posturale/                      /ginnastica-posturale-antalgica/               301
+/ginnastica-posturale/index.xml             /ginnastica-posturale-antalgica/index.xml      301
+/zumba                                      /corsi-benessere/                              301
+/corsi-on-line                              /corsi-on-line/                                301
+/tags/corso-danza-orientale/                /corsi-danza/danza-del-ventre-milano/          301
+/tags/corso-danza-orientale/index.xml       /corsi-danza/danza-del-ventre-milano/index.xml 301
+/search                                     /search/                                       301
+/tags/scuola-di-flamenco-a-milano/          /flamenco/pedagogia-del-flamenco/              301
+/tags/scuola-di-flamenco-a-milano/index.xml /flamenco/pedagogia-del-flamenco/index.xml     301
 
-#                                                                          2023-12-27
+#2023-12-27
 /cante-flamenco-jeromo/                                                    /cante-flamenco-jeromo-segura/                               301
 /cante-flamenco-jeromo/index.xml                                           /cante-flamenco-jeromo-segura/index.xml                      301
 /danza-del-ventre-silvia-carabelli/silvia-carabelli-bellydance-milano.webp /corsi-danza/danza-del-ventre-milano/danza-del-ventre-cover.webp 301
-/hip-hop                                                                   /tags/hip-hop/                                               301
-/hip-hop/                                                  /tags/hip-hop/                 301
-/hip-hop/index.xml                                         /tags/hip-hop/index.xml        301
-/imparare_a_improvvisare                                   /imparare-a-improvvisare/      301
-/imparare_a_improvvisare/                                  /imparare-a-improvvisare/                                  301
-/imparare_a_improvvisare/improvvisazione-nel-flamenco.webp /imparare-a-improvvisare/improvvisazione-nel-flamenco.webp 301
-/imparare_a_improvvisare/index.xml                         /imparare-a-improvvisare/index.xml                         301
+/hip-hop                                                                  /corsi-danza/hip-hop-milano/                                               301
+/hip-hop/                                                  /corsi-danza/hip-hop-milano/                 301
+/hip-hop/index.xml                                         /corsi-danza/hip-hop-milano/index.xml        301
+/imparare_a_improvvisare                                   /flamenco/imparare-a-improvvisare/      301
+/imparare_a_improvvisare/                                  /flamenco/imparare-a-improvvisare/                                  301
+/imparare_a_improvvisare/improvvisazione-nel-flamenco.webp /flamenco/imparare-a-improvvisare/improvvisazione-nel-flamenco.webp 301
+/imparare_a_improvvisare/index.xml                         /flamenco/imparare-a-improvvisare/index.xml                         301
 /jeromo-segura                                      /cante-flamenco-jeromo-segura/                    301
 /jeromo-segura/                                     /cante-flamenco-jeromo-segura/                    301
 /jeromo-segura/index.xml                            /cante-flamenco-jeromo-segura/index.xml           301
@@ -553,20 +555,20 @@
 /tag/ritmca                   /corsi-benessere/                                 301
 /tag/ritmca/                  /corsi-benessere/                                 301
 /tag/ritmca/index.xml         /corsi-benessere/index.xml                        301
-/tag/sabina-todaro            /tags/sabina-todaro/                              301
-/tag/sabina-todaro/           /tags/sabina-todaro/                              301
-/tag/sabina-todaro/index.xml  /tags/sabina-todaro/index.xml                     301
-/tag/sevillanas               /tags/sevillanas/                                 301
-/tag/sevillanas/              /tags/sevillanas/                                 301
-/tag/sevillanas/index.xml     /tags/sevillanas/index.xml                        301
-/tags/corsi-on-line           /tags/corsi/                                      301
-/tags/corsi-on-line/          /tags/corsi/                                      301
-/tags/corsi-on-line/index.xml /tags/corsi/index.xml                             301
-/tags/corso                   /tags/corsi/                                      301
-/tags/corso/                  /tags/corsi/                                      301
-/tags/corso/index.xml         /tags/corsi/index.xml                             301
-/tags/danza-araba             /tags/danza-orientale/                            301
-/tags/danza-araba/            /tags/danza-orientale/                            301
+/tag/sabina-todaro            /baile-sabina/                              301
+/tag/sabina-todaro/           /baile-sabina/                              301
+/tag/sabina-todaro/index.xml  /baile-sabina/index.xml                     301
+/tag/sevillanas               /flamenco/sevillanas/                                 301
+/tag/sevillanas/              /flamenco/sevillanas/                                 301
+/tag/sevillanas/index.xml     /flamenco/sevillanas/index.xml                        301
+/tags/corsi-on-line           /corsi-di-danza/                                      301
+/tags/corsi-on-line/          /corsi-di-danza/                                      301
+/tags/corsi-on-line/index.xml /corsi-di-danza/index.xml                             301
+/tags/corso                   /corsi-di-danza/                                      301
+/tags/corso/                  /corsi-di-danza/                                      301
+/tags/corso/index.xml         /corsi-di-danza/index.xml                             301
+/tags/danza-araba             /corsi-danza/danza-del-ventre-milano/            301
+/tags/danza-araba/            /corsi-danza/danza-del-ventre-milano/            301
 /tags/danza-milano-ragazzi    /tags/danza-per-ragazzi-milano/                   301
 /tags/danza-milano-ragazzi/          /tags/danza-per-ragazzi-milano/            301
 /tags/danza-milano-ragazzi/index.xml /tags/danza-per-ragazzi-milano/index.xml 301
@@ -579,15 +581,15 @@
 /tags/insegnant-di-musica            /tags/insegnanti-di-musica/              301
 /tags/insegnant-di-musica/           /tags/insegnanti-di-musica/          301
 /tags/insegnant-di-musica/index.xml  /tags/insegnanti-di-musica/index.xml 301
-/tags/mariele-carnevale/index.xml    /corsi-benessere/corso-yoga-milano/index.xml                 301
-/tags/percussioni-arabe              /tags/percussioni-flamenco/          301
-/tags/percussioni-arabe/             /tags/percussioni-flamenco/          301
-/tags/percussioni-arabe/index.xml    /tags/percussioni-flamenco/index.xml 301
+/tags/mariele-carnevale/index.xml    /corsi-benessere/corsi-benessere/yoga-milano/index.xml                 301
+/tags/percussioni-arabe              /flamenco/          301
+/tags/percussioni-arabe/             /flamenco/          301
+/tags/percussioni-arabe/index.xml    /flamenco/index.xml 301
 /tags/ritmca                         /corsi-benessere/                    301
 /tags/ritmca/                        /corsi-benessere/                    301
 /tags/ritmca/index.xml               /corsi-benessere/index.xml           301
 
-# 2023-12-26
+#2023-12-26
 /category/sagra-permanente/                                    /category/informazioni-e-contatti/          301
 /category/sagra-permanente/index.xml                           /category/informazioni-e-contatti/index.xml 301
 /category/covid-19-info-e-regolamento/                         /contact-us/                                301
@@ -606,48 +608,47 @@ regole-di-accesso-ai-locali/coronavirus-234x132.webp    /orari-corsi/orari-corsi
 regole-di-accesso-ai-locali/coronavirus-1912x1072.jpg   /orari-corsi/orari-corsi-featured.webp 301
 regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi-featured.webp 301
 
-# 2023-12-25
-/corsi-di-danza-in-porta-romana/ /corsi-in-zona-porta-romana/ 301
-/tag/milano/                     /tags/milano/                301
-/tag/milano/index.xml            /tags/milano/index.xml       301
-/tags/summer-camp/               /corsi-estivi/               301
-/tags/summer-camp/index.xml      /corsi-estivi/index.xml      301
-/tags/festival/                  /corsi-estivi/               301
-/tags/festival/index.xml         /corsi-estivi/index.xml      301
-# 2023-12-08
-/baby-hip-hop/                   /gioco-hip-hop/ 301
-tags/mariele-carnevale/          /corsi-benessere/corso-yoga-milano/ 301
-# 2023-10-12
-insegnanti/ /i-nostri-insegnanti/ 301
-# 2023-10-01
-/category/stage-di-danza/          /stage-di-danza-e-canto/          301
-/category/stage-di-danza/index.xml /stage-di-danza-e-canto/index.xml 301
-/stage-di-danza/                   /stage-di-danza-e-canto/          301
-/stage-di-danza/index.xml          /stage-di-danza-e-canto/index.xml 301
+#2023-12-25
+/corsi-di-danza-in-porta-romana/                     /corsi-in-zona-porta-romana/                          301
+/tag/milano/                                         /                                                     301
+/tag/milano/index.xml                                /index.xml                                            301
+/tags/summer-camp/                                   /corsi-estivi/                                        301
+/tags/summer-camp/index.xml                          /corsi-estivi/index.xml                               301
+/tags/festival/                                      /corsi-estivi/                                        301
+/tags/festival/index.xml                             /corsi-estivi/index.xml                               301
+/baby-hip-hop/                                       /gioco-hip-hop/                                       301
+tags/mariele-carnevale/                              /corsi-benessere/corsi-benessere/yoga-milano/         301
+insegnanti/                                          /i-nostri-insegnanti/                                 301
 
-# 2023-09-27
+#2023-10-01
+/category/stage-di-danza/                            /stage-di-danza-e-canto/                              301
+/category/stage-di-danza/index.xml                   /stage-di-danza-e-canto/index.xml                     301
+/stage-di-danza/                                     /stage-di-danza-e-canto/                              301
+/stage-di-danza/index.xml                            /stage-di-danza-e-canto/index.xml                     301
+
+#2023-09-27
 /luglio-in-danza-milano-2023/                        /corsi-estivi/                                        301
-/news/corso-yoga-milano-da-sabato-25-marzo-2023/     /corso-yoga-milano/                                   301
+/news/corso-yoga-milano-da-sabato-25-marzo-2023/     /corsi-benessere/yoga-milano/                         301
 /corsi-benessere/mariele-carnevale-yoga-234x132.webp /corsi-benessere/corso-yoga-milano-cover-234x132.webp 301
 /corsi-benessere/mariele-carnevale-yoga.webp         /corsi-benessere/corsi-benessere-milano-cover.webp    301
 /category/corsi-estivi/                              /corsi-estivi/                                        301
-/category/news                                       /category/news/                                       301
+/category/news                                       /                                                     301
 /chitarra-flamenca-antonio/index.xml                                         /antonio-porro/index.xml                                           301
 /corsi-estivi-danza-milano-2022/index.xml                                    /corsi-estivi/index.xml                                            301
 /corsi-estivi-danza-milano-2022/summer-camp-danza-milano-2022-ilmosaico.webp /corsi-estivi/mosaico-corsi-estivi-danza-milano-592x592.webp       301
-/corso-yoga-milano/mariele-carnevale-corso-yoga.webp                         /corso-yoga-milano/corsi-benessere-milano-cover.webp               301
-/corso-yoga-milano/mariele-carnevale-yoga-1920x1080.jpg               /corso-yoga-milano/corso-yoga-milano-cover-1920x1080.jpg           301
-/corso-yoga-milano/mariele-carnevale-yoga-1920x1080.jpg               /corso-yoga-milano/corsi-benessere-milano-cover.webp               301
-/corso-yoga-milano/mariele-carnevale-yoga-234x132.webp                /corso-yoga-milano/corso-yoga-milano-cover-234x132.webp            301
-/corso-yoga-milano/mariele-carnevale-yoga-234x132.webp                /corso-yoga-milano/corso-yoga-milano-cover-234x132.webp            301
-/corso-yoga-milano/mariele-carnevale-yoga.webp                        /corso-yoga-milano/corsi-benessere-milano-cover.webp               301
-/corso-yoga-milano/mariele-carnevale-yoga.webp                        /corso-yoga-milano/corsi-benessere-milano-cover.webp               301
+/corsi-benessere/yoga-milano/mariele-carnevale-corso-yoga.webp                         /corsi-benessere/yoga-milano/yoga-milano-cover.webp               301
+/corsi-benessere/yoga-milano/mariele-carnevale-yoga-1920x1080.jpg               /corsi-benessere/yoga-milano/corso-yoga-milano-cover-1920x1080.jpg           301
+/corsi-benessere/yoga-milano/mariele-carnevale-yoga-1920x1080.jpg               /corsi-benessere/yoga-milano/corsi-benessere-milano-cover.webp               301
+/corsi-benessere/yoga-milano/mariele-carnevale-yoga-234x132.webp                /corsi-benessere/yoga-milano/corso-yoga-milano-cover-234x132.webp            301
+/corsi-benessere/yoga-milano/mariele-carnevale-yoga-234x132.webp                /corsi-benessere/yoga-milano/corso-yoga-milano-cover-234x132.webp            301
+/corsi-benessere/yoga-milano/mariele-carnevale-yoga.webp                        /corsi-benessere/yoga-milano/corsi-benessere-milano-cover.webp               301
+/corsi-benessere/yoga-milano/mariele-carnevale-yoga.webp                        /corsi-benessere/yoga-milano/corsi-benessere-milano-cover.webp               301
 /danza-con-marta/marta-mai-insegnante-danza-2608x1736.webp            /marta-mai/marta-mai-insegnante-danza-2608x1736.webp               301
 /danza-con-marta/marta-mai-performance-1072x1904.webp                 /marta-mai/marta-mai-performance-1072x1904.webp                    301
-/marie-noelle-terrisse-yoga                                           /corso-yoga-milano/                                                301
-/mariele-carnevale-yoga/                                              /corso-yoga-milano/                                                301
-/mariele-carnevale-yoga/index.xml                                     /corso-yoga-milano/index.xml                                       301
-/mariele-carnevale/                                                   /corso-yoga-milano/                                                301
+/marie-noelle-terrisse-yoga                                           /corsi-benessere/yoga-milano/                                                301
+/mariele-carnevale-yoga/                                              /corsi-benessere/yoga-milano/                                                301
+/mariele-carnevale-yoga/index.xml                                     /corsi-benessere/yoga-milano/index.xml                                       301
+/mariele-carnevale/                                                   /corsi-benessere/yoga-milano/                                                301
 /percussioni-francesco/francesco-perrotta-1152x520.webp               /francesco-perrotta/francesco-perrotta-1152x520.webp               301
 /percussioni-francesco/francesco-perrotta-suona-flamenco-960x672.webp /francesco-perrotta/francesco-perrotta-suona-flamenco-960x672.webp 301
 /pilates-con-gym-ball/index.xml                                       /corsi-benessere/index.xml                                         301
@@ -657,7 +658,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /search/orama/                                                   /search/                                                           301
 /search/orama/readme/index.xml  /search/                                      301
 /tags/bachata/index.xml         /tags/salsa-e-bachata/index.xml               301
-/tags/corso/index.xml           /tags/corsi/index.xml                         301
+/tags/corso/index.xml           /corsi-di-danza/index.xml                         301
 /tags/danza-di-coppia/index.xml /tags/danze-di-coppia/index.xml               301
 /tags/danza-milano-bambini/          /tags/danza-per-bambini-milano/          301
 /tags/danza-milano-bambini/index.xml /tags/danza-per-bambini-milano/index.xml 301
@@ -712,7 +713,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /jazz-dance/index.xml                                        /solo-jazz/index.xml                                                 301
 /kizomba/                                                    /corsi-danza/                                                        301
 /lezioni-di-flamenco-a-milano/                               /flamenco/                                                           301
-/marie-noelle-terrisse-yoga/                                 /corso-yoga-milano/                                                  301
+/marie-noelle-terrisse-yoga/                                 /corsi-benessere/yoga-milano/                                                  301
 /mini-odalisca/                                              /corsi-danza/danza-del-ventre-milano/                                          301
 /musica-per-bambini/                                         /category/stages-di-musica/                                          301
 /percussioni-francesco/                                      /francesco-perrotta/                                                 301
@@ -729,11 +730,11 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tag/bachata/                /tags/salsa-e-bachata/                301
 /tag/bambini/                /tags/danza-per-bambini-milano/       301
 /tag/bata-de-cola/           /flamenco/         301
-/tag/cajon/                  /tags/percussioni-flamenco/           301
+/tag/cajon/                  /flamenco/           301
 /tag/chitarra/               /tags/chitarra-flamenco/              301
 /tag/corsi-di-ballo/         /tags/corsi-di-ballo/                 301
-/tag/corsi/feed/             /tags/corsi/                          301
-/tag/danza-araba/            /tags/danza-orientale/                301
+/tag/corsi/feed/             /corsi-di-danza/                          301
+/tag/danza-araba/            /corsi-danza/danza-del-ventre-milano/            301
 /tag/corsi-danza/danza-contemporanea-milano/    /corsi-danza/danza-contemporanea-milano/            301
 /tag/danza/                  /tags/danza/                          301
 /tags/danza-per-bambini/     /tags/danza-per-bambini-milano/       301
@@ -741,7 +742,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tag/lindy-hop/              /tags/lindy-hop/                      301
 /tag/lindy-ho-2/             /tags/lindy-hop/                      301
 /tag/massaggio/              /corsi-benessere/                      301
-/tag/percussioni/feed/       /tags/percussioni-flamenco/           301
+/tag/percussioni/feed/       /flamenco/           301
 /tag/pizzica/                /tags/pizzica/                        301
 /tag/porta-romana/           /corsi-in-zona-porta-romana/              301
 /tag/rockabilly/             /tags/rockabilly/                     301
@@ -758,7 +759,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/bachata/               /tags/salsa-e-bachata/                   301
 /tags/bambini/index.xml      /tags/danza-per-bambini-milano/index.xml 301
 /tags/blues/                 /tags/blues-dance/                       301
-/tags/cajon/index.xml        /tags/percussioni-flamenco/index.xml     301
+/tags/cajon/index.xml        /flamenco/index.xml     301
 /tags/chitarra/index.xml     /tags/chitarra-flamenco/index.xml        301
 /tags/coreografia/               /tags/scuola-di-danza/               301
 /tags/corsi-di-danza-per-adulti/ /corsi-danza/                        301
@@ -768,9 +769,9 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/danza-del-sud/             /corsi-danza/pizzica-milano/                301
 /tags/danza-di-coppia            /tags/danze-di-coppia/               301
 /tags/danza-di-coppia/           /tags/danze-di-coppia/               301
-/tags/danza-orientale                                                                                     /tags/danza-orientale/ 301
-/tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto  /tags/danza-orientale/ 301
-/tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/ /tags/danza-orientale/ 301
+/tags/danza-orientale                                                                                     /corsi-danza/danza-del-ventre-milano/
+/tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto  /corsi-danza/danza-del-ventre-milano/
+/tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto/ /corsi-danza/danza-del-ventre-milano/
 /tags/danze-caraibiche/index.xml /corsi-danza/salsa-bachata-milano/index.xml 301
 /tags/elisabetta-gennaro/        /corsi-benessere/                301
 /tags/eloise/                    /corsi-benessere/        301
@@ -782,9 +783,9 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/lezioni-di-danza-di-danza/ /corsi-danza/ 301
 /tags/loreto/index.xml           /tags/zona-loreto/      301
 /tags/milano-zona-loreto/        /tags/zona-loreto/                   301
-/tags/palillos/                  /tags/percussioni-flamenco/          301
-/tags/palmas/index.xml           /tags/percussioni-flamenco/index.xml 301
-/tags/percussioni/               /tags/percussioni-flamenco/          301
+/tags/palillos/                  /flamenco/          301
+/tags/palmas/index.xml           /flamenco/index.xml 301
+/tags/percussioni/               /flamenco/          301
 /tags/porta-romana/              /corsi-in-zona-porta-romana/             301
 /tags/rilassamento/              /corsi-benessere/                     301
 /tags/saggio-2022                                   /spettacoli/            301
@@ -810,7 +811,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /teatro/                                            /tags/teatro/                301
 /total-body/                                        /flamenco/dance-workout/     301
 /tribal-bellydance-tribal-fusion/                   /tags/tribal-dance/          301
-/yoga-della-risata/                                 /corso-yoga-milano/          301
+/yoga-della-risata/                                 /corsi-benessere/yoga-milano/          301
 
 # prima di 2023-09-14
 /chitarra-flamenca-antonio/                  /antonio-porro/                            301
@@ -886,7 +887,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /corsit-g/ba/                       /orari-corsi/                      301
 /corso_di_bioenergetica/            /corsi-benessere/                        301
 /corso_di_bioenergetica/cose_la_bioenergetica/Cose_la_bioenergetica_178.html /corsi-benessere/              301
-/corso_di_yoga                                           /corso-yoga-milano/                                301
+/corso_di_yoga                                           /corsi-benessere/yoga-milano/                                301
 /corso-danza-espressiva-bambini-milano                   /category/corsi-per-bambini-milano-loreto-tibaldi/ 301
 /corso-di-antiaggressione-femminile-metodo-difesa-donna/ /orari-corsi/                                      301
 /corso-di-antiaggressione-femminile-metodo-difesa-donna  /orari-corsi/                         301
@@ -906,10 +907,10 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /danze-popolari/index.xml                     /corsi-danza/pizzica-milano/                         301
 /heel-dance/                                  /corsi-danza/heels-dance-milano/                              301
 /corsi-di-pilates-a-milano/                   /corsi-benessere/                           301
-/corso_di_yoga/corso_di_yoga_65.html          /corso-yoga-milano/                        301
+/corso_di_yoga/corso_di_yoga_65.html          /corsi-benessere/yoga-milano/                        301
 /corso-di-boogie-jive-e-rockabilly-milano     /corso-di-boogie-jive-e-rockabilly-milano/ 301
-/corso-di-improvvisazione-nel-flamenco/danza-in-zona-loreto/index.html /imparare-a-improvvisare/  301
-/corso-di-improvvisazione-nel-flamenco/index.html                      /imparare-a-improvvisare/  301
+/corso-di-improvvisazione-nel-flamenco/danza-in-zona-loreto/index.html /flamenco/imparare-a-improvvisare/  301
+/corso-di-improvvisazione-nel-flamenco/index.html                      /flamenco/imparare-a-improvvisare/  301
 /corso-di-formazione-per-insegnanti-di-danza-classica/ /insegnare-danza/                          301
 /corso-di-formazione-per-insegnanti-di-danza-classica  /insegnare-danza/                          301
 /corso-di-spagnolo                                     /flamenco/flamencologia/                   301
@@ -966,7 +967,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /gttion                                        /                                                                                                301
 /heel-dance                                    /corsi-danza/heels-dance-milano/                                                                                    301
 /il-mosaico-danza-e-il-covid-19/m              /orari-corsi/                                                                                    301
-/improvvisazione/index.html                    /imparare-a-improvvisare/index.html                                                              301
+/improvvisazione/index.html                    /flamenco/imparare-a-improvvisare/index.html                                                              301
 /index.php                                     /                                                                                                301
 /insegnanti-del-corso-di-massaggio/            /corsi-benessere/                                                                                301
 /interplay-2022/progetto-2022/                 /                                                                                                301
@@ -1014,11 +1015,11 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /ospitalita_poggiolo.html                                                                     /                                                                                                301
 /pablo-e-gabriela/                                                                            /corsi-danza/tango-argentino-milano/                                                                       301
 /paola-savino-danzaterapia/                                                                   /corsi-benessere/                                                                                301
-/pedagogia-del-baile-flamenco/danza-in-zona-loreto/index.html                                 /tags/pedagogia-flamenco/                                                                        301
-/pedagogia-del-baile-flamenco/index.html                                                      /tags/pedagogia-flamenco/                                                                        301
+/pedagogia-del-baile-flamenco/danza-in-zona-loreto/index.html                                /flamenco/pedagogia-del-flamenco/                                                                        301
+/pedagogia-del-baile-flamenco/index.html                                                     /flamenco/pedagogia-del-flamenco/                                                                        301
 /pedagogia-del-flamenco/anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/index.html /anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/                                                                       301
-/pedagogia-del-flamenco/danza-in-zona-loreto/index.html                                       /tags/pedagogia-flamenco/                                                                        301
-/perche_un_corso_di_yoga                                                                                                         /corso-yoga-milano/                                                                              301
+/pedagogia-del-flamenco/danza-in-zona-loreto/index.html                                      /flamenco/pedagogia-del-flamenco/                                                                        301
+/perche_un_corso_di_yoga                                                                                                         /corsi-benessere/yoga-milano/                                                                              301
 /tags/danza-orientale-danze-popolari-lezioni-di-danza-milano-scuola-di-danza-scuola-di-danza-zona-loreto /                                                                                                301
 /pizzica-con-ortensia/                                                                                   /corsi-danza/pizzica-milano/                                                                               301
 /pizzica_tarantella_e_tammurriata                                                                        /corsi-danza/pizzica-milano/                                                                               301
@@ -1064,7 +1065,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tag/cante-flamenco/                                 /tags/cante-flamenco/                                301
 /tag/cante-flamenco                                  /tags/cante-flamenco/                                301
 /tag/chitarra-flamenco/                              /tags/chitarra-flamenco/                             301
-/tag/corsi/page/2/                                   /tags/corsi/                                         301
+/tag/corsi/page/2/                                   /corsi-di-danza/                                         301
 /tag/danza-classica/                                 /tags/danza-classica/                                301
 /tag/danza-del-ventre/                               /tags/danza-del-ventre/                              301
 /tag/danza-moderna/                                  /tags/danza-moderna/                                 301
@@ -1079,25 +1080,25 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tag/flamencologia/                                  /flamenco/                                           301
 /tag/flamenco/                                       /tags/flamenco/                                      301
 /tag/formazione/                                     /tags/formazione/                                    301
-/tag/hip-hop                                         /tags/hip-hop/                                       301
-/tag/hip-hop/                                        /tags/hip-hop/                                       301
+/tag/hip-hop                                         /corsi-danza/hip-hop-milano/                                       301
+/tag/hip-hop/                                        /corsi-danza/hip-hop-milano/                                       301
 /tag/insegnanti-di-danza/                            /tags/insegnanti-di-danza/                           301
 /tag/jive/                                           /tags/jive/                                          301
 /tag/mat-work/                                       /corsi-benessere/                                     301
 /tag/mat-work/feed/                                  /corsi-benessere/index.xml                            301
-/tag/pedagogia-flamenco/                             /tags/pedagogia-flamenco/                            301
-/tag/percussioni/                                    /tags/percussioni-flamenco/                          301
+/tag/pedagogia-flamenco/                            /flamenco/pedagogia-del-flamenco/                            301
+/tag/percussioni/                                    /flamenco/                          301
 /tag/lezioni/                                        /corsi-danza/                              301
 /tag/loreto/                                         /tags/zona-loreto/                                   301
-/tag/percussioni-flamenco/                           /tags/percussioni-flamenco/                          301
-/tag/percussioni-flamenco                            /tags/percussioni-flamenco/                          301
+/tag/percussioni-flamenco/                           /flamenco/                          301
+/tag/percussioni-flamenco                            /flamenco/                          301
 /tag/pilates/                                        /corsi-benessere/                                     301
 /tag/reggaeton/                                      /tags/reggaeton/                                     301
 /tag/scuola/                                         /tags/scuola-di-ballo/                               301
 /tag/scuola-di-ballo/                                /tags/scuola-di-ballo/                               301
 /tag/spagnolo/                                       /flamenco/                                           301
 /tag/tribal-dance/                                   /tags/tribal-dance/                                  301
-/tag/yoga/                                           /corsi-benessere/corso-yoga-milano/                  301
+/tag/yoga/                                           /corsi-benessere/corsi-benessere/yoga-milano/                  301
 /tags/abbigliamento                                  /flamenco/                        301
 /tags/abbigliamento-flamenco                         /flamenco/                        301
 /tags/abbigliamento/                                 /flamenco/                        301
@@ -1148,8 +1149,8 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/boogie/                              /tags/boogie-woogie/           301
 /tags/boogie                               /tags/boogie-woogie/           301
 /tags/boogie-woogie                        /tags/boogie-woogie/           301
-/tags/cajon/                               /tags/percussioni-flamenco/    301
-/tags/cajon                                /tags/percussioni-flamenco/    301
+/tags/cajon/                               /flamenco/    301
+/tags/cajon                                /flamenco/    301
 /tags/cante-flamenco                       /tags/cante-flamenco/          301
 /tags/caraibi/                             /corsi-danza/salsa-bachata-milano/         301
 /tags/caraibi/index.xml                    /corsi-danza/salsa-bachata-milano/index.xml     301
@@ -1228,19 +1229,16 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/danze-folk                                                  /corsi-danza/pizzica-milano/                   301
 /tags/danze-folk/index.xml                                        /corsi-danza/pizzica-milano/                   301
 /tags/danze-popolari                                              /corsi-danza/pizzica-milano/                   301
-/tags/danze-swing/                                                /tags/swing/                         301
-/tags/danze-swing                                                 /tags/swing/                         301
-/tags/danze-swing/index.xml                                       /tags/swing/                         301
+/tags/danze-swing/                                               /corsi-danza/lindy-hop-milano/                         301
+/tags/danze-swing                                                /corsi-danza/lindy-hop-milano/                         301
+/tags/danze-swing/index.xml                                      /corsi-danza/lindy-hop-milano/                         301
 /tags/elisabetta-gennaro                                          /corsi-danza/                        301
 /tags/feldenkrais                                                 /corsi-benessere/                     301
 /tags/feldenkrais/index.xml                                       /corsi-benessere/                     301
 /tags/francesco-perrotta                                          /tags/insegnanti-di-musica/          301
 /tags/francesco-perrotta/index.xml                                /tags/insegnanti-di-musica/index.xml 301
-/tags/festival                                                    /corsi-estivi/                       301
-/tags/festival/                                                   /corsi-estivi/                      301
-/tags/fitness                                                     /corsi-benessere/                   301
-/tags/flamenco                                                    /flamenco/                          301
-/tags/flamenco-contemporaneo                                      /flamenco-contemporaneo/            301
+/tags/festival                                                    /corsi-estivi/                       /corsi-danza/danza-del-ventre-milano/                                                   /corsi/corsi-danza/danza-del-ventre-milano//fitness                                                     /corsi-benessere/                   /corsi-danza/danza-del-ventre-milano//                          301
+/ta gs/flamenco-contemporaneo                                      /flamenco-contemporaneo/            301
 /tags/flamencologia                                               /flamenco/                          301
 /tags/formazione                                                  /tags/formazione/                   301
 /tags/gestualita                                                  /corsi-danza/salsa-bachata-milano/                   301
@@ -1249,21 +1247,21 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/gestualità                                                  /corsi-danza/salsa-bachata-milano/                   301
 /tags/ginnastica/                                                 /corsi-benessere/                   301
 /tags/ginnastica                                                  /corsi-benessere/                   301
-/tags/hip-hop                                                     /tags/hip-hop/                      301
+/tags/hip-hop                                                     /corsi-danza/hip-hop-milano/                      301
 /tags/il-mosaico-danza                                            /corsi-danza/                       301
 /tags/il-mosaico-danza/                                           /corsi-danza/                       301
 /tags/il-mosaico-danza/index.xml                                  /corsi-danza/index.xml              301
-/tags/improvvisazione-flamenco                                    /imparare-a-improvvisare/           301
-/tags/improvvisazione-flamenco/                                   /imparare-a-improvvisare/           301
-/tags/improvvisazione-flamenco/index.xml                          /imparare-a-improvvisare/           301
+/tags/improvvisazione-flamenco                                    /flamenco/imparare-a-improvvisare/           301
+/tags/improvvisazione-flamenco/                                   /flamenco/imparare-a-improvvisare/           301
+/tags/improvvisazione-flamenco/index.xml                          /flamenco/imparare-a-improvvisare/           301
 /tags/improvvisazioni                                             /tags/improvvisazioni/              301
 /tags/insegnamento/                                               /tags/insegnanti-di-danza/          301
 /tags/insegnanti-di-danza                                         /tags/insegnanti-di-danza/          301
 /tags/insegnanti-danza/index.xml                                  /tags/insegnanti-di-danza/          301
 /tags/insegnanti-di-musica                                        /tags/insegnanti-di-musica/         301
 /tags/jamila-zaki                                                 /tags/jamila-zaki/                  301
-/tags/india                                                       /tags/danza-orientale/              301
-/tags/india/                                                      /tags/danza-orientale/              301
+/tags/india                                                       /corsi-danza/danza-del-ventre-milano/            301
+/tags/india/                                                      /corsi-danza/danza-del-ventre-milano/            301
 /tags/insegnamento                                                /tags/insegnanti-di-danza/          301
 /tags/insegnamento/index.xml                                      /tags/insegnanti-di-danza/index.xml 301
 /tags/insegnanti-danza/                                           /tags/insegnanti-di-danza/          301
@@ -1306,7 +1304,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/meditazione/                                                /corsi-benessere/                301
 /tags/michael-jackson/                                            /corsi-danza/michael-jackson-style-milano/   301
 /tags/michael-jackson                                             /corsi-danza/michael-jackson-style-milano/   301
-/tags/milano                                                      /tags/milano/                   301
+/tags/milano                                                      /                   301
 /tags/milena-ventre                                               /tags/milena-ventre/            301
 /tags/movimento/                                                  /corsi-benessere/                301
 /tags/movimento                                                   /corsi-benessere/                301
@@ -1318,11 +1316,11 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/nacchere/index.xml                                          /nacchere/                      301
 /tags/on-line/index.xml                                           /tags/corsi-on-line/index.xml   301
 /tags/on-line                                                     /tags/corsi-on-line/            301
-/tags/palillos                                                    /tags/pedagogia-flamenco/       301
-/tags/palillos/index.xml                                          /tags/pedagogia-flamenco/       301
-/tags/palmas/                                                     /tags/pedagogia-flamenco/       301
-/tags/palmas                                                      /tags/pedagogia-flamenco/       301
-/tags/pedagogia-flamenco                                          /tags/pedagogia-flamenco/       301
+/tags/palillos                                                   /flamenco/pedagogia-del-flamenco/       301
+/tags/palillos/index.xml                                         /flamenco/pedagogia-del-flamenco/       301
+/tags/palmas/                                                    /flamenco/pedagogia-del-flamenco/       301
+/tags/palmas                                                     /flamenco/pedagogia-del-flamenco/       301
+/tags/pedagogia-flamenco                                         /flamenco/pedagogia-del-flamenco/       301
 /tags/percorso-personale/                                         /corsi-benessere/                301
 /tags/percorso-personale                                          /corsi-benessere/               301
 /tags/percussioni                                                 /lezioni-di-cajon-milano/       301
@@ -1340,7 +1338,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/rockabilly                                                  /tags/rockabilly/               301
 /tags/saggio-2022/index.xml                                       /spettacoli/               301
 /tags/rilassamento                                                /corsi-benessere/                301
-/tags/sabina-todaro                                               /tags/sabina-todaro/            301
+/tags/sabina-todaro                                               /baile-sabina/            301
 /tags/saggio-2022/                                                /spettacoli/               301
 /tags/salsa/                                                      /corsi-danza/salsa-bachata-milano/          301
 /tags/salsa-cubana                                                /corsi-danza/salsa-bachata-milano/          301
@@ -1371,7 +1369,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/scuola-di-danza                                             /tags/scuola-di-danza/              301
 /tags/scuola-di-flamenco                                          /flamenco/                          301
 /tags/selena-tarla                                                /tags/selena-tarla/                 301
-/tags/sevillanas                                                  /tags/sevillanas/                   301
+/tags/sevillanas                                                  /flamenco/sevillanas/                   301
 /tags/shag/                                                       /tags/lindy-hop/                    301
 /tags/shag                                                        /tags/lindy-hop/                    301
 /tags/silvia-carabelli                                            /tags/lyrical-arab-dance/           301
@@ -1379,9 +1377,9 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/spagnolo                                                    /flamenco/                          301
 /tags/spettacoli                                                  /spettacoli/                   301
 /tags/spettacolo-2022                                             /spettacoli/                   301
-/tags/stage-di-cajon                                              /tags/percussioni-flamenco/         301
-/tags/stage-di-cajon/                                             /tags/percussioni-flamenco/         301
-/tags/swing                                                       /tags/swing/                        301
+/tags/stage-di-cajon                                              /flamenco/         301
+/tags/stage-di-cajon/                                             /flamenco/         301
+/tags/swing                                                      /corsi-danza/lindy-hop-milano/                        301
 /tags/tammurita/                                                  /tags/pizzica/                      301
 /tags/tammurita                                                   /corsi-danza/pizzica-milano/                  301
 /tags/tammuriata/index.xml                                        /corsi-danza/pizzica-milano/                  301
@@ -1389,8 +1387,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/tammuriata                                                  /corsi-danza/pizzica-milano/                  301
 /tags/tammuriata/                                                 /corsi-danza/pizzica-milano/                  301
 /tags/tango                                                       /tags/tango-argentino/              301
-/tags/tango/                                                      /tags/tango-argentino/              301
-/tags/tango-argentino                                             /tags/tango-argentino/              301
+/tags/tango/                                                      /tags/tango/corsi-danza/danza-del-ventre-milano//tango-argentino                                             /tags/tango-argentino/               301
 /tags/teatro                                                      /tags/teatro/                       301
 /tags/tibaldi                                                     /tags/zona-tibaldi/                 301
 /tags/tibaldi/                                                    /tags/zona-tibaldi/                 301
@@ -1404,7 +1401,7 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /tags/viddanedda/                                                 /corsi-danza/pizzica-milano/                  301
 /tags/viddanedda/index.xml                                        /corsi-danza/pizzica-milano/                  301
 /tags/webinar/                                                    /tags/corsi-on-line/                301
-/tags/yoga                                                        /corsi-benessere/corso-yoga-milano/ 301
+/tags/yoga                                                        /corsi-benessere/corsi-benessere/yoga-milano/ 301
 /tags/viviane-grisvard                                            /tags/viviane-grisvard/                                                                          301
 /tags/webinar                                                     /insegnanti-di-danza/         301
 /tags/workout                                                     /flamenco/dance-workout/      301
@@ -1426,9 +1423,9 @@ insegnanti/ /i-nostri-insegnanti/ 301
 /workout/danza-in-zona-loreto/index.html                          /flamenco/dance-workout/      301
 /workout/                                                         /flamencodance-workout/       301
 /yamuna-body-rolling/              /corsi-benessere/                                  301
-/yoga                              /corso-yoga-milano/                                301
-/yoga/                             /corso-yoga-milano/                                301
-/yoga-della-risata/index.xml       /corsi-benessere/corso-yoga-milano/                301
+/yoga                              /corsi-benessere/yoga-milano/                                301
+/yoga/                             /corsi-benessere/yoga-milano/                                301
+/yoga-della-risata/index.xml       /corsi-benessere/corsi-benessere/yoga-milano/                301
 /zumba/immagine-zumba-fitness.webp /corsi-benessere/corsi-benessere-milano-cover.webp 301
 /zumba/https                       /corsi-benessere/                                  301                                                                        301
 
