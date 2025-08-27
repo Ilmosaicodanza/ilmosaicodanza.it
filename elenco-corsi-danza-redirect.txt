@@ -139,24 +139,6 @@
 /annalena-berton/
 
 
-/arianna-biancotto/arianna-biancotto-632x960.webp
-/arianna-biancotto/arianna-biancotto-mosaico-danza-1392x920.jpg
-/arianna-biancotto/arianna-biancotto-mosaico-danza-1600x1064.webp
-/arianna-biancotto/arianna-biancotto-mosaico-danza-234x132.webp
-/arianna-biancotto/arianna-biancotto.webp
-/arianna-biancotto/
-/baile-sabina/image.png
-/baile-sabina/
-/baile-sabina/sabina-todaro-baile-flamenco-1496x712.jpg
-/baile-sabina/sabina-todaro-baile-flamenco-234x132.webp
-/baile-sabina/sabina-todaro-baile-flamenco.webp
-/baile-sabina/sabina-todaro-flamenco-teatro1-1608x904.webp
-/baile-sabina/sabina-todaro-flamenco-teatro1-896x896.webp
-/baile-sabina/sabina-todaro-flamenco-teatro2-1600x896.webp
-/baile-sabina/sabina-todaro-flamenco-teatro3-1608x904.webp
-/baile-sabina/sabina-todaro-flamenco-teatro4-1520x848.webp
-
-
 
 
 /calendariopdf/calendario.pdf
@@ -354,11 +336,6 @@
 /danze-irlandesi/perla-davide-insegnante-danze-irlandesi-.jpg
 /danze-irlandesi/perla-davide-insegnante-danze-irlandesi-640x976.webp
 
-/davide-resta/Davide Resta.jpg
-/davide-resta/davide-resta-insegnante-thumbnail.webp
-/davide-resta/davide-resta-insegnante.jpg
-/davide-resta/davide-resta-insegnante.webp
-/davide-resta/
 /domenico-simi-de-burgis/domenico-simi-de-burgis-collegiate-shag.jpg
 /domenico-simi-de-burgis/domenico-simi-de-burgis-insegnante-shag-thumbnail.webp
 /domenico-simi-de-burgis/domenico-simi-de-burgis-insegnante-shag.jpg
@@ -366,10 +343,7 @@
 /domenico-simi-de-burgis/domenico-simi-de-burgis-shag.jpg
 /domenico-simi-de-burgis/domenico-simi-de-burgis-shag.webp
 /domenico-simi-de-burgis/
-/elena-granata/elena-granata-thumbnail.webp
-/elena-granata/elena-granata.jpg
-/elena-granata/elena-granata.webp
-/elena-granata/
+
 /elenco-discipline-danza-sportiva-riconosciute-dal-coni/discipline-danza-sportiva-1200x808.jpg
 /elenco-discipline-danza-sportiva-riconosciute-dal-coni/discipline-danza-sportiva-234x132.webp
 /elenco-discipline-danza-sportiva-riconosciute-dal-coni/discipline-danza-sportiva.webp
@@ -429,10 +403,7 @@
 /i-migliori-corsi-di-danza-on-line/danza-a-distanza.webp
 /i-migliori-corsi-di-danza-on-line/danza-a-distanza1.webp
 /i-migliori-corsi-di-danza-on-line/
-/insegnante-danza-afro-blue/blue-insegnante-danza-afro-thumbnail.webp
-/insegnante-danza-afro-blue/blue-insegnante-danza-afro.jpg
-/insegnante-danza-afro-blue/blue-insegnante-danza-afro.webp
-/insegnante-danza-afro-blue/
+
 /insegnante-solo-jazz-sogol-parhizgar/
 /insegnante-solo-jazz-sogol-parhizgar/sogol-parhizgar-thumbnail.webp
 /insegnante-solo-jazz-sogol-parhizgar/sogol-parhizgar.jpg
