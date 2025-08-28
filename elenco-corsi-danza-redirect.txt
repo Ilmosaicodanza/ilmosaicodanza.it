@@ -371,10 +371,6 @@
 /i-migliori-corsi-di-danza-on-line/danza-a-distanza1.webp
 /i-migliori-corsi-di-danza-on-line/
 
-/insegnante-solo-jazz-sogol-parhizgar/
-/insegnante-solo-jazz-sogol-parhizgar/sogol-parhizgar-thumbnail.webp
-/insegnante-solo-jazz-sogol-parhizgar/sogol-parhizgar.jpg
-/insegnante-solo-jazz-sogol-parhizgar/sogol-parhizgar.webp
 /insegnare-danza/ballerina-classica-234x132.webp
 /insegnare-danza/ballerina-classica-448x296.jpg
 /insegnare-danza/ballerina-classica.webp
@@ -447,37 +443,15 @@
 /regolamento-di-iscrizione/pdf-icon-mosaico.png
 /regolamento-di-iscrizione/pdf-icon-mosaico.svg
 /regolamento-di-iscrizione/statuto-il-mosaico-danza-asd.pdf
-/roberta-albani/
-/roberta-albani/roberta-albani-danza-classica-cover-1920x1080.jpg
-/roberta-albani/roberta-albani-danza-classica-cover-1920x1080.webp
-/roberta-albani/roberta-albani-danza-classica-cover-234x132.webp
-/roberta-albani/roberta-albani-danza-classica-cover-768x432.webp
-/roberto-angelica/IMG-20230731-WA0001.jpg
-/roberto-angelica/IMG-20230731-WA0002.jpg
-/roberto-angelica/
-/roberto-angelica/roberto-angelica-cover-1200x672.jpg
-/roberto-angelica/roberto-angelica-cover-1200x672.png
-/roberto-angelica/roberto-angelica-cover-234x132.webp
-/roberto-angelica/roberto-angelica-insegnante-tango-milano-648x1152.png
-/roberto-angelica/roberto-angelica-insegnante-tango-milano-648x1152.webp
-/sabina-todaro-insegnante/
-/sabina-todaro-insegnante/lyrical-arab-dance-con-sabina-234x132.webp
-/sabina-todaro-insegnante/lyrical-arab-dance-con-sabina-960x640.jpg
-/sabina-todaro-insegnante/lyrical-arab-dance-con-sabina.webp
-/sabina-todaro-insegnante/sabina-todaro-danza-hilal.webp
-/sabina-todaro-insegnante/sabina-todaro-flamenco.webp
-/sabina-todaro-insegnante/sabina-todaro-lyrical-arab-dance.webp
+
+
+
 /safeguarding/
 /safeguarding/safeguarding-featured.jpg
 /safeguarding/safeguarding-featured.webp
 /safeguarding/safeguarding-thumbnail.webp
 
 
-/sara-ti/
-/sara-ti/sara-ti-oriental-gypsy-fusion-milano.webp
-/sara-ti/sara-ti-oriental-gypsy-fusion-teacher-1408x784.jpg
-/sara-ti/sara-ti-oriental-gypsy-fusion-teacher-1600x896.webp
-/sara-ti/sara-ti-oriental-gypsy-fusion-teacher-234x132.webp
 /search/
 /search/orama.js
 /search/orama.min.js
@@ -589,18 +563,7 @@
 /stage-spettacoli-corsi-estivi/lezione-di-heels-dance-milano-234x132.webp
 /stage-spettacoli-corsi-estivi/logo-il-mosaico-danza-332x186.png
 /stage-spettacoli-corsi-estivi/schema.json
-/stefano-battistella/
-/stefano-battistella/stefano-battistella-insegnante-balboa-thumbnail.webp
-/stefano-battistella/stefano-battistella-insegnante-balboa.jpg
-/stefano-battistella/stefano-battistella-insegnante-balboa.webp
-/stefano-benedetti/
-/stefano-benedetti/stefano-benedetti-corso-lindy-hop-milano.webp
-/stefano-benedetti/Stefano-Benedetti-insegnante-lindy-hop-milano-1080x1080.webp
-/stefano-benedetti/stefano-benedetti-insegnante-lindy-hop-milano-1080x600.jpg
-/stefano-benedetti/stefano-benedetti-insegnante-lindy-hop-milano-234x132.webp
-/stefano-benedetti/Stefano-Benedetti-insegnante-lindy-hop-milano.jpg
-/stefano-benedetti/Stefano-Benedetti-insegnante-lindy-hop-milano.png
-/stefano-benedetti/stefano-benedetti-insegnante-lindy-hop-milano.webp
+
 /tags/abbigliamento-flamenco
 /tags/benessere
 /tags/danze-popolari
@@ -614,7 +577,3 @@
 /tags/danze-popolari/_index.md
 
 
-/viviane-grisvard/
-/viviane-grisvard/viviane-grisvard-insegnante-234x132.webp
-/viviane-grisvard/viviane-grisvard-insegnante-832x768.jpg
-/viviane-grisvard/viviane-grisvard-insegnante-832x768.webp
