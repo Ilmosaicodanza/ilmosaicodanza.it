@@ -147,21 +147,7 @@
 /calendariopdf/logo-il-mosaico-danza-asd-default-1320x795.webp
 /calendariopdf/output.pdf
 /calendariopdf/stampacalendario.js
-/cante-flamenco-jeromo-segura/
-/cante-flamenco-jeromo-segura/jeromo-segura-cantaor-234x132.webp
-/cante-flamenco-jeromo-segura/jeromo-segura-cantaor-960x672.jpg
-/cante-flamenco-jeromo-segura/jeromo-segura-cantaor-960x672.webp
-/cante-flamenco-jeromo-segura/jeromo-segura-cantaor.webp
-/cante-flamenco-jeromo-segura/jeromo-segura-con-jesus-guerrero-800x528.webp
-/carlos-guillen/carlos-guillen-insegnante-flamenco-1664x936 - Copia.jpg
-/carlos-guillen/carlos-guillen-insegnante-flamenco-1664x936.jpg
-/carlos-guillen/carlos-guillen-insegnante-flamenco-696x640.jpg
-/carlos-guillen/carlos-guillen-insegnante-flamenco-768x768.webp
-/carlos-guillen/carlos-guillen-insegnante-flamenco-featured-1024x576.jpg
-/carlos-guillen/carlos-guillen-insegnante-flamenco-featured-234x132.jpg
-/carlos-guillen/
-/carlos-guillen/logo-il-mosaico-danza-asd-default-1320x795.jpg
-/carlos-guillen/logo-il-mosaico-danza-asd-default-1320x795.webp
+
 /category/corsi-per-bambini-milano-loreto-tibaldi
 /category/corso-insegnanti-di-danza
 /category/lindy-hop-e-balli-swing
@@ -356,27 +342,8 @@
 /formazione-insegnanti/corso-formazione-insegnanti-di-danza-234x132.webp
 /formazione-insegnanti/
 /formazione-insegnanti/webinar-anatomia-936x784.webp
-/francesco-perrotta/francesco-perrotta-1152x520.jpg
-/francesco-perrotta/francesco-perrotta-1152x520.webp
-/francesco-perrotta/francesco-perrotta-234x132.webp
-/francesco-perrotta/francesco-perrotta-percussioni-320x480.webp
-/francesco-perrotta/francesco-perrotta-suona-flamenco-960x672.webp
-/francesco-perrotta/
 
 
-/gaia-ceccoli/Gaia-ceccoli-2-black-clothes-672x672.png
-/gaia-ceccoli/gaia-ceccoli-black-clothes-672x672.webp
-/gaia-ceccoli/gaia-ceccoli-docente-pizzica-118617555.jpg
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-1520x848.webp
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-1664x936.webp
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-234x132.webp
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-496x496.png
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-496x496.webp
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-880x496 - Copia.jpg
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-880x496.jpg
-/gaia-ceccoli/gaia-ceccoli-insegnante-pizzica-880x496.webp
-/gaia-ceccoli/
-/gaia-ceccoli/ronda-pizzica-2000x896.webp
 /gioco-hip-hop/bambini-ballo-cerchio-1424x792.jpg
 /gioco-hip-hop/bambini-ballo-cerchio-1912x1072.webp
 /gioco-hip-hop/bambini-ballo-cerchio-234x132.webp
@@ -413,34 +380,8 @@
 /insegnare-danza/ballerina-classica.webp
 /insegnare-danza/danza-in-porta-romana-1280x960.webp
 /insegnare-danza/
-/jamila-zaki/
-/jamila-zaki/jamila-zaki-darbouka.webp
-/jamila-zaki/jamila-zaki-insegnante-960x640.jpg
-/jamila-zaki/jamila-zaki-insegnante-thumbnail.webp
-/jamila-zaki/jamila-zaki-insegnante.jpg
-/jamila-zaki/jamila-zaki-insegnante.webp
-/jamila-zaki/jamila-zaki-profilo-1920.webp
-/jessica-vassalli/
-/jessica-vassalli/jessica-vassalli-16-9.webp
-/jessica-vassalli/jessica-vassalli-202302-01.webp
-/jessica-vassalli/jessica-vassalli-202302-02.webp
-/jessica-vassalli/jessica-vassalli-insegnante-hip-hop-1528x856.jpg
-/jessica-vassalli/jessica-vassalli-insegnante-hip-hop-1824x1024.webp
-/jessica-vassalli/jessica-vassalli-insegnante-hip-hop-234x132.webp
-/jessica-vassalli/jessica-vassalli.webp
 
-/larry-dacco/
-/larry-dacco/larry-dacco-danza-1200x800.webp
-/larry-dacco/larry-dacco-insegnante-lindy-hop-234x132.webp
-/larry-dacco/larry-dacco-insegnante-lindy-hop-952x536.jpg
-/larry-dacco/larry-dacco-insegnante-lindy-hop-952x536.webp
-/larry-dacco/larry-dacco-lindy-536x800.webp
-/larry-dacco/larry-dacco-lindy-hop-1072x720.webp
-/larry-dacco/larry-dacco-lindy.jpg
-/larry-dacco/larry-dacco-lindy.webp
-/larry-dacco/larry-dacco-lindy_waifu2x_noise1_scale_x2_0.png
-/larry-dacco/larry-dacco-trombettista-1200x800.webp
-/larry-dacco/larry-dacco-trombettista.webp
+
 /le-meraviglie-del-corpo/
 /le-meraviglie-del-corpo/le-meraviglie-del-corpo-1776x992.jpg
 /le-meraviglie-del-corpo/le-meraviglie-del-corpo-1816x1024.webp
@@ -449,25 +390,11 @@
 /le-meraviglie-del-corpo/meraviglie-del-corpo.jpg
 /le-meraviglie-del-corpo/mosaico-danza-asd-culturale.webp
 /le-meraviglie-del-corpo/webinar-anatomia-le-meraviglie-del-corpo.webp
-/leonardo-negrillo-ybarra-bachata-fusion/
-/leonardo-negrillo-ybarra-bachata-fusion/Leonardo-Negrillo-Ybarra-Bachata-Fusion-featured.jpg
-/leonardo-negrillo-ybarra-bachata-fusion/Leonardo-Negrillo-Ybarra-Bachata-Fusion-thumbnail.webp
-/leonardo-negrillo-ybarra-bachata-fusion/Leonardo-Negrillo-Ybarra-Bachata-Fusion.webp
-/leonardo-negrillo-ybarra-bachata-fusion/logo-il-mosaico-danza-asd-default-1320x795.jpg
-/leonardo-negrillo-ybarra-bachata-fusion/logo-il-mosaico-danza-asd-default-1320x795.webp
 
 
 
 
 
-/marta-mai/
-/marta-mai/marta-mai-insegnante-danza-2608x1736.webp
-/marta-mai/marta-mai-insegnante-mosaico-danza-1920x1080.jpg
-/marta-mai/marta-mai-insegnante-mosaico-danza-1920x1080.webp
-/marta-mai/marta-mai-insegnante-mosaico-danza-234x132.webp
-/marta-mai/marta-mai-insegnante-mosaico-danza.jpg
-/marta-mai/marta-mai-performance-1072x1904.webp
-/marta-mai/marta-mai-performance.jpg
 /massimiliano-montomoli/
 /massimiliano-montomoli/massimiliano-montomoli-blues-in-porto-1920x1080.jpg
 /massimiliano-montomoli/massimiliano-montomoli-blues-in-porto-234x132.webp
@@ -476,11 +403,7 @@
 /massimiliano-montomoli/massimiliano-montomoli-swing-teacher-performance.webp
 /massimiliano-montomoli/massimiliano-montomoli-swing-teacher-serena.webp
 /massimiliano-montomoli/max-montomoli-fiori.jpg
-/mestre-baixinho-capoeira-milano/2025-01-26 mestre baixinho capoeira Milano.afphoto
-/mestre-baixinho-capoeira-milano/
-/mestre-baixinho-capoeira-milano/mestre-baixinho-capoeira-milano-featured.jpg
-/mestre-baixinho-capoeira-milano/mestre-baixinho-capoeira-milano-thumbnail.webp
-/mestre-baixinho-capoeira-milano/mestre-baixinho-milano-berimbau.webp
+
 /milena-ventre/
 /milena-ventre/milena-ventre-danza-reggaeton-234x132.webp
 /milena-ventre/milena-ventre-danza-reggaeton-632x400.jpg
@@ -504,25 +427,12 @@
 /orari-corsi/_index.md
 
 
-/perla-davide/corso-danze-irlandesi-mosaico-milano-full-1200x1872.webp
-/perla-davide/
-/perla-davide/perla-davide-featured-1024x576.png
-/perla-davide/perla-davide-featured-1024x576.webp
-/perla-davide/perla-davide-featured-640x360.png
-/perla-davide/perla-davide-featured.jpg
-/perla-davide/perla-davide-insegnante-danze-irlandesi-640x976.png
-/perla-davide/perla-davide-insegnante-danze-irlandesi-640x976.webp
-/perla-davide/perla-davide-profilo-654x980.jpg
-/perla-davide/perla-davide-profilo-654x980.webp
-/perla-davide/perla-davide-thumbnail.webp
+
 /privacy-policy/
 /privacy-policy/privacy-policy-il-mosaico-danza-1200x624.jpg
 /privacy-policy/privacy-policy-il-mosaico-danza-234x132.webp
 /privacy-policy/privacy-policy-il-mosaico-danza.webp
-/quelli-di-via-oldrado-qdvo/
-/quelli-di-via-oldrado-qdvo/quelli-di-via-oldrado-1264x840.jpg
-/quelli-di-via-oldrado-qdvo/quelli-di-via-oldrado-1648x1096.webp
-/quelli-di-via-oldrado-qdvo/quelli-di-via-oldrado-234x132.webp
+
 /regolamento-di-iscrizione/2023-2024 MOSAICO DANZA ASD REGOLE DI ISCRIZIONE.pdf
 /regolamento-di-iscrizione/docx-icon-mosaico.png
 /regolamento-di-iscrizione/docx-icon-mosaico.svg
