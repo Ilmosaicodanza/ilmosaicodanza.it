@@ -153,14 +153,7 @@
 /category/lindy-hop-e-balli-swing
 /category/logo-il-mosaico-danza-332x186.png
 /category/_index.md
-/category/corsi-per-bambini-milano-loreto-tibaldi/bambini-ballo-cerchio-1912x1072.webp
-/category/corsi-per-bambini-milano-loreto-tibaldi/corsi-danza-bambini-ragazzi-234x132.webp
-/category/corsi-per-bambini-milano-loreto-tibaldi/corsi-danza-bambini-ragazzi-984x656.webp
-/category/corsi-per-bambini-milano-loreto-tibaldi/corsi-per-bambini-milano-512x288.webp
-/category/corsi-per-bambini-milano-loreto-tibaldi/corsi-per-bambini-milano-960x540.webp
-/category/corsi-per-bambini-milano-loreto-tibaldi/corsi-per-bambini-milano-960x960.jpg
-/category/corsi-per-bambini-milano-loreto-tibaldi/logo-il-mosaico-danza-332x186.png
-/category/corsi-per-bambini-milano-loreto-tibaldi/_index.md
+
 /category/corso-insegnanti-di-danza/danza-in-porta-romana-1280x960.webp
 /category/corso-insegnanti-di-danza/danza-in-porta-romana-234x132.webp
 /category/corso-insegnanti-di-danza/logo-il-mosaico-danza-332x186.png
