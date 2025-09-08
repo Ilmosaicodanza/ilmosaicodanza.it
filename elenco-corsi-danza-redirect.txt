@@ -284,8 +284,6 @@
 /corso-flamenco-bambini-milano/OLD corso-flamenco-bambini-milano.webp
 /corso-flamenco-bambini-milano/OLD logo-il-mosaico-danza-asd-default-1320x795.jpg
 
-
-
 /danza-classica-per-bambini/bambina-danza-classica.webp
 /danza-classica-per-bambini/danza-per-bambini-milano-234x132.webp
 /danza-classica-per-bambini/danza-per-bambini-milano-960x640.jpg
@@ -305,12 +303,6 @@
 /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-1920x1080.webp
 /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-featured.jpg
 /danza-in-zona-loreto/scuola-di-danza-milano-zona-loreto-thumbnail.webp
-
-
-/danza-moderna-per-bambini/bambini-danza-moderna-234x132.webp
-/danza-moderna-per-bambini/bambini-danza-moderna-760x504.jpg
-/danza-moderna-per-bambini/bambini-danza-moderna.webp
-/danza-moderna-per-bambini/
 
 /danze-irlandesi/perla-davide-insegnante-danze-irlandesi-.jpg
 /danze-irlandesi/perla-davide-insegnante-danze-irlandesi-640x976.webp
@@ -337,10 +329,6 @@
 /formazione-insegnanti/webinar-anatomia-936x784.webp
 
 
-/gioco-hip-hop/bambini-ballo-cerchio-1424x792.jpg
-/gioco-hip-hop/bambini-ballo-cerchio-1912x1072.webp
-/gioco-hip-hop/bambini-ballo-cerchio-234x132.webp
-/gioco-hip-hop/
 
 
 /heels-dance-reggaeton-corsi-ragazzi/corsi-danza-bambini-ragazzi-234x132.webp
