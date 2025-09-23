@@ -589,7 +589,17 @@ Su questo sito utilizziamo cookie tecnici necessari alla navigazione e funzional
     </div>
   </nav>
 </aside>
-<script> window.chtlConfig = { chatbotId: "5962426582" } </script>
+<script>
+	const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const now = new Date();
+  const currentDay = days[now.getDay()];
+  window.chtlConfig = {
+    chatbotId: "5962426582",
+    variables: {
+      "current_day": currentDay
+    }
+  };
+</script>
 <script async data-id="5962426582" id="chtl-script" type="text/javascript" src="https://chatling.ai/js/embed.js"></script>
 <script>
   document.querySelectorAll(".chatAnastasia").forEach(function(element) {
