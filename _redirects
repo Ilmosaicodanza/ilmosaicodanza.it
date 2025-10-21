@@ -619,8 +619,8 @@
 /spettacoli-flamenco-teatro/       /flamenco/spettacoli-flamenco-teatro/  301
 
 # 05-08-2025
-/insegnante-salsa-bachata-davide-ranzani/ /arianna-biancotto/                   301
-/insegnante-salsa-bachata-davide-ranzani/index.xml /arianna-biancotto/index.xml 301
+/insegnante-salsa-bachata-davide-ranzani/ /insegnanti/arianna-biancotto/                   301
+/insegnante-salsa-bachata-davide-ranzani/index.xml /insegnanti/arianna-biancotto/index.xml 301
 # 2025-07-29
 /perla-davide/perla-davide-featured-1024x576.jpg /perla-davide/perla-davide-featured.jpg   301
 /perla-davide/perla-davide-featured-234x132.webp /perla-davide/perla-davide-thumbnail.webp 301
@@ -1488,7 +1488,7 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/antonio-porro           /antonio-porro/                                              301
 /tags/approfondimenti                        /category/articoli-informativi-su-danza-e-movimento/ 301
 /tags/approfondimenti/index.xml              /category/articoli-informativi-su-danza-e-movimento/ 301
-/tags/arianna-biancotto                      /arianna-biancotto/                             301
+/tags/arianna-biancotto                      /insegnanti/arianna-biancotto/                             301
 /tags/attivit/303/240-per-bambini/index.html /corsi-danza-bambini-milano/   301
 /tags/attivita-per-adulti                    /corsi-danza/                                        301
 /tags/attività-per-adulti                    /corsi-danza/                                        301
@@ -1703,13 +1703,13 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/pomezia                                               /danza-in-zona-loreto/                      301
 /tags/pomezia/                                              /danza-in-zona-loreto/                      301
 /tags/porta-romana                                          /corsi-in-zona-porta-romana/                301
-/tags/quelli-di-via-oldrado                                 /quelli-di-via-oldrado-qdvo/                301
+/tags/quelli-di-via-oldrado                                 /insegnanti/quelli-di-via-oldrado/          301
 /tags/reggaeton                                             /corsi-danza/reggaeton-milano/              301
 /tags/regolamento                                           /regolamento-di-iscrizione/                 301
 /tags/rockabilly                                            /corsi-danza/boogie-jive-rockabilly-milano/ 301
 /tags/saggio-2022/index.xml                                 /spettacoli/                                301
 /tags/rilassamento                                          /corsi-benessere/                           301
-/tags/sabina-todaro                                         /insegnanti/sabina-todaro/                             301
+/tags/sabina-todaro                                         /insegnanti/sabina-todaro/                  301
 /tags/saggio-2022/                                          /spettacoli/                                301
 /tags/salsa/                                                /corsi-danza/salsa-bachata-milano/          301
 /tags/salsa-cubana                                          /corsi-danza/salsa-bachata-milano/          301
