@@ -41,11 +41,6 @@
         <priority>0.5</priority>
       </url>
       <url>
-        <loc>https://www.ilmosaicodanza.it/insegnanti/sabina-todaro-lyrical/</loc>
-        <lastmod>2022-06-16</lastmod>
-        <priority>0.6</priority>
-      </url>
-      <url>
         <loc>https://www.ilmosaicodanza.it/corsi-in-zona-porta-romana/</loc>
         <lastmod>2022-08-02</lastmod>
         <priority>0.5</priority>
@@ -366,6 +361,11 @@
         <priority>0.8</priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/corsi-danza/urban-mixstyle-milano/</loc>
+        <lastmod>2025-08-23</lastmod>
+        <priority>0.8</priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/corsi-danza/heels-reels-danza-social-media/</loc>
         <lastmod>2025-08-15</lastmod>
         <priority>0.8</priority>
@@ -433,11 +433,6 @@
       <url>
         <loc>https://www.ilmosaicodanza.it/insegnanti/ale-venturini/</loc>
         <lastmod>2022-06-26</lastmod>
-        <priority>0.6</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/insegnanti/sabina-todaro-flamenco/</loc>
-        <lastmod>2022-07-01</lastmod>
         <priority>0.6</priority>
       </url>
       <url>
@@ -533,11 +528,6 @@
       <url>
         <loc>https://www.ilmosaicodanza.it/safeguarding/</loc>
         <lastmod>2025-02-08</lastmod>
-        <priority>0.5</priority>
-      </url>
-      <url>
-        <loc>https://www.ilmosaicodanza.it/corsi-danza-milano/</loc>
-        <lastmod>2024-07-24</lastmod>
         <priority>0.5</priority>
       </url>
       <url>
