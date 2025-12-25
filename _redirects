@@ -63,7 +63,7 @@
 /tags/flamencologia/ /flamenco/ 301
 /tags/gaia-ceccoli/ /insegnanti/gaia-ceccoli/ 301
 /tags/hip-hop/ /corsi-danza/hip-hop-milano/ 301
-/tags/insegnanti-di-danza/ /i-nostri-insegnanti/ 301
+/tags/insegnanti-di-danza/ /insegnanti/ 301
 /tags/jessica-vassalli/ /insegnanti/jessica-vassalli/ 301
 /tags/larry-dacco/ /insegnanti/larry-dacco/ 301
 /tags/lezioni-di-ballo/ /corsi-danza/ 301
@@ -78,7 +78,6 @@
 /tags/spettacoli/ /spettacoli/ 301
 /tags/stage/ /stage-spettacoli-corsi-estivi/ 301
 
-/category/attivita-per-bambini /corsi-danza-bambini-milano/ 301
 /category/attivita-per-bambini/ /corsi-danza-bambini-milano/ 301
 /category/corsi-per-bambini-a-milano-loreto-tibaldi/ /corsi-danza-bambini-milano/ 301
 /spettacolo-tutte-le-danze-del-mosaico-2025/index.xml /spettacoli/spettacolo-danziamocela-di-brutto/index.xml
@@ -200,7 +199,6 @@
 
 /i-nostri-insegnanti/i-nostri-insegnanti-1920x1080.webp /insegnanti/insegnanti-mosaico-danza-cover.webp     301
 /i-nostri-insegnanti/i-nostri-insegnanti-234x132.webp   /insegnanti/insegnanti-mosaico-danza-thumbnail.webp 301
-/i-nostri-insegnanti                                    /insegnanti/                                        301
 /i-nostri-insegnanti/                                   /insegnanti/                                        301
 /annalena-berton/annalena-berton-insegnante-mosaico-danza-milano.jpg          /insegnanti/annalena-berton-cover.jpg                      301
 /annalena-berton/annalena-berton-insegnante-mosaico-danza-milano-234x132.webp /insegnanti/annalena-berton/annalena-berton-thumbnail.webp 301
