@@ -131,31 +131,31 @@
                 {
                     "@type": "OpeningHoursSpecification",
                     "closes": "23:00",
-                    "dayOfWeek": "Mo",
+                    "dayOfWeek": "Monday",
                     "opens": "17:00"
                 },
                 {
                     "@type": "OpeningHoursSpecification",
                     "closes": "22:30",
-                    "dayOfWeek": "Tu",
+                    "dayOfWeek": "Tuesday",
                     "opens": "18:30"
                 },
                 {
                     "@type": "OpeningHoursSpecification",
                     "closes": "23:00",
-                    "dayOfWeek": "We",
+                    "dayOfWeek": "Wednsday",
                     "opens": "18:00"
                 },
                 {
                     "@type": "OpeningHoursSpecification",
                     "closes": "23:00",
-                    "dayOfWeek": "Th",
+                    "dayOfWeek": "Thursday",
                     "opens": "17:00"
                 },
                 {
                     "@type": "OpeningHoursSpecification",
                     "closes": "13:00",
-                    "dayOfWeek": "Sa",
+                    "dayOfWeek": "Saturday",
                     "opens": "11:00"
                 }
             ],
@@ -300,13 +300,37 @@
                     "@type": "Organization"
                 },
                 "name": "Il Mosaico Danza sede Loreto - principale con segreteria",
-                "openingHoursSpecification":
-                [
-                    "Mo 17:00-23:00",
-                    "Tu 18:30-22:30",
-                    "We 18:00-23:00",
-                    "Th 17:00-23:00",
-                    "Sa 11:00-13:30"
+                "openingHoursSpecification": [
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Monday",
+                        "opens": "17:00",
+                        "closes": "23:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Tuesday",
+                        "opens": "18:30",
+                        "closes": "22:30"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Wednesday",
+                        "opens": "18:00",
+                        "closes": "23:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Thursday",
+                        "opens": "17:00",
+                        "closes": "23:00"
+                    },
+                    {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": "Saturday",
+                        "opens": "11:00",
+                        "closes": "13:30"
+                    }
                 ],
                 "priceRange": "35 - 1000",
                 "slogan": "La migliore scuola di danza a Milano",
@@ -367,13 +391,49 @@
                     "@type": "Organization"
                 },
                 "name": "Il Mosaico Danza sede Porta Romana - Flamenco e altre danze",
-                "openingHoursSpecification":
-                [
-                    "Mo 16:30-21",
-                    "Tu 17:00-22:30",
-                    "We 12:00-13:30 15:30-17:00 19:00-23:00",
-                    "Th 17:00-22:30",
-                    "Fr 18:00-22:15"
+                "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Monday",
+                    "opens": "16:30",
+                    "closes": "21:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Tuesday",
+                    "opens": "17:00",
+                    "closes": "22:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Wednesday",
+                    "opens": "12:00",
+                    "closes": "13:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Wednesday",
+                    "opens": "15:30",
+                    "closes": "17:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Wednesday",
+                    "opens": "19:00",
+                    "closes": "23:00"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Thursday",
+                    "opens": "17:00",
+                    "closes": "22:30"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Friday",
+                    "opens": "18:00",
+                    "closes": "22:15"
+                }
                 ],
                 "priceRange": "35 - 1000",
                 "slogan": "La migliore scuola di danza a Milano",
@@ -428,10 +488,19 @@
                     "@type": "Organization"
                 },
                 "name": "Il Mosaico Danza sede Tibaldi - c/o Fennec Danza",
-                "openingHoursSpecification":
-                [
-                    "We 17:15-18:15",
-                    "Th 17:15-18:15"
+                "openingHoursSpecification": [
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Wednesday",
+                    "opens": "17:15",
+                    "closes": "18:15"
+                },
+                {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Thursday",
+                    "opens": "17:15",
+                    "closes": "18:15"
+                }
                 ],
                 "priceRange": "35 - 1000",
                 "sameAs":
