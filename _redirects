@@ -9,7 +9,7 @@
 /corsi-danza/caopeira-milano      /corsi-danza/capoeira-milano/ 301
 /dance-workout-video-galleria/   /flamenco/dance-workout-video-galleria/ 301
 /%25!s(bool=true                / 410
-
+/insegnanti/sabina-todaro-lyrical/ /insegnanti/sabina-todaro/ 301
 
 ###### ## 05-12-2025
 /category/ / 301
@@ -1678,12 +1678,12 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/cinema/               /corsi-danza/                               301
 /tags/cinema                /corsi-danza/                               301
 /tags/collegiate-shag     /corsi-danza/collegiate-shag-milano/        301
-/tags/compas              /flamenco/                                  301
-/tags/coreografia         /flamenco/montare-una-coreografia-flamenco/ 301
-/tags/corsi               /corsi-danza/                               301
-/tags/corsi-di-ballo      /corsi-danza/                               301
-/tags/corsi-danza-milano  /corsi-danza/                               301
-/tags/corsi-danza-milano/ /corsi-danza/                               301
+/tags/compas /flamenco/ 301
+/tags/coreografia /flamenco/montare-una-coreografia-flamenco/ 301
+/tags/corsi /corsi-danza/ 301
+/tags/corsi-di-ballo /corsi-danza/ 301
+/tags/corsi-danza-milano /corsi-danza/ 301
+/tags/corsi-danza-milano/ /corsi-danza/ 301
 /tags/corsi-di-coreografia                 /flamenco/montare-una-coreografia-flamenco/  301
 /tags/corsi-di-coreografia/                /flamenco/montare-una-coreografia-flamenco/  301
 /tags/corsi-di-coreografia/index.xml       /flamenco/montare-una-coreografia-flamenco/index.xml 301
@@ -1718,8 +1718,6 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/danza-gypsy/                        /corsi-danza/danza-del-ventre-milano/      301
 /tags/danze-caraibiche                   /corsi-danza/                               301
 /tags/danze-caraibiche/                  /corsi-danza/                               301
-/tags/danze-del-sud/                     /corsi-danza/pizzica-milano/                301
-/tags/danze-folk/                        /corsi-danza/pizzica-milano/                301
 /tags/eloise                             /corsi-benessere/                           301
 /tags/danza-del-ventre                   /corsi-danza/danza-del-ventre-milano/       301
 /tags/danza-del%20sud                    /corsi-danza/pizzica-milano/                301
@@ -1733,9 +1731,11 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/danza-orientale-milano             /corsi-danza/danza-del-ventre-milano/       301
 /tags/danza-per-adulti                   /corsi-danza/                               301
 /tags/danze-del-sud                      /corsi-danza/pizzica-milano/                301
+/tags/danze-del-sud/                     /corsi-danza/pizzica-milano/                301
 /tags/danze-del-sud/index.xml            /corsi-danza/pizzica-milano/index.xml       301
 /tags/danze-di-coppia                    /corsi-danza/                               301
-/tags/danze-folk                         /corsi-danza/blues-dance-milano/            301
+/tags/danze-folk                         /corsi-danza/pizzica-milano/                301
+/tags/danze-folk/                        /corsi-danza/pizzica-milano/                301
 /tags/danze-folk/index.xml               /corsi-danza/pizzica-milano/                301
 /tags/danze-popolari                     /corsi-danza/pizzica-milano/                301
 /tags/danze-swing/                       /corsi-danza/lindy-hop-milano/              301
@@ -1759,6 +1759,7 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/ginnastica/                        /corsi-benessere/                           301
 /tags/ginnastica                         /corsi-benessere/                           301
 /tags/hip-hop                            /corsi-danza/hip-hop-milano/                301
+/tags/il-mosaico-danza                   /corsi-danza/                               301
 /tags/il-mosaico-danza/                  /corsi-danza/                               301
 /tags/il-mosaico-danza/index.xml         /corsi-danza/index.xml                      301
 /tags/improvvisazione-flamenco           /flamenco/imparare-a-improvvisare/          301
@@ -1904,6 +1905,7 @@ regole-di-accesso-ai-locali/coronavirus.webp            /orari-corsi/orari-corsi
 /tags/tribal/              /corsi-danza/danza-del-ventre-milano/          301
 /tags/tribal/index.xml     /corsi-danza/danza-del-ventre-milano/index.xml 301
 /tags/tribal-dance         /corsi-danza/danza-del-ventre-milano/          301
+/tags/tribal-fusion        /corsi-danza/danza-del-ventre-milano/ 301
 /tags/tribal-fusion/       /corsi-danza/danza-del-ventre-milano/ 301
 /tags/viddanedda           /corsi-danza/pizzica-milano/          301
 /tags/viddanedda/          /corsi-danza/pizzica-milano/ 301
