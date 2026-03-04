@@ -50,7 +50,21 @@
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Milano",
-      "addressCountry": "IT"
+      "addressCountry": "IT",
+      "streetAddress": "Via Passeroni 6, Milano",
+      "postalCode": "20135"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "inLanguage": "it-IT",
+      "@id": "https://www.ilmosaicodanza.it/#logo",
+      "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x472.png",
+      "caption": "Logo Il Mosaico Danza a.s.d.",
+      "contentUrl": "logo-il-mosaico-danza-asd-800x472.png",
+      "encodingFormat": "image/png",
+      "description": "Logo dell'associazione sportiva dilettantistica Il Mosaico Danza",
+      "width": 800,
+      "height": 472
     }
   },
   "offers": {
