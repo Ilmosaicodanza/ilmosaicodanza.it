@@ -6,6 +6,9 @@ Disallow: /prova-form/
 Disallow: /esempi/
 Disallow: /cdn-cgi/l/email-protection
 
+User-agent: *
+Disallow: /newsletter-img/
+
 User-agent: MJ12bot
 disallow: /
 
