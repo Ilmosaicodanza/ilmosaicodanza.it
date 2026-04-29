@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+function initCountdown() {
     document.querySelectorAll('.timerevent').forEach(el => {
         const dataInizio = el.getAttribute('data-inizio');
         if (!dataInizio) return;
@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const diffGiorni = Math.ceil((evento - oggi) / (1000 * 60 * 60 * 24));
 
-        // Mostra solo se è oggi o nel futuro
         if (diffGiorni >= 0) {
             let messaggio = '';
             let classe = '';
@@ -38,16 +37,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
             el.innerHTML = `<span class="countdown-${classe}">${messaggio}</span>`;
         } else {
-            // Nasconde completamente l'elemento se l'evento è passato
             el.style.display = 'none';
         }
     });
-});
+}
 
-function formatDate(date) {
-    return date.toLocaleDateString('it-IT', {
-        day: 'numeric',
-        month: 'long',
-        year: 'numeric'
-    });
+// 🔥 questo è il punto chiave
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCountdown);
+} else {
+    initCountdown();
 }

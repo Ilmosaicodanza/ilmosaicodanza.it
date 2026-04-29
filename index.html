@@ -188,7 +188,15 @@
 </header>
 
     
-    <main class="page-main home" data-pagefind-body><div class="banner-annunci"role="region" aria-live="polite" aria-label="Avviso Importante sui Corsi"><h2 class="pa0 ma0 white-80">Corsi 2025 / 2026 <a href="/orari-corsi/">consulta gli orari</a></h2></div>
+    <main class="page-main home" data-pagefind-body>
+<div id="scenographic-container" class="banner-annunci relative overflow-hidden pv3"role="region" aria-live="polite" aria-label="Avviso Importante sui Corsi">
+  
+  <canvas id="starsCanvas" class="absolute top-0 left-0 w-100 h-100" style="pointer-events: none;"></canvas>
+  
+  <div class="relative z-1 w-100 vh-center flex justify-center items-center">
+      <div class="tc ph3"><h2 class="pa0 ma0 white-80">Corsi 2025 / 2026 <a href="/orari-corsi/">consulta gli orari</a></h2></div>
+    </div>
+</div>
         <article class="lh-copy orangem">
             <h1>SCUOLA DI DANZA A MILANO Il Mosaico Danza</h1>
             <section aria-labelledby="school-welcome">
@@ -210,63 +218,58 @@ width="399"
 height="128"
 fetchpriority="high"
 style="width:100%;height:auto"></p>
-<div class="eventi-in-evidenza-wrapper center ph3">
-  <h2 class="section-title f3 f2-m f1-l fw9 tc ttu tracked-tight mt0">Eventi in Evidenza</h2>
+<div class="eventi-in-evidenza-wrapper mw9 center ph3 pv4">
+  <h2 class="section-title f3 f2-m f1-l fw9 mb4 tc ttu tracked-tight">Eventi in Evidenza</h2>
   <div class="cards-container flex flex-wrap justify-center" style="gap: 20px;">
+    
 
-      <a href="/corsi-danza/bollywood-dance-milano/#oriental-friday" class="grow relative db br3 overflow-hidden shadow-4 bg-black"
-          style="width: 236px; height: 420px; transition: transform 0.3s ease; transform-origin: center;">
+      <a href="/corsi-danza/bollywood-dance-milano/#oriental-friday" class="relative db br3 overflow-hidden shadow-4 bg-black"
+           style="width: 236px; height: 420px; transition: transform 0.3s ease;"
+           onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
 
           <div class="absolute top-0 left-0 right-0 bottom-0 bg-center bg-no-repeat"
                 style="background-image: url('/corsi-danza/bollywood-dance-milano/oriental-friday.jpg'); background-size: cover; background-color: #000;"></div>
             <div class="absolute top-0 left-0 right-0 bottom-0"
                 style="background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.1) 100%);"></div>
+
             <div class="relative z-1 flex flex-column justify-between h-100 pa3">
-              <div class="flex flex-column justify-end flex-auto"><h3 class="f5 fw7 lh-solid white mv0 mb2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">ORIENTAL FRIDAY</h3><div class="f7 lh-copy near-white mb3" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">1 MAGGIO 2026</div>
-                
-              </div>
-              <div class="flex justify-between items-center">
-                <span class="timerevent f7 fw6 white" data-inizio="2026-05-01" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);"></span><span class="f7 fw7 ttu ph2 pv1 ba br2 white hover-bg-red b--white">DETTAGLI</span></div>
+              <div class="flex flex-column justify-end flex-auto"><h3 class="f5 fw7 lh-solid white mv0 mb2" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">ORIENTAL FRIDAY</h3><div class="f7 lh-copy near-white mb3" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">1 MAGGIO 2026</div></div>
+              <div class="flex justify-between items-center"><span class="timerevent f7 fw6 white" data-inizio="2026-05-01" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);"></span><span class="f7 fw7 ttu ph2 pv1 ba br2 white b--white hover-bg-red">DETTAGLI</span></div>
             </div>
 
           </a>
 
-      <a href="/corsi-danza/pizzica-milano/#serate-ballo-pizzica" class="grow relative db br3 overflow-hidden shadow-4 bg-black"
-          style="width: 236px; height: 420px; transition: transform 0.3s ease; transform-origin: center;">
+      <a href="/corsi-danza/pizzica-milano/#serate-ballo-pizzica" class="relative db br3 overflow-hidden shadow-4 bg-black"
+           style="width: 236px; height: 420px; transition: transform 0.3s ease;"
+           onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
 
           <div class="flex flex-column h-100 relative">
                 <div class="absolute top-0 left-0 w-100 h-100 o-40"
                     style="background-image: url('/corsi-danza/pizzica-milano/serate-ballo-pizzica-thumbnail.webp'); background-size: cover; background-position: center; filter: blur(12px); z-index: 0;">
                 </div>
+
                 <div class="relative z-1 flex flex-column justify-between h-100">
                     <div class="pa3">
-                        
-                            <h3 class="f5 fw7 lh-title white mb0 drop-shadow">SERATA A BALLO DI PIZZICA E TARANTELLE</h3>
-                        
+                        <h3 class="f5 fw7 lh-title white mb0 drop-shadow">SERATA A BALLO DI PIZZICA E TARANTELLE</h3>
                     </div>
 
                     <div class="flex-auto flex items-center justify-center ph2">
-                        <img src="/corsi-danza/pizzica-milano/serate-ballo-pizzica-thumbnail.webp" alt="Gruppo di danzatori su palco in luce calda" class="w-100 br2 shadow-3" style="max-height: 180px; object-fit: contain;">
+                        
+                        <img src="/corsi-danza/pizzica-milano/serate-ballo-pizzica-thumbnail.webp"
+                          width="234"
+                          height="132"
+                          alt="Gruppo di danzatori su palco in luce calda"
+                          class="w-100 br2 shadow-3"
+                          style="max-height: 180px; width: auto; object-fit: contain;">
                     </div>
 
-                    <div class="pa3 bg-black-60"><div class="f7 lh-copy moon-gray mb2 overflow-hidden" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">VE 15 MAGGIO 2026 19:30</div><div class="flex justify-between items-center mt2">
-                            <span class="timerevent f7 fw6 near-white" data-inizio="2026-05-15"></span><span class="f7 fw7 ttu ph2 pv1 ba br2 white b--white hover-bg-red">DETTAGLI</span></div>
+                    <div class="pa3 bg-black-60"><div class="f7 lh-copy moon-gray mb2 overflow-hidden" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">VE 15 MAGGIO 2026 19:30</div><div class="flex justify-between items-center mt2"><span class="timerevent f7 fw6 near-white" data-inizio="2026-05-15"></span><span class="f7 fw7 ttu ph2 pv1 ba br2 white b--white hover-bg-red">DETTAGLI</span></div>
                     </div>
                 </div>
             </div>
 
-          </a>
-  </div>
+          </a></div>
 </div>
-
-<style>
-    .drop-shadow { filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5)); }
-     
-    .countdown-oggi { color: #ff4136; font-weight: bold; }
-    .countdown-urgente { color: #ff851b; }
-</style>
-<script src="/js/home-countdown-events.js"></script>
-
 <p><em>Benvenuti nella migliore scuola di danza a Milano</em></p>
 <p>Il Mosaico Danza a.s.d. è la migliore scuola di danza a Milano, la scuola di danza e ballo in cui le attività sono un mezzo e non il fine: divertirci danzando è una cosa seria. Molto. La scuola Il Mosaico Danza è fondata e diretta da <em>Sabina Todaro</em>.</p>
 </section>
@@ -902,6 +905,7 @@ const banners=document.querySelectorAll(".banner,.showhide"),today=new Date,oggi
 
 
 
+<script src="/js/stars.min.b1b8bbd7abffb9e8f18695248ec260a64e3b59a9169a0ef596ac2bae1305f5d8.js" integrity="sha256-sbi716v/uejxhpUkjsJgpk47WakWmg71lqwrrhMF9dg=" defer></script>
       </div>
     </body>
 </html>
