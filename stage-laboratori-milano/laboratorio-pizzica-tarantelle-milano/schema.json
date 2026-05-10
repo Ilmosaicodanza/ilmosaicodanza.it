@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Laboratorio sperimentale di pizzica e tarantelle",
+  "description": "Un incontro dedicato ai ritmi e ai canti del Sud Italia, in cui la Pizzica e le Tarantelle diventano un punto di partenza per esplorare il movimento in modo personale e creativo. Con Gaia Ceccoli, insegnante e danzamovimentoterapeuta.",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "startDate": "2026-04-10T19:30",
+  "endDate": "2026-04-10T21:30",
+  "location": {
+    "@type": "Place",
+    "name": "Il Mosaico Danza",
+    "telephone": "+393519459036",
+    "url": "https://www.ilmosaicodanza.it",
+    "image": "/danza-in-zona-loreto/dallingresso-verso-sale.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Pomezia 12",
+      "addressLocality": "Milano",
+      "addressRegion": "MI",
+      "postalCode": "20127",
+      "addressCountry": "IT"
+    }
+  },
+  "image": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x472.png",
+  "performer": {
+    "@type": "Person",
+    "name": "Gaia Ceccoli",
+    "description": "Insegnante di Pizzica e Tarantelle dal 2018, formatasi con Canto Antico, danzamovimentoterapeuta e diplomata all'Accademia Paolo Grassi nel corso di Coreografia e Danza."
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Il Mosaico Danza a.s.d.",
+    "url": "https://www.ilmosaicodanza.it",
+    "telephone": "+39 3519459036",
+    "email": "info@ilmosaicodanza.it",
+    "address": {
+      "@type": "PostalAddress",
+      "name": "Il Mosaico Danza a.s.d. sede Loreto (Sede principale con segreteria)",
+      "streetAddress": "Via Pomezia 12",
+      "addressLocality": "Milano",
+      "postalCode": "20127",
+      "addressCountry": "IT"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "name": "Quota di partecipazione",
+    "price": "25.00",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/LimitedAvailability",
+    "validFrom": "2026-04-01",
+    "url": "https://www.ilmosaicodanza.it",
+    "description": "Costo da definire. Per informazioni e prenotazioni contattare il numero 3519459036 anche WhatsApp."
+  },
+  "keywords": "laboratorio pizzica, stage tarantelle, danze del Sud, pizzica milano, Gaia Ceccoli, Il Mosaico Danza, danza tradizionale, danza creativa",
+  "workFeatured": {
+    "@type": "CreativeWork",
+    "name": "Danze tradizionali del Sud Italia",
+    "description": "Laboratorio dedicato a Pizzica e Tarantelle con un approccio creativo e di ascolto del corpo."
+  }
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+  <!-- Definisci un filtro con feDropShadow -->
+  <filter id="drop-shadow">
+    <feDropShadow dx="5" dy="3" stdDeviation="120 30" flood-color="rgba(255,255,255,0.3)" />
+    <feDropShadow dx="2" dy="1" stdDeviation="10" flood-color="rgba(0,0,0,0.4)" />
+  </filter>
+
+  <!-- Usa il filtro sull'elemento dell'immagine -->
+  <image x="0" y="0" width="100" height="100" alt="Logo costituito da tre rombi con una figura danzante inscritta in ciascuno, e la scritta Il Mosaico Danza" xlink:href="/img/logo-il-mosaico-danza-asd.svg" filter="url(#drop-shadow)" />
+</svg>

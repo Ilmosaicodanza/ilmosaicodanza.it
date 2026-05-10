@@ -1,0 +1,49 @@
+.calendar {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#search {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+
+.calendar-days {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day-column {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0 0.5rem;
+}
+
+.day-header {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.lesson-item {
+    background: #f5f5f5;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .calendar-days {
+        display: block;
+    }
+
+    .day-column {
+        margin-bottom: 1rem;
+    }
+}
