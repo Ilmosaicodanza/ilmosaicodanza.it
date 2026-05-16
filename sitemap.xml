@@ -265,6 +265,12 @@
         </priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacolo-flamenco-con-todos-los-sentidos-2023/</loc>
+        <lastmod>2024-10-18</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/insegnanti/larry-dacco/</loc>
         <lastmod>2025-10-21</lastmod>
         <priority>0.6
@@ -283,7 +289,25 @@
         </priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacolo-flamenco-huellas-de-tu-ser-2022/</loc>
+        <lastmod>2025-11-30</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacoli-flamenco/huellas-de-tu-ser-2022/1-introduzione/</loc>
+        <lastmod>2026-03-04</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/spettacoli/spettacolo-flamenco-huellas-de-tu-ser-2022/1-introduzione/</loc>
+        <lastmod>2026-03-04</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacoli-flamenco/huellas-de-tu-ser-2022/2-chiavi-in-mano/</loc>
         <lastmod>2026-03-04</lastmod>
         <priority>0.5
         </priority>
@@ -295,13 +319,31 @@
         </priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacoli-flamenco/huellas-de-tu-ser-2022/3-rispetto-del-corpo/</loc>
+        <lastmod>2026-03-04</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/spettacoli/spettacolo-flamenco-huellas-de-tu-ser-2022/3-rispetto-del-corpo/</loc>
         <lastmod>2026-03-04</lastmod>
         <priority>0.5
         </priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacoli-flamenco/huellas-de-tu-ser-2022/4-spettacolo/</loc>
+        <lastmod>2026-03-04</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/spettacoli/spettacolo-flamenco-huellas-de-tu-ser-2022/4-spettacolo/</loc>
+        <lastmod>2026-03-04</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacoli-flamenco/huellas-de-tu-ser-2022/5-cuadro-musical/</loc>
         <lastmod>2026-03-04</lastmod>
         <priority>0.5
         </priority>
@@ -416,7 +458,7 @@
       </url>
       <url>
         <loc>https://www.ilmosaicodanza.it/corsi-danza/pizzica-milano/</loc>
-        <lastmod>2026-04-29</lastmod>
+        <lastmod>2026-05-16</lastmod>
         <priority>0.8
         </priority>
       </url>
@@ -526,6 +568,12 @@
         <loc>https://www.ilmosaicodanza.it/insegnanti/jeromo-segura/</loc>
         <lastmod>2025-08-27</lastmod>
         <priority>0.6
+        </priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/flamenco/sin-raices-no-hay-alas-2025/</loc>
+        <lastmod>2025-07-28</lastmod>
+        <priority>0.5
         </priority>
       </url>
       <url>
@@ -643,6 +691,12 @@
         </priority>
       </url>
       <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/flamenco/sin-raices-no-hay-alas-2025/libretto/</loc>
+        <lastmod>2025-07-12</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
         <loc>https://www.ilmosaicodanza.it/spettacoli/flamenco-milano-giugno-2025/libretto/</loc>
         <lastmod>2025-07-12</lastmod>
         <priority>0.5
@@ -657,6 +711,12 @@
       <url>
         <loc>https://www.ilmosaicodanza.it/spettacoli/flamenco-milano-giugno-2025/</loc>
         <lastmod>2025-07-28</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/spettacolo-danziamocela-di-brutto/</loc>
+        <lastmod>2025-08-21</lastmod>
         <priority>0.5
         </priority>
       </url>
@@ -687,6 +747,12 @@
       <url>
         <loc>https://www.ilmosaicodanza.it/corsi-danza-milano/</loc>
         <lastmod>2026-03-25</lastmod>
+        <priority>0.5
+        </priority>
+      </url>
+      <url>
+        <loc>https://www.ilmosaicodanza.it/spettacoli/flamenco/intencion-en-accion-2024/</loc>
+        <lastmod>2026-05-13</lastmod>
         <priority>0.5
         </priority>
       </url>
