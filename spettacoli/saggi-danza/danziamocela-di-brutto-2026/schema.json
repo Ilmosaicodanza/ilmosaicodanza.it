@@ -6,17 +6,17 @@
       "@type": "DanceEvent",
       "name": "Danziamocela di Brutto!",
       "description": "Uno spettacolo del Mosaico Danza con le allieve e gli allievi di tutti i corsi della scuola.",
-      "startDate": "2025-06-20T21:00",
-      "endDate": "2025-06-20T23:30",
+      "startDate": "2026-06-28T21:00",
+      "endDate": "2026-06-27T23:30",
       "location": {
         "@type": "Place",
         "name": "Teatro Osoppo",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Via Osoppo 2",
+          "streetAddress": "Teatro Guanella",
           "addressLocality": "Milano",
           "addressRegion": "MI",
-          "postalCode": "20148",
+          "postalCode": "20143",
           "addressCountry": "IT"
         }
       },
@@ -28,17 +28,17 @@
         "@type": "Offer",
         "price": "15.00",
         "priceCurrency": "EUR",
-        "url": "https://www.ilmosaicodanza.it/spettacoli/spettacolo-danziamocela-di-brutto/",
+        "url": "https://www.ilmosaicodanza.it/spettacoli/saggi-danza/danziamocela-di-brutto-2026/",
         "availability": "https://schema.org/LimitedAvailability",
-        "validFrom": "2025-06-08T00:00"
+        "validFrom": "2026-06-01T00:00"
       },
-      "image": "https://www.ilmosaicodanza.it/spettacoli/spettacolo-danziamocela-di-brutto/spettacolo-danziamocela-di-brutto-featured.jpg",
+      "image": "https://www.ilmosaicodanza.it/spettacoli/saggi-danza/danziamocela-di-brutto-2026/spettacolo-2026-featured.jpg",
       "organizer": {
         "@type": "Organization",
         "name": "Il Mosaico Danza",
         "url": "https://www.ilmosaicodanza.it"
       },
-      "eventStatus": "https://schema.org/EventFinished"
+      "eventStatus": "https://schema.org/EventScheduled"
     },
       {
         "@id": "https://www.ilmosaicodanza.it/#organization",
@@ -121,9 +121,9 @@
             "image":
             {
                 "@type": "ImageObject",
-                "height": 472,
-                "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x472",
-                "width": 800
+                "url": "https://www.ilmosaicodanza.it/img/logo-il-mosaico-danza-asd-800x472.png",
+                "width": 800,
+                "height": 472
             },
             "name": "Il Mosaico Danza Segreteria prenotazioni e informazioni",
             "sameAs":
@@ -160,27 +160,39 @@
         [
             "Flamenco",
             "Podcast Flamenco chiavi in mano",
-            "Lyrical Arab Dance",
-            "Lindy Hop",
-            "Balboa Dance",
-            "Blues Dance",
-            "Collegiate Shag",
-            "Danza Classica bambini",
-            "Danza Moderna bambini",
-            "Gioco Hip-Hop bambini",
-            "Latin dance per teenagers",
-            "Oriental Gypsy Fusion",
-            "Bollywood Dance",
-            "Hip-Hop",
-            "Michael Jackson Style",
-            "Reggaeton",
-            "Dancehall",
-            "Heels Dance",
-            "Salsa",
+            "Afro Dance",
             "Bachata",
-            "Tango Argentino",
-            "Pizzica Tarantella e Tammurriata",
+            "Balboa Dance",
+            "Bachata Fusion",
             "Ballo liscio e Balli da sala",
+            "Blues Dance",
+            "Bollywood Dance",
+            "Boogie Woogie Jive Rockabilly",
+            "Capoeira",
+            "Collegiate Shag",
+            "Dancehall",
+            "Danza Classica bambini",
+            "Danza del ventre",
+            "Danze Irlandesi",
+            "Danza Moderna bambini",
+            "Danza Contemporanea",
+            "Funk Brasiliano",
+            "Heels Dance",
+            "Hip-Hop",
+            "K-Hop",
+            "Latin dance per teenagers",
+            "Lindy Hop",
+            "Lyrical Arab Dance",
+            "Michael Jackson Style",
+            "Oriental Gypsy Fusion",
+            "Pizzica Tarantelle e Tammurriate",
+            "Reggaeton",
+            "Salsa",
+            "Solo Jazz",
+            "Tip Tap Dance",
+            "Tango Argentino",
+            "Video Dance",
+            "Urban Mixstyle",
             "Yoga",
             "Libera la danza"
         ],
@@ -233,7 +245,7 @@
                     "@id": "https://www.ilmosaicodanza.it/#segreteria",
                     "@type": "ContactPoint"
                 },
-                "description": "La sede incantevole del Mosaico Danza, ubicata nella vivace zona di Loreto a Milano, rappresenta il cuore pulsante della danza e delle attività di segreteria. Oltre ai coinvolgenti corsi di danza, offriamo un servizio di segreteria impeccabile, gestendo prenotazioni, iscrizioni e assistenza al cliente con professionalità e cortesia. Un luogo dove la passione per la danza si fonde perfettamente con la praticità di un servizio dedicato, rendendo la tua esperienza con il Mosaico Danza un viaggio straordinario in un mondo di eleganza e efficienza.",
+                "description": "La sede del Mosaico Danza, ubicata nella vivace zona di Loreto a Milano, rappresenta il cuore pulsante della danza e delle attività di segreteria. Oltre ai coinvolgenti corsi di danza, offriamo un servizio di segreteria impeccabile, gestendo prenotazioni, iscrizioni e assistenza al cliente con professionalità e cortesia. Un luogo dove la passione per la danza si fonde perfettamente con la praticità di un servizio dedicato, rendendo la tua esperienza con il Mosaico Danza un viaggio straordinario in un mondo di eleganza e efficienza.",
                 "email": "info@ilmosaicodanza.it",
                 "geo":
                 {
