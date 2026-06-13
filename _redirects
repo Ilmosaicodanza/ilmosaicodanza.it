@@ -81,6 +81,7 @@
 /news/corso-balboa-milano-new-open-15-maggio-2023/index.xml /corsi-danza/balboa-milano/index.xml 301
 /news/corso-ginnastica-facciale-18-maggio-2023/ /corsi-benessere/ 301
 /news/corso-lindy-hop-milano-under-35/ /corsi-danza/lindy-hop-milano/ 301
+/news/laboratorio-teatro-saggio-2025/ /stage-laboratori-milano/laboratorio-teatro-saggio-2025/ 301
 /news/nuovo-corso-lindy-hop-milano-5-maggio-2023/ /corsi-danza/lindy-hop-milano/ 301
 /nuovi-corsi-lindy-hop-milano/ /corsi-danza/lindy-hop-milano/ 301
 /news/corso-yoga-milano-da-sabato-25-marzo-2023/ /corsi-benessere/yoga-milano/ 301
@@ -105,10 +106,12 @@
 /tags/annalena-berton/ /insegnanti/annalena-berton/ 301
 /tags/blues-dance/ /corsi-danza/blues-dance-milano/ 301
 /tags/corsi /corsi-danza/ 301
-/tags/corsi-estivi /corsi-estivi/ 301
+/tags/corsi-di-danza/ /corsi-danza/ 301
 /tags/corsi-estivi/ /corsi-estivi/ 301
 /tags/corsi-on-line/ /corsi-on-line/ 301
 /tags/corsi/ /corsi-danza/ 301
+/tags/dance-workout/ /flamenco/dance-workouts/ 301
+/tags/danza-araba /corsi-danza/lyrical-arab-dance-milano/ 301
 /tags/danza-classica/ /corsi-danza/danza-classica-milano/ 301
 /tags/danza-orientale/index.xml /corsi-danza/oriental-gypsy-fusion-milano/index.xml 301
 /tags/danze-di-coppia/ /corsi-danza/ 301
@@ -134,6 +137,8 @@
 /video-dance/ /corsi-danza/video-dance-milano/ 301
 /zumba/ /corsi-danza/funk-brasiliano-milano/ 301
 /search/orama/readme/ / 301
+/tags/milano/ / 301
+/series/ / 301
 ### 2026-06-09 ---
 /spettacoli/flamenco/sin-pedir-permiso-a-lo-que-diran-2026/ /spettacoli/flamenco/sin-pedir-permiso-al-que-diran-2026/ 301
 ### 2026-06-03 ---
