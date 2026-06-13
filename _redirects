@@ -5,12 +5,12 @@
 /baile-sabina/ /insegnanti/sabina-todaro/ 301
 /carlos-guillen/ /insegnanti/carlos-guillen-miranda/ 301
 /davide-resta/ /insegnanti/davide-resta/ 301
-/domenico-simi-de-burgis/ /insegnanti/domenico-simi-de-burgis/ 301
+/domenico-simi-de-burgis/ / 410
 /francesco-perrotta/ /insegnanti/francesco-perrotta/ 301
 /francesco-perrotta/?utm_source=rss&utm_medium=rss&utm_campaign=percussioni-francesco /insegnanti/francesco-perrotta/ 301
 /gaia-ceccoli/ /insegnanti/gaia-ceccoli/ 301
 /insegnante-danza-afro-blue/ /insegnanti/blue/ 301
-/insegnante-salsa-bachata-davide-ranzani/ /insegnanti/davide-ranzani/ 301
+/insegnante-salsa-bachata-davide-ranzani/ /insegnanti/ 410
 /jamila-zaki/ /insegnanti/jamila-zaki/ 301
 /jessica-vassalli/ /insegnanti/jessica-vassalli/ 301
 /larry-dacco/ /insegnanti/larry-dacco/ 301
@@ -40,7 +40,7 @@
 /category/i-nostri-corsi-di-danza-ballo-e-movimento/ /corsi-danza/ 301
 /category/informazioni-e-contatti/ /contact-us/ 301
 /category/orari-corsi/ /orari-corsi/ 301
-/category/sagra-permanente/ / 410
+/category/sagra-permanente/ / 301
 /category/spettacoli/ /spettacoli/ 301
 /category/stage-di-danza-e-canto/ /stage-laboratori-milano/ 301
 /category/stage-spettacoli-corsi-estivi/ /stage-spettacoli-corsi-estivi/ 301
@@ -61,7 +61,7 @@
 /corso-flamenco /corsi-danza/flamenco-milano/ 301
 /corso-michael-jackson-style/ /corsi-danza/michael-jackson-style-milano/ 301
 /corso-yoga-milano/ /corsi-benessere/yoga-milano/ 301
-/collegiate-shag/
+/collegiate-shag/ /corsi-danza/collegiate-shag-milano/ 301
 /dancehall/ /corsi-danza/dancehall-milano/ 301
 /danza-contemporanea/ /corsi-danza/danza-contemporanea-milano/ 301
 /danze-irlandesi/ /corsi-danza/danze-irlandesi-milano/ 301
@@ -92,13 +92,13 @@
 /oriental-gypsy-fusion/ /corsi-danza/oriental-gypsy-fusion-milano/ 301
 /pilates-con-gym-ball/ /corsi-benessere/ 301
 /salsa-e-bachata/salsa/ /corsi-danza/salsa-bachata-milano/ 301
-/series/libretto-huellas-de-tu-ser---impronte-del-tuo-essere/ /spettacoli/spettacoli-flamenco/huellas-de-tu-ser-2022/ 301
+/series/libretto-huellas-de-tu-ser---impronte-del-tuo-essere/ /spettacoli/flamenco/huellas-de-tu-ser-2022/ 301
 /solo-jazz/ /corsi-danza/solo-jazz-milano/ 301
-/stage-laboratori-milano/stage-flamenco-carlos-guillen-milano/ /stage-laboratori-milano/flamenco-carlos-guillen-milano/ 301
+/stage-laboratori-milano/stage-flamenco-carlos-guillen-milano/ /stage-laboratori-milano/stage-flamenco-carlos-guillen-milano-maggio-2026/ 301
 /summer-swing-camp-festival-milano-2022/ /corsi-estivi/ 301
 /tag-danpe-digruppgo/ /corsi-danza/ 301
 /tag/anatomia/ /anatomia-in-pratica-la-meraviglia-di-muoverti-senza-sforzo/ 301
-/tag/lindy-ho-2 /corsi-danza/lindy-hop-milano/ 301
+/tag/lindy-ho-2/ /corsi-danza/lindy-hop-milano/ 301
 /tag/salsa-portoricana/ /corsi-danza/salsa-bachata-milano/ 301
 /tag/swing/ /corsi-danza/lindy-hop-milano/ 301
 /tag/webinar/ / 301
@@ -109,13 +109,14 @@
 /tags/corsi-estivi /corsi-estivi/ 301
 /tags/corsi-estivi/ /corsi-estivi/ 301
 /tags/corsi-on-line/ /corsi-on-line/ 301
-/tags/corsi/ /corsi-danza/
+/tags/corsi/ /corsi-danza/ 301
 /tags/danza-classica/ /corsi-danza/danza-classica-milano/ 301
 /tags/danza-orientale/index.xml /corsi-danza/oriental-gypsy-fusion-milano/index.xml 301
 /tags/danze-di-coppia/ /corsi-danza/ 301
 /tags/domenico-simi-de-burgis/ /insegnanti/annalena-berton/ 301
-/tags/feldenkrais /corsi-benessere/ 301
+/tags/feldenkrais/ /corsi-benessere/ 301
 /tags/heels-dance/ /corsi-danza/heels-dance-milano/ 301
+/tags/hip-hop/ /corsi-danza/hip-hop-milano/ 301
 /tags/insegnante/ /insegnanti/ 301
 /tags/insegnanti/ /insegnanti/ 301
 /tags/lezioni-di-swing/ /corsi-danza/lindy-hop-milano/ 301
@@ -128,13 +129,12 @@
 /tags/sara-ti/ /insegnanti/sara-ti/ 301
 /tags/stefano-benedetti/ /insegnanti/stefano-benedetti/ 301
 /tags/tango-argentino/ /corsi-danza/tango-argentino-milano/ 301
-/tags/zona-loreto/ /danza-in-zona-loreto/
+/tags/zona-loreto/ /danza-in-zona-loreto/ 301
 /tip-tap-dance/ /corsi-danza/tip-tap-dance-milano/ 301
 /video-dance/ /corsi-danza/video-dance-milano/ 301
 /zumba/ /corsi-danza/funk-brasiliano-milano/ 301
-
 ### 2026-06-09 ---
-/spettacoli/flamenco/sin-pedir-permiso-a-lo-que-diran-2026/ /spettacoli/flamenco/sin-pedir-permiso-al-que-diran-2026/
+/spettacoli/flamenco/sin-pedir-permiso-a-lo-que-diran-2026/ /spettacoli/flamenco/sin-pedir-permiso-al-que-diran-2026/ 301
 ### 2026-06-03 ---
 /stefano-benedetti/ /insegnanti/stefano-benedetti/ 301
 /insegnanti/carlos-guillen /insegnanti/carlos-guillen-miranda/ 301
