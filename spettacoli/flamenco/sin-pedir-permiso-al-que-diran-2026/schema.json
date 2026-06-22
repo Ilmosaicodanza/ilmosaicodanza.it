@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Sin pedir permiso al que dirán",
+  "alternateName": "Spettacolo di Flamenco a Milano",
+  "description": "Spettacolo di flamenco con 9 musicisti e 70 danzatori sul palco. Coreografie, organizzazione e progetto di Sabina Todaro. Un viaggio attraverso i palos tradizionali del flamenco, dalla Soleá alla Guajira, dalla Serrana ai Caracoles.",
+  "startDate": "2026-07-01T21:00:00+02:00",
+  "endDate": "2026-07-02T23:00:00+02:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "Teatro Osoppo",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Osoppo 2",
+      "addressLocality": "Milano",
+      "postalCode": "20145",
+      "addressCountry": "IT"
+    }
+  },
+  "image": [
+    "https://www.ilmosaicodanza.it/spettacoli/flamenco/sin-pedir-permiso-al-que-diran-2026/cover.webp",
+    "https://www.ilmosaicodanza.it/spettacoli/flamenco/sin-pedir-permiso-al-que-diran-2026/cover.jpg"
+  ],
+  "organizer": {
+    "@type": "Organization",
+    "name": "Il Mosaico Danza",
+    "url": "https://www.ilmosaicodanza.it"
+  },
+  "performer": [
+    {
+      "@type": "Person",
+      "name": "Jeromo Segura",
+      "description": "Cante"
+    },
+    {
+      "@type": "Person",
+      "name": "Carlos Guillén",
+      "description": "Cante"
+    },
+    {
+      "@type": "Person",
+      "name": "Josué Segura",
+      "description": "Cante"
+    },
+    {
+      "@type": "Person",
+      "name": "Antonio Porro",
+      "description": "Chitarra"
+    },
+    {
+      "@type": "Person",
+      "name": "Francesco Perrotta",
+      "description": "Percussioni"
+    },
+    {
+      "@type": "Person",
+      "name": "Alessandro Longhi",
+      "description": "Flauto"
+    },
+    {
+      "@type": "Person",
+      "name": "Ivana Zanini",
+      "description": "Cante flamenco e palmera"
+    },
+    {
+      "@type": "Person",
+      "name": "Emanuela Baldi",
+      "description": "Cantante"
+    },
+    {
+      "@type": "Person",
+      "name": "Sabina Todaro",
+      "description": "Palmas e coreografie"
+    },
+    {
+      "@type": "PerformingGroup",
+      "name": "Bailaores del Mosaico Danza",
+      "description": "70 danzatori sul palco"
+    }
+  ],
+  "workFeatured": {
+    "@type": "CreativeWork",
+    "name": "Sin pedir permiso al que dirán",
+    "description": "Spettacolo di flamenco tradizionale con palos come Soleá, Guajira, Serrana, Tientos, Caracoles e molti altri"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.ilmosaicodanza.it/spettacoli/flamenco/sin-pedir-permiso-al-que-diran-2026/",
+    "priceCurrency": "EUR",
+    "price": "15",
+    "availability": "https://schema.org/InStock",
+    "validFrom": "2026-05-10T12:00:00+02:00"
+  },
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "Flamenco"
+    },
+    {
+      "@type": "Thing",
+      "name": "Danza spagnola"
+    },
+    {
+      "@type": "Thing",
+      "name": "Musica dal vivo"
+    }
+  ],
+  "keywords": "flamenco, spettacolo, Milano, danza, musica, teatro, Sabina Todaro, Il Mosaico Danza",
+  "inLanguage": "it-IT",
+  "isAccessibleForFree": false,
+  "typicalAgeRange": "25-",
+  "funder": {
+    "@type": "Organization",
+    "name": "Il Mosaico Danza"
+  }
+}
