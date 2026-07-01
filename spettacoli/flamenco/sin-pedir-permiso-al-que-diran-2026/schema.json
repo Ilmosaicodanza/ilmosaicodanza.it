@@ -31,18 +31,18 @@
   "performer": [
     {
       "@type": "Person",
-      "name": "Jeromo Segura",
-      "description": "Cante"
-    },
-    {
-      "@type": "Person",
-      "name": "Carlos Guillén",
-      "description": "Cante"
-    },
-    {
-      "@type": "Person",
       "name": "Josué Segura",
       "description": "Cante"
+    },
+    {
+      "@type": "Person",
+      "name": "Antonio De Pozoblanco",
+      "description": "Cante"
+    },
+    {
+      "@type": "Person",
+      "name": "Sabina Todaro",
+      "description": "Palmas e coreografie"
     },
     {
       "@type": "Person",
@@ -51,18 +51,13 @@
     },
     {
       "@type": "Person",
-      "name": "Francesco Perrotta",
-      "description": "Percussioni"
-    },
-    {
-      "@type": "Person",
       "name": "Alessandro Longhi",
       "description": "Flauto"
     },
     {
       "@type": "Person",
-      "name": "Ivana Zanini",
-      "description": "Cante flamenco e palmera"
+      "name": "Francesco Perrotta",
+      "description": "Percussioni"
     },
     {
       "@type": "Person",
@@ -70,14 +65,9 @@
       "description": "Cantante"
     },
     {
-      "@type": "Person",
-      "name": "Sabina Todaro",
-      "description": "Palmas e coreografie"
-    },
-    {
       "@type": "PerformingGroup",
       "name": "Bailaores del Mosaico Danza",
-      "description": "70 danzatori sul palco"
+      "description": "I danzatori sul palco"
     }
   ],
   "workFeatured": {
