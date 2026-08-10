@@ -158,11 +158,23 @@ function getGreeting() {
 
 function composeWhatsAppMessage() {
   //ebugger;
-  if (request.value.trim() === '' || sender.value.trim() === '') {
-    // Mostra un messaggio di errore
+const nomeVuoto = sender.value.trim() === '';
+  const richiestaVuota = request.value.trim() === '';
+
+  if (nomeVuoto && richiestaVuota) {
     error.innerText = 'Inserisci sia il tuo nome che la richiesta';
+    sender.focus();
+    return false;
+  } else if (nomeVuoto) {
+    error.innerText = 'Inserisci il tuo nome per inviare il messaggio';
+    sender.focus();
+    return false;
+  } else if (richiestaVuota) {
+    error.innerText = 'Scrivi la tua richiesta prima di inviare';
+    request.focus();
     return false;
   }
+
   let isFlamenco = false;
   recipient.greet = getGreeting();
 
