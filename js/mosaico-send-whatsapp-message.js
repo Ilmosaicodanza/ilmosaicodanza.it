@@ -2,7 +2,7 @@
 * @Author: Fabrizio Conti <panathos@gmail.com>
 * @Date:   2023-07-17 18:03:35
 * @Last Modified by:   Fabrizio Conti <panathos@gmail.com>
-* @Last Modified time: 2023-07-27 09:05:16
+* @Last Modified time: 2026-10-03
 */
 const aperto = {
   'LU': {
@@ -61,13 +61,14 @@ const chiuso = [
 ];
 
 const entity = {
-    'Sabina':{
-      'num':'+393396173388',
-    },
-    'Segreteria':{
-      'num': '+393519459036',
-    }
-  };
+  'Sabina': {
+    'num': '+393396173388',
+  },
+  'Segreteria': {
+    'num': '+393519459036',
+  }
+};
+
 let recipient = {
   'name': 'Segreteria',
   'num': entity['Sabina'].num,
@@ -75,50 +76,43 @@ let recipient = {
   'msg': '',
   'currentHours': '',
   'nextHours': ''
-}
+};
+
 let now = new Date();
-// now = new Date(2023, 11, 21, 16, 58, 0); // Thu 21/12/2023 16:58 => Fri 11:30
-// now = new Date(2023, 11, 22, 16, 58, 0); // Fri 21/12/2023 16:58 => aperta => Wed 27/12/2023 17:30
-//now = new Date(2023, 6, 27, 1, 20, 0);
-//now = new Date(2023, 6, 27, 23, 15, 0);
 
 const request = document.querySelector('textarea[name="request"]');
 const sender = document.querySelector('input[name="name"]');
-const submitButton = document.querySelector('button[type="submit"]');
 const avviso = document.querySelector(".avviso");
 const error = document.querySelector(".error-message");
 
+// Gestione unificata del submit del form
 document.getElementById('contactForm').addEventListener('submit', function(event) {
   event.preventDefault();
-
-  if (sender.value.trim() === '' || request.value.trim() === '') {
-    showErrorMessage();
-  } else {
-    hideErrorMessage();
-    // Esegui altre azioni, ad esempio inviare i dati via WhatsApp
-  }
+  composeWhatsAppMessage();
 });
+
 function setAvviso() {
   let open = getIsEntityOpen('Segreteria');
   let greet = getGreeting();
-  if(open){
+  if (open) {
     const [dalle, alle] = open.split('-');
     var lnk = "<a href='/regolamento-di-iscrizione/' class='link'>Prenota le tue lezioni di prova e scarica i moduli di iscrizione</a>";
-    msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.<br>" + lnk;
-    nextDay = new Date(now.getDate()+1);
-    nextOpen = getNextOpening(nextDay, 'Segreteria');
-    nextDayName = getDayDescription(nextOpen);
-    alle2 = formatDate(nextOpen, 'HH:mm');
+    let msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.<br>" + lnk;
+    let nextDay = new Date(now);
+    nextDay.setDate(nextDay.getDate() + 1);
+    let nextOpen = getNextOpening(nextDay, 'Segreteria');
+    let nextDayName = getDayDescription(nextOpen);
+    let alle2 = formatDate(nextOpen, 'HH:mm');
     msg = msg.replace("#ALLE1#", alle);
     msg = msg.replace("#NEXT#", nextDayName);
     msg = msg.replace("#ALLE2#", alle2);
-    avviso.innerHTML = msg;
-  }else{
-    next = getNextOpening(now, 'Segreteria');
+    if (avviso) avviso.innerHTML = msg;
+  } else {
+    let next = getNextOpening(now, 'Segreteria');
     recipient.nextHours = next;
-    giorno = getDayDescription(next);
-    msg = greet + "La segreteria sarà disponibile " + giorno + " dalle " + formatDate(next, 'HH:mm') + ".<br>🤓 Però a volte lavoriamo anche quando siamo chiusi.  Mandaci un messaggio e ti risponderemo appena possibile!";
-    avviso.innerHTML = msg;
+    let giorno = getDayDescription(next);
+    let msg = greet + "La segreteria sarà disponibile " + giorno + " dalle " + formatDate(next, 'HH:mm') + ".<br>🤓 Però a volte lavoriamo anche quando siamo chiusi. Mandaci un messaggio e ti risponderemo appena possibile!";
+    if (avviso) avviso.innerHTML = msg;
   }
 }
 
@@ -132,118 +126,108 @@ function getDayDescription(next) {
   } else {
     const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
     const diffInDays = Math.floor((next - now) / oneDayInMilliseconds);
-    if (diffInDays > 3)  {
-      if (next.getMonth() === now.getMonth()){
+    if (diffInDays > 3) {
+      if (next.getMonth() === now.getMonth()) {
         return getDayOfWeek(next);
-      }else{
+      } else {
         return `${getDayOfWeek(next)} ${next.getDate()} ${getMonthName(next.getMonth())}`;
       }
     }
     return getDayOfWeek(next);
   }
 }
+
 function getGreeting() {
-    let currentHour = now.getHours();
-  if (currentHour < 14) {
-    str = "Buongiorno. ";
-  } else if (currentHour >= 14 && currentHour < 18) {
-    str = "Buon pomeriggio. ";
-  } else {
-    str = "Buonasera. ";
-  }
-  str = "Ciao. "
+  let str = "Ciao. ";
   recipient.greet = str;
   return recipient.greet;
 }
 
 function composeWhatsAppMessage() {
-  //ebugger;
-const nomeVuoto = sender.value.trim() === '';
-  const richiestaVuota = request.value.trim() === '';
+  const nomeVuoto = !sender || sender.value.trim() === '';
+  const richiestaVuota = !request || request.value.trim() === '';
 
   if (nomeVuoto && richiestaVuota) {
-    error.innerText = 'Inserisci sia il tuo nome che la richiesta';
-    sender.focus();
+    showError('Inserisci sia il tuo nome che la richiesta');
+    if (sender) sender.focus();
     return false;
   } else if (nomeVuoto) {
-    error.innerText = 'Inserisci il tuo nome per inviare il messaggio';
-    sender.focus();
+    showError('Inserisci il tuo nome per inviare il messaggio');
+    if (sender) sender.focus();
     return false;
   } else if (richiestaVuota) {
-    error.innerText = 'Scrivi la tua richiesta prima di inviare';
-    request.focus();
+    showError('Scrivi la tua richiesta prima di inviare');
+    if (request) request.focus();
     return false;
   }
+
+  hideError();
 
   let isFlamenco = false;
   recipient.greet = getGreeting();
 
-  const dayOfWeek = now.getDay();
-  //onsole.trace("dayOfWeek", dayOfWeek);
   const value = request.value.toLowerCase();
   const words = ['flamenco', 'baile', 'compas', 'dance workout'];
-  if (words.some(word => value.includes(word.toLowerCase()))) {
+  if (words.some(word => value.includes(word))) {
     isFlamenco = true;
     recipient.name = 'Sabina';
     recipient.num = entity['Sabina'].num;
-    recipient.msg = entity['Sabina'].msg;
   }
-  // se è disponibile Sabina, siamo a posto
-  if ( getIsEntityOpen('Sabina') || isFlamenco && getIsEntityOpen('Segreteria') ) {
+
+  if (getIsEntityOpen('Sabina') || (isFlamenco && getIsEntityOpen('Segreteria'))) {
     recipient.num = entity['Sabina'].num;
-    recipient.msg = entity['Sabina'].msgO;
     composeMessage();
     return true;
-    // se è aperta segreteria
-  } else if (getIsEntityOpen('Segreteria')){
+  } else if (getIsEntityOpen('Segreteria')) {
+    recipient.num = entity['Segreteria'].num;
     composeMessage();
     return true;
-  };
-  // qui sono chiuse entrambe
+  }
+
   let next1 = getNextOpening(now, 'Segreteria');
   let next2 = getNextOpening(now, 'Sabina');
-  if (next2.getTime() < next1.getTime()){
-    recipient.num = entity['Sabina'].num
+  if (next2 && next1 && next2.getTime() < next1.getTime()) {
+    recipient.num = entity['Sabina'].num;
+  } else {
+    recipient.num = entity['Segreteria'].num;
   }
-  let nextOpening = getNextOpening(now, "Segreteria");
-      if (nextOpening) {
-      {
-        recipient.nextHours = nextOpening;
-        composeMessage();
-      }
 
+  let nextOpening = getNextOpening(now, "Segreteria");
+  if (nextOpening) {
+    recipient.nextHours = nextOpening;
   }
+
+  composeMessage();
   return true;
 }
 
 function getSlug() {
   const segments = window.location.pathname.split('/').filter(segment => segment !== '');
- if (segments.length === 0) {
+  if (segments.length === 0) {
     return "Home";
   }
   return segments[segments.length - 1];
 }
+
 function composeMessage() {
   let incipit = '';
-  if (recipient.nextHours){
-    incipit = "Segreteria disponibile #DAY# dalle #ORA#";
-    day = getDayDescription(recipient.nextHours);
-    hours = formatDate(recipient.nextHours, "HH:mm")
-    incipit = incipit.replace("#DAY#", day);
-    incipit = incipit.replace("#ORA#", hours);
-    incipit = "[" + incipit + "]"
+  if (recipient.nextHours) {
+    let day = getDayDescription(recipient.nextHours);
+    let hours = formatDate(recipient.nextHours, "HH:mm");
+    incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
   }
   const slug = `Pagina: ${getSlug()} `;
-  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value;
+  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
   const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
-  window.open(whatsappLink);
-  hideWhatsappMessage();
+
+  // Reindirizzamento diretto per evitare il blocco pop-up del browser
+  window.location.href = whatsappLink;
   return true;
 }
+
 function getIsEntityOpen(entityName) {
-  //ebugger;
   let date = new Date(now);
-  const dayOfWeek = now.getDay();
+  const dayOfWeek = date.getDay();
   const openingHours = aperto[getDayAbbreviation(dayOfWeek)][entityName];
   const chiusoGiorno = isDayClosed(date);
 
@@ -252,7 +236,7 @@ function getIsEntityOpen(entityName) {
   }
 
   const [opening, closing] = openingHours.split('-');
-  const currentTime = date.getHours().toString().padStart(2, '0') + ":" +  date.getMinutes().toString().padStart(2, '0');
+  const currentTime = date.getHours().toString().padStart(2, '0') + ":" + date.getMinutes().toString().padStart(2, '0');
 
   if (currentTime >= opening && currentTime <= closing) {
     return openingHours;
@@ -260,32 +244,29 @@ function getIsEntityOpen(entityName) {
     return null;
   }
 }
-/**
- * @returns {Date}
- */
+
 function getNextOpening(dataTest, entityName) {
-  //ebugger;
   let currentDay = new Date(dataTest);
   let nextOpening = null;
-  find = false;
+  let find = false;
+
   while (!find) {
-    dayNum        = currentDay.getDay();
-    dayOfWeek     = getDayAbbreviation(dayNum);
-    orari         = aperto[dayOfWeek][entityName];
-    openingHours  = (entityName == "Sabina")? aperto[dayOfWeek].Sabina : aperto[dayOfWeek].Segreteria;
-    chiusoGiorno  = isDayClosed(currentDay);
+    let dayNum = currentDay.getDay();
+    let dayOfWeek = getDayAbbreviation(dayNum);
+    let openingHours = aperto[dayOfWeek][entityName];
+    let chiusoGiorno = isDayClosed(currentDay);
+
     if (openingHours && !chiusoGiorno) {
-      // imposta oggetto data per confronto rispetto a now
-      orario = openingHours.split('-')[0];
-      nextOpening = new Date(currentDay.getFullYear(), currentDay.getMonth(), currentDay.getDate(), orario.split(':')[0], orario.split(':')[1], 0, 0);
+      let orario = openingHours.split('-')[0];
+      let parts = orario.split(':');
+      nextOpening = new Date(currentDay.getFullYear(), currentDay.getMonth(), currentDay.getDate(), parseInt(parts[0], 10), parseInt(parts[1], 10), 0, 0);
+
       if (nextOpening.getTime() > now.getTime()) {
-        if (!isDayClosed(nextOpening)){
+        if (!isDayClosed(nextOpening)) {
           find = true;
           return nextOpening;
         }
       }
-      //orario = openingHours.split('-')[0];
-      //nextOpening = new Date(currentDay.getFullYear(), currentDay.getMonth(), currentDay.getDate(), orario.split(':')[0], orario.split(':')[1], 0, 0);
     }
     currentDay.setDate(currentDay.getDate() + 1);
     currentDay.setHours(0, 0, 0, 0);
@@ -295,20 +276,14 @@ function getNextOpening(dataTest, entityName) {
 }
 
 function isDayClosed(currentDay) {
-  //onsole.info("126 currentDay", currentDay);
-  const dayOfWeek   = getDayAbbreviation(currentDay);
-  const currentDate = currentDay;
-  const day         = currentDate.getDate();
-  const month       = currentDate.getMonth() + 1;
+  const dayOfWeek = getDayAbbreviation(currentDay.getDay());
+  const day = String(currentDay.getDate()).padStart(2, '0');
+  const month = String(currentDay.getMonth() + 1).padStart(2, '0');
   const formattedDate = `${day}/${month}`;
 
   return chiuso.includes(formattedDate) || aperto[dayOfWeek] === 'Chiuso';
 }
 
-function getDayName(dayIndex) {
-  const daysOfWeek = ['Domenica', 'lunedì', 'Martedì', 'Mercoledì', 'Giovedì', 'Venerdì', 'Sabato'];
-  return daysOfWeek[dayIndex];
-}
 function getMonthName(I) {
   const months = [
     "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
@@ -316,16 +291,10 @@ function getMonthName(I) {
   ];
   return months[I];
 }
+
 function getDayAbbreviation(dayOfWeek) {
   const abbreviations = ['DO', 'LU', 'MA', 'ME', 'GI', 'VE', 'SA'];
   return abbreviations[dayOfWeek];
-}
-
-function getCurrentDate() {
-  const now = new Date();
-  const day = now.getUTCDate();
-  const month = now.getUTCMonth() + 1;
-  return `${day}/${month}`;
 }
 
 function getDayOfWeek(date) {
@@ -334,31 +303,39 @@ function getDayOfWeek(date) {
 }
 
 function formatDate(date, format) {
-  const hours = date.getHours();
-  const minutes = date.getMinutes();
+  const hours = date.getHours().toString().padStart(2, '0');
+  const minutes = date.getMinutes().toString().padStart(2, '0');
 
-  let formattedDate = format
-    .replace('HH', hours.toString().padStart(2, '0'))
-    .replace('mm', minutes.toString().padStart(2, '0'));
+  return format.replace('HH', hours).replace('mm', minutes);
+}
 
-  return formattedDate;
+function showError(msg) {
+  if (error) {
+    error.innerText = msg;
+    error.style.display = 'block';
+  }
+}
+
+function hideError() {
+  if (error) {
+    error.innerText = '';
+    error.style.display = 'none';
+  }
 }
 
 function addEaster() {
   const year = now.getFullYear();
   const pasqua = getEasterDate(year);
-  const date = [-2, -1, 0, +1];
-  date.forEach(offset => {
+  const offsets = [-2, -1, 0, 1];
+  offsets.forEach(offset => {
     let relativeDate = new Date(pasqua.getFullYear(), pasqua.getMonth(), pasqua.getDate() + offset);
-    let day = relativeDate.getDate();
-    let month = relativeDate.getMonth() + 1;
-    let formatted = day > 9 ? day : '0' + day;
-    formatted += '/' + (month > 9 ? month : '0' + month);
-    chiuso.push(formatted);
-  })
+    let day = String(relativeDate.getDate()).padStart(2, '0');
+    let month = String(relativeDate.getMonth() + 1).padStart(2, '0');
+    chiuso.push(`${day}/${month}`);
+  });
 }
+
 function getEasterDate(year) {
-  // Formula di Butcher basata sulle regole di Gregory
   var a = year % 19;
   var b = Math.floor(year / 100);
   var c = year % 100;
@@ -373,15 +350,9 @@ function getEasterDate(year) {
   var m = Math.floor((a + 11 * h + 22 * l) / 451);
   var month = Math.floor((h + l - 7 * m + 114) / 31);
   var day = ((h + l - 7 * m + 114) % 31) + 1;
-  return new Date(year, month-1, day);
+  return new Date(year, month - 1, day);
 }
 
-// Attende che il pulsante sia caricato
-  // Aggiungi l'evento click al pulsante
-  addEaster();
-  setAvviso();
-  submitButton.addEventListener('click', () => {
-    //inviaMessaggioWhatsapp();
-    composeWhatsAppMessage();
-  });
-
+// Inizializzazione
+addEaster();
+setAvviso();
