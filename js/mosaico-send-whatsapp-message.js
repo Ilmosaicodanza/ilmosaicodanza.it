@@ -220,6 +220,31 @@ function composeMessage() {
   let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
   const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
 
+  // Creazione dinamica del link per forzare l'apertura in nuova scheda
+  const link = document.createElement('a');
+  link.href = whatsappLink;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+
+  // Inserimento temporaneo ed esecuzione del click
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+
+  return true;
+}
+
+function composeMessageOLD() {
+  let incipit = '';
+  if (recipient.nextHours) {
+    let day = getDayDescription(recipient.nextHours);
+    let hours = formatDate(recipient.nextHours, "HH:mm");
+    incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
+  }
+  const slug = `Pagina: ${getSlug()} `;
+  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
+  const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
+
   // Reindirizzamento diretto per evitare il blocco pop-up del browser
   window.location.href = whatsappLink;
   return true;
