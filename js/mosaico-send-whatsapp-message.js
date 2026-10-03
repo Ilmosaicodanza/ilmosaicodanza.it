@@ -220,25 +220,28 @@ function composeMessage() {
   let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
   const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
 
-  // Apre WhatsApp in una NUOVA SCHEDA (_blank)
-  const newWindow = window.open(whatsappLink, '_blank', 'noopener,noreferrer');
+  // Creazione dinamica di un tag <a> con target="_blank"
+  const a = document.createElement('a');
+  a.href = whatsappLink;
+  a.target = '_blank';
+  a.rel = 'noopener noreferrer';
 
-  // Se il browser ha un blocco pop-up estremamente restrittivo e newWindow è null,
-  // fa il fallback sulla scheda corrente senza perdere l'invio.
-  if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
-    window.location.href = whatsappLink;
-  }
+  // Inserimento temporaneo nel DOM ed esecuzione del click
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
 
-  // Pulisce i campi e chiude il pannello dopo l'apertura
+  // Chiudi il pannello e pulisci il campo di testo dopo l'apertura
   if (typeof hideWhatsappMessage === 'function') {
     setTimeout(() => {
       hideWhatsappMessage();
       if (request) request.value = '';
-    }, 400);
+    }, 300);
   }
 
   return true;
 }
+
 function composeMessage2() {
   let incipit = '';
   if (recipient.nextHours) {
