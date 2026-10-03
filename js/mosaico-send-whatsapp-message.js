@@ -220,16 +220,39 @@ function composeMessage() {
   let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
   const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
 
-  // Creazione dinamica del link per forzare l'apertura in nuova scheda
-  const link = document.createElement('a');
-  link.href = whatsappLink;
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
+  // Apre WhatsApp in una NUOVA SCHEDA (_blank)
+  const newWindow = window.open(whatsappLink, '_blank', 'noopener,noreferrer');
 
-  // Inserimento temporaneo ed esecuzione del click
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  // Se il browser ha un blocco pop-up estremamente restrittivo e newWindow è null,
+  // fa il fallback sulla scheda corrente senza perdere l'invio.
+  if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+    window.location.href = whatsappLink;
+  }
+
+  // Pulisce i campi e chiude il pannello dopo l'apertura
+  if (typeof hideWhatsappMessage === 'function') {
+    setTimeout(() => {
+      hideWhatsappMessage();
+      if (request) request.value = '';
+    }, 400);
+  }
+
+  return true;
+}
+function composeMessage2() {
+  let incipit = '';
+  if (recipient.nextHours) {
+    let day = getDayDescription(recipient.nextHours);
+    let hours = formatDate(recipient.nextHours, "HH:mm");
+    incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
+  }
+  const slug = `Pagina: ${getSlug()} `;
+  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
+  const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
+
+  // Reindirizzamento diretto sulla scheda corrente:
+  // Evita il blocco popup dei browser e aziona direttamente l'app WhatsApp su smartphone
+  window.location.href = whatsappLink;
 
   return true;
 }
