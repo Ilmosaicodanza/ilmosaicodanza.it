@@ -4,69 +4,27 @@
 * @Last Modified by:   Fabrizio Conti <panathos@gmail.com>
 * @Last Modified time: 2026-10-03
 */
+
 const aperto = {
-  'LU': {
-    'Sabina': '11:00-16:30',
-    'Segreteria': '16:30-22:30',
-  },
-  'MA': {
-    'Sabina': '11:00-16:30',
-    'Segreteria': '18:30-22:30',
-  },
-  'ME': {
-    'Sabina': '10:00-11:30',
-    'Segreteria': '17:30-22:30',
-  },
-  'GI': {
-    'Sabina': '11:00-16:30',
-    'Segreteria': '16:30-22:30',
-  },
-  'VE': {
-    'Sabina': '17:00-20:00',
-    'Segreteria': null
-  },
-  'SA': {
-    'Sabina': '11:00-16:15',
-    'Segreteria': null,
-  },
-  'DO': {
-    'Sabina': null,
-    'Segreteria': null,
-  },
+  'LU': { 'Sabina': '11:00-16:30', 'Segreteria': '16:30-22:30' },
+  'MA': { 'Sabina': '11:00-16:30', 'Segreteria': '18:30-22:30' },
+  'ME': { 'Sabina': '10:00-11:30', 'Segreteria': '17:30-22:30' },
+  'GI': { 'Sabina': '11:00-16:30', 'Segreteria': '16:30-22:30' },
+  'VE': { 'Sabina': '17:00-20:00', 'Segreteria': null },
+  'SA': { 'Sabina': '11:00-16:15', 'Segreteria': null },
+  'DO': { 'Sabina': null, 'Segreteria': null }
 };
 
 const chiuso = [
-  '01/01',
-  '02/01',
-  '03/01',
-  '04/01',
-  '05/01',
-  '06/01',
-  '25/04',
-  '01/05',
-  '02/06',
-  '15/08',
-  '01/11',
-  '07/12',
-  '08/12',
-  '23/12',
-  '24/12',
-  '25/12',
-  '26/12',
-  '27/12',
-  '28/12',
-  '29/12',
-  '30/12',
-  '31/12',
+  '01/01', '02/01', '03/01', '04/01', '05/01', '06/01',
+  '25/04', '01/05', '02/06', '15/08', '01/11', '07/12',
+  '08/12', '23/12', '24/12', '25/12', '26/12', '27/12',
+  '28/12', '29/12', '30/12', '31/12'
 ];
 
 const entity = {
-  'Sabina': {
-    'num': '+393396173388',
-  },
-  'Segreteria': {
-    'num': '+393519459036',
-  }
+  'Sabina': { 'num': '+393396173388' },
+  'Segreteria': { 'num': '+393519459036' }
 };
 
 let recipient = {
@@ -80,66 +38,25 @@ let recipient = {
 
 let now = new Date();
 
-const request = document.querySelector('textarea[name="request"]');
-const sender = document.querySelector('input[name="name"]');
-const avviso = document.querySelector(".avviso");
-const error = document.querySelector(".error-message");
+let request, sender, avviso, error;
 
-// Gestione unificata del submit del form
-document.getElementById('contactForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-  composeWhatsAppMessage();
-});
+function initDOM() {
+  request = document.querySelector('textarea[name="request"]');
+  sender = document.querySelector('input[name="name"]');
+  avviso = document.querySelector(".avviso");
+  error = document.querySelector(".error-message");
 
-function setAvviso() {
-  let open = getIsEntityOpen('Segreteria');
-  let greet = getGreeting();
-  if (open) {
-    const [dalle, alle] = open.split('-');
-    var lnk = "<a href='/regolamento-di-iscrizione/' class='link'>Prenota le tue lezioni di prova e scarica i moduli di iscrizione</a>";
-    let msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.<br>" + lnk;
-    let nextDay = new Date(now);
-    nextDay.setDate(nextDay.getDate() + 1);
-    let nextOpen = getNextOpening(nextDay, 'Segreteria');
-    let nextDayName = getDayDescription(nextOpen);
-    let alle2 = formatDate(nextOpen, 'HH:mm');
-    msg = msg.replace("#ALLE1#", alle);
-    msg = msg.replace("#NEXT#", nextDayName);
-    msg = msg.replace("#ALLE2#", alle2);
-    if (avviso) avviso.innerHTML = msg;
-  } else {
-    let next = getNextOpening(now, 'Segreteria');
-    recipient.nextHours = next;
-    let giorno = getDayDescription(next);
-    let msg = greet + "La segreteria sarà disponibile " + giorno + " dalle " + formatDate(next, 'HH:mm') + ".<br>🤓 Però a volte lavoriamo anche quando siamo chiusi. Mandaci un messaggio e ti risponderemo appena possibile!";
-    if (avviso) avviso.innerHTML = msg;
-  }
-}
-
-function getDayDescription(next) {
-  const tomorrow = new Date(next);
-  tomorrow.setDate(tomorrow.getDate() - 1);
-  if (now.getMonth() === next.getMonth() && now.getDate() === next.getDate()) {
-    return "oggi";
-  } else if (now.getMonth() === tomorrow.getMonth() && now.getDate() === tomorrow.getDate()) {
-    return "domani";
-  } else {
-    const oneDayInMilliseconds = 24 * 60 * 60 * 1000;
-    const diffInDays = Math.floor((next - now) / oneDayInMilliseconds);
-    if (diffInDays > 3) {
-      if (next.getMonth() === now.getMonth()) {
-        return getDayOfWeek(next);
-      } else {
-        return `${getDayOfWeek(next)} ${next.getDate()} ${getMonthName(next.getMonth())}`;
-      }
-    }
-    return getDayOfWeek(next);
+  const contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+      composeWhatsAppMessage();
+    });
   }
 }
 
 function getGreeting() {
-  let str = "Ciao. ";
-  recipient.greet = str;
+  recipient.greet = "Ciao. ";
   return recipient.greet;
 }
 
@@ -176,25 +93,21 @@ function composeWhatsAppMessage() {
 
   if (getIsEntityOpen('Sabina') || (isFlamenco && getIsEntityOpen('Segreteria'))) {
     recipient.num = entity['Sabina'].num;
-    composeMessage();
-    return true;
   } else if (getIsEntityOpen('Segreteria')) {
     recipient.num = entity['Segreteria'].num;
-    composeMessage();
-    return true;
-  }
-
-  let next1 = getNextOpening(now, 'Segreteria');
-  let next2 = getNextOpening(now, 'Sabina');
-  if (next2 && next1 && next2.getTime() < next1.getTime()) {
-    recipient.num = entity['Sabina'].num;
   } else {
-    recipient.num = entity['Segreteria'].num;
-  }
+    let next1 = getNextOpening(now, 'Segreteria');
+    let next2 = getNextOpening(now, 'Sabina');
+    if (next2 && next1 && next2.getTime() < next1.getTime()) {
+      recipient.num = entity['Sabina'].num;
+    } else {
+      recipient.num = entity['Segreteria'].num;
+    }
 
-  let nextOpening = getNextOpening(now, "Segreteria");
-  if (nextOpening) {
-    recipient.nextHours = nextOpening;
+    let nextOpening = getNextOpening(now, "Segreteria");
+    if (nextOpening) {
+      recipient.nextHours = nextOpening;
+    }
   }
 
   composeMessage();
@@ -203,77 +116,85 @@ function composeWhatsAppMessage() {
 
 function getSlug() {
   const segments = window.location.pathname.split('/').filter(segment => segment !== '');
-  if (segments.length === 0) {
-    return "Home";
-  }
-  return segments[segments.length - 1];
+  return segments.length === 0 ? "Home" : segments[segments.length - 1];
 }
 
 function composeMessage() {
-  let incipit = '';
-  if (recipient.nextHours) {
-    let day = getDayDescription(recipient.nextHours);
-    let hours = formatDate(recipient.nextHours, "HH:mm");
-    incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
-  }
-  const slug = `Pagina: ${getSlug()} `;
-  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
-  const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
+  try {
+    let incipit = '';
+    if (recipient.nextHours) {
+      let day = getDayDescription(recipient.nextHours);
+      let hours = formatDate(recipient.nextHours, "HH:mm");
+      incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
+    }
+    const slug = `Pagina: ${getSlug()} `;
+    const senderName = sender && sender.value ? sender.value.trim().toUpperCase() : '';
+    const requestText = request && request.value ? request.value.trim() : '';
 
-  // Creazione dinamica di un tag <a> con target="_blank"
-  const a = document.createElement('a');
-  a.href = whatsappLink;
-  a.target = '_blank';
-  a.rel = 'noopener noreferrer';
+    let msg = slug + incipit + "[DA " + senderName + "] " + requestText;
+    const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
 
-  // Inserimento temporaneo nel DOM ed esecuzione del click
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
+    // Apertura in una nuova scheda
+    window.open(whatsappLink, '_blank', 'noopener,noreferrer');
 
-  // Chiudi il pannello e pulisci il campo di testo dopo l'apertura
-  if (typeof hideWhatsappMessage === 'function') {
-    setTimeout(() => {
-      hideWhatsappMessage();
-      if (request) request.value = '';
-    }, 300);
+    // Chiusura del modale
+    if (typeof hideWhatsappMessage === 'function') {
+      setTimeout(() => {
+        hideWhatsappMessage();
+        if (request) request.value = '';
+      }, 200);
+    }
+  } catch (err) {
+    console.error("Errore nell'invio WhatsApp:", err);
   }
 
   return true;
 }
 
-function composeMessage2() {
-  let incipit = '';
-  if (recipient.nextHours) {
-    let day = getDayDescription(recipient.nextHours);
-    let hours = formatDate(recipient.nextHours, "HH:mm");
-    incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
+function setAvviso() {
+  let open = getIsEntityOpen('Segreteria');
+  let greet = getGreeting();
+  if (open) {
+    const [dalle, alle] = open.split('-');
+    let lnk = "<a href='/regolamento-di-iscrizione/' class='link'>Prenota le tue lezioni di prova e scarica i moduli di iscrizione</a>";
+    let msg = greet + "La segreteria è disponibile oggi fino alle #ALLE1#. Poi #NEXT# dalle #ALLE2#.<br>" + lnk;
+    let nextDay = new Date(now);
+    nextDay.setDate(nextDay.getDate() + 1);
+    let nextOpen = getNextOpening(nextDay, 'Segreteria');
+    let nextDayName = getDayDescription(nextOpen);
+    let alle2 = formatDate(nextOpen, 'HH:mm');
+    msg = msg.replace("#ALLE1#", alle).replace("#NEXT#", nextDayName).replace("#ALLE2#", alle2);
+    if (avviso) avviso.innerHTML = msg;
+  } else {
+    let next = getNextOpening(now, 'Segreteria');
+    recipient.nextHours = next;
+    let giorno = getDayDescription(next);
+    let msg = greet + "La segreteria sarà disponibile " + giorno + " dalle " + formatDate(next, 'HH:mm') + ".<br>🤓 Però a volte lavoriamo anche quando siamo chiusi. Mandaci un messaggio e ti risponderemo appena possibile!";
+    if (avviso) avviso.innerHTML = msg;
   }
-  const slug = `Pagina: ${getSlug()} `;
-  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
-  const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
-
-  // Reindirizzamento diretto sulla scheda corrente:
-  // Evita il blocco popup dei browser e aziona direttamente l'app WhatsApp su smartphone
-  window.location.href = whatsappLink;
-
-  return true;
 }
 
-function composeMessageOLD() {
-  let incipit = '';
-  if (recipient.nextHours) {
-    let day = getDayDescription(recipient.nextHours);
-    let hours = formatDate(recipient.nextHours, "HH:mm");
-    incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
-  }
-  const slug = `Pagina: ${getSlug()} `;
-  let msg = slug + incipit + "[DA " + sender.value.trim().toUpperCase() + "] " + request.value.trim();
-  const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
+function getDayDescription(next) {
+  if (!next) return "";
+  const tomorrow = new Date(now);
+  tomorrow.setDate(tomorrow.getDate() + 1);
 
-  // Reindirizzamento diretto per evitare il blocco pop-up del browser
-  window.location.href = whatsappLink;
-  return true;
+  if (now.getMonth() === next.getMonth() && now.getDate() === next.getDate()) {
+    return "oggi";
+  } else if (tomorrow.getMonth() === next.getMonth() && tomorrow.getDate() === next.getDate()) {
+    return "domani";
+  } else {
+    const oneDay = 24 * 60 * 60 * 1000;
+    const diffInDays = Math.floor((next - now) / oneDay);
+    if (diffInDays > 3) {
+      if (next.getMonth() === now.getMonth()) {
+        return getDayOfWeek(next);
+      } else {
+        return `${getDayOfWeek(next)} ${next.getDate()} ${getMonthName(next.getMonth())}`;
+      }
+    }
+    return getDayOfWeek(next);
+  }
 }
 
 function getIsEntityOpen(entityName) {
@@ -282,23 +203,16 @@ function getIsEntityOpen(entityName) {
   const openingHours = aperto[getDayAbbreviation(dayOfWeek)][entityName];
   const chiusoGiorno = isDayClosed(date);
 
-  if (!openingHours || chiusoGiorno) {
-    return null;
-  }
+  if (!openingHours || chiusoGiorno) return null;
 
   const [opening, closing] = openingHours.split('-');
   const currentTime = date.getHours().toString().padStart(2, '0') + ":" + date.getMinutes().toString().padStart(2, '0');
 
-  if (currentTime >= opening && currentTime <= closing) {
-    return openingHours;
-  } else {
-    return null;
-  }
+  return (currentTime >= opening && currentTime <= closing) ? openingHours : null;
 }
 
 function getNextOpening(dataTest, entityName) {
   let currentDay = new Date(dataTest);
-  let nextOpening = null;
   let find = false;
 
   while (!find) {
@@ -310,11 +224,10 @@ function getNextOpening(dataTest, entityName) {
     if (openingHours && !chiusoGiorno) {
       let orario = openingHours.split('-')[0];
       let parts = orario.split(':');
-      nextOpening = new Date(currentDay.getFullYear(), currentDay.getMonth(), currentDay.getDate(), parseInt(parts[0], 10), parseInt(parts[1], 10), 0, 0);
+      let nextOpening = new Date(currentDay.getFullYear(), currentDay.getMonth(), currentDay.getDate(), parseInt(parts[0], 10), parseInt(parts[1], 10), 0, 0);
 
       if (nextOpening.getTime() > now.getTime()) {
         if (!isDayClosed(nextOpening)) {
-          find = true;
           return nextOpening;
         }
       }
@@ -322,8 +235,7 @@ function getNextOpening(dataTest, entityName) {
     currentDay.setDate(currentDay.getDate() + 1);
     currentDay.setHours(0, 0, 0, 0);
   }
-
-  return nextOpening;
+  return null;
 }
 
 function isDayClosed(currentDay) {
@@ -335,28 +247,22 @@ function isDayClosed(currentDay) {
   return chiuso.includes(formattedDate) || aperto[dayOfWeek] === 'Chiuso';
 }
 
-function getMonthName(I) {
-  const months = [
-    "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
-    "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"
-  ];
-  return months[I];
+function getMonthName(i) {
+  const months = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"];
+  return months[i];
 }
 
 function getDayAbbreviation(dayOfWeek) {
-  const abbreviations = ['DO', 'LU', 'MA', 'ME', 'GI', 'VE', 'SA'];
-  return abbreviations[dayOfWeek];
+  return ['DO', 'LU', 'MA', 'ME', 'GI', 'VE', 'SA'][dayOfWeek];
 }
 
 function getDayOfWeek(date) {
-  const daysOfWeek = ["Domenica", "lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
-  return daysOfWeek[date.getDay()];
+  return ["Domenica", "lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"][date.getDay()];
 }
 
 function formatDate(date, format) {
   const hours = date.getHours().toString().padStart(2, '0');
   const minutes = date.getMinutes().toString().padStart(2, '0');
-
   return format.replace('HH', hours).replace('mm', minutes);
 }
 
@@ -387,23 +293,19 @@ function addEaster() {
 }
 
 function getEasterDate(year) {
-  var a = year % 19;
-  var b = Math.floor(year / 100);
-  var c = year % 100;
-  var d = Math.floor(b / 4);
-  var e = b % 4;
-  var f = Math.floor((b + 8) / 25);
-  var g = Math.floor((b - f + 1) / 3);
-  var h = (19 * a + b - d - g + 15) % 30;
-  var i = Math.floor(c / 4);
-  var k = c % 4;
-  var l = (32 + 2 * e + 2 * i - h - k) % 7;
+  var a = year % 19, b = Math.floor(year / 100), c = year % 100;
+  var d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25);
+  var g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
+  var i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7;
   var m = Math.floor((a + 11 * h + 22 * l) / 451);
   var month = Math.floor((h + l - 7 * m + 114) / 31);
   var day = ((h + l - 7 * m + 114) % 31) + 1;
   return new Date(year, month - 1, day);
 }
 
-// Inizializzazione
-addEaster();
-setAvviso();
+// Inizializzazione al caricamento del DOM
+document.addEventListener('DOMContentLoaded', function() {
+  addEaster();
+  initDOM();
+  setAvviso();
+});
