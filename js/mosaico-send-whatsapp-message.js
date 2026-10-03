@@ -122,7 +122,87 @@
     return segments.length === 0 ? "Home" : segments[segments.length - 1];
   }
 
-  function composeMessage() {
+  //const CLOUDFLARE_WORKER_URL = 'https://tuo-worker.tuo-subdominio.workers.dev';
+function composeMessage() {
+  try {
+    let incipit = '';
+    if (recipient.nextHours) {
+      let day = getDayDescription(recipient.nextHours);
+      let hours = formatDate(recipient.nextHours, "HH:mm");
+      incipit = `[Segreteria disponibile ${day} dalle ${hours}] `;
+    }
+    const pageSlug = getSlug();
+    const slug = `Pagina: ${pageSlug} `;
+    const senderName = sender && sender.value ? sender.value.trim().toUpperCase() : '';
+    const requestText = request && request.value ? request.value.trim() : '';
+
+    let msg = slug + incipit + "[DA " + senderName + "] " + requestText;
+    const whatsappLink = `https://wa.me/${recipient.num}?text=${encodeURIComponent(msg)}`;
+
+    let opened = false;
+
+    // Rileviamo se la pagina perde il focus (segno che WhatsApp o la nuova scheda si è aperta)
+    const handleBlur = () => {
+      opened = true;
+      window.removeEventListener('blur', handleBlur);
+    };
+    window.addEventListener('blur', handleBlur);
+
+    // Tentativo di apertura (rimossa la stringa 'noopener,noreferrer' che azzerava la variabile win)
+    const win = window.open(whatsappLink, '_blank');
+
+    setTimeout(() => {
+      // Pulizia dell'event listener
+      window.removeEventListener('blur', handleBlur);
+
+      // Consideriamo l'apertura RIUSCITA se:
+      // 1. La pagina ha perso il focus (blur)
+      // 2. L'oggetto win esiste e non risulta chiuso
+      // 3. Siamo su dispositivo mobile (dove l'app nativa intercetta il link)
+      const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+      const isSuccess = opened || (win && !win.closed) || isMobile;
+
+      if (isSuccess) {
+        // Ripristino dello stato visivo
+        if (typeof window.hideError === 'function') window.hideError();
+        const fallbackBtn = document.getElementById('wa-fallback-link');
+        if (fallbackBtn) fallbackBtn.style.display = 'none';
+
+        // Chiusura del modale e reset del campo
+        if (typeof window.hideWhatsappMessage === 'function') {
+          window.hideWhatsappMessage();
+          if (request) request.value = '';
+        }
+      } else {
+        // Mostriamo l'errore SOLO se l'apertura è stata bloccata dal browser
+        if (typeof window.showError === 'function') {
+          window.showError('Il browser ha bloccato l\'apertura automatica di WhatsApp.');
+        }
+
+        let fallbackBtn = document.getElementById('wa-fallback-link');
+        if (!fallbackBtn) {
+          fallbackBtn = document.createElement('a');
+          fallbackBtn.id = 'wa-fallback-link';
+          fallbackBtn.className = 'db mt2 pa2 bg-green white tc br2 link bold';
+          fallbackBtn.target = '_blank';
+          fallbackBtn.rel = 'noopener noreferrer';
+          fallbackBtn.innerText = '👉 Clicca qui per aprire WhatsApp';
+          if (error && error.parentNode) {
+            error.parentNode.insertBefore(fallbackBtn, error.nextSibling);
+          }
+        }
+        fallbackBtn.href = whatsappLink;
+        fallbackBtn.style.display = 'block';
+      }
+    }, 300);
+
+  } catch (err) {
+    console.error("Errore nell'invio WhatsApp:", err);
+  }
+
+  return true;
+}
+  function composeMessage2() {
     try {
       let incipit = '';
       if (recipient.nextHours) {
